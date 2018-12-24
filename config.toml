@@ -1,0 +1,71 @@
+## Basic Configuration
+baseurl = "https://hiy.tw/"
+languageCode = "en"
+
+title = "Henry's Space"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Author"
+    title = "Title"
+    description = "Hi, I’m HuangI Yang. (A.K.A HenryYang) Personal Tags: Information Security, Fintech, Mobile."
+    dateformat = "2006 Jan 2"
+
+    # sidebar, copyright & license
+    copyright = "HenryYang"
+    license = "CC BY 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by/4.0"
+    showBuiltWith = false
+    themeColor = "theme-base-09"
+    # layoutReverse = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+
+## Social Accounts
+[params.social]
+    github = "henryyang"
+    linkedin = "huangiyang"
+    twitter = "HuangIYang"
+    facebook = "huangi.yang"
+    email = "hi@hiy.tw"
+    gravatar = "gravatar@hiy.tw"
+
+## Main Menu
+[[menu.main]]
+    name = "Life"
+    weight = 100
+    identifier = "life"
+    url = "/life/"
+[[menu.main]]
+    name = "Tech"
+    weight = 100
+    identifier = "tech"
+    url = "/tech/"
+[[menu.main]]
+    name = "Coding"
+    weight = 150
+    identifier = "coding"
+    url = "/coding/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
