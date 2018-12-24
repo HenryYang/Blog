@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hiy.tw/about/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/coding/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/life/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/portfolio/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/</loc>
+  </url>
+  
+</urlset>
