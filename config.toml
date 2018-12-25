@@ -32,6 +32,8 @@ theme = "hyde-hyde"
     # https://highlightjs.org
     highlightjs = true
     highlightjsstyle = "github"
+    postNavigation = false
+    relatedPosts = true
     
 
 ## Social Accounts
