@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech on Henry&#39;s Space</title>
-    <link>https://hiy.tw/tech/</link>
-    <description>Recent content in Tech on Henry&#39;s Space</description>
+    <title>故障排除 on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/</link>
+    <description>Recent content in 故障排除 on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://hiy.tw/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hiy.tw/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>日航 JAL 國內線 Inflight internet 連線障礙排除</title>
+      <link>https://hiy.tw/posts/jal_domestic_inflight_internet/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/jal_domestic_inflight_internet/</guid>
+      <description>&lt;h4 id=&#34;注意-如果是遇到-wifi-直接無法連接到該-ssid-的請直接放棄吧-因為那是設備問題了-xd&#34;&gt;注意，如果是遇到 WiFi 直接無法連接到該 SSID 的請直接放棄吧，因為那是設備問題了 XD&lt;/h4&gt;</description>
+    </item>
     
     <item>
       <title>日航 JAL 國內線 Inflight internet 連線障礙排除</title>
