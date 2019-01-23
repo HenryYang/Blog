@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Coding on Henry&#39;s Space</title>
-    <link>https://hiy.tw/coding/</link>
-    <description>Recent content in Coding on Henry&#39;s Space</description>
+    <title>Profile Manager on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/profile-manager/</link>
+    <description>Recent content in Profile Manager on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://hiy.tw/coding/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hiy.tw/tags/profile-manager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,6 +17,15 @@
       <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/coding/macos_server_profile_manager_filevault/</guid>
+      <description>&lt;p&gt;簡單來說，就是在 10.12 之後就無法在 &lt;code&gt;系統偏好設定&lt;/code&gt; 裡面的 &lt;code&gt;使用者與群組&lt;/code&gt; 中建立 &lt;code&gt;主鑰匙圈 (Master Password)&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰</title>
+      <link>https://hiy.tw/posts/macos_server_profile_manager_filevault/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/macos_server_profile_manager_filevault/</guid>
       <description>&lt;p&gt;簡單來說，就是在 10.12 之後就無法在 &lt;code&gt;系統偏好設定&lt;/code&gt; 裡面的 &lt;code&gt;使用者與群組&lt;/code&gt; 中建立 &lt;code&gt;主鑰匙圈 (Master Password)&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
