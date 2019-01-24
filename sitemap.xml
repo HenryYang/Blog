@@ -9,7 +9,7 @@
   
   <url>
     <loc>https://hiy.tw/life/</loc>
-    <lastmod>2016-09-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -49,6 +49,16 @@
   <url>
     <loc>https://hiy.tw/tech/apple_pay_transit/</loc>
     <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/life/jp_itunes_visa_gift_card/</loc>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/jp_itunes_visa_gift_card/</loc>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -101,14 +111,32 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/gift-card/</loc>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/itunes/</loc>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/jal/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/japan/</loc>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -139,6 +167,12 @@
   <url>
     <loc>https://hiy.tw/tech/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/visa/</loc>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
