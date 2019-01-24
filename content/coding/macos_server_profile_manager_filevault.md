@@ -23,7 +23,7 @@ tags: ["macOS", "FileVault","Profile Manager"]
 接下來請參考下面的英文網站的第 16 部開始，把剛剛產生的 DER 憑證上傳到 MDM Server 就可以開始部屬使用機構復原密鑰的  FileVault  （灑花）
 
 <center>
-![](1.png)
+![](2.png)
 </center>
 
 
