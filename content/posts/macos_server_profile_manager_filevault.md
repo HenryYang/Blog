@@ -23,9 +23,8 @@ tags: ["macOS", "FileVault","Profile Manager"]
 接下來請參考下面的英文網站的第 16 部開始，把剛剛產生的 DER 憑證上傳到 MDM Server 就可以開始部屬使用機構復原密鑰的  FileVault  （灑花）
 
 <center>
-![](https:/hiy.tw/coding/macos_server_profile_manager_filevault/1.png)
+![](https://hiy.tw/coding/macos_server_profile_manager_filevault/2.png)
 </center>
-
 
 P.S. 想問大家的是，請問有沒有人預過每部屬一次新的設備 DER 就要重新上傳一次的經驗？我自己會遇到在選擇憑證的時候每次重新整理清單就會消失然後部屬就會失敗，想尋求大家的經驗 QQ
 
@@ -36,4 +35,3 @@ P.S. 想問大家的是，請問有沒有人預過每部屬一次新的設備 DE
 https://support.apple.com/zh-tw/HT202385
 
 https://www.danielsellers.com/blog/2017/1/23/set-a-filevault-recovery-key-for-mac-computers-in-your-institution
-
