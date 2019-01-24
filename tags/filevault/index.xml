@@ -29,5 +29,23 @@
       <description>&lt;p&gt;簡單來說，就是在 10.12 之後就無法在 &lt;code&gt;系統偏好設定&lt;/code&gt; 裡面的 &lt;code&gt;使用者與群組&lt;/code&gt; 中建立 &lt;code&gt;主鑰匙圈 (Master Password)&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</title>
+      <link>https://hiy.tw/coding/filevaultmaster_keychain/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/filevaultmaster_keychain/</guid>
+      <description>&lt;p&gt;故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</title>
+      <link>https://hiy.tw/posts/filevaultmaster_keychain/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/filevaultmaster_keychain/</guid>
+      <description>&lt;p&gt;故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

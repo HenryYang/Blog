@@ -58,6 +58,26 @@
     </item>
     
     <item>
+      <title>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</title>
+      <link>https://hiy.tw/posts/filevaultmaster_keychain/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/filevaultmaster_keychain/</guid>
+      <description>&lt;p&gt;故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在 ESXI 下擴充有分割 swap 分割區的磁碟）</title>
+      <link>https://hiy.tw/posts/esxi_swap/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/esxi_swap/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>記憶屬於我的數位人生 App</title>
       <link>https://hiy.tw/posts/digi_life/</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>

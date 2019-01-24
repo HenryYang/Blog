@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swap on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/swap/</link>
+    <description>Recent content in Swap on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/swap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在 ESXI 下擴充有分割 swap 分割區的磁碟</title>
+      <link>https://hiy.tw/coding/esxi_swap/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/esxi_swap/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在 ESXI 下擴充有分割 swap 分割區的磁碟）</title>
+      <link>https://hiy.tw/posts/esxi_swap/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/esxi_swap/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
