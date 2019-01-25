@@ -78,6 +78,17 @@
     </item>
     
     <item>
+      <title>檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西</title>
+      <link>https://hiy.tw/posts/browser_service_workers/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/browser_service_workers/</guid>
+      <description>&lt;p&gt;故是就是現在網頁能透過太多種方法來背景執行一些服務，其中目前常見的方法就是使用 Service Worker 來讓服務在背景跑。&lt;/p&gt;
+
+&lt;p&gt;所以就是可以自己來檢查看看有沒有被允許的陌生或是不認識網站正在執行 Service Worker，如果曾經有允許網站的推播基本上都會出現。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>記憶屬於我的數位人生 App</title>
       <link>https://hiy.tw/posts/digi_life/</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>

@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Chrome</title>
+      <link>https://hiy.tw/tags/chrome/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Esxi</title>
       <link>https://hiy.tw/tags/esxi/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
@@ -53,6 +62,15 @@
       <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/tags/filevault/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firefox</title>
+      <link>https://hiy.tw/tags/firefox/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/firefox/</guid>
       <description></description>
     </item>
     
@@ -125,6 +143,15 @@
       <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/tags/profile-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Workers</title>
+      <link>https://hiy.tw/tags/service-workers/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/service-workers/</guid>
       <description></description>
     </item>
     

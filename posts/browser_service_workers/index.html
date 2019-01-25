@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     
+    
+
+
     <head>
     <link href="https://gmpg.org/xfn/11" rel="profile">
     <meta charset="utf-8">
@@ -14,18 +17,22 @@
     
     
 
-<title>Posts • Henry&#39;s Space</title>
+<title>檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Hi, I’m HuangI Yang. (A.K.A HenryYang) Personal Tags: Information Security, Fintech, Mobile."/>
+<meta name="twitter:title" content="檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西"/>
+<meta name="twitter:description" content="故是就是現在網頁能透過太多種方法來背景執行一些服務，其中目前常見的方法就是使用 Service Worker 來讓服務在背景跑。
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="Hi, I’m HuangI Yang. (A.K.A HenryYang) Personal Tags: Information Security, Fintech, Mobile." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://hiy.tw/posts/" />
-<meta property="og:updated_time" content="2018-12-20T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+所以就是可以自己來檢查看看有沒有被允許的陌生或是不認識網站正在執行 Service Worker，如果曾經有允許網站的推播基本上都會出現。"/>
+
+<meta property="og:title" content="檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西" />
+<meta property="og:description" content="故是就是現在網頁能透過太多種方法來背景執行一些服務，其中目前常見的方法就是使用 Service Worker 來讓服務在背景跑。
+
+所以就是可以自己來檢查看看有沒有被允許的陌生或是不認識網站正在執行 Service Worker，如果曾經有允許網站的推播基本上都會出現。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hiy.tw/posts/browser_service_workers/" /><meta property="article:published_time" content="2018-01-15T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-01-15T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -56,10 +63,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
     
-
-<link href="https://hiy.tw/posts/index.xml" rel="alternate" type="application/rss+xml" title="Henry&#39;s Space" />
-<link href="https://hiy.tw/posts/index.xml" rel="feed" type="application/rss+xml" title="Henry&#39;s Space" />
-
 
 </head>
 
@@ -178,94 +181,94 @@
 
         <div class="content container">
             
-    <span class="section__title">Posts</span>
-<ul class="posts">
+    <article>
+  <header>
+    <h1>檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西</h1>
     
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> 2018 Jan 15
+    
+    
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/chrome">chrome</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/firefox">firefox</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/service-workers">service workers</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 1 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>故是就是現在網頁能透過太多種方法來背景執行一些服務，其中目前常見的方法就是使用 Service Worker 來讓服務在背景跑。</p>
+
+<p>所以就是可以自己來檢查看看有沒有被允許的陌生或是不認識網站正在執行 Service Worker，如果曾經有允許網站的推播基本上都會出現。</p>
+
+<p>Chrome 開啟的方法是在網址列輸入 <code>chrome://inspect/#service-workers</code></p>
+
+<p>Firefox 開啟的方法則是在網址列輸入 <code>about:debugging#workers</code>，</p>
+
+<p>然後就會看到下面這兩種介面的 Service Worker 管理。就看看有沒有不認識的，要記得關 XD</p>
+
+<p><center>
+<img src="https://hiy.tw/tech/browser_service_workers/1.png" alt="" />
+</center></p>
+
+<p><center>
+<img src="https://hiy.tw/tech/browser_service_workers/2.png" alt="" />
+</center></p>
+  </div>
+  
+
+
+  
+
+
+<div class="post__related">
+    
+    <h2>Related Articles</h2>
+    <ul class="related-posts">
         
 <li>
   <span class="list__title--small">
-    <a href="/posts/jal_domestic_inflight_internet/" >日航 JAL 國內線 Inflight internet 連線障礙排除</a>
-      
-      <time class="pull-right hidden-tablet">Dec 20 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/macos_server_profile_manager_filevault/" >用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰</a>
-      
-      <time class="pull-right hidden-tablet">Oct 04 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/apple_pay_transit/" >Apple Pay 交通票卡的一些冷知識</a>
-      
-      <time class="pull-right hidden-tablet">Sep 03 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/jp_itunes_visa_gift_card/" >日本 iTunes 可以使用的儲值型 VISA Gift Card</a>
-      
-      <time class="pull-right hidden-tablet">Jul 14 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
-      
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/esxi_swap/" >在 ESXI 下擴充有分割 swap 分割區的磁碟</a>
-      
-      <time class="pull-right hidden-tablet">Mar 04 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/browser_service_workers/" >檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西</a>
+    <a href="/tech/browser_service_workers/" >檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西</a>
       
       <time class="pull-right hidden-tablet">Jan 15 &#39;18</time>
       
   </span>
 </li>
 
-<li>
-  <span class="list__title--small">
-    <a href="/posts/digi_life/" >記憶屬於我的數位人生 App</a>
-      
-      <time class="pull-right hidden-tablet">Sep 27 &#39;16</time>
-      
-  </span>
-</li>
 
-<li>
-  <span class="list__title--small">
-    <a href="/posts/retired_from_military_service/" >返陽相關注意事項 - 退伍後歸鄉等相關注意事項</a>
-      
-      <time class="pull-right hidden-tablet">Jun 08 &#39;16</time>
-      
-  </span>
-</li>
+    </ul>
+</div>
 
 
+
+  
     
-</ul>
+
+
+</article>
 
 
         </div>
@@ -286,6 +289,23 @@ if (!doNotTrack) {
 
 
 <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+        
+    
+    <script type="text/javascript">
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+
+    
 
 
 
