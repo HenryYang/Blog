@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/terminal/</link>
+    <description>Recent content in Terminal on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>讓 iTerm2 也支援使用 Option &#43; B/F 來前後選擇</title>
+      <link>https://hiy.tw/posts/iterm2_option_b_f/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/iterm2_option_b_f/</guid>
+      <description>&lt;p&gt;就在 Linux 很熟悉的使用 Option(Alt) 加上  B/F 來往前或是往後字詞的，在 macOS 上的 iTerm2 預設是不行的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>讓 iTerm2 也支援使用 Option &#43; B/F 來前後選擇</title>
+      <link>https://hiy.tw/tech/iterm2_option_b_f/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/iterm2_option_b_f/</guid>
+      <description>&lt;p&gt;就在 Linux 很熟悉的使用 Option(Alt) 加上  B/F 來往前或是往後字詞的，在 macOS 上的 iTerm2 預設是不行的。&lt;/p&gt;
+
+&lt;p&gt;然後找到的方法就是要改 Profile 中的左或是右 Option 的功能定義，從原本的 Normal 改成 Esc+ 就可以了&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
