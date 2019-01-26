@@ -152,6 +152,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/reset_jb_ios_root_password/</loc>
+    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/reset_jb_ios_root_password/</loc>
+    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -345,6 +355,12 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/root/</loc>
+    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/service-workers/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -406,6 +422,12 @@
   <url>
     <loc>https://hiy.tw/tags/yalu/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC/</loc>
+    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

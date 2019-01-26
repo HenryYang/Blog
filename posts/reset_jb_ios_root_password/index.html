@@ -17,23 +17,27 @@
     
     
 
-<title>把使用 Yalu 來 JB 的 iOS 10 裝置開啟透過 WiFi 連接 SSH • Henry&#39;s Space</title>
+<title>重設 Jailbreak 後的 iOS root 密碼 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="把使用 Yalu 來 JB 的 iOS 10 裝置開啟透過 WiFi 連接 SSH"/>
-<meta name="twitter:description" content="故事就是如果你用 Yalu 來 JailBreak 你的 iOS 10 設備，然後你會發現到用 WiFi 來接 SSH 怎麼樣都不會通，可是透過 USB 建立本地通道卻是可以連接 SSH 的。
+<meta name="twitter:title" content="重設 Jailbreak 後的 iOS root 密碼"/>
+<meta name="twitter:description" content="就有時候會忘記自己當時到底把 iOS 的 root 密碼改成什麼，這時候有幾種選擇。
 
-這其實不是設備壞了或是 JB 沒有處理好，而是 iOS 10 對於 OpenSSH 有相容性問題，所以作者改使用 dropbear 這套來代替，但是預設他只允許 127.0.0.1 的設備登入想當然的你用 WiFi 當然不會給你登入的。所以解法就是把 IPA 裡面的 Plist 修改後在重新簽署安裝。"/>
 
-<meta property="og:title" content="把使用 Yalu 來 JB 的 iOS 10 裝置開啟透過 WiFi 連接 SSH" />
-<meta property="og:description" content="故事就是如果你用 Yalu 來 JailBreak 你的 iOS 10 設備，然後你會發現到用 WiFi 來接 SSH 怎麼樣都不會通，可是透過 USB 建立本地通道卻是可以連接 SSH 的。
 
-這其實不是設備壞了或是 JB 沒有處理好，而是 iOS 10 對於 OpenSSH 有相容性問題，所以作者改使用 dropbear 這套來代替，但是預設他只允許 127.0.0.1 的設備登入想當然的你用 WiFi 當然不會給你登入的。所以解法就是把 IPA 裡面的 Plist 修改後在重新簽署安裝。" />
+"/>
+
+<meta property="og:title" content="重設 Jailbreak 後的 iOS root 密碼" />
+<meta property="og:description" content="就有時候會忘記自己當時到底把 iOS 的 root 密碼改成什麼，這時候有幾種選擇。
+
+
+
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/tech/yalu_ios10_jb_wifi/" />
-<meta property="article:published_time" content="2017-08-28T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-08-28T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/posts/reset_jb_ios_root_password/" />
+<meta property="article:published_time" content="2017-07-29T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-07-29T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -184,13 +188,13 @@
             
     <article>
   <header>
-    <h1>把使用 Yalu 來 JB 的 iOS 10 裝置開啟透過 WiFi 連接 SSH</h1>
+    <h1>重設 Jailbreak 後的 iOS root 密碼</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2017 Aug 28
+      <i class="fas fa-calendar-alt"></i> 2017 Jul 29
     
     
     
@@ -207,13 +211,10 @@
           <a class="badge badge-tag" href="/tags/jb">jb</a>
            
       
-          <a class="badge badge-tag" href="/tags/ssh">ssh</a>
+          <a class="badge badge-tag" href="/tags/root">root</a>
            
       
-          <a class="badge badge-tag" href="/tags/yalu">yalu</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/wifi">wifi</a>
+          <a class="badge badge-tag" href="/tags/%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC">忘記密碼</a>
           
       
     
@@ -227,53 +228,29 @@
   
   
   <div class="post">
-    <p>故事就是如果你用 Yalu 來 JailBreak 你的 iOS 10 設備，然後你會發現到用 WiFi 來接 SSH 怎麼樣都不會通，可是透過 USB 建立本地通道卻是可以連接 SSH 的。</p>
-
-<p>這其實不是設備壞了或是 JB 沒有處理好，而是 iOS 10 對於 OpenSSH 有相容性問題，所以作者改使用 dropbear 這套來代替，但是預設他只允許 127.0.0.1 的設備登入想當然的你用 WiFi 當然不會給你登入的。所以解法就是把 IPA 裡面的 Plist 修改後在重新簽署安裝。</p>
-
-<h2 id="教學">教學</h2>
-
-<p>Yalu102 Beta7 的 MD5 值：bce2f84fc679a4e10a5a0c08e38e4fa7</p>
-
-<p>Yalu102 Beta7 的下載點：<a href="http://www.mediafire.com/file/v6on6gho64h3gnv/yalu102_beta7.ipa">http://www.mediafire.com/file/v6on6gho64h3gnv/yalu102_beta7.ipa</a></p>
-
-<p>把 Yalu 下載下來後，直接把副檔名從 .ipa 改成 .zip 並且解壓縮，這時候你會得到一個名為 Playload 的資料夾，然後點進去會看到一個名為 yalu102 的應用程式。</p>
+    <p>就有時候會忘記自己當時到底把 iOS 的 root 密碼改成什麼，這時候有幾種選擇。</p>
 
 <p><center>
-<img src="1.png" alt="" />
+<img src="https://hiy.tw/tech/reset_jb_ios_root_password/1.png" alt="" />
 </center></p>
 
-<p>這時候在應用程式按右鍵選擇 *顯示套件內容*，然後找到 <em>dropbear.plist</em> 並且用 XCode 打開，這時候請把 ProgramArguments 的 Item 4 從 <em>127.0.0.1:22</em> 改成 <em>22</em> 然後存檔。</p>
+<h4 id="方式一-已安裝-afc2">方式一，已安裝 AFC2</h4>
 
-<p><center>
-<img src="2.png" alt="" />
-</center></p>
+<p>如果你安裝了 AFC2 其實就可以直接插電腦，然後用常見的 iOS 管理程式(iMazing、iFunbox 或是你相信中國的 itools？)直接進入到系統目錄。</p>
 
-<p>當確認修改且存檔完畢，在 Playload 資料夾按右鍵選擇 *壓縮『Payload』*，然後就會得到一個新的 Payload.zip 這時候請把副檔名從 .zip 改成 .ipa 然後就得到了一個新的 IPA 檔案。</p>
+<h4 id="方式二-無法安裝-afc2">方式二，無法安裝 AFC2</h4>
 
-<p><center>
-<img src="3.png" alt="" />
-</center></p>
+<p>這時候就看看 iOS 裝置內有無 iFile 這類的檔案管理軟體，直接在手機上面做修改。</p>
 
-<p>這時候只要再使用 Cydia Impactor 來簽署憑證與安裝就可以讓 iOS 10 設備獲得透過 WiFi 登入 SSH 的功能了！</p>
+<p>主要的方式就是想辦法切換到 <code>/private/etc/</code> 目錄，這時候有一個檔案叫做 <code>master.passwd</code> 複製回電腦或是直接用 iOS 設備開啟。</p>
 
-<h3 id="此外要記得-不要再從-cydia-內安裝-openssh-這會導致系統不定時的白蘋果重開">此外要記得，不要再從 Cydia 內安裝 OpenSSH 這會導致系統不定時的白蘋果重開</h3>
+<p>然後在電腦上用記事本或是任何文字編輯器打開，這時後你會看到一個以 <code>root:/</code> 開頭以 <code>:System</code>結尾的文字然後中間帶有一些亂數，而中間就是你被加密過後的密碼。</p>
 
-<p>然後千萬記得，請修改預設密碼</p>
-
-<h4 id="然後千萬記得-請修改預設密碼">然後千萬記得，請修改預設密碼</h4>
-
-<h3 id="然後千萬記得-請修改預設密碼-1">然後千萬記得，請修改預設密碼</h3>
-
-<h2 id="然後千萬記得-請修改預設密碼-2">然後千萬記得，請修改預設密碼</h2>
-
-<h1 id="然後千萬記得-請修改預設密碼-3">然後千萬記得，請修改預設密碼</h1>
-
-<p>超重要所以說五次，千萬不要使用預設密碼在外面裸奔！</p>
+<p>這時候很間單，把原本以<code>root:/</code> 開頭以 <code>:System</code>結尾的文字替換成 <code>root:/smx7MYTQIi2M:0:0::0:0:System</code>這組，因為這組就是預設密碼 alpine 的雜湊。所以在電腦修改好後把它覆蓋回到 iOS 裝置上。這樣 root 密碼就可以變回原本的 alpine，然後就可以登入或是自行修改密碼</p>
 
 <p>參考資料：</p>
 
-<p><a href="http://www.idownloadblog.com/2017/07/12/configure-ssh-extra_recipe-yalu-jailbreak/">http://www.idownloadblog.com/2017/07/12/configure-ssh-extra_recipe-yalu-jailbreak/</a></p>
+<p><a href="http://www.bytetips.com/reset-iphone-4s-root-password-to-alpine/">http://www.bytetips.com/reset-iphone-4s-root-password-to-alpine/</a></p>
   </div>
   
 
@@ -288,25 +265,7 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/posts/yalu_ios10_jb_wifi/" >把使用 Yalu 來 JB 的 iOS 10 裝置開啟透過 WiFi 連接 SSH</a>
-      
-      <time class="pull-right hidden-tablet">Aug 28 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/ios_10_cydia_disappear/" >iOS 10 JB 後 Cydia 突然消失解決方案</a>
-      
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/ios_10_cydia_disappear/" >iOS 10 JB 後 Cydia 突然消失解決方案</a>
+    <a href="/tech/reset_jb_ios_root_password/" >重設 Jailbreak 後的 iOS root 密碼</a>
       
       <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
       
@@ -324,7 +283,25 @@
 
 <li>
   <span class="list__title--small">
-    <a href="/tech/reset_jb_ios_root_password/" >重設 Jailbreak 後的 iOS root 密碼</a>
+    <a href="/posts/ios_dumpdecrypted/" >iOS 砸殼步驟</a>
+      
+      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
+      
+  </span>
+</li>
+
+<li>
+  <span class="list__title--small">
+    <a href="/posts/ios_10_cydia_disappear/" >iOS 10 JB 後 Cydia 突然消失解決方案</a>
+      
+      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
+      
+  </span>
+</li>
+
+<li>
+  <span class="list__title--small">
+    <a href="/tech/ios_10_cydia_disappear/" >iOS 10 JB 後 Cydia 突然消失解決方案</a>
       
       <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
       
