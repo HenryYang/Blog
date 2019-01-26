@@ -162,6 +162,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/semi_jailbreak_restore/</loc>
+    <lastmod>2017-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/semi_jailbreak_restore/</loc>
+    <lastmod>2017-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -357,6 +367,12 @@
   <url>
     <loc>https://hiy.tw/tags/root/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/semi-jailbreak/</loc>
+    <lastmod>2017-07-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
