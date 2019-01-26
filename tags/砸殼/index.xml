@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>砸殼 on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/%E7%A0%B8%E6%AE%BC/</link>
+    <description>Recent content in 砸殼 on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/%E7%A0%B8%E6%AE%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iOS 砸殼步驟</title>
+      <link>https://hiy.tw/posts/ios_dumpdecrypted/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/ios_dumpdecrypted/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;https://hiy.tw/tech/ios_dumpdecrypted/1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iOS 砸殼步驟</title>
+      <link>https://hiy.tw/tech/ios_dumpdecrypted/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ios_dumpdecrypted/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

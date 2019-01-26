@@ -93,5 +93,27 @@
       <description>&lt;p&gt;就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>iOS 砸殼步驟</title>
+      <link>https://hiy.tw/posts/ios_dumpdecrypted/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/ios_dumpdecrypted/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;https://hiy.tw/tech/ios_dumpdecrypted/1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iOS 砸殼步驟</title>
+      <link>https://hiy.tw/tech/ios_dumpdecrypted/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ios_dumpdecrypted/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

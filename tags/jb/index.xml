@@ -31,5 +31,27 @@
 &lt;p&gt;這其實不是設備壞了或是 JB 沒有處理好，而是 iOS 10 對於 OpenSSH 有相容性問題，所以作者改使用 dropbear 這套來代替，但是預設他只允許 127.0.0.1 的設備登入想當然的你用 WiFi 當然不會給你登入的。所以解法就是把 IPA 裡面的 Plist 修改後在重新簽署安裝。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>iOS 砸殼步驟</title>
+      <link>https://hiy.tw/posts/ios_dumpdecrypted/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/ios_dumpdecrypted/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;https://hiy.tw/tech/ios_dumpdecrypted/1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iOS 砸殼步驟</title>
+      <link>https://hiy.tw/tech/ios_dumpdecrypted/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ios_dumpdecrypted/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
