@@ -17,19 +17,23 @@
     
     
 
-<title>用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰 • Henry&#39;s Space</title>
+<title>iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理） • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰"/>
-<meta name="twitter:description" content="簡單來說，就是在 10.12 之後就無法在 系統偏好設定 裡面的 使用者與群組 中建立 主鑰匙圈 (Master Password)"/>
+<meta name="twitter:title" content="iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）"/>
+<meta name="twitter:description" content="轉移概念：
 
-<meta property="og:title" content="用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰" />
-<meta property="og:description" content="簡單來說，就是在 10.12 之後就無法在 系統偏好設定 裡面的 使用者與群組 中建立 主鑰匙圈 (Master Password)" />
+iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。"/>
+
+<meta property="og:title" content="iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）" />
+<meta property="og:description" content="轉移概念：
+
+iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/posts/macos_server_profile_manager_filevault/" />
-<meta property="article:published_time" content="2018-10-04T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-10-04T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/posts/ios_sms_to_android/" />
+<meta property="article:published_time" content="2017-08-13T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-08-13T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -180,13 +184,13 @@
             
     <article>
   <header>
-    <h1>用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰</h1>
+    <h1>iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2018 Oct 4
+      <i class="fas fa-calendar-alt"></i> 2017 Aug 13
     
     
     
@@ -197,13 +201,16 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/macos">macos</a>
+          <a class="badge badge-tag" href="/tags/andorid">andorid</a>
            
       
-          <a class="badge badge-tag" href="/tags/filevault">filevault</a>
+          <a class="badge badge-tag" href="/tags/ios">ios</a>
            
       
-          <a class="badge badge-tag" href="/tags/profile-manager">profile manager</a>
+          <a class="badge badge-tag" href="/tags/isms2droid">isms2droid</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/sms">sms</a>
           
       
     
@@ -217,31 +224,50 @@
   
   
   <div class="post">
-    <p>簡單來說，就是在 10.12 之後就無法在 <code>系統偏好設定</code> 裡面的 <code>使用者與群組</code> 中建立 <code>主鑰匙圈 (Master Password)</code></p>
+    <h3 id="轉移概念">轉移概念：</h3>
 
-<p>所以就只好借用 CLI 的方式產生，詳細步驟可以參考下面的蘋果官方說明，這邊就指貼最關鍵的部分。</p>
+<p>iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。</p>
 
-<p>在終端機輸入下面指令</p>
+<h3 id="操作步驟">操作步驟：</h3>
 
-<p><code>security create-filevaultmaster-keychain ~/Desktop/FileVaultMaster.keychain</code></p>
-
-<p>這時候桌面上就會產生一組包含公私鑰的主鑰匙，請務必備份好，未來如果要解密時會需要。</p>
-
-<p>把剛剛產生的主鑰匙點兩下就會把私鑰與憑證匯入到電腦的 Keychain 中，這時候對憑證按右鍵匯出成 DER 出來即可。</p>
-
-<p>接下來請參考下面的英文網站的第 16 部開始，把剛剛產生的 DER 憑證上傳到 MDM Server 就可以開始部屬使用機構復原密鑰的  FileVault  （灑花）</p>
+<h4 id="step1-把加密關閉後備份整台手機">Step1：把加密關閉後備份整台手機</h4>
 
 <p><center>
-<img src="https://hiy.tw/coding/macos_server_profile_manager_filevault/2.png" alt="" />
+<img src="https://hiy.tw/tech/ios_sms_to_android/1.png" alt="" />
 </center></p>
 
-<p>P.S. 想問大家的是，請問有沒有人預過每部屬一次新的設備 DER 就要重新上傳一次的經驗？我自己會遇到在選擇憑證的時候每次重新整理清單就會消失然後部屬就會失敗，想尋求大家的經驗 QQ</p>
+<h4 id="step2-找出備份檔案的路徑">Step2：找出備份檔案的路徑</h4>
 
-<p>參考資料</p>
+<p>Windows 路徑是：C:\Users[YourUsername]\AppData\Roaming\Apple Computer\MobileSync\Backup</p>
 
-<p><a href="https://support.apple.com/zh-tw/HT202385">https://support.apple.com/zh-tw/HT202385</a></p>
+<p>macOS 路徑是： ~/Library/Application Support/MobileSync/Backup/</p>
 
-<p><a href="https://www.danielsellers.com/blog/2017/1/23/set-a-filevault-recovery-key-for-mac-computers-in-your-institution">https://www.danielsellers.com/blog/2017/1/23/set-a-filevault-recovery-key-for-mac-computers-in-your-institution</a></p>
+<p>然後如果有多個資料夾請看資料夾哪一個是最近有被更動過的那就是你剛剛備份的。然後進入資料夾後把檔名為 3d0d7e5fb2ce288813306e4d4636395e047a3d28 的檔案複製到 Android 手機中</p>
+
+<h4 id="step3-安裝-isms2droid-並回復上面說的那個檔案">Step3：安裝 iSMS2droid 並回復上面說的那個檔案</h4>
+
+<p>Google Play 下載位置：<a href="https://play.google.com/store/apps/details?id=org.faked.isms2droid">https://play.google.com/store/apps/details?id=org.faked.isms2droid</a></p>
+
+<h4 id="step4-回復完就一切完成了">Step4：回復完就一切完成了</h4>
+
+<h3 id="但-當然一切沒有這麼簡單">但&hellip;當然一切沒有這麼簡單</h3>
+
+<ul>
+<li>記得 iTunes 備份要把加密關閉不然 iSMS2droid 無法開啟</li>
+<li>如果是 iOS 11 回復完會出現靈異狀況</li>
+</ul>
+
+<p>然後經過研究後發現，如果系統是 iOS 11 備份出來的 SQLite 不知道為什麼在 date 欄位都會被補上 9 個 0，所以匯入到 Android 後就會變成西元 40000 多年，然後簡訊的 App 就會卡住。</p>
+
+<p><center>
+<img src="https://hiy.tw/tech/ios_sms_to_android/2.png" alt="" />
+</center></p>
+
+<p>所以需要用任何一套能編輯 SQLite 的軟體來處理都好，我自己是用 Firefox 的 Add-on：<a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">SQLite Manager</a> 來處理。</p>
+
+<p>所以作法就是下這段 SQL 指令 <code>update message set date = date / 1000000000;</code> 這樣就最簡單把所有的 date 都去除 9  個 0 然後再把這 SQLite 檔案匯入到 Android 用 iSMS2droid 就一切正常了。</p>
+
+<p>註：然後我也不知道為什麼 iOS 資料庫存的時間戳記跟 Epoch time 整整快了 31 年，真的超級有趣的。</p>
   </div>
   
 
@@ -256,27 +282,9 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/coding/macos_server_profile_manager_filevault/" >用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰</a>
+    <a href="/tech/ios_sms_to_android/" >iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）</a>
       
-      <time class="pull-right hidden-tablet">Oct 04 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/coding/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
-      
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
-      
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
+      <time class="pull-right hidden-tablet">Aug 13 &#39;17</time>
       
   </span>
 </li>

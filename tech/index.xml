@@ -85,5 +85,16 @@
 &lt;p&gt;這其實不是設備壞了或是 JB 沒有處理好，而是 iOS 10 對於 OpenSSH 有相容性問題，所以作者改使用 dropbear 這套來代替，但是預設他只允許 127.0.0.1 的設備登入想當然的你用 WiFi 當然不會給你登入的。所以解法就是把 IPA 裡面的 Plist 修改後在重新簽署安裝。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）</title>
+      <link>https://hiy.tw/tech/ios_sms_to_android/</link>
+      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ios_sms_to_android/</guid>
+      <description>&lt;h3 id=&#34;轉移概念&#34;&gt;轉移概念：&lt;/h3&gt;
+
+&lt;p&gt;iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
