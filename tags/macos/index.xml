@@ -47,5 +47,35 @@
       <description>&lt;p&gt;故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>擴充 VMware 上面的 MacOS 虛擬機硬碟空間</title>
+      <link>https://hiy.tw/posts/expand_esxi_macos/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/expand_esxi_macos/</guid>
+      <description>&lt;p&gt;目前最簡單擴充硬碟的應該就屬 MacOS 了，然後以下是筆記&lt;/p&gt;
+
+&lt;p&gt;Step1: 當然是修改 VMware 上面的參數，讓 OS 實際能動用的到空間變大。&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;https://hiy.tw/tech/expand_esxi_macos/1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>擴充 VMware 上面的 MacOS 虛擬機硬碟空間</title>
+      <link>https://hiy.tw/tech/expand_esxi_macos/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/expand_esxi_macos/</guid>
+      <description>&lt;p&gt;目前最簡單擴充硬碟的應該就屬 MacOS 了，然後以下是筆記&lt;/p&gt;
+
+&lt;p&gt;Step1: 當然是修改 VMware 上面的參數，讓 OS 實際能動用的到空間變大。&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

@@ -33,5 +33,35 @@
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>擴充 VMware 上面的 MacOS 虛擬機硬碟空間</title>
+      <link>https://hiy.tw/posts/expand_esxi_macos/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/expand_esxi_macos/</guid>
+      <description>&lt;p&gt;目前最簡單擴充硬碟的應該就屬 MacOS 了，然後以下是筆記&lt;/p&gt;
+
+&lt;p&gt;Step1: 當然是修改 VMware 上面的參數，讓 OS 實際能動用的到空間變大。&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;https://hiy.tw/tech/expand_esxi_macos/1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>擴充 VMware 上面的 MacOS 虛擬機硬碟空間</title>
+      <link>https://hiy.tw/tech/expand_esxi_macos/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/expand_esxi_macos/</guid>
+      <description>&lt;p&gt;目前最簡單擴充硬碟的應該就屬 MacOS 了，然後以下是筆記&lt;/p&gt;
+
+&lt;p&gt;Step1: 當然是修改 VMware 上面的參數，讓 OS 實際能動用的到空間變大。&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
