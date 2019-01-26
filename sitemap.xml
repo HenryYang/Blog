@@ -132,6 +132,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/ios_10_cydia_disappear/</loc>
+    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/ios_10_cydia_disappear/</loc>
+    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -195,6 +205,12 @@
   <url>
     <loc>https://hiy.tw/tags/cli/</loc>
     <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/cydia/</loc>
+    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

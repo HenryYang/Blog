@@ -17,23 +17,19 @@
     
     
 
-<title>iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理） • Henry&#39;s Space</title>
+<title>iOS 10 JB 後 Cydia 突然消失解決方案 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）"/>
-<meta name="twitter:description" content="轉移概念：
+<meta name="twitter:title" content="iOS 10 JB 後 Cydia 突然消失解決方案"/>
+<meta name="twitter:description" content="就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案"/>
 
-iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。"/>
-
-<meta property="og:title" content="iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）" />
-<meta property="og:description" content="轉移概念：
-
-iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。" />
+<meta property="og:title" content="iOS 10 JB 後 Cydia 突然消失解決方案" />
+<meta property="og:description" content="就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/posts/ios_sms_to_android/" />
-<meta property="article:published_time" content="2017-08-13T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-08-13T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/tech/ios_10_cydia_disappear/" />
+<meta property="article:published_time" content="2017-07-29T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-07-29T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -184,13 +180,13 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
             
     <article>
   <header>
-    <h1>iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）</h1>
+    <h1>iOS 10 JB 後 Cydia 突然消失解決方案</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2017 Aug 13
+      <i class="fas fa-calendar-alt"></i> 2017 Jul 29
     
     
     
@@ -201,16 +197,13 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/andorid">andorid</a>
+          <a class="badge badge-tag" href="/tags/cydia">cydia</a>
            
       
           <a class="badge badge-tag" href="/tags/ios">ios</a>
            
       
-          <a class="badge badge-tag" href="/tags/isms2droid">isms2droid</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/sms">sms</a>
+          <a class="badge badge-tag" href="/tags/yalu">yalu</a>
           
       
     
@@ -224,50 +217,56 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
   
   
   <div class="post">
-    <h3 id="轉移概念">轉移概念：</h3>
+    <p>就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案</p>
 
-<p>iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。</p>
+<h2 id="方案一-移除-yalu-在-jailbreak-留下的記錄檔">方案一：移除 Yalu 在 Jailbreak 留下的記錄檔</h2>
 
-<h3 id="操作步驟">操作步驟：</h3>
+<p>就因為 iOS 10 都是 Semi Jailbreak 所以重開機後系統會需要重新跑一次越獄流程，但因為已經安裝過 Cydia 所以理當 Yalu 不應該在跑一次安裝 Cydia 的流程。這也就是為什麼在 Cydia 消失後重跑 Yalu 不會重新安裝 Cydia 的原因，因為他認為你已經越獄過所以不需要重新裝 Cydia。</p>
 
-<h4 id="step1-把加密關閉後備份整台手機">Step1：把加密關閉後備份整台手機</h4>
+<p>所以我們需要的作法就是把系統根目錄下的 <code>.installed_yaluX</code> 移除掉然後重開機再執行 Yalu 就可以了。</p>
 
-<p><center>
-<img src="https://hiy.tw/tech/ios_sms_to_android/1.png" alt="" />
-</center></p>
+<h4 id="具體作法會是">具體作法會是：</h4>
 
-<h4 id="step2-找出備份檔案的路徑">Step2：找出備份檔案的路徑</h4>
+<h5 id="step0">Step0:</h5>
 
-<p>Windows 路徑是：C:\Users[YourUsername]\AppData\Roaming\Apple Computer\MobileSync\Backup</p>
+<p>確認 Yalu 已經完成越獄</p>
 
-<p>macOS 路徑是： ~/Library/Application Support/MobileSync/Backup/</p>
+<h5 id="step1">Step1:</h5>
 
-<p>然後如果有多個資料夾請看資料夾哪一個是最近有被更動過的那就是你剛剛備份的。然後進入資料夾後把檔名為 3d0d7e5fb2ce288813306e4d4636395e047a3d28 的檔案複製到 Android 手機中</p>
-
-<h4 id="step3-安裝-isms2droid-並回復上面說的那個檔案">Step3：安裝 iSMS2droid 並回復上面說的那個檔案</h4>
-
-<p>Google Play 下載位置：<a href="https://play.google.com/store/apps/details?id=org.faked.isms2droid">https://play.google.com/store/apps/details?id=org.faked.isms2droid</a></p>
-
-<h4 id="step4-回復完就一切完成了">Step4：回復完就一切完成了</h4>
-
-<h3 id="但-當然一切沒有這麼簡單">但&hellip;當然一切沒有這麼簡單</h3>
-
-<ul>
-<li>記得 iTunes 備份要把加密關閉不然 iSMS2droid 無法開啟</li>
-<li>如果是 iOS 11 回復完會出現靈異狀況</li>
-</ul>
-
-<p>然後經過研究後發現，如果系統是 iOS 11 備份出來的 SQLite 不知道為什麼在 date 欄位都會被補上 9 個 0，所以匯入到 Android 後就會變成西元 40000 多年，然後簡訊的 App 就會卡住。</p>
+<p>如果 OpenSSH 有正常運作就直接在同區網下使用 SSH 服務來登入，然後預設帳號是 root 而密碼是 alpine；如果當時沒有裝 OpenSSH，那請找一台 Windows 電腦安裝 iFunbox 3.0 之後版本使用其中的 USB Tunnle 來幫你建立連線。</p>
 
 <p><center>
-<img src="https://hiy.tw/tech/ios_sms_to_android/2.png" alt="" />
+<img src="1.png" alt="" />
 </center></p>
 
-<p>所以需要用任何一套能編輯 SQLite 的軟體來處理都好，我自己是用 Firefox 的 Add-on：<a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">SQLite Manager</a> 來處理。</p>
+<h5 id="step2">Step2:</h5>
 
-<p>所以作法就是下這段 SQL 指令 <code>update message set date = date / 1000000000;</code> 這樣就最簡單把所有的 date 都去除 9  個 0 然後再把這 SQLite 檔案匯入到 Android 用 iSMS2droid 就一切正常了。</p>
+<p>登入後直接執行 <code>rm /.installed_yaluX</code>，然後就可以重開機在執行一次 Yalu，這時候理論上你的 Cydia 就會回來了，如果沒有就再使用 SSH 登入後輸入 uicache 來強制把你 iOS 的介面重新更新一次。這時候應該就會出現了，如果還是沒有就可以參考方案二。</p>
 
-<p>註：然後我也不知道為什麼 iOS 資料庫存的時間戳記跟 Epoch time 整整快了 31 年，真的超級有趣的。</p>
+<p><center>
+<img src="2.png" alt="" />
+</center></p>
+
+<h2 id="方案二-自己重新安裝-cydia">方案二：自己重新安裝 Cydia</h2>
+
+<p>如果上述方式無效，可以考慮看看自己來安裝 Cydia，理論上這一定會出現如果還是沒有應該就是你系統有什麼損壞，可以請直接回復出廠設定等待下一版本的 Jailbreak 比較快。</p>
+
+<h4 id="具體作法會是-1">具體作法會是：</h4>
+
+<h5 id="step0-1">Step0:</h5>
+
+<p>確認 Yalu 已經完成越獄</p>
+
+<h5 id="step1-1">Step1:</h5>
+
+<p>用 iFunbox 或是其他可以管理 iOS 設備的軟體或甚至使用 SCP 把這解壓縮出來的檔案都放到 iOS 設備中。</p>
+
+<h4 id="step2-1">Step2:</h4>
+
+<p>登入 SSH 後，直接用 <code>dpkg -i</code> 的方式把 Cydia 那兩個檔案安裝起來，然後一樣在 shell 中先執行 <code>uicache</code> 然後再執行 <code>killall SpringBoard</code> 這時候理論上 iOS 裝置就會假重開，理論上 Cydia 就會回來了。</p>
+
+<p>參考資料：
+<a href="https://www.youtube.com/watch?v=AECDX96E2k8">https://www.youtube.com/watch?v=AECDX96E2k8</a></p>
   </div>
   
 
@@ -280,24 +279,6 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
     <h2>Related Articles</h2>
     <ul class="related-posts">
         
-<li>
-  <span class="list__title--small">
-    <a href="/tech/ios_sms_to_android/" >iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）</a>
-      
-      <time class="pull-right hidden-tablet">Aug 13 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/ios_10_cydia_disappear/" >iOS 10 JB 後 Cydia 突然消失解決方案</a>
-      
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
-      
-  </span>
-</li>
-
 <li>
   <span class="list__title--small">
     <a href="/posts/ios_10_cydia_disappear/" >iOS 10 JB 後 Cydia 突然消失解決方案</a>
