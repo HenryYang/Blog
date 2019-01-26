@@ -112,6 +112,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/yalu_ios10_jb_wifi/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/yalu_ios10_jb_wifi/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -239,6 +249,12 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/jb/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/keychain/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -281,6 +297,12 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/ssh/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/swap/</loc>
     <lastmod>2018-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -318,6 +340,12 @@
   <url>
     <loc>https://hiy.tw/tags/wifi/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/yalu/</loc>
+    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
