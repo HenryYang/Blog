@@ -1,37 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sms on Henry&#39;s Space</title>
-    <link>https://hiy.tw/tags/sms/</link>
-    <description>Recent content in Sms on Henry&#39;s Space</description>
+    <title>Bmobile on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/bmobile/</link>
+    <description>Recent content in Bmobile on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://hiy.tw/tags/sms/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hiy.tw/tags/bmobile/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）</title>
-      <link>https://hiy.tw/posts/ios_sms_to_android/</link>
-      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/posts/ios_sms_to_android/</guid>
-      <description>&lt;h3 id=&#34;轉移概念&#34;&gt;轉移概念：&lt;/h3&gt;
-
-&lt;p&gt;iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）</title>
-      <link>https://hiy.tw/tech/ios_sms_to_android/</link>
-      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tech/ios_sms_to_android/</guid>
-      <description>&lt;h3 id=&#34;轉移概念&#34;&gt;轉移概念：&lt;/h3&gt;
-
-&lt;p&gt;iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>觀光客能拿到日本號碼的方法</title>

@@ -172,6 +172,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/life/jp_sms_number/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/jp_sms_number/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -218,6 +228,12 @@
   <url>
     <loc>https://hiy.tw/tags/apple-pay/</loc>
     <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/bmobile/</loc>
+    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
