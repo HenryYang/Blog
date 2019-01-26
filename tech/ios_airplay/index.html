@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    
+
+
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.54-DEV" />
+
+    
+    
+    
+
+<title>iOS 設備同時輸出螢幕訊號且使用有線網路 • Henry&#39;s Space</title>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="iOS 設備同時輸出螢幕訊號且使用有線網路"/>
+<meta name="twitter:description" content="故事很簡單，就是當有需要強聯網的 App 需要投放到螢幕上的時候，這時候就會需要考量到網路穩不穩的風險。尤其是在不熟悉的場地或是在人潮眾多的區域，無線網路的可靠度真的是讓人存疑的。
+
+因此這邊就是實驗到底有什麼方法可以達成使用有線網路又可以投影畫面的方案。"/>
+
+<meta property="og:title" content="iOS 設備同時輸出螢幕訊號且使用有線網路" />
+<meta property="og:description" content="故事很簡單，就是當有需要強聯網的 App 需要投放到螢幕上的時候，這時候就會需要考量到網路穩不穩的風險。尤其是在不熟悉的場地或是在人潮眾多的區域，無線網路的可靠度真的是讓人存疑的。
+
+因此這邊就是實驗到底有什麼方法可以達成使用有線網路又可以投影畫面的方案。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hiy.tw/tech/ios_airplay/" />
+<meta property="article:published_time" content="2017-10-04T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-10-04T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+
+
+    
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.486715a05a03cb481eb6f8d7f41ac531e853e4c3d444d3127276591f23eca0aa.css" integrity="sha256-SGcVoFoDy0getvjX9BrFMehT5MPURNMScnZZHyPsoKo=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+
+</head>
+
+
+    <body class="theme-base-09 ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="https://hiy.tw/">Henry&#39;s Space</a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/151b64e5b8714c8707c5dd239459d543?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         Hi, I’m HuangI Yang. (A.K.A HenryYang) Personal Tags: Information Security, Fintech, Mobile. 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Henry&#39;s Space</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/life/">
+						<span>Life</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tech/">
+						<span>Tech</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/coding/">
+						<span>Coding</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/portfolio/">
+						<span>Portfolio</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+		</li>
+	</ul>
+</div>
+
+        <section class="social">
+	
+	<a href="https://twitter.com/HuangIYang" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://facebook.com/huangi.yang" rel="me"><i class="fab fa-facebook-f"></i></a>
+	
+	
+	<a href="https://github.com/henryyang" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	<a href="https://linkedin.com/in/huangiyang" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="mailto:hi@hiy.tw" rel="me"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
+	
+</section>
+
+      </div>
+    </div>
+    
+<div class="copyright">
+  &copy; 2019 HenryYang
+  
+    <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>
+  
+</div>
+
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    <article>
+  <header>
+    <h1>iOS 設備同時輸出螢幕訊號且使用有線網路</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> 2017 Oct 4
+    
+    
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/airplay">airplay</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/ethernet">ethernet</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/ios">ios</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/lightning">lightning</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 1 min read
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>故事很簡單，就是當有需要強聯網的 App 需要投放到螢幕上的時候，這時候就會需要考量到網路穩不穩的風險。尤其是在不熟悉的場地或是在人潮眾多的區域，無線網路的可靠度真的是讓人存疑的。</p>
+
+<p>因此這邊就是實驗到底有什麼方法可以達成使用有線網路又可以投影畫面的方案。</p>
+
+<h1 id="不行的方法">不行的方法</h1>
+
+<ul>
+<li>iDevice 同時串接 Lightning to HDMI 與 Lightning to USB 再加上 USB 網卡</li>
+</ul>
+
+<blockquote>
+<p>最棒的 &ldquo;幻想&rdquo; 當然是能讓設備接上有線網路然後又能輸出 HDMI 訊號。所以這時候就是想到使用雙轉接頭的可能性。雖然 Lightning to HDMI 與 Lightning to USB 的轉接線都有再提供一個 Lightning 的接頭，但他實際上就是指有供電的功能而已。所以如果兩個同時串接 iDevice 只會抓到真的插在設備的 Lightning 孔的擴充功能。另外一個串接的 Lightning 是無法被偵測到的。</p>
+</blockquote>
+
+<p><center>
+<img src="1.jpg" alt="" />
+</center></p>
+
+<blockquote>
+<p>此外已經有嘗試過 Lightning to HDMI 與 Lightning to USB 互換插設備的狀況，但結果都是只會抓到實際插在設備上的擴充功能。而且如果先插 Lightning to USB 轉有線網卡再插 Lightning to HDMI 還會直接說電壓不足。所以同時輸出多功能是不行的。</p>
+</blockquote>
+
+<p><center>
+<img src="2.jpg" alt="" />
+</center></p>
+
+<ul>
+<li>iDevice 先接 Belkin 的 Lightning 一對二轉接頭再接上述設備</li>
+</ul>
+
+<blockquote>
+<p>請直接死心，因為 Belkin 的轉接頭就直接寫明說它提供的第二 Lightning 只有供電功能，還是無法同時串兩個設備。</p>
+</blockquote>
+
+<p><center>
+<img src="3.jpg" alt="" />
+</center></p>
+
+<ul>
+<li>iDevice 只接 Lightning to USB 再加上 USB 網卡然後供電的 Lightning 孔接電腦</li>
+</ul>
+
+<blockquote>
+<p>就是 iDevice 接電腦後可以用 Quick Time 或是 OBS 這類的軟體直接獲取螢幕畫面。所以想說設備接出有線網卡然後供電的 Lightning 嘗試接電腦看會不會有偵測到設備。但上面已經說過他只有供電功能，所以電腦當然是抓不到的。</p>
+</blockquote>
+
+<p><center>
+<img src="4.jpg" alt="" />
+</center></p>
+
+<ul>
+<li>iDevice 插上 USB 使用 rvictl 來導流量到 macOS</li>
+</ul>
+
+<blockquote>
+<p>原本想說這樣會再 macOS 上面建立一張與 iDevice 連線的虛擬網卡。但是該網卡實際上就是無法獲得 IP，所以把 rvictl 的功能當成 Port Mirror 比較合理，就是單純的把 iDevice 流量複製一份到電腦。</p>
+</blockquote>
+
+<p><center>
+<img src="5.jpg" alt="" />
+</center></p>
+
+<h1 id="可行的方法">可行的方法</h1>
+
+<ul>
+<li>iDevice 接上 Lightning to USB 與有線網卡後，在有線網路的區網下做 Airplay</li>
+</ul>
+
+<blockquote>
+<p>平常 Airplay 因為大多數都是走無線網路，所以會有一種延遲感非常重的印象。但是如果 Airplay 走的是有線網路且在不同時比對畫面的狀況下。這應該已經是一種可以接受的選項了。</p>
+
+<p>然後這時候我就會推薦安裝 AirServer 這套軟體來模擬 Airplay 的顯示端，因為能調整的細節比較多。不論是單純是要顯示大畫面或是直播這都是一個不錯的方式。</p>
+</blockquote>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Emo2lI3hW6Q" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="參考資料">參考資料</h2>
+
+<ul>
+<li><a href="http://www.airserver.com/">http://www.airserver.com/</a></li>
+<li><a href="https://www.apple.com/shop/product/MD826AM/A/lightning-digital-av-adapter">https://www.apple.com/shop/product/MD826AM/A/lightning-digital-av-adapter</a></li>
+<li><a href="https://www.apple.com/shop/product/MK0W2AM/A/lightning-to-usb-3-camera-adapter">https://www.apple.com/shop/product/MK0W2AM/A/lightning-to-usb-3-camera-adapter</a></li>
+<li><a href="http://www.belkin.com/us/p/P-F8J198/">http://www.belkin.com/us/p/P-F8J198/</a></li>
+</ul>
+  </div>
+  
+
+
+  
+
+
+<div class="post__related">
+    
+    <h2>Related Articles</h2>
+    <ul class="related-posts">
+        
+<li>
+  <span class="list__title--small">
+    <a href="/posts/ios_airplay/" >iOS 設備同時輸出螢幕訊號且使用有線網路</a>
+      
+      <time class="pull-right hidden-tablet">Oct 04 &#39;17</time>
+      
+  </span>
+</li>
+
+
+    </ul>
+</div>
+
+
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-132221741-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+        
+    
+    <script type="text/javascript">
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+
+    
+
+
+
+    </body>
+</html>
