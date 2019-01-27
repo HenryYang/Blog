@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rfid on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/rfid/</link>
+    <description>Recent content in Rfid on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/rfid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RFID 感應卡冷知識整理</title>
+      <link>https://hiy.tw/posts/rfid_info/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/rfid_info/</guid>
+      <description>&lt;p&gt;以下會記錄一些常見的 RFID 相關冷知識&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RFID 感應卡冷知識整理</title>
+      <link>https://hiy.tw/tech/rfid_info/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/rfid_info/</guid>
+      <description>&lt;p&gt;以下會記錄一些常見的 RFID 相關冷知識&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
