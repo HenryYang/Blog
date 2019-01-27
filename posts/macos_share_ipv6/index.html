@@ -17,19 +17,35 @@
     
     
 
-<title>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰 • Henry&#39;s Space</title>
+<title>透過 MacOS 分享純 ipv6 的網路 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰"/>
-<meta name="twitter:description" content="故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。"/>
+<meta name="twitter:title" content="透過 MacOS 分享純 ipv6 的網路"/>
+<meta name="twitter:description" content="就有時會需要在設備只拿到 ipv6 的情況下來做一些神秘的 Debug，所以以下方式是快速的架設一個臨時純 ipv6 環境來測試
 
-<meta property="og:title" content="手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰" />
-<meta property="og:description" content="故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。" />
+架設需求: MacOS 需要為 10.12 ，因為這版才有提供 ipv6 環境
+
+設定步驟:
+
+
+開啟 &ldquo;系統偏好設定&rdquo; -&gt; 並點選  &ldquo;分享&rdquo;
+"/>
+
+<meta property="og:title" content="透過 MacOS 分享純 ipv6 的網路" />
+<meta property="og:description" content="就有時會需要在設備只拿到 ipv6 的情況下來做一些神秘的 Debug，所以以下方式是快速的架設一個臨時純 ipv6 環境來測試
+
+架設需求: MacOS 需要為 10.12 ，因為這版才有提供 ipv6 環境
+
+設定步驟:
+
+
+開啟 &ldquo;系統偏好設定&rdquo; -&gt; 並點選  &ldquo;分享&rdquo;
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/posts/filevaultmaster_keychain/" />
-<meta property="article:published_time" content="2018-04-09T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-04-09T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/posts/macos_share_ipv6/" />
+<meta property="article:published_time" content="2017-04-16T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-04-16T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -180,13 +196,13 @@
             
     <article>
   <header>
-    <h1>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</h1>
+    <h1>透過 MacOS 分享純 ipv6 的網路</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2018 Apr 9
+      <i class="fas fa-calendar-alt"></i> 2017 Apr 16
     
     
     
@@ -200,10 +216,10 @@
           <a class="badge badge-tag" href="/tags/macos">macos</a>
            
       
-          <a class="badge badge-tag" href="/tags/filevault">filevault</a>
+          <a class="badge badge-tag" href="/tags/ipv6">ipv6</a>
            
       
-          <a class="badge badge-tag" href="/tags/keychain">keychain</a>
+          <a class="badge badge-tag" href="/tags/nat64">nat64</a>
           
       
     
@@ -217,29 +233,65 @@
   
   
   <div class="post">
-    <p>故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。</p>
+    <p>就有時會需要在設備只拿到 ipv6 的情況下來做一些神秘的 Debug，所以以下方式是快速的架設一個臨時純 ipv6 環境來測試</p>
 
-<p>可是，在如果依照蘋果<a href="https://support.apple.com/zh-tw/HT202385">官方的教學</a> 會發現到 macOS 10.13 後就無法設定主要密碼。所以就無法以 GUI 環境來達成了。因此這篇就是教學如何透過 CLI 來完成。</p>
+<p>架設需求: MacOS 需要為 10.12 ，因為這版才有提供 ipv6 環境</p>
+
+<p>設定步驟:</p>
+
+<ul>
+<li>開啟 &ldquo;系統偏好設定&rdquo; -&gt; 並點選  &ldquo;分享&rdquo;</li>
+</ul>
 
 <p><center>
-<img src="https://hiy.tw/coding/filevaultmaster_keychain/1.png" alt="" />
+<img src="https://hiy.tw/tech/macos_share_ipv6/1.png" alt="" />
 </center></p>
 
-<p>其中官方文件在 &ldquo;建立主要密碼與專用的恢復密鑰&rdquo; 所說的 1 ~ 6 步驟，就只要濃縮成</p>
+<p><center>
+<img src="https://hiy.tw/tech/macos_share_ipv6/2.png" alt="" />
+</center></p>
 
-<p>第一步，產生帶有密碼的密鑰。就請記得第一組輸入的是電腦的密碼，然後接下來的兩個是加密密鑰想設定的密碼</p>
+<ul>
+<li>選擇 &ldquo;Internet 共享&rdquo; ，然後 &ldquo;共享連線來源&rdquo; 選擇你的有線網路，而 &ldquo;對使用已傳輸卓的電腦&rdquo; 選擇 Wi-Fi ，這時候請記得勾選左下方的 &ldquo;建立 NAT64 網路&rdquo;，然後如果如果需要設定密碼或是 SSID 請點選右下方的 &ldquo;Wi-Fi 選項&rdquo;。</li>
+</ul>
 
-<p><code>security create-filevaultmaster-keychain /Library/Keychains/FileVaultMaster.keychain</code></p>
+<p>P.S. 如果沒有出現 &ldquo;建立 NAT64 網路&rdquo; 的選項，請回到上一步，然後按住 &ldquo;option&rdquo; 後再點擊 &ldquo;分享&rdquo;</p>
 
-<p>第二步，把剛剛產生出來的密鑰解密。解密完後的密鑰就可以接者官方教學的 &ldquo;更新與部署 FileVault 主鑰匙圈&rdquo; 部分繼續執行拉。</p>
+<p><center>
+<img src="https://hiy.tw/tech/macos_share_ipv6/3.png" alt="" />
+</center></p>
 
-<p><code>security unlock-keychain /Library/Keychains/FileVaultMaster.keychain</code></p>
+<p><center>
+<img src="https://hiy.tw/tech/macos_share_ipv6/4.png" alt="" />
+</center></p>
 
-<p>參考資料：</p>
+<h3 id="這時候你電腦已經建立了-nat64-的網路了-只要連上你所建立網路的設備都會收到-ipv6-的位置">這時候你電腦已經建立了 NAT64 的網路了，只要連上你所建立網路的設備都會收到 ipv6 的位置。</h3>
 
-<p><a href="https://support.apple.com/zh-tw/HT202385">為機構內的 Mac 電腦設定 FileVault 恢復密鑰</a></p>
+<h4 id="ios-設備查詢-ipv6方式">iOS 設備查詢 ipv6方式:</h4>
 
-<p><a href="https://derflounder.wordpress.com/2014/08/13/filevault-2-institutional-recovery-keys-creation-deployment-and-use/">FileVault 2 Institutional Recovery Keys</a></p>
+<p>設定 -&gt; Wi-Fi  然後點選你連線網路後面的藍色 i ，這時候你就會看到 IP 位置會是 169.254 開頭的位置，然後下方的 ipv6  位置應該會是一組 2001 開頭的位置</p>
+
+<p><center>
+<img src="https://hiy.tw/tech/macos_share_ipv6/5.png" alt="" />
+</center></p>
+
+<p><center>
+<img src="https://hiy.tw/tech/macos_share_ipv6/6.png" alt="" />
+</center></p>
+
+<h4 id="這時候就是確認你設備已經透過-macos-的-nat64-拿到-ipv6-的-ip-了">這時候就是確認你設備已經透過 MacOS 的 NAT64 拿到 ipv6 的 ip 了</h4>
+
+<p>##注意，如果 ipv6 網路有任何異常或是 DNS 快取有誤，請將 iOS 的網路重設，這只會影響到有關網路的設定，手機資料不會遺失</p>
+
+<p>設定 -&gt; 一般 -&gt; 重製 -&gt;  重製網路設定</p>
+
+<p><center>
+<img src="https://hiy.tw/tech/macos_share_ipv6/7.png" alt="" />
+</center></p>
+
+<h4 id="mac-清除-dns-快取方法">Mac 清除 DNS 快取方法</h4>
+
+<p><code>sudo killall -HUP mDNSResponder</code></p>
   </div>
   
 
@@ -254,9 +306,9 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/coding/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
+    <a href="/tech/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
       
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
+      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
       
   </span>
 </li>
@@ -264,24 +316,6 @@
 <li>
   <span class="list__title--small">
     <a href="/posts/expand_esxi_macos/" >擴充 VMware 上面的 MacOS 虛擬機硬碟空間</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
       
       <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
       

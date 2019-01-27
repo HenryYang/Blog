@@ -77,5 +77,39 @@
 &lt;/center&gt;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>透過 MacOS 分享純 ipv6 的網路</title>
+      <link>https://hiy.tw/posts/macos_share_ipv6/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/macos_share_ipv6/</guid>
+      <description>&lt;p&gt;就有時會需要在設備只拿到 ipv6 的情況下來做一些神秘的 Debug，所以以下方式是快速的架設一個臨時純 ipv6 環境來測試&lt;/p&gt;
+
+&lt;p&gt;架設需求: MacOS 需要為 10.12 ，因為這版才有提供 ipv6 環境&lt;/p&gt;
+
+&lt;p&gt;設定步驟:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;開啟 &amp;ldquo;系統偏好設定&amp;rdquo; -&amp;gt; 並點選  &amp;ldquo;分享&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>透過 MacOS 分享純 ipv6 的網路</title>
+      <link>https://hiy.tw/tech/macos_share_ipv6/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/macos_share_ipv6/</guid>
+      <description>&lt;p&gt;就有時會需要在設備只拿到 ipv6 的情況下來做一些神秘的 Debug，所以以下方式是快速的架設一個臨時純 ipv6 環境來測試&lt;/p&gt;
+
+&lt;p&gt;架設需求: MacOS 需要為 10.12 ，因為這版才有提供 ipv6 環境&lt;/p&gt;
+
+&lt;p&gt;設定步驟:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;開啟 &amp;ldquo;系統偏好設定&amp;rdquo; -&amp;gt; 並點選  &amp;ldquo;分享&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
   </channel>
 </rss>
