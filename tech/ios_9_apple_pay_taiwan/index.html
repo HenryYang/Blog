@@ -17,19 +17,23 @@
     
     
 
-<title>用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰 • Henry&#39;s Space</title>
+<title>讓 iOS 9 設備也支援台灣信用卡的 Apple Pay • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰"/>
-<meta name="twitter:description" content="簡單來說，就是在 10.12 之後就無法在 系統偏好設定 裡面的 使用者與群組 中建立 主鑰匙圈 (Master Password)"/>
+<meta name="twitter:title" content="讓 iOS 9 設備也支援台灣信用卡的 Apple Pay"/>
+<meta name="twitter:description" content="故事前情提要：蘋果表示，Apple Pay 就是要最新版本的才可以用喔 &gt;.^
 
-<meta property="og:title" content="用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰" />
-<meta property="og:description" content="簡單來說，就是在 10.12 之後就無法在 系統偏好設定 裡面的 使用者與群組 中建立 主鑰匙圈 (Master Password)" />
+所以理論上 iOS 10.3 的人就會直接在 Wallet App 中出現新增信用卡的選項，但如果是比較舊一點的版本的人（例如 iOS 10.1.1 ）這類的可以透過修改地區的方式將 iPhone 改為比較早有 Apple Pay 的國家例如美國、日本就可以正常加卡了！"/>
+
+<meta property="og:title" content="讓 iOS 9 設備也支援台灣信用卡的 Apple Pay" />
+<meta property="og:description" content="故事前情提要：蘋果表示，Apple Pay 就是要最新版本的才可以用喔 &gt;.^
+
+所以理論上 iOS 10.3 的人就會直接在 Wallet App 中出現新增信用卡的選項，但如果是比較舊一點的版本的人（例如 iOS 10.1.1 ）這類的可以透過修改地區的方式將 iPhone 改為比較早有 Apple Pay 的國家例如美國、日本就可以正常加卡了！" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/posts/macos_server_profile_manager_filevault/" />
-<meta property="article:published_time" content="2018-10-04T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-10-04T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/tech/ios_9_apple_pay_taiwan/" />
+<meta property="article:published_time" content="2017-03-29T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-03-29T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -180,13 +184,13 @@
             
     <article>
   <header>
-    <h1>用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰</h1>
+    <h1>讓 iOS 9 設備也支援台灣信用卡的 Apple Pay</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2018 Oct 4
+      <i class="fas fa-calendar-alt"></i> 2017 Mar 29
     
     
     
@@ -197,13 +201,13 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/macos">macos</a>
+          <a class="badge badge-tag" href="/tags/apple-pay">apple pay</a>
            
       
-          <a class="badge badge-tag" href="/tags/filevault">filevault</a>
+          <a class="badge badge-tag" href="/tags/jb">jb</a>
            
       
-          <a class="badge badge-tag" href="/tags/profile-manager">profile manager</a>
+          <a class="badge badge-tag" href="/tags/ios">ios</a>
           
       
     
@@ -217,31 +221,49 @@
   
   
   <div class="post">
-    <p>簡單來說，就是在 10.12 之後就無法在 <code>系統偏好設定</code> 裡面的 <code>使用者與群組</code> 中建立 <code>主鑰匙圈 (Master Password)</code></p>
+    <p>故事前情提要：蘋果表示，Apple Pay 就是要最新版本的才可以用喔 &gt;.^</p>
 
-<p>所以就只好借用 CLI 的方式產生，詳細步驟可以參考下面的蘋果官方說明，這邊就指貼最關鍵的部分。</p>
+<p>所以理論上 iOS 10.3 的人就會直接在 Wallet App 中出現新增信用卡的選項，但如果是比較舊一點的版本的人（例如 iOS 10.1.1 ）這類的可以透過修改地區的方式將 iPhone 改為比較早有 Apple Pay 的國家例如美國、日本就可以正常加卡了！</p>
 
-<p>在終端機輸入下面指令</p>
+<p>修改地區的方式：設定 -&gt; 一般 -&gt; 語言與地區 -&gt; 地區，把地區暫時改成美國理論上就會出現新增信用卡的選項了。</p>
 
-<p><code>security create-filevaultmaster-keychain ~/Desktop/FileVaultMaster.keychain</code></p>
+<h3 id="但是">但是&hellip;</h3>
 
-<p>這時候桌面上就會產生一組包含公私鑰的主鑰匙，請務必備份好，未來如果要解密時會需要。</p>
+<p>如果是 iOS 9 透過上述方法想要啟用台灣 Apple Pay 就會再最後一步跳出請更新系統 Orz</p>
 
-<p>把剛剛產生的主鑰匙點兩下就會把私鑰與憑證匯入到電腦的 Keychain 中，這時候對憑證按右鍵匯出成 DER 出來即可。</p>
+<p>所以這邊提供一個方法來略過 Apple 的檢查，但注意這是需要 JB 的，我想不想升級 iOS 9 又想用台灣 Apple Pay 的人應該都是有 JB 的才對。</p>
 
-<p>接下來請參考下面的英文網站的第 16 部開始，把剛剛產生的 DER 憑證上傳到 MDM Server 就可以開始部屬使用機構復原密鑰的  FileVault  （灑花）</p>
+<p>步驟零：請先確定 iPhone 已經依照上面教學先把地區切到美國了</p>
+
+<p>步驟一：打開 iFile（如果你不知道它是什麼那我建議你/妳也不用 JB 了，直接還原成最新版本吧 ）</p>
+
+<p>步驟二：到 &ldquo;/System/Library/CoreServices&rdquo; 用 &ldquo;Property List Viewer&rdquo; 開啟 &ldquo;SystemVersion.plist&rdquo;</p>
 
 <p><center>
-<img src="https://hiy.tw/coding/macos_server_profile_manager_filevault/2.png" alt="" />
+<img src="1.png" alt="" />
 </center></p>
 
-<p>P.S. 想問大家的是，請問有沒有人預過每部屬一次新的設備 DER 就要重新上傳一次的經驗？我自己會遇到在選擇憑證的時候每次重新整理清單就會消失然後部屬就會失敗，想尋求大家的經驗 QQ</p>
+<p><center>
+<img src="2.png" alt="" />
+</center></p>
 
-<p>參考資料</p>
+<p><center>
+<img src="3.png" alt="" />
+</center></p>
 
-<p><a href="https://support.apple.com/zh-tw/HT202385">https://support.apple.com/zh-tw/HT202385</a></p>
+<p>步驟三：請把看到的畫面螢幕截圖下來，以供未來還原時參考</p>
 
-<p><a href="https://www.danielsellers.com/blog/2017/1/23/set-a-filevault-recovery-key-for-mac-computers-in-your-institution">https://www.danielsellers.com/blog/2017/1/23/set-a-filevault-recovery-key-for-mac-computers-in-your-institution</a></p>
+<p>步驟四：將 &ldquo;SystemVersion.plist&rdquo; 裡面的 &ldquo;ProductBuildVersion&rdquo; 改成「14C92」、&rdquo;ProductVersion&rdquo; 改成「10.2」</p>
+
+<p>步驟五：新增 Apple Pay</p>
+
+<p>步驟六：一定要記得把步驟四修改的數值改回原本的</p>
+
+<p><center>
+<img src="4.jpg" alt="" />
+</center></p>
+
+<h3 id="注意-請確保在電力充足時操作-並且在完成第六步前千萬不可以重開機-不然-iphone-就再也無法回到-jb-狀態了">注意，請確保在電力充足時操作，並且在完成第六步前千萬不可以重開機，不然 iPhone 就再也無法回到 JB 狀態了</h3>
   </div>
   
 
@@ -256,45 +278,27 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/coding/macos_server_profile_manager_filevault/" >用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰</a>
+    <a href="/posts/ios_9_apple_pay_taiwan/" >讓 iOS 9 設備也支援台灣信用卡的 Apple Pay</a>
       
-      <time class="pull-right hidden-tablet">Oct 04 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/coding/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
-      
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
+      <time class="pull-right hidden-tablet">Mar 29 &#39;17</time>
       
   </span>
 </li>
 
 <li>
   <span class="list__title--small">
-    <a href="/posts/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
+    <a href="/life/apple_pay_itunes_gift_card/" >透過 Apple Pay 用台灣信用卡買美國 iTunes Gift Card</a>
       
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
+      <time class="pull-right hidden-tablet">Sep 27 &#39;16</time>
       
   </span>
 </li>
 
 <li>
   <span class="list__title--small">
-    <a href="/posts/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
+    <a href="/posts/apple_pay_itunes_gift_card/" >透過 Apple Pay 用台灣信用卡買美國 iTunes Gift Card</a>
       
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
+      <time class="pull-right hidden-tablet">Sep 27 &#39;16</time>
       
   </span>
 </li>
