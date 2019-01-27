@@ -17,19 +17,19 @@
     
     
 
-<title>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰 • Henry&#39;s Space</title>
+<title>金融卡、信用卡 冷知識整理 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰"/>
-<meta name="twitter:description" content="故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。"/>
+<meta name="twitter:title" content="金融卡、信用卡 冷知識整理"/>
+<meta name="twitter:description" content="以下皆為奇怪的冷知識，主要是用來給自己記憶用的"/>
 
-<meta property="og:title" content="手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰" />
-<meta property="og:description" content="故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。" />
+<meta property="og:title" content="金融卡、信用卡 冷知識整理" />
+<meta property="og:description" content="以下皆為奇怪的冷知識，主要是用來給自己記憶用的" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/posts/filevaultmaster_keychain/" />
-<meta property="article:published_time" content="2018-04-09T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-04-09T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/posts/credit_debit_info/" />
+<meta property="article:published_time" content="2017-03-05T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-03-05T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -180,13 +180,13 @@
             
     <article>
   <header>
-    <h1>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</h1>
+    <h1>金融卡、信用卡 冷知識整理</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2018 Apr 9
+      <i class="fas fa-calendar-alt"></i> 2017 Mar 5
     
     
     
@@ -197,13 +197,10 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/macos">macos</a>
+          <a class="badge badge-tag" href="/tags/credit-crad">credit crad</a>
            
       
-          <a class="badge badge-tag" href="/tags/filevault">filevault</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/keychain">keychain</a>
+          <a class="badge badge-tag" href="/tags/debit-card">debit card</a>
           
       
     
@@ -217,29 +214,53 @@
   
   
   <div class="post">
-    <p>故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。</p>
-
-<p>可是，在如果依照蘋果<a href="https://support.apple.com/zh-tw/HT202385">官方的教學</a> 會發現到 macOS 10.13 後就無法設定主要密碼。所以就無法以 GUI 環境來達成了。因此這篇就是教學如何透過 CLI 來完成。</p>
+    <p>以下皆為奇怪的冷知識，主要是用來給自己記憶用的</p>
 
 <p><center>
-<img src="https://hiy.tw/coding/filevaultmaster_keychain/1.png" alt="" />
+<img src="https://hiy.tw/tech/credit_debit_info/1.png" alt="" />
 </center></p>
 
-<p>其中官方文件在 &ldquo;建立主要密碼與專用的恢復密鑰&rdquo; 所說的 1 ~ 6 步驟，就只要濃縮成</p>
+<p><a href="https://www.flickr.com/photos/9731367@N02/7113235069">CC by Philip Taylor</a></p>
 
-<p>第一步，產生帶有密碼的密鑰。就請記得第一組輸入的是電腦的密碼，然後接下來的兩個是加密密鑰想設定的密碼</p>
+<h3 id="bin-database">BIN Database</h3>
 
-<p><code>security create-filevaultmaster-keychain /Library/Keychains/FileVaultMaster.keychain</code></p>
+<p>其實信用卡的前六碼算是公開的資訊，只要知道前六碼就可以推出發卡銀行、發卡組織、卡片等級、卡片種類，通常這都會用來查詢卡片真實等級或是用來推算卡片的發卡資訊，以下兩個是我常用的網站</p>
 
-<p>第二步，把剛剛產生出來的密鑰解密。解密完後的密鑰就可以接者官方教學的 &ldquo;更新與部署 FileVault 主鑰匙圈&rdquo; 部分繼續執行拉。</p>
+<ul>
+<li><a href="https://www.bindb.com/bin-database.html">https://www.bindb.com/bin-database.html</a></li>
+<li><a href="https://binbase.com/search.html">https://binbase.com/search.html</a></li>
+</ul>
 
-<p><code>security unlock-keychain /Library/Keychains/FileVaultMaster.keychain</code></p>
+<h3 id="晶片與磁條的差異">晶片與磁條的差異</h3>
 
-<p>參考資料：</p>
+<p>現在大部分台灣發行的信用卡同時都會有晶片與磁條兩種媒介，至於能用哪一種媒介交易是由刷卡機來決定的。</p>
 
-<p><a href="https://support.apple.com/zh-tw/HT202385">為機構內的 Mac 電腦設定 FileVault 恢復密鑰</a></p>
+<ul>
+<li>如果刷卡機可以讀取晶片與磁條，那就會強制同時有晶片與磁條的信用卡只能使用晶片，如果你卡片的晶片壞了，那這種機器上你還是不能用磁條交易</li>
+<li>如果刷卡機上面只有傳統的磁條，那當然就只能用磁條來交易拉</li>
+<li>但如果你是的卡剛好是有晶片的美國運通信用卡，請注意在台灣因為收單銀行的設定問題，用晶片是刷不過的，一定要用磁條交易 Orz</li>
+</ul>
 
-<p><a href="https://derflounder.wordpress.com/2014/08/13/filevault-2-institutional-recovery-keys-creation-deployment-and-use/">FileVault 2 Institutional Recovery Keys</a></p>
+<h3 id="卡片背面的三位數字到底是什麼">卡片背面的三位數字到底是什麼</h3>
+
+<p>信用卡後面的三位數字其實是 CVV2 ，通常是用在網路這種非過卡交易時的驗證方式，然後大家常說的 CVV 其實是存在磁條裡面的驗證碼。這樣才能區別出來到底交易是過卡還是非過卡交易。</p>
+
+<p>而其實在晶片與磁條同時都有的信用卡中，磁條的欄位上其實有註記一個值來判斷這張卡是否有晶片的存在，這也是為什麼具有晶片的刷卡機再刷磁條的時候可以知道該卡片有晶片而強制使用晶片。當然可能會有人說是否修改值就可以讓晶片卡上的磁條可以用，結論是 CVV 就是透過卡片上的資訊與一組未公開的演算法算出來的，因此修改過那組值就會導致 CVV 改變而驗證不過。</p>
+
+<h3 id="什麼是發卡組織">什麼是發卡組織</h3>
+
+<p>像是 VISA、MasterCard、JCB、AmericanExpress、DinersClub、銀聯都是常見的&rdquo;國際發卡組織&rdquo;，然後在台灣所發行的信用卡後面一定會看到的藍色梅花則是聯合信用卡處理中心（NCCC）而它是則是區域性的發卡組織。</p>
+
+<p>所以使用信用卡交易時請確認店家貼的標誌有沒有出現在你信用卡上任一種的圖示，有的話就代表你可以刷了 :p</p>
+
+<h3 id="各種神秘的注意事項">各種神秘的注意事項</h3>
+
+<ul>
+<li>台灣的 VISA/Master 金融卡在刷卡時其實還都是走信用卡結帳系統，並不像歐洲一樣是走真的 Debit Card 的結帳系統</li>
+<li>在台灣的信用卡如果出國時被要求輸入 PIN CODE 首先先直接按 Enter ，如果不行就請輸入預借現金密碼或是身份證字號後四碼</li>
+<li>雖然在台灣的金融卡在台灣使用時都是使用 6~12 碼的晶片密碼，但是出國時是使用 4 碼的磁條密碼，然後設定的方式是一定要去發卡銀行的 ATM 來設定 4 碼的提款密碼</li>
+<li>出國時帶提款卡除了要記得先跟銀行開通外國提款外，也建議是帶有 VISA、Master 字樣的卡片而不是帶只有財經公司圖示的卡片。</li>
+</ul>
   </div>
   
 
@@ -254,45 +275,9 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/coding/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
+    <a href="/tech/credit_debit_info/" >金融卡、信用卡 冷知識整理</a>
       
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/expand_esxi_macos/" >擴充 VMware 上面的 MacOS 虛擬機硬碟空間</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/expand_esxi_macos/" >擴充 VMware 上面的 MacOS 虛擬機硬碟空間</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
+      <time class="pull-right hidden-tablet">Mar 05 &#39;17</time>
       
   </span>
 </li>

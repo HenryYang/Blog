@@ -232,6 +232,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/credit_debit_info/</loc>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/credit_debit_info/</loc>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -321,8 +331,20 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/credit-crad/</loc>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/cydia/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/debit-card/</loc>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

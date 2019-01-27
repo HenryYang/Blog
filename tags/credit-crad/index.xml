@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Credit Crad on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/credit-crad/</link>
+    <description>Recent content in Credit Crad on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/credit-crad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>金融卡、信用卡 冷知識整理</title>
+      <link>https://hiy.tw/posts/credit_debit_info/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/credit_debit_info/</guid>
+      <description>&lt;p&gt;以下皆為奇怪的冷知識，主要是用來給自己記憶用的&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>金融卡、信用卡 冷知識整理</title>
+      <link>https://hiy.tw/tech/credit_debit_info/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/credit_debit_info/</guid>
+      <description>&lt;p&gt;以下皆為奇怪的冷知識，主要是用來給自己記憶用的&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
