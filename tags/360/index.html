@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     
-    
-
-
     <head>
     <link href="https://gmpg.org/xfn/11" rel="profile">
     <meta charset="utf-8">
@@ -17,23 +14,19 @@
     
     
 
-<title>iOS 砸殼步驟 • Henry&#39;s Space</title>
+<title>360 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="iOS 砸殼步驟"/>
-<meta name="twitter:description" content="
+<meta name="twitter:title" content="360"/>
+<meta name="twitter:description" content="Hi, I’m HuangI Yang. (A.K.A HenryYang) Personal Tags: Information Security, Fintech, Mobile."/>
 
-"/>
+<meta property="og:title" content="360" />
+<meta property="og:description" content="Hi, I’m HuangI Yang. (A.K.A HenryYang) Personal Tags: Information Security, Fintech, Mobile." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://hiy.tw/tags/360/" />
 
-<meta property="og:title" content="iOS 砸殼步驟" />
-<meta property="og:description" content="
-
-" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/tech/ios_dumpdecrypted/" />
-<meta property="article:published_time" content="2017-07-29T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-07-29T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:updated_time" content="2017-04-16T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -64,6 +57,10 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.png">
     
+
+<link href="https://hiy.tw/tags/360/index.xml" rel="alternate" type="application/rss+xml" title="Henry&#39;s Space" />
+<link href="https://hiy.tw/tags/360/index.xml" rel="feed" type="application/rss+xml" title="Henry&#39;s Space" />
+
 
 </head>
 
@@ -182,154 +179,31 @@
 
         <div class="content container">
             
-    <article>
-  <header>
-    <h1>iOS 砸殼步驟</h1>
+    <span class="section__title">360</span>
+<ul class="posts">
     
-    
-<div class="post__meta">
-    
-    
-      <i class="fas fa-calendar-alt"></i> 2017 Jul 29
-    
-    
-    
-    
-    
-      
-      
-          <br/>
-           <i class="fas fa-tags"></i>
-          
-          <a class="badge badge-tag" href="/tags/ios">ios</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/jb">jb</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/%E7%A0%B8%E6%AE%BC">砸殼</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/dumpdecrypted">dumpdecrypted</a>
-          
-      
-    
-    
-    <br/>
-    <i class="fas fa-clock"></i> 1 min read
-</div>
-
-
-  </header>
-  
-  
-  <div class="post">
-    <p><center>
-<img src="1.png" alt="" />
-</center></p>
-
-<h4 id="step1">Step1:</h4>
-
-<p>在電腦以 root 遠端使用 SSH 登入 iOS 設備</p>
-
-<h4 id="step2">Step2:</h4>
-
-<p>在 iOS 設備端開啟想砸殼的 App 然後在 shell 端使用 <code>ps -e</code> 來看詳細路徑，並且記下來</p>
-
-<h4 id="step3">Step3:</h4>
-
-<p>輸入 <code>cycript -p 要砸殼的App名稱</code></p>
-
-<h4 id="step4">Step4:</h4>
-
-<p>在出現 <code>cy#</code> 後輸入 <code>[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask][0]</code> 來找到該 App 的文件夾路徑並記錄下來</p>
-
-<h4 id="step5">Step5:</h4>
-
-<p>把 <code>dumpdecrypted.dylib</code> 複製到 Step4 所找到的 App 文件夾路徑</p>
-
-<p>註：需要自行先把你 iOS 設備版本的 dumpdecrypted.dylib 編譯好，原始碼<a href="https://github.com/stefanesser/dumpdecrypted/">請參考這</a></p>
-
-<h4 id="step6">Step6:</h4>
-
-<p>輸入 <code>DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib 在Step2所找到的App路徑</code>，這時候就會開始砸殼</p>
-
-<h4 id="step7">Step7:</h4>
-
-<p>砸殼完成該目錄就會產生一個副檔名是 .decrypted 的文件，這就是砸殼後的未加密檔案，請自行帶回電腦。</p>
-
-<p>參考資料：</p>
-
-<p><a href="http://www.jianshu.com/p/14db1ac34bf1">http://www.jianshu.com/p/14db1ac34bf1</a>
-<a href="http://www.jianshu.com/p/a4373b5feca0">http://www.jianshu.com/p/a4373b5feca0</a></p>
-  </div>
-  
-
-
-  
-
-
-<div class="post__related">
-    
-    <h2>Related Articles</h2>
-    <ul class="related-posts">
         
 <li>
   <span class="list__title--small">
-    <a href="/posts/ios_dumpdecrypted/" >iOS 砸殼步驟</a>
+    <a href="/posts/facebook_360_photo/" >快速讓全景照片支援 Facebook 的 360 度顯示</a>
       
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/reset_jb_ios_root_password/" >重設 Jailbreak 後的 iOS root 密碼</a>
-      
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
+      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
       
   </span>
 </li>
 
 <li>
   <span class="list__title--small">
-    <a href="/tech/reset_jb_ios_root_password/" >重設 Jailbreak 後的 iOS root 密碼</a>
+    <a href="/tech/facebook_360_photo/" >快速讓全景照片支援 Facebook 的 360 度顯示</a>
       
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/semi_jailbreak_restore/" >Semi Jailbreak 回復出廠設定但仍保有 Jailbreak 方式</a>
-      
-      <time class="pull-right hidden-tablet">Jul 24 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/semi_jailbreak_restore/" >Semi Jailbreak 回復出廠設定但仍保有 Jailbreak 方式</a>
-      
-      <time class="pull-right hidden-tablet">Jul 24 &#39;17</time>
+      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
       
   </span>
 </li>
 
 
-    </ul>
-</div>
-
-
-
-  
     
-
-
-</article>
+</ul>
 
 
         </div>
@@ -350,23 +224,6 @@ if (!doNotTrack) {
 
 
 <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
-
-
-    
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
-        
-    
-    <script type="text/javascript">
-        
-        hljs.initHighlightingOnLoad();
-    </script>
-    
-
-
-
-
-    
 
 
 

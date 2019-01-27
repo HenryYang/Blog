@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Apr 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hiy.tw/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>360</title>
+      <link>https://hiy.tw/tags/360/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/360/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Airplay</title>
@@ -125,6 +134,24 @@
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/tags/ethernet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exif</title>
+      <link>https://hiy.tw/tags/exif/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/exif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facebook</title>
+      <link>https://hiy.tw/tags/facebook/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/facebook/</guid>
       <description></description>
     </item>
     
