@@ -232,6 +232,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/note_4x_root/</loc>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/note_4x_root/</loc>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/posts/credit_debit_info/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
   </url>
@@ -290,8 +300,14 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/android/</loc>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/app/</loc>
-    <lastmod>2016-09-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -481,8 +497,20 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/mi/</loc>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/nat64/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/note-4x/</loc>
+    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
