@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iphone on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/iphone/</link>
+    <description>Recent content in Iphone on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apple Pay 跨國啟用注意事項 (2017/04/20 更新)</title>
+      <link>https://hiy.tw/posts/apple_pay_active/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/apple_pay_active/</guid>
+      <description>&lt;p&gt;今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;https://hiy.tw/tech/apple_pay_active/1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Apple Pay 跨國啟用注意事項 (2017/04/20 更新)</title>
+      <link>https://hiy.tw/tech/apple_pay_active/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/apple_pay_active/</guid>
+      <description>&lt;p&gt;今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

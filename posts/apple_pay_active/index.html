@@ -17,19 +17,27 @@
     
     
 
-<title>iOS 10 JB 後 Cydia 突然消失解決方案 • Henry&#39;s Space</title>
+<title>Apple Pay 跨國啟用注意事項 (2017/04/20 更新) • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="iOS 10 JB 後 Cydia 突然消失解決方案"/>
-<meta name="twitter:description" content="就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案"/>
+<meta name="twitter:title" content="Apple Pay 跨國啟用注意事項 (2017/04/20 更新)"/>
+<meta name="twitter:description" content="今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p
 
-<meta property="og:title" content="iOS 10 JB 後 Cydia 突然消失解決方案" />
-<meta property="og:description" content="就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案" />
+
+
+"/>
+
+<meta property="og:title" content="Apple Pay 跨國啟用注意事項 (2017/04/20 更新)" />
+<meta property="og:description" content="今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p
+
+
+
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/tech/ios_10_cydia_disappear/" />
-<meta property="article:published_time" content="2017-07-29T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-07-29T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/posts/apple_pay_active/" />
+<meta property="article:published_time" content="2017-04-20T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-04-20T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -180,13 +188,13 @@
             
     <article>
   <header>
-    <h1>iOS 10 JB 後 Cydia 突然消失解決方案</h1>
+    <h1>Apple Pay 跨國啟用注意事項 (2017/04/20 更新)</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2017 Jul 29
+      <i class="fas fa-calendar-alt"></i> 2017 Apr 20
     
     
     
@@ -197,13 +205,16 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/cydia">cydia</a>
+          <a class="badge badge-tag" href="/tags/apple-pay">apple pay</a>
            
       
           <a class="badge badge-tag" href="/tags/ios">ios</a>
            
       
-          <a class="badge badge-tag" href="/tags/yalu">yalu</a>
+          <a class="badge badge-tag" href="/tags/iphone">iphone</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/suica">suica</a>
           
       
     
@@ -217,56 +228,40 @@
   
   
   <div class="post">
-    <p>就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案</p>
-
-<h2 id="方案一-移除-yalu-在-jailbreak-留下的記錄檔">方案一：移除 Yalu 在 Jailbreak 留下的記錄檔</h2>
-
-<p>就因為 iOS 10 都是 Semi Jailbreak 所以重開機後系統會需要重新跑一次越獄流程，但因為已經安裝過 Cydia 所以理當 Yalu 不應該在跑一次安裝 Cydia 的流程。這也就是為什麼在 Cydia 消失後重跑 Yalu 不會重新安裝 Cydia 的原因，因為他認為你已經越獄過所以不需要重新裝 Cydia。</p>
-
-<p>所以我們需要的作法就是把系統根目錄下的 <code>.installed_yaluX</code> 移除掉然後重開機再執行 Yalu 就可以了。</p>
-
-<h4 id="具體作法會是">具體作法會是：</h4>
-
-<h5 id="step0">Step0:</h5>
-
-<p>確認 Yalu 已經完成越獄</p>
-
-<h5 id="step1">Step1:</h5>
-
-<p>如果 OpenSSH 有正常運作就直接在同區網下使用 SSH 服務來登入，然後預設帳號是 root 而密碼是 alpine；如果當時沒有裝 OpenSSH，那請找一台 Windows 電腦安裝 iFunbox 3.0 之後版本使用其中的 USB Tunnle 來幫你建立連線。</p>
+    <p>今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p</p>
 
 <p><center>
-<img src="1.png" alt="" />
+<img src="https://hiy.tw/tech/apple_pay_active/1.jpg" alt="" />
 </center></p>
 
-<h5 id="step2">Step2:</h5>
+<ul>
+<li>如果啟用外國信用卡的 Apple Pay 失敗時，請先嘗試把 iPhone 的地區調成該國家，如果還是不行請掛該國的 VPN。因為目前發現美國跟日本的有些發卡機構會檢查 IP 。</li>
+<li>中國的 Apple Pay 不知道為什麼不用改地區也不用掛 VPN 就可以正常啟用</li>
+<li>手機可以同時存在多個國家的 Apple Pay 卡片</li>
+<li>如果想要在日版 Apple Watch 2 啟用 Suica 經過確認只需要把手錶的地區都改為日本然後就算沒有掛 VPN 現在Suica App 也以正常運作</li>
+<li>日本 Apple Pay 中的 Suica 如果在使用 Suica App 產生時選擇無記名的，換手機時是無法轉換的，所以餘額就掰掰了。</li>
+<li>用日本 iPhone <sup>7</sup>&frasl;<sub>7</sub> Plus 轉移實體卡的方式新增 Suica 的話，轉移成功後原本的卡就會失效，然後卡片資訊就會跟著 iCloud 跑</li>
+<li>日本 Apple Pay 中的 Suica 可以使用台灣 JCB 卡付款或是使用手機內不同國家的 Apple Pay 付款（已經有人嘗試過用美國 Apple Pay 的卡來幫日本  Apple Pay 中的 Suica 加值成功，同理可證等台灣 Apple Pay 上市是有機會幫日本 Apple Pay 中的 Suica 加值）</li>
+<li>日本 Apple Watch 2 的 NFC 是同時支援日本與國際標準的，所以不會有只能在日本境內用但不能在其他國家用的窘境</li>
+<li>日本的感應支付都是支援 Type-F (除了 IKEA )，所以你需要 日本 iPhone <sup>7</sup>&frasl;<sub>7</sub> Plus 或是日本 AW2＋日本信用卡才感應使用。</li>
+<li>台灣 Apple Pay 不會認地區與 IP ，所以在哪都可以啟用，如果手機沒有出現新增選項可以暫時把地區改為美國</li>
+<li>如果是 iOS 9 用戶要新增台灣 Apple Pay 可以參考<a href="https://note.hy31.net/?p=295">此則教學</a></li>
+</ul>
 
-<p>登入後直接執行 <code>rm /.installed_yaluX</code>，然後就可以重開機在執行一次 Yalu，這時候理論上你的 Cydia 就會回來了，如果沒有就再使用 SSH 登入後輸入 uicache 來強制把你 iOS 的介面重新更新一次。這時候應該就會出現了，如果還是沒有就可以參考方案二。</p>
+<p>看了這麼多，還不去日本買支 Apple Watch 2 來使用嗎？</p>
+
+<h3 id="apple-pay-卡號小知識">Apple Pay 卡號小知識</h3>
+
+<p>紅色部分是真實卡號的後四碼，然後 Wallet 正面也是顯示它；而綠色部分則是依照裝置產生的虛擬卡號，你交易時簽單也是顯示這末四碼
+注意，所以一旦產生虛擬卡後，每一次交易都是用綠色那組卡號做交易，除非你重新綁卡不然綠色這組號碼都不會更換</p>
 
 <p><center>
-<img src="2.png" alt="" />
+<img src="https://hiy.tw/tech/apple_pay_active/2.jpg" alt="" />
 </center></p>
 
-<h2 id="方案二-自己重新安裝-cydia">方案二：自己重新安裝 Cydia</h2>
+<p>圖片來源：</p>
 
-<p>如果上述方式無效，可以考慮看看自己來安裝 Cydia，理論上這一定會出現如果還是沒有應該就是你系統有什麼損壞，可以請直接回復出廠設定等待下一版本的 Jailbreak 比較快。</p>
-
-<h4 id="具體作法會是-1">具體作法會是：</h4>
-
-<h5 id="step0-1">Step0:</h5>
-
-<p>確認 Yalu 已經完成越獄</p>
-
-<h5 id="step1-1">Step1:</h5>
-
-<p>用 iFunbox 或是其他可以管理 iOS 設備的軟體或甚至使用 SCP 把這解壓縮出來的檔案都放到 iOS 設備中。</p>
-
-<h4 id="step2-1">Step2:</h4>
-
-<p>登入 SSH 後，直接用 <code>dpkg -i</code> 的方式把 Cydia 那兩個檔案安裝起來，然後一樣在 shell 中先執行 <code>uicache</code> 然後再執行 <code>killall SpringBoard</code> 這時候理論上 iOS 裝置就會假重開，理論上 Cydia 就會回來了。</p>
-
-<p>參考資料：
-<a href="https://www.youtube.com/watch?v=AECDX96E2k8">https://www.youtube.com/watch?v=AECDX96E2k8</a></p>
+<p>www.flickr.com/photos/iphonedigital/26177960506/</p>
   </div>
   
 
@@ -281,45 +276,45 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/posts/ios_10_cydia_disappear/" >iOS 10 JB 後 Cydia 突然消失解決方案</a>
+    <a href="/tech/apple_pay_active/" >Apple Pay 跨國啟用注意事項 (2017/04/20 更新)</a>
       
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/reset_jb_ios_root_password/" >重設 Jailbreak 後的 iOS root 密碼</a>
-      
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
+      <time class="pull-right hidden-tablet">Apr 20 &#39;17</time>
       
   </span>
 </li>
 
 <li>
   <span class="list__title--small">
-    <a href="/tech/ios_dumpdecrypted/" >iOS 砸殼步驟</a>
+    <a href="/posts/ios_9_apple_pay_taiwan/" >讓 iOS 9 設備也支援台灣信用卡的 Apple Pay</a>
       
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/reset_jb_ios_root_password/" >重設 Jailbreak 後的 iOS root 密碼</a>
-      
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
+      <time class="pull-right hidden-tablet">Mar 29 &#39;17</time>
       
   </span>
 </li>
 
 <li>
   <span class="list__title--small">
-    <a href="/posts/ios_dumpdecrypted/" >iOS 砸殼步驟</a>
+    <a href="/tech/ios_9_apple_pay_taiwan/" >讓 iOS 9 設備也支援台灣信用卡的 Apple Pay</a>
       
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
+      <time class="pull-right hidden-tablet">Mar 29 &#39;17</time>
+      
+  </span>
+</li>
+
+<li>
+  <span class="list__title--small">
+    <a href="/life/apple_pay_itunes_gift_card/" >透過 Apple Pay 用台灣信用卡買美國 iTunes Gift Card</a>
+      
+      <time class="pull-right hidden-tablet">Sep 27 &#39;16</time>
+      
+  </span>
+</li>
+
+<li>
+  <span class="list__title--small">
+    <a href="/posts/apple_pay_itunes_gift_card/" >透過 Apple Pay 用台灣信用卡買美國 iTunes Gift Card</a>
+      
+      <time class="pull-right hidden-tablet">Sep 27 &#39;16</time>
       
   </span>
 </li>
