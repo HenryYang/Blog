@@ -17,19 +17,23 @@
     
     
 
-<title>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰 • Henry&#39;s Space</title>
+<title>ESXI 的 LOG 移至內建空間 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰"/>
-<meta name="twitter:description" content="故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。"/>
+<meta name="twitter:title" content="ESXI 的 LOG 移至內建空間"/>
+<meta name="twitter:description" content="就很多教學都會教說把 ESXI 系統安裝在記憶卡或是隨身碟上，但如果你的系統使用太頻繁就有可能會讓 LOG 把記憶卡的存取次數快速耗盡。
 
-<meta property="og:title" content="手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰" />
-<meta property="og:description" content="故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。" />
+所以我個人都會習慣把 LOG 放在內建的空間中，除了空間會比較大以外更重要的是傳統硬碟或是 SSD 的存取壽命都高非常多啊。"/>
+
+<meta property="og:title" content="ESXI 的 LOG 移至內建空間" />
+<meta property="og:description" content="就很多教學都會教說把 ESXI 系統安裝在記憶卡或是隨身碟上，但如果你的系統使用太頻繁就有可能會讓 LOG 把記憶卡的存取次數快速耗盡。
+
+所以我個人都會習慣把 LOG 放在內建的空間中，除了空間會比較大以外更重要的是傳統硬碟或是 SSD 的存取壽命都高非常多啊。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/coding/filevaultmaster_keychain/" />
-<meta property="article:published_time" content="2018-04-09T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-04-09T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/coding/esxi_log/" />
+<meta property="article:published_time" content="2016-11-23T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2016-11-23T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -180,13 +184,13 @@
             
     <article>
   <header>
-    <h1>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</h1>
+    <h1>ESXI 的 LOG 移至內建空間</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2018 Apr 9
+      <i class="fas fa-calendar-alt"></i> 2016 Nov 23
     
     
     
@@ -197,13 +201,10 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/macos">macos</a>
+          <a class="badge badge-tag" href="/tags/log">log</a>
            
       
-          <a class="badge badge-tag" href="/tags/filevault">filevault</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/keychain">keychain</a>
+          <a class="badge badge-tag" href="/tags/esxi">esxi</a>
           
       
     
@@ -217,29 +218,29 @@
   
   
   <div class="post">
-    <p>故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。</p>
+    <p>就很多教學都會教說把 ESXI 系統安裝在記憶卡或是隨身碟上，但如果你的系統使用太頻繁就有可能會讓 LOG 把記憶卡的存取次數快速耗盡。</p>
 
-<p>可是，在如果依照蘋果<a href="https://support.apple.com/zh-tw/HT202385">官方的教學</a> 會發現到 macOS 10.13 後就無法設定主要密碼。所以就無法以 GUI 環境來達成了。因此這篇就是教學如何透過 CLI 來完成。</p>
+<p>所以我個人都會習慣把 LOG 放在內建的空間中，除了空間會比較大以外更重要的是傳統硬碟或是 SSD 的存取壽命都高非常多啊。</p>
 
 <p><center>
 <img src="1.png" alt="" />
 </center></p>
 
-<p>其中官方文件在 &ldquo;建立主要密碼與專用的恢復密鑰&rdquo; 所說的 1 ~ 6 步驟，就只要濃縮成</p>
+<h3 id="教學">教學：</h3>
 
-<p>第一步，產生帶有密碼的密鑰。就請記得第一組輸入的是電腦的密碼，然後接下來的兩個是加密密鑰想設定的密碼</p>
+<p>他可以用 Web Client 、 CLI 跟 vSphere Client 來設定，我這邊就以最熟悉的 vSphere Client 為主</p>
 
-<p><code>security create-filevaultmaster-keychain /Library/Keychains/FileVaultMaster.keychain</code></p>
+<p>登入主機後進到儲存空間，然後新增一個名為 .locker-<strong><em>ESXHostname</em></strong> 的資料夾（其中 <strong><em>ESXHostname</em></strong> 請換成你自己主機的名字）</p>
 
-<p>第二步，把剛剛產生出來的密鑰解密。解密完後的密鑰就可以接者官方教學的 &ldquo;更新與部署 FileVault 主鑰匙圈&rdquo; 部分繼續執行拉。</p>
+<p>然後選擇軟體這分頁，有一個進接設定，這時候找到 ScratchConfig 這選項，然後把 ScratchConfig.ConfiguredScratchLocation 這欄位填入 /vmfs/volumes/<strong><em>DatastoreUUID</em></strong>/.locker-<strong><em>ESXHostname</em></strong></p>
 
-<p><code>security unlock-keychain /Library/Keychains/FileVaultMaster.keychain</code></p>
+<p>其中 DatastoreUUID 請換成你硬碟的 UUID，這可以設定/儲存空間的地方找到。然後記得 .locker-<strong><em>ESXHostname</em></strong> 也請改成自己主機的名字</p>
+
+<p>這時候再把主機重開一次就完成了</p>
 
 <p>參考資料：</p>
 
-<p><a href="https://support.apple.com/zh-tw/HT202385">為機構內的 Mac 電腦設定 FileVault 恢復密鑰</a></p>
-
-<p><a href="https://derflounder.wordpress.com/2014/08/13/filevault-2-institutional-recovery-keys-creation-deployment-and-use/">FileVault 2 Institutional Recovery Keys</a></p>
+<p><a href="https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=1033696">https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=1033696</a></p>
   </div>
   
 
@@ -254,45 +255,9 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/posts/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
+    <a href="/posts/esxi_log/" >ESXI 的 LOG 移至內建空間</a>
       
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/expand_esxi_macos/" >擴充 VMware 上面的 MacOS 虛擬機硬碟空間</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/expand_esxi_macos/" >擴充 VMware 上面的 MacOS 虛擬機硬碟空間</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
+      <time class="pull-right hidden-tablet">Nov 23 &#39;16</time>
       
   </span>
 </li>

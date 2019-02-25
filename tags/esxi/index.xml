@@ -63,5 +63,27 @@
 &lt;/center&gt;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>ESXI 的 LOG 移至內建空間</title>
+      <link>https://hiy.tw/coding/esxi_log/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/esxi_log/</guid>
+      <description>&lt;p&gt;就很多教學都會教說把 ESXI 系統安裝在記憶卡或是隨身碟上，但如果你的系統使用太頻繁就有可能會讓 LOG 把記憶卡的存取次數快速耗盡。&lt;/p&gt;
+
+&lt;p&gt;所以我個人都會習慣把 LOG 放在內建的空間中，除了空間會比較大以外更重要的是傳統硬碟或是 SSD 的存取壽命都高非常多啊。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESXI 的 LOG 移至內建空間</title>
+      <link>https://hiy.tw/posts/esxi_log/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/esxi_log/</guid>
+      <description>&lt;p&gt;就很多教學都會教說把 ESXI 系統安裝在記憶卡或是隨身碟上，但如果你的系統使用太頻繁就有可能會讓 LOG 把記憶卡的存取次數快速耗盡。&lt;/p&gt;
+
+&lt;p&gt;所以我個人都會習慣把 LOG 放在內建的空間中，除了空間會比較大以外更重要的是傳統硬碟或是 SSD 的存取壽命都高非常多啊。&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
