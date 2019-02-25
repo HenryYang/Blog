@@ -352,6 +352,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/line_20161111/</loc>
+    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/line_20161111/</loc>
+    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -629,6 +639,12 @@
   <url>
     <loc>https://hiy.tw/tags/lightning/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/line/</loc>
+    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
