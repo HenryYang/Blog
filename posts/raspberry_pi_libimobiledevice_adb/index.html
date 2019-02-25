@@ -17,23 +17,31 @@
     
     
 
-<title>iOS 砸殼步驟 • Henry&#39;s Space</title>
+<title>Raspberry Pi 3 安裝 libimobiledevice ＆ ADB 筆記 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="iOS 砸殼步驟"/>
+<meta name="twitter:title" content="Raspberry Pi 3 安裝 libimobiledevice ＆ ADB 筆記"/>
 <meta name="twitter:description" content="
 
-"/>
 
-<meta property="og:title" content="iOS 砸殼步驟" />
+
+libimobiledevice 部分
+
+Repo：https://github.com/libimobiledevice/libimobiledevice"/>
+
+<meta property="og:title" content="Raspberry Pi 3 安裝 libimobiledevice ＆ ADB 筆記" />
 <meta property="og:description" content="
 
-" />
+
+
+libimobiledevice 部分
+
+Repo：https://github.com/libimobiledevice/libimobiledevice" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/tech/ios_dumpdecrypted/" />
-<meta property="article:published_time" content="2017-07-29T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-07-29T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/posts/raspberry_pi_libimobiledevice_adb/" />
+<meta property="article:published_time" content="2016-12-10T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2016-12-10T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -184,13 +192,13 @@
             
     <article>
   <header>
-    <h1>iOS 砸殼步驟</h1>
+    <h1>Raspberry Pi 3 安裝 libimobiledevice ＆ ADB 筆記</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2017 Jul 29
+      <i class="fas fa-calendar-alt"></i> 2016 Dec 10
     
     
     
@@ -201,16 +209,16 @@
           <br/>
            <i class="fas fa-tags"></i>
           
+          <a class="badge badge-tag" href="/tags/adb">adb</a>
+           
+      
           <a class="badge badge-tag" href="/tags/ios">ios</a>
            
       
-          <a class="badge badge-tag" href="/tags/jb">jb</a>
+          <a class="badge badge-tag" href="/tags/android">android</a>
            
       
-          <a class="badge badge-tag" href="/tags/%E7%A0%B8%E6%AE%BC">砸殼</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/dumpdecrypted">dumpdecrypted</a>
+          <a class="badge badge-tag" href="/tags/raspberry-pi">raspberry pi</a>
           
       
     
@@ -225,43 +233,110 @@
   
   <div class="post">
     <p><center>
-<img src="1.png" alt="" />
+<img src="https://hiy.tw/coding/raspberry_pi_libimobiledevice_adb/1.jpg" alt="" />
 </center></p>
 
-<h4 id="step1">Step1:</h4>
+<h2 id="libimobiledevice-部分">libimobiledevice 部分</h2>
 
-<p>在電腦以 root 遠端使用 SSH 登入 iOS 設備</p>
+<p>Repo：<a href="https://github.com/libimobiledevice/libimobiledevice">https://github.com/libimobiledevice/libimobiledevice</a></p>
 
-<h4 id="step2">Step2:</h4>
+<p>可以用 apt-get 取的的：</p>
 
-<p>在 iOS 設備端開啟想砸殼的 App 然後在 shell 端使用 <code>ps -e</code> 來看詳細路徑，並且記下來</p>
+<p><code>sudo apt-get -y install vim tmux git build-essential libxml2-dev python2.7 python2.7-dev fuse libtool autoconf libusb-1.0-0-dev libfuse-dev make autoheader automake pkg-config libssl-dev libzip-dev</code></p>
 
-<h4 id="step3">Step3:</h4>
+<p>需要依照順序編譯的：</p>
 
-<p>輸入 <code>cycript -p 要砸殼的App名稱</code></p>
+<p><strong>一：libplist</strong></p>
 
-<h4 id="step4">Step4:</h4>
+<p><code>git clone https://github.com/libimobiledevice/libplist.git</code></p>
 
-<p>在出現 <code>cy#</code> 後輸入 <code>[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask][0]</code> 來找到該 App 的文件夾路徑並記錄下來</p>
+<p><code>cd libplist</code></p>
 
-<h4 id="step5">Step5:</h4>
+<p><code>./autogen.sh</code></p>
 
-<p>把 <code>dumpdecrypted.dylib</code> 複製到 Step4 所找到的 App 文件夾路徑</p>
+<p><code>make</code></p>
 
-<p>註：需要自行先把你 iOS 設備版本的 dumpdecrypted.dylib 編譯好，原始碼<a href="https://github.com/stefanesser/dumpdecrypted/">請參考這</a></p>
+<p><code>sudo make install</code></p>
 
-<h4 id="step6">Step6:</h4>
+<p><strong>二：libusbmuxd</strong></p>
 
-<p>輸入 <code>DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib 在Step2所找到的App路徑</code>，這時候就會開始砸殼</p>
+<p><code>git clone https://github.com/libimobiledevice/libusbmuxd.git</code></p>
 
-<h4 id="step7">Step7:</h4>
+<p><code>cd libusbmuxd</code></p>
 
-<p>砸殼完成該目錄就會產生一個副檔名是 .decrypted 的文件，這就是砸殼後的未加密檔案，請自行帶回電腦。</p>
+<p><code>./autogen.sh</code></p>
+
+<p><code>make</code></p>
+
+<p><code>sudo make install</code></p>
+
+<p><strong>三：libimobiledevice</strong></p>
+
+<p><code>git clone https://github.com/libimobiledevice/libimobiledevice.git</code></p>
+
+<p><code>cd libmobiledevice</code></p>
+
+<p><code>./autogen.sh</code></p>
+
+<p><code>make</code></p>
+
+<p><code>sudo make install</code></p>
+
+<p><strong>四：ideviceinstaller</strong></p>
+
+<p><code>git clone https://github.com/libimobiledevice/ideviceinstaller.git</code></p>
+
+<p><code>cd ideviceinstaller</code></p>
+
+<p><code>./autogen.sh</code></p>
+
+<p><code>make</code></p>
+
+<p><code>sudo make install</code></p>
+
+<p><strong>五：ifuse</strong></p>
+
+<p><code>git clone https://github.com/libimobiledevice/ifuse.git</code></p>
+
+<p><code>cd ifuse</code></p>
+
+<p><code>./autogen.sh</code></p>
+
+<p><code>make</code></p>
+
+<p><code>sudo make install</code></p>
+
+<p>理論上安裝好後執行 ideviceinfo 等指令有程式就代表都完成了，但如果是找不到檔案可以嘗試新增以下路徑應該就可以了</p>
+
+<p><code>export LD_LIBRARY_PATH=/usr/local/lib</code></p>
+
+<h2 id="adb-部分">ADB 部分</h2>
+
+<p>安裝 ADB</p>
+
+<p><code>sudo apt-get install android-tools-adb android-tools-fastboot</code></p>
+
+<p>如果找不到資源就設定下面這 repo</p>
+
+<p><code>sudo add-apt-repository ppa:phablet-team/tools</code></p>
+
+<p><code>sudo apt-get update</code></p>
+
+<p>如果系統沒有 add-apt-repository 的指令，就請安裝下面這兩個東西</p>
+
+<p><code>sudo apt-get install python-software-properties</code></p>
+
+<p><code>sudo apt-get install software-properties-common</code></p>
 
 <p>參考資料：</p>
 
-<p><a href="http://www.jianshu.com/p/14db1ac34bf1">http://www.jianshu.com/p/14db1ac34bf1</a>
-<a href="http://www.jianshu.com/p/a4373b5feca0">http://www.jianshu.com/p/a4373b5feca0</a></p>
+<p><a href="https://github.com/libimobiledevice/libimobiledevice/issues/31">https://github.com/libimobiledevice/libimobiledevice/issues/31</a></p>
+
+<p><a href="https://gist.github.com/kfatehi/8922430">https://gist.github.com/kfatehi/8922430</a></p>
+
+<p><a href="http://www.arthurtoday.com/2010/09/ubuntu-add-apt-repository.html">http://www.arthurtoday.com/2010/09/ubuntu-add-apt-repository.html</a></p>
+
+<p><a href="http://codeblog.vurdalakov.net/2016/05/howto-install-adb-and-fastboot-on-rpi.html">http://codeblog.vurdalakov.net/2016/05/howto-install-adb-and-fastboot-on-rpi.html</a></p>
   </div>
   
 
@@ -276,45 +351,9 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/posts/ios_dumpdecrypted/" >iOS 砸殼步驟</a>
+    <a href="/coding/raspberry_pi_libimobiledevice_adb/" >Raspberry Pi 3 安裝 libimobiledevice ＆ ADB 筆記</a>
       
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/reset_jb_ios_root_password/" >重設 Jailbreak 後的 iOS root 密碼</a>
-      
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/reset_jb_ios_root_password/" >重設 Jailbreak 後的 iOS root 密碼</a>
-      
-      <time class="pull-right hidden-tablet">Jul 29 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/semi_jailbreak_restore/" >Semi Jailbreak 回復出廠設定但仍保有 Jailbreak 方式</a>
-      
-      <time class="pull-right hidden-tablet">Jul 24 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/semi_jailbreak_restore/" >Semi Jailbreak 回復出廠設定但仍保有 Jailbreak 方式</a>
-      
-      <time class="pull-right hidden-tablet">Jul 24 &#39;17</time>
+      <time class="pull-right hidden-tablet">Dec 10 &#39;16</time>
       
   </span>
 </li>
