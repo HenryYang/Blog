@@ -272,6 +272,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/coding/raspberry_pi_usb_3g/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/raspberry_pi_usb_3g/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -304,6 +314,12 @@
   <url>
     <loc>https://hiy.tw/tags/360/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/3g/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -351,6 +367,12 @@
   
   <url>
     <loc>https://hiy.tw/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/cellular/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -555,6 +577,12 @@
   <url>
     <loc>https://hiy.tw/tags/profile-manager/</loc>
     <lastmod>2018-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/raspberry-pi/</loc>
+    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

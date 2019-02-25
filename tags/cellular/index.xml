@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cellular on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/cellular/</link>
+    <description>Recent content in Cellular on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 17 Dec 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/cellular/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi 透過 USB 3G 行動網卡上網</title>
+      <link>https://hiy.tw/coding/raspberry_pi_usb_3g/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/raspberry_pi_usb_3g/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;注意： 目前 &amp;ldquo;理論上&amp;rdquo; 未鎖電信商的華為 &lt;strong&gt;3G&lt;/strong&gt; USB 網卡理論上都可以使用，我自己是使用當年跟中華電信買的 E161&lt;/p&gt;
+
+&lt;p&gt;我這邊是使用 sakis3g  這到軟體來簡化連線的設定，真的就只要下載執行就可以連上行動網路的，就不用在設定很多麻煩的 pppd&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi 透過 USB 3G 行動網卡上網</title>
+      <link>https://hiy.tw/posts/raspberry_pi_usb_3g/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/raspberry_pi_usb_3g/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;https://hiy.tw/coding/raspberry_pi_usb_3g/1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;注意： 目前 &amp;ldquo;理論上&amp;rdquo; 未鎖電信商的華為 &lt;strong&gt;3G&lt;/strong&gt; USB 網卡理論上都可以使用，我自己是使用當年跟中華電信買的 E161&lt;/p&gt;
+
+&lt;p&gt;我這邊是使用 sakis3g  這到軟體來簡化連線的設定，真的就只要下載執行就可以連上行動網路的，就不用在設定很多麻煩的 pppd&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
