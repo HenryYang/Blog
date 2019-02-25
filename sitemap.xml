@@ -312,6 +312,26 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/thunderbolt_info/</loc>
+    <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/thunderbolt_info/</loc>
+    <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/sms_forward/</loc>
+    <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/sms_forward/</loc>
+    <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -457,6 +477,12 @@
   <url>
     <loc>https://hiy.tw/tags/dumpdecrypted/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/email/</loc>
+    <lastmod>2016-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -684,6 +710,18 @@
   <url>
     <loc>https://hiy.tw/tags/terminal/</loc>
     <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/thunderbolt/</loc>
+    <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/type-c/</loc>
+    <lastmod>2016-11-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
