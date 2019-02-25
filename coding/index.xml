@@ -68,5 +68,18 @@
 &lt;/center&gt;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>libimobiledevice 相關指令</title>
+      <link>https://hiy.tw/coding/libimobiledevice_note/</link>
+      <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/libimobiledevice_note/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;idevice_id -l&lt;/strong&gt; 查詢設備 UID&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ideviceinstaller -l&lt;/strong&gt; 列出使用者安裝的 App&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ideviceinfo&lt;/strong&gt; 列出設備訊息&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

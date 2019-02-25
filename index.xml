@@ -655,6 +655,32 @@
     </item>
     
     <item>
+      <title>libimobiledevice 相關指令</title>
+      <link>https://hiy.tw/coding/libimobiledevice_note/</link>
+      <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/libimobiledevice_note/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;idevice_id -l&lt;/strong&gt; 查詢設備 UID&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ideviceinstaller -l&lt;/strong&gt; 列出使用者安裝的 App&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ideviceinfo&lt;/strong&gt; 列出設備訊息&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>libimobiledevice 相關指令</title>
+      <link>https://hiy.tw/posts/libimobiledevice_note/</link>
+      <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/libimobiledevice_note/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;idevice_id -l&lt;/strong&gt; 查詢設備 UID&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ideviceinstaller -l&lt;/strong&gt; 列出使用者安裝的 App&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ideviceinfo&lt;/strong&gt; 列出設備訊息&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>記憶屬於我的數位人生 App</title>
       <link>https://hiy.tw/life/digi_life/</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
