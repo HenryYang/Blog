@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Recovery on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/data-recovery/</link>
+    <description>Recent content in Data Recovery on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/data-recovery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>資料救援需求快速判斷方式</title>
+      <link>https://hiy.tw/posts/data_recovery/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/data_recovery/</guid>
+      <description>&lt;p&gt;就很多時候資料遺失的人都很著急，無法冷靜的聽完分析來選擇最有可能救回資料的建議&lt;/p&gt;
+
+&lt;p&gt;所以就只好寫出這一篇快速判斷方法的來給那些很急的人參考了 XD&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>資料救援需求快速判斷方式</title>
+      <link>https://hiy.tw/tech/data_recovery/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/data_recovery/</guid>
+      <description>&lt;p&gt;就很多時候資料遺失的人都很著急，無法冷靜的聽完分析來選擇最有可能救回資料的建議&lt;/p&gt;
+
+&lt;p&gt;所以就只好寫出這一篇快速判斷方法的來給那些很急的人參考了 XD&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
