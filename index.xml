@@ -863,6 +863,24 @@
     </item>
     
     <item>
+      <title>用磁碟工具程式來製作一個 DMG 檔以加密重要資料</title>
+      <link>https://hiy.tw/posts/dmg_encrypt/</link>
+      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/dmg_encrypt/</guid>
+      <description>&lt;p&gt;目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用磁碟工具程式來製作一個 DMG 檔以加密重要資料</title>
+      <link>https://hiy.tw/tech/dmg_encrypt/</link>
+      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/dmg_encrypt/</guid>
+      <description>&lt;p&gt;目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>記憶屬於我的數位人生 App</title>
       <link>https://hiy.tw/life/digi_life/</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>

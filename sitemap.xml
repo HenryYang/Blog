@@ -372,6 +372,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/dmg_encrypt/</loc>
+    <lastmod>2016-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/dmg_encrypt/</loc>
+    <lastmod>2016-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -533,6 +543,18 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/diskutility/</loc>
+    <lastmod>2016-10-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/dmg/</loc>
+    <lastmod>2016-10-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/dumpdecrypted/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -541,6 +563,12 @@
   <url>
     <loc>https://hiy.tw/tags/email/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/encrypt/</loc>
+    <lastmod>2016-10-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
