@@ -55,5 +55,18 @@
 &lt;p&gt;我這邊是使用 sakis3g  這到軟體來簡化連線的設定，真的就只要下載執行就可以連上行動網路的，就不用在設定很多麻煩的 pppd&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>在 VMware 下 MacOS 重新調整分割區大小</title>
+      <link>https://hiy.tw/coding/resize_macos_partition/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/resize_macos_partition/</guid>
+      <description>&lt;p&gt;我自己會遇到這情況是在當 VM 的虛擬磁碟已經調整完大小，但是 MacOS 虛擬機中的作業系統並無法自己動態調整&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;1.png&#34; alt=&#34;&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

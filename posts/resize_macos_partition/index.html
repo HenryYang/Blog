@@ -17,19 +17,27 @@
     
     
 
-<title>用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰 • Henry&#39;s Space</title>
+<title>在 VMware 下 MacOS 重新調整分割區大小 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰"/>
-<meta name="twitter:description" content="簡單來說，就是在 10.12 之後就無法在 系統偏好設定 裡面的 使用者與群組 中建立 主鑰匙圈 (Master Password)"/>
+<meta name="twitter:title" content="在 VMware 下 MacOS 重新調整分割區大小"/>
+<meta name="twitter:description" content="我自己會遇到這情況是在當 VM 的虛擬磁碟已經調整完大小，但是 MacOS 虛擬機中的作業系統並無法自己動態調整
 
-<meta property="og:title" content="用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰" />
-<meta property="og:description" content="簡單來說，就是在 10.12 之後就無法在 系統偏好設定 裡面的 使用者與群組 中建立 主鑰匙圈 (Master Password)" />
+
+
+"/>
+
+<meta property="og:title" content="在 VMware 下 MacOS 重新調整分割區大小" />
+<meta property="og:description" content="我自己會遇到這情況是在當 VM 的虛擬磁碟已經調整完大小，但是 MacOS 虛擬機中的作業系統並無法自己動態調整
+
+
+
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/posts/macos_server_profile_manager_filevault/" />
-<meta property="article:published_time" content="2018-10-04T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-10-04T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/posts/resize_macos_partition/" />
+<meta property="article:published_time" content="2016-12-17T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2016-12-17T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -180,13 +188,13 @@
             
     <article>
   <header>
-    <h1>用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰</h1>
+    <h1>在 VMware 下 MacOS 重新調整分割區大小</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2018 Oct 4
+      <i class="fas fa-calendar-alt"></i> 2016 Dec 17
     
     
     
@@ -200,10 +208,7 @@
           <a class="badge badge-tag" href="/tags/macos">macos</a>
            
       
-          <a class="badge badge-tag" href="/tags/filevault">filevault</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/profile-manager">profile manager</a>
+          <a class="badge badge-tag" href="/tags/vmware">vmware</a>
           
       
     
@@ -217,31 +222,29 @@
   
   
   <div class="post">
-    <p>簡單來說，就是在 10.12 之後就無法在 <code>系統偏好設定</code> 裡面的 <code>使用者與群組</code> 中建立 <code>主鑰匙圈 (Master Password)</code></p>
-
-<p>所以就只好借用 CLI 的方式產生，詳細步驟可以參考下面的蘋果官方說明，這邊就指貼最關鍵的部分。</p>
-
-<p>在終端機輸入下面指令</p>
-
-<p><code>security create-filevaultmaster-keychain ~/Desktop/FileVaultMaster.keychain</code></p>
-
-<p>這時候桌面上就會產生一組包含公私鑰的主鑰匙，請務必備份好，未來如果要解密時會需要。</p>
-
-<p>把剛剛產生的主鑰匙點兩下就會把私鑰與憑證匯入到電腦的 Keychain 中，這時候對憑證按右鍵匯出成 DER 出來即可。</p>
-
-<p>接下來請參考下面的英文網站的第 16 部開始，把剛剛產生的 DER 憑證上傳到 MDM Server 就可以開始部屬使用機構復原密鑰的  FileVault  （灑花）</p>
+    <p>我自己會遇到這情況是在當 VM 的虛擬磁碟已經調整完大小，但是 MacOS 虛擬機中的作業系統並無法自己動態調整</p>
 
 <p><center>
-<img src="https://hiy.tw/coding/macos_server_profile_manager_filevault/2.png" alt="" />
+<img src="https://hiy.tw/coding/resize_macos_partition/1.png" alt="" />
 </center></p>
 
-<p>P.S. 想問大家的是，請問有沒有人預過每部屬一次新的設備 DER 就要重新上傳一次的經驗？我自己會遇到在選擇憑證的時候每次重新整理清單就會消失然後部屬就會失敗，想尋求大家的經驗 QQ</p>
+<p>所以需要下指令手動調整</p>
 
-<p>參考資料</p>
+<p>這指令用來先確認你的調整的硬碟系統代號為何（ 就是 IDENTIFIER 這欄位）</p>
 
-<p><a href="https://support.apple.com/zh-tw/HT202385">https://support.apple.com/zh-tw/HT202385</a></p>
+<pre><code class="language-diskutil">
 
-<p><a href="https://www.danielsellers.com/blog/2017/1/23/set-a-filevault-recovery-key-for-mac-computers-in-your-institution">https://www.danielsellers.com/blog/2017/1/23/set-a-filevault-recovery-key-for-mac-computers-in-your-institution</a></p>
+然後就可以輸入
+
+</code></pre>
+
+<p>diskutil resizeVolume  剛剛上面找到的名稱 你要的容量```</p>
+
+<p>然後系統就會開始執行，只要執行完成沒有錯誤就可以重開機，重開完就可以看到分割區容量變大了</p>
+
+<p>參考資料：</p>
+
+<p><a href="http://www.macworld.com/article/1055274/software-utilities/marchgeekfactor.html">http://www.macworld.com/article/1055274/software-utilities/marchgeekfactor.html</a></p>
   </div>
   
 
@@ -256,45 +259,9 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/coding/macos_server_profile_manager_filevault/" >用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰</a>
+    <a href="/coding/resize_macos_partition/" >在 VMware 下 MacOS 重新調整分割區大小</a>
       
-      <time class="pull-right hidden-tablet">Oct 04 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
-      
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/coding/filevaultmaster_keychain/" >手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</a>
-      
-      <time class="pull-right hidden-tablet">Apr 09 &#39;18</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/expand_esxi_macos/" >擴充 VMware 上面的 MacOS 虛擬機硬碟空間</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/tech/macos_share_ipv6/" >透過 MacOS 分享純 ipv6 的網路</a>
-      
-      <time class="pull-right hidden-tablet">Apr 16 &#39;17</time>
+      <time class="pull-right hidden-tablet">Dec 17 &#39;16</time>
       
   </span>
 </li>
