@@ -26,7 +26,7 @@ googleAnalytics = "UA-132221741-1"
     license = "CC BY 4.0"
     licenseURL = "https://creativecommons.org/licenses/by/4.0"
     showBuiltWith = false
-    themeColor = "theme-base-09"
+    themeColor = "theme-base-0f"
     # layoutReverse = true
 
     # https://highlightjs.org
