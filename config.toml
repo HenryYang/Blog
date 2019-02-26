@@ -6,7 +6,7 @@ title = "Henry's Space"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
-# disqusShortname = "your-disqus-shortname"
+disqusShortname = "hiy-tw"
 googleAnalytics = "UA-132221741-1"
 # enableRobotsTXT = true
 
