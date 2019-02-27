@@ -382,6 +382,26 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/coding/linux_pam/</loc>
+    <lastmod>2016-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/linux_pam/</loc>
+    <lastmod>2016-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/life/tw_debit_withdraw/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/tw_debit_withdraw/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url>
@@ -497,6 +517,12 @@
   <url>
     <loc>https://hiy.tw/tags/chrome/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/cirrus/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -737,6 +763,12 @@
   <url>
     <loc>https://hiy.tw/tags/note-4x/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/pam/</loc>
+    <lastmod>2016-10-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

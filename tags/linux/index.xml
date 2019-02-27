@@ -33,5 +33,33 @@
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Linux 用 PAM 限制使用者登入</title>
+      <link>https://hiy.tw/coding/linux_pam/</link>
+      <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/linux_pam/</guid>
+      <description>&lt;h3 id=&#34;修改-etc-security-access-conf-這檔案&#34;&gt;修改 /etc/security/access.conf 這檔案&lt;/h3&gt;
+
+&lt;p&gt;然後在這檔案中新增下面指令 ( 請把下面的 root 跟 systemadmin 換成你自己的帳號 )&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-:ALL EXCEPT root sysadmin:ALL
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux 用 PAM 限制使用者登入</title>
+      <link>https://hiy.tw/posts/linux_pam/</link>
+      <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/linux_pam/</guid>
+      <description>&lt;h3 id=&#34;修改-etc-security-access-conf-這檔案&#34;&gt;修改 /etc/security/access.conf 這檔案&lt;/h3&gt;
+
+&lt;p&gt;然後在這檔案中新增下面指令 ( 請把下面的 root 跟 systemadmin 換成你自己的帳號 )&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-:ALL EXCEPT root sysadmin:ALL
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
   </channel>
 </rss>
