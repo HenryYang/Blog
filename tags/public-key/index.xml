@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Public Key on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/public-key/</link>
+    <description>Recent content in Public Key on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/public-key/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>查看公鑰 (Public Key) 的指紋 (fingerprint)</title>
+      <link>https://hiy.tw/posts/public_key_fingerprint/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/public_key_fingerprint/</guid>
+      <description>通常在使用 SSH 連線到一台新的主機的時候，系統會跳出該主機的公鑰 (Public Key) 所產生出來的指紋 (fingerprint)，這主要是用來確認我們連線到的機器是正確的與確保沒有遭受到中間人攻擊。 所以如果要確認自己的公鑰指紋，可以用以下的指令來獲得公鑰的指紋
+$ ssh-keygen -lf 公鑰名稱</description>
+    </item>
+    
+    <item>
+      <title>查看公鑰 (Public Key) 的指紋 (fingerprint)</title>
+      <link>https://hiy.tw/tech/public_key_fingerprint/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/public_key_fingerprint/</guid>
+      <description>通常在使用 SSH 連線到一台新的主機的時候，系統會跳出該主機的公鑰 (Public Key) 所產生出來的指紋 (fingerprint)，這主要是用來確認我們連線到的機器是正確的與確保沒有遭受到中間人攻擊。 所以如果要確認自己的公鑰指紋，可以用以下的指令來獲得公鑰的指紋
+$ ssh-keygen -lf 公鑰名稱</description>
+    </item>
+    
+  </channel>
+</rss>

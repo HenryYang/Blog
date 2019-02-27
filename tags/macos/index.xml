@@ -155,5 +155,49 @@
       <description>&lt;p&gt;目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>用 MacOS 安全的抹除硬碟 ( CLI 與 GUI 教學 )</title>
+      <link>https://hiy.tw/posts/macos_format_cli_gui/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/macos_format_cli_gui/</guid>
+      <description>&lt;p&gt;當硬碟要賣出或是要借人時，如果你覺得自己的過去已經刪除的資料很機密或是很見不得人，可以先把硬碟抹除乾淨，格式化與抹除的差異在於格式化只是修改了硬碟的檔頭，所以還是很有機會可以把資料救回來，而抹除則是寫入無意義的資料來佔滿空間，讓資料救援變的 &amp;ldquo;比較&amp;rdquo; 不可能。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用 MacOS 安全的抹除硬碟 ( CLI 與 GUI 教學 )</title>
+      <link>https://hiy.tw/tech/macos_format_cli_gui/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/macos_format_cli_gui/</guid>
+      <description>&lt;p&gt;當硬碟要賣出或是要借人時，如果你覺得自己的過去已經刪除的資料很機密或是很見不得人，可以先把硬碟抹除乾淨，格式化與抹除的差異在於格式化只是修改了硬碟的檔頭，所以還是很有機會可以把資料救回來，而抹除則是寫入無意義的資料來佔滿空間，讓資料救援變的 &amp;ldquo;比較&amp;rdquo; 不可能。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>完整移除 Parallels Desktop</title>
+      <link>https://hiy.tw/posts/parallels_desktop_remove/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/parallels_desktop_remove/</guid>
+      <description>就是升級到 OSX 10.11 後真的是踩雷大會，然後我的 Parallels Desktop 11 又在鬼打牆的狀況（EX：USB 裝置隨機失效、鍵盤滑鼠在抽筋）
+所以就決定把整個 Parallels 乾淨的移除，然後從官方的載點重新下載安裝
+ 
+這是一個搭配 shell script 的 Automator 的腳本程式，總之就是執行後輸入密碼，然後他會跳出一個終端機的視窗，不要關閉，等他程式跑完會跳出一個移除成功的訊息，這樣就算是完成乾淨的移除了
+接下來去官網載最新版的 DMG 安裝檔安裝就可以 註：不知道為什麼，我如果用 brew cask 安裝的還是會怪怪的，一定要用官方的 DMG 安裝載的才會正常</description>
+    </item>
+    
+    <item>
+      <title>完整移除 Parallels Desktop</title>
+      <link>https://hiy.tw/tech/parallels_desktop_remove/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/parallels_desktop_remove/</guid>
+      <description>就是升級到 OSX 10.11 後真的是踩雷大會，然後我的 Parallels Desktop 11 又在鬼打牆的狀況（EX：USB 裝置隨機失效、鍵盤滑鼠在抽筋）
+所以就決定把整個 Parallels 乾淨的移除，然後從官方的載點重新下載安裝
+ 
+這是一個搭配 shell script 的 Automator 的腳本程式，總之就是執行後輸入密碼，然後他會跳出一個終端機的視窗，不要關閉，等他程式跑完會跳出一個移除成功的訊息，這樣就算是完成乾淨的移除了
+接下來去官網載最新版的 DMG 安裝檔安裝就可以 註：不知道為什麼，我如果用 brew cask 安裝的還是會怪怪的，一定要用官方的 DMG 安裝載的才會正常</description>
+    </item>
+    
   </channel>
 </rss>

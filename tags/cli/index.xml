@@ -31,5 +31,23 @@
 &lt;p&gt;然後找到的方法就是要改 Profile 中的左或是右 Option 的功能定義，從原本的 Normal 改成 Esc+ 就可以了&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>用 MacOS 安全的抹除硬碟 ( CLI 與 GUI 教學 )</title>
+      <link>https://hiy.tw/posts/macos_format_cli_gui/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/macos_format_cli_gui/</guid>
+      <description>&lt;p&gt;當硬碟要賣出或是要借人時，如果你覺得自己的過去已經刪除的資料很機密或是很見不得人，可以先把硬碟抹除乾淨，格式化與抹除的差異在於格式化只是修改了硬碟的檔頭，所以還是很有機會可以把資料救回來，而抹除則是寫入無意義的資料來佔滿空間，讓資料救援變的 &amp;ldquo;比較&amp;rdquo; 不可能。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用 MacOS 安全的抹除硬碟 ( CLI 與 GUI 教學 )</title>
+      <link>https://hiy.tw/tech/macos_format_cli_gui/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/macos_format_cli_gui/</guid>
+      <description>&lt;p&gt;當硬碟要賣出或是要借人時，如果你覺得自己的過去已經刪除的資料很機密或是很見不得人，可以先把硬碟抹除乾淨，格式化與抹除的差異在於格式化只是修改了硬碟的檔頭，所以還是很有機會可以把資料救回來，而抹除則是寫入無意義的資料來佔滿空間，讓資料救援變的 &amp;ldquo;比較&amp;rdquo; 不可能。&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

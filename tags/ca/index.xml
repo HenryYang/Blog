@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ca on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/ca/</link>
+    <description>Recent content in Ca on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/ca/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在行動裝置上安裝 BurpSuite 所簽發的 Root CA 憑證</title>
+      <link>https://hiy.tw/coding/burpsuite_root_ca/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/burpsuite_root_ca/</guid>
+      <description>&lt;p&gt;通常要測試手機 App 時，大多數都會選擇用 MITM （中間人攻擊）的方式來達成，但也因為目前大多數服務都已經走 HTTPS 來傳遞資料，因此需要在手機端匯入做中間人攻擊的根憑證。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在行動裝置上安裝 BurpSuite 所簽發的 Root CA 憑證</title>
+      <link>https://hiy.tw/posts/burpsuite_root_ca/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/burpsuite_root_ca/</guid>
+      <description>&lt;p&gt;通常要測試手機 App 時，大多數都會選擇用 MITM （中間人攻擊）的方式來達成，但也因為目前大多數服務都已經走 HTTPS 來傳遞資料，因此需要在手機端匯入做中間人攻擊的根憑證。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

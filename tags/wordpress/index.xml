@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/wordpress/</link>
+    <description>Recent content in Wordpress on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSH 使用特殊阜來執行 Wordpress 線上更新</title>
+      <link>https://hiy.tw/coding/wordpress_update_ssh/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/wordpress_update_ssh/</guid>
+      <description>&lt;h3 id=&#34;ssh-使用特殊阜來執行-wordpress-線上更新&#34;&gt;SSH 使用特殊阜來執行 Wordpress 線上更新&lt;/h3&gt;
+
+&lt;p&gt;如果因為安全因素所以沒有開啟 FTP 服務，這樣就無法用 Wordpress 內建的線上更新執行系統、佈景或是外掛的更新，需要直接登入遠端主機修改或是直接覆蓋檔案來更新。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SSH 使用特殊阜來執行 Wordpress 線上更新</title>
+      <link>https://hiy.tw/posts/wordpress_update_ssh/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/wordpress_update_ssh/</guid>
+      <description>&lt;h3 id=&#34;ssh-使用特殊阜來執行-wordpress-線上更新&#34;&gt;SSH 使用特殊阜來執行 Wordpress 線上更新&lt;/h3&gt;
+
+&lt;p&gt;如果因為安全因素所以沒有開啟 FTP 服務，這樣就無法用 Wordpress 內建的線上更新執行系統、佈景或是外掛的更新，需要直接登入遠端主機修改或是直接覆蓋檔案來更新。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

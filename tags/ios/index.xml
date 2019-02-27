@@ -297,5 +297,57 @@
 &lt;/ul&gt;</description>
     </item>
     
+    <item>
+      <title>Android 與 iOS 查詢 ipv6 方式</title>
+      <link>https://hiy.tw/posts/android_ios_ipv6/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/android_ios_ipv6/</guid>
+      <description>&lt;p&gt;如果你所屬的網路環境已經有部屬了 ipv6 ，在行動裝置可以透過以下方式來知道 ipv6 相關資訊&lt;/p&gt;
+
+&lt;h3&gt;從 iOS 系統查詢 ( 限 iOS 10 系統)&lt;/h3&gt;
+
+&lt;p&gt;設定 -&amp;gt; WiFi ，然後點選你使用 WiFi 旁邊的藍色 i 符號，接下來往下滑就會看到 ipv6 相關資訊&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android 與 iOS 查詢 ipv6 方式</title>
+      <link>https://hiy.tw/tech/android_ios_ipv6/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/android_ios_ipv6/</guid>
+      <description>&lt;p&gt;如果你所屬的網路環境已經有部屬了 ipv6 ，在行動裝置可以透過以下方式來知道 ipv6 相關資訊&lt;/p&gt;
+
+&lt;h3&gt;從 iOS 系統查詢 ( 限 iOS 10 系統)&lt;/h3&gt;
+
+&lt;p&gt;設定 -&amp;gt; WiFi ，然後點選你使用 WiFi 旁邊的藍色 i 符號，接下來往下滑就會看到 ipv6 相關資訊&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iOS 8 Jailbreak 注意事項</title>
+      <link>https://hiy.tw/posts/ios8_jb/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/ios8_jb/</guid>
+      <description>因為 Apple 的 iTunes 在目前的 12 版本有對於驅動程式做修改，所以很有可能在 JB 就系統時會發生找不到設備的狀況
+因此解決方法是降級 iTunes 到 11.2 版本，讓 JB 程式可以正確辨認設備跟 iTunes
+注意，因為 OSX 的 iTunes 跟系統有強烈的相依性，所以降級務必選擇用 Windows 來處理
+iTunes 11.2 64位元下載網址
+iTunes 11.2 32位元下載網址</description>
+    </item>
+    
+    <item>
+      <title>iOS 8 Jailbreak 注意事項</title>
+      <link>https://hiy.tw/tech/ios8_jb/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ios8_jb/</guid>
+      <description>因為 Apple 的 iTunes 在目前的 12 版本有對於驅動程式做修改，所以很有可能在 JB 就系統時會發生找不到設備的狀況
+因此解決方法是降級 iTunes 到 11.2 版本，讓 JB 程式可以正確辨認設備跟 iTunes
+注意，因為 OSX 的 iTunes 跟系統有強烈的相依性，所以降級務必選擇用 Windows 來處理
+iTunes 11.2 64位元下載網址
+iTunes 11.2 32位元下載網址</description>
+    </item>
+    
   </channel>
 </rss>

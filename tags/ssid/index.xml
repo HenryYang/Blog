@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssid on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/ssid/</link>
+    <description>Recent content in Ssid on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/ssid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>讓自己的 WiFi SSID 排在最前面</title>
+      <link>https://hiy.tw/posts/wifi_ssid/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/wifi_ssid/</guid>
+      <description>&lt;p&gt;現在 WiFi 訊號隨處都是，但有時候會多到找不到自己的 WiFi 名稱到底跑到那邊去了&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>讓自己的 WiFi SSID 排在最前面</title>
+      <link>https://hiy.tw/tech/wifi_ssid/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/wifi_ssid/</guid>
+      <description>&lt;p&gt;現在 WiFi 訊號隨處都是，但有時候會多到找不到自己的 WiFi 名稱到底跑到那邊去了&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

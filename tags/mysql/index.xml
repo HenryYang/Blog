@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/mysql/</link>
+    <description>Recent content in Mysql on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>phpMyAdmin 出現 &#39;缺少 mcrypt 擴充套件&#39; 解決方法</title>
+      <link>https://hiy.tw/coding/phpmyadmin_mcrypt/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/phpmyadmin_mcrypt/</guid>
+      <description>目前在各版本 Linux 上所安裝 MySQL 後理論上都會把相關套件裝起來，所以當你確定你有裝過 mcrypt 但是系統又是一直在跳警示，可能會是模組沒有被啟用，所以可以嘗試看看以下指令把模組啟用起來
+註：需要最高權限或是使用 sudo 來執行
+啟用 mcrypt 模組 sudo php5enmod mcrypt
+重新啟動 Apache 服務 sudo service apache2 restart
+這樣再重新登入 phpMyAdmin 就不會再跳出警示了</description>
+    </item>
+    
+    <item>
+      <title>phpMyAdmin 出現 &#39;缺少 mcrypt 擴充套件&#39; 解決方法</title>
+      <link>https://hiy.tw/posts/phpmyadmin_mcrypt/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/phpmyadmin_mcrypt/</guid>
+      <description>目前在各版本 Linux 上所安裝 MySQL 後理論上都會把相關套件裝起來，所以當你確定你有裝過 mcrypt 但是系統又是一直在跳警示，可能會是模組沒有被啟用，所以可以嘗試看看以下指令把模組啟用起來
+註：需要最高權限或是使用 sudo 來執行
+啟用 mcrypt 模組 sudo php5enmod mcrypt
+重新啟動 Apache 服務 sudo service apache2 restart
+這樣再重新登入 phpMyAdmin 就不會再跳出警示了</description>
+    </item>
+    
+  </channel>
+</rss>

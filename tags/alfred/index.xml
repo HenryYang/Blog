@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alfred on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/alfred/</link>
+    <description>Recent content in Alfred on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/alfred/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>讓 Alfred 也可以找到用 Brew Cask 所安裝的應用程式</title>
+      <link>https://hiy.tw/posts/alfred_brew_cask/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/alfred_brew_cask/</guid>
+      <description>因為預設 Alfred 是抓 /Application 下的應用程式，但是 brew cask 預設是裝在 /private/etc/Caskroom/ 所要要去 Alfred 設定裡的 Search Scope 中加上 /private/etc/Caskroom 這位置來讓 alfred 去爬到已安裝的應用程式</description>
+    </item>
+    
+    <item>
+      <title>讓 Alfred 也可以找到用 Brew Cask 所安裝的應用程式</title>
+      <link>https://hiy.tw/tech/alfred_brew_cask/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/alfred_brew_cask/</guid>
+      <description>因為預設 Alfred 是抓 /Application 下的應用程式，但是 brew cask 預設是裝在 /private/etc/Caskroom/ 所要要去 Alfred 設定裡的 Search Scope 中加上 /private/etc/Caskroom 這位置來讓 alfred 去爬到已安裝的應用程式</description>
+    </item>
+    
+  </channel>
+</rss>

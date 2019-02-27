@@ -422,6 +422,106 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/android_free_space/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/android_free_space/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/macos_format_cli_gui/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/macos_format_cli_gui/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/life/fet_icloud/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/fet_icloud/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/android_ios_ipv6/</loc>
+    <lastmod>2016-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/android_ios_ipv6/</loc>
+    <lastmod>2016-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/ipv6_browser/</loc>
+    <lastmod>2016-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/ipv6_browser/</loc>
+    <lastmod>2016-08-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/win10_sn/</loc>
+    <lastmod>2016-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/win10_sn/</loc>
+    <lastmod>2016-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/cht_ipv6/</loc>
+    <lastmod>2016-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/cht_ipv6/</loc>
+    <lastmod>2016-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/coding/wordpress_update_ssh/</loc>
+    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/wordpress_update_ssh/</loc>
+    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/coding/burpsuite_root_ca/</loc>
+    <lastmod>2016-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/burpsuite_root_ca/</loc>
+    <lastmod>2016-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/wifi_ssid/</loc>
+    <lastmod>2016-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/wifi_ssid/</loc>
+    <lastmod>2016-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/retired_from_military_service/</loc>
     <lastmod>2016-06-08T00:00:00+00:00</lastmod>
   </url>
@@ -429,6 +529,66 @@
   <url>
     <loc>https://hiy.tw/posts/retired_from_military_service/</loc>
     <lastmod>2016-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/parallels_desktop_remove/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/parallels_desktop_remove/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/brew_cask_error/</loc>
+    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/brew_cask_error/</loc>
+    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/public_key_fingerprint/</loc>
+    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/public_key_fingerprint/</loc>
+    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/alfred_brew_cask/</loc>
+    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/alfred_brew_cask/</loc>
+    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/ios8_jb/</loc>
+    <lastmod>2015-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/ios8_jb/</loc>
+    <lastmod>2015-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/coding/phpmyadmin_mcrypt/</loc>
+    <lastmod>2015-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/phpmyadmin_mcrypt/</loc>
+    <lastmod>2015-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -452,6 +612,12 @@
   <url>
     <loc>https://hiy.tw/tags/airplay/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/alfred/</loc>
+    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -498,6 +664,24 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/brew/</loc>
+    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/burpsuite/</loc>
+    <lastmod>2016-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/ca/</loc>
+    <lastmod>2016-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/categories/</loc>
     <priority>0</priority>
   </url>
@@ -517,6 +701,12 @@
   <url>
     <loc>https://hiy.tw/tags/chrome/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/cht/</loc>
+    <lastmod>2016-08-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -623,6 +813,12 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/fet/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/filevault/</loc>
     <lastmod>2018-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -631,6 +827,12 @@
   <url>
     <loc>https://hiy.tw/tags/firefox/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/format/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -649,6 +851,12 @@
   <url>
     <loc>https://hiy.tw/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/icloud/</loc>
+    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -685,6 +893,12 @@
   <url>
     <loc>https://hiy.tw/tags/itunes/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/jailbreak/</loc>
+    <lastmod>2015-11-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -755,6 +969,12 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/mysql/</loc>
+    <lastmod>2015-11-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/nat64/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -773,6 +993,12 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/phpmyadmin/</loc>
+    <lastmod>2015-11-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/posts/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -781,6 +1007,12 @@
   <url>
     <loc>https://hiy.tw/tags/profile-manager/</loc>
     <lastmod>2018-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/public-key/</loc>
+    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -823,6 +1055,12 @@
   <url>
     <loc>https://hiy.tw/tags/ssh/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/ssid/</loc>
+    <lastmod>2016-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -894,6 +1132,18 @@
   <url>
     <loc>https://hiy.tw/tags/wifi/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/windows-10/</loc>
+    <lastmod>2016-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/wordpress/</loc>
+    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

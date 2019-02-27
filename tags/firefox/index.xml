@@ -33,5 +33,27 @@
 &lt;p&gt;所以就是可以自己來檢查看看有沒有被允許的陌生或是不認識網站正在執行 Service Worker，如果曾經有允許網站的推播基本上都會出現。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>在網址列正確連上 ipv6 方式</title>
+      <link>https://hiy.tw/posts/ipv6_browser/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/ipv6_browser/</guid>
+      <description>&lt;p&gt;不知道大家有沒有在網址列輸入 ipv6 位置後是被轉跳到 Google 搜尋而非連線到主機的經驗，就算前面有加 https:// 也都還是一樣。&lt;/p&gt;
+
+&lt;p&gt;其實是因為如果要讓瀏覽器正確辨識你到底是要搜尋還是連線，因此你需要把 ipv6 用 [] 包起來&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在網址列正確連上 ipv6 方式</title>
+      <link>https://hiy.tw/tech/ipv6_browser/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ipv6_browser/</guid>
+      <description>&lt;p&gt;不知道大家有沒有在網址列輸入 ipv6 位置後是被轉跳到 Google 搜尋而非連線到主機的經驗，就算前面有加 https:// 也都還是一樣。&lt;/p&gt;
+
+&lt;p&gt;其實是因為如果要讓瀏覽器正確辨識你到底是要搜尋還是連線，因此你需要把 ipv6 用 [] 包起來&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

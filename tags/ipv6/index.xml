@@ -45,5 +45,75 @@
 &lt;/ul&gt;</description>
     </item>
     
+    <item>
+      <title>Android 與 iOS 查詢 ipv6 方式</title>
+      <link>https://hiy.tw/posts/android_ios_ipv6/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/android_ios_ipv6/</guid>
+      <description>&lt;p&gt;如果你所屬的網路環境已經有部屬了 ipv6 ，在行動裝置可以透過以下方式來知道 ipv6 相關資訊&lt;/p&gt;
+
+&lt;h3&gt;從 iOS 系統查詢 ( 限 iOS 10 系統)&lt;/h3&gt;
+
+&lt;p&gt;設定 -&amp;gt; WiFi ，然後點選你使用 WiFi 旁邊的藍色 i 符號，接下來往下滑就會看到 ipv6 相關資訊&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android 與 iOS 查詢 ipv6 方式</title>
+      <link>https://hiy.tw/tech/android_ios_ipv6/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/android_ios_ipv6/</guid>
+      <description>&lt;p&gt;如果你所屬的網路環境已經有部屬了 ipv6 ，在行動裝置可以透過以下方式來知道 ipv6 相關資訊&lt;/p&gt;
+
+&lt;h3&gt;從 iOS 系統查詢 ( 限 iOS 10 系統)&lt;/h3&gt;
+
+&lt;p&gt;設定 -&amp;gt; WiFi ，然後點選你使用 WiFi 旁邊的藍色 i 符號，接下來往下滑就會看到 ipv6 相關資訊&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在網址列正確連上 ipv6 方式</title>
+      <link>https://hiy.tw/posts/ipv6_browser/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/ipv6_browser/</guid>
+      <description>&lt;p&gt;不知道大家有沒有在網址列輸入 ipv6 位置後是被轉跳到 Google 搜尋而非連線到主機的經驗，就算前面有加 https:// 也都還是一樣。&lt;/p&gt;
+
+&lt;p&gt;其實是因為如果要讓瀏覽器正確辨識你到底是要搜尋還是連線，因此你需要把 ipv6 用 [] 包起來&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在網址列正確連上 ipv6 方式</title>
+      <link>https://hiy.tw/tech/ipv6_browser/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ipv6_browser/</guid>
+      <description>&lt;p&gt;不知道大家有沒有在網址列輸入 ipv6 位置後是被轉跳到 Google 搜尋而非連線到主機的經驗，就算前面有加 https:// 也都還是一樣。&lt;/p&gt;
+
+&lt;p&gt;其實是因為如果要讓瀏覽器正確辨識你到底是要搜尋還是連線，因此你需要把 ipv6 用 [] 包起來&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>中華電信 ipv6 相關資訊筆記</title>
+      <link>https://hiy.tw/posts/cht_ipv6/</link>
+      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/cht_ipv6/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://123.cht.com.tw/eCAS/B8W&#34;&gt;中華電信 ipv6 線上申辦&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;光世代 FTTH 所提供的 040GW 數據機的 PPPOE 撥號不提供 ipv6&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>中華電信 ipv6 相關資訊筆記</title>
+      <link>https://hiy.tw/tech/cht_ipv6/</link>
+      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/cht_ipv6/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://123.cht.com.tw/eCAS/B8W&#34;&gt;中華電信 ipv6 線上申辦&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;光世代 FTTH 所提供的 040GW 數據機的 PPPOE 撥號不提供 ipv6&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

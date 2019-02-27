@@ -297,5 +297,131 @@
       <description>&lt;p&gt;目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>搾出舊 Android 手機的空間</title>
+      <link>https://hiy.tw/tech/android_free_space/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/android_free_space/</guid>
+      <description>&lt;p&gt;或許大家也都會有經驗，舊的 Android 手機（尤其是品牌手機）明明已經回復過出廠設定而且已經沒有額外多裝其他軟體，但空間還是顯示快滿了，這到底是為什麼呢？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用 MacOS 安全的抹除硬碟 ( CLI 與 GUI 教學 )</title>
+      <link>https://hiy.tw/tech/macos_format_cli_gui/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/macos_format_cli_gui/</guid>
+      <description>&lt;p&gt;當硬碟要賣出或是要借人時，如果你覺得自己的過去已經刪除的資料很機密或是很見不得人，可以先把硬碟抹除乾淨，格式化與抹除的差異在於格式化只是修改了硬碟的檔頭，所以還是很有機會可以把資料救回來，而抹除則是寫入無意義的資料來佔滿空間，讓資料救援變的 &amp;ldquo;比較&amp;rdquo; 不可能。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android 與 iOS 查詢 ipv6 方式</title>
+      <link>https://hiy.tw/tech/android_ios_ipv6/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/android_ios_ipv6/</guid>
+      <description>&lt;p&gt;如果你所屬的網路環境已經有部屬了 ipv6 ，在行動裝置可以透過以下方式來知道 ipv6 相關資訊&lt;/p&gt;
+
+&lt;h3&gt;從 iOS 系統查詢 ( 限 iOS 10 系統)&lt;/h3&gt;
+
+&lt;p&gt;設定 -&amp;gt; WiFi ，然後點選你使用 WiFi 旁邊的藍色 i 符號，接下來往下滑就會看到 ipv6 相關資訊&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在網址列正確連上 ipv6 方式</title>
+      <link>https://hiy.tw/tech/ipv6_browser/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ipv6_browser/</guid>
+      <description>&lt;p&gt;不知道大家有沒有在網址列輸入 ipv6 位置後是被轉跳到 Google 搜尋而非連線到主機的經驗，就算前面有加 https:// 也都還是一樣。&lt;/p&gt;
+
+&lt;p&gt;其實是因為如果要讓瀏覽器正確辨識你到底是要搜尋還是連線，因此你需要把 ipv6 用 [] 包起來&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows 10 序號使用限制</title>
+      <link>https://hiy.tw/tech/win10_sn/</link>
+      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/win10_sn/</guid>
+      <description>&lt;p&gt;實測結果，如果序號來源是 &amp;ldquo;&lt;strong&gt;由舊版 Windows 升級到 Windows 10 時所產生&lt;/strong&gt;&amp;ldquo;的拿來給全新安裝的 Windows 10 是  &amp;ldquo;&lt;strong&gt;可以被系統辨識版本，但是無法啟用的！&lt;/strong&gt;&amp;ldquo;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>中華電信 ipv6 相關資訊筆記</title>
+      <link>https://hiy.tw/tech/cht_ipv6/</link>
+      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/cht_ipv6/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://123.cht.com.tw/eCAS/B8W&#34;&gt;中華電信 ipv6 線上申辦&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;光世代 FTTH 所提供的 040GW 數據機的 PPPOE 撥號不提供 ipv6&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>讓自己的 WiFi SSID 排在最前面</title>
+      <link>https://hiy.tw/tech/wifi_ssid/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/wifi_ssid/</guid>
+      <description>&lt;p&gt;現在 WiFi 訊號隨處都是，但有時候會多到找不到自己的 WiFi 名稱到底跑到那邊去了&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>完整移除 Parallels Desktop</title>
+      <link>https://hiy.tw/tech/parallels_desktop_remove/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/parallels_desktop_remove/</guid>
+      <description>就是升級到 OSX 10.11 後真的是踩雷大會，然後我的 Parallels Desktop 11 又在鬼打牆的狀況（EX：USB 裝置隨機失效、鍵盤滑鼠在抽筋）
+所以就決定把整個 Parallels 乾淨的移除，然後從官方的載點重新下載安裝
+ 
+這是一個搭配 shell script 的 Automator 的腳本程式，總之就是執行後輸入密碼，然後他會跳出一個終端機的視窗，不要關閉，等他程式跑完會跳出一個移除成功的訊息，這樣就算是完成乾淨的移除了
+接下來去官網載最新版的 DMG 安裝檔安裝就可以 註：不知道為什麼，我如果用 brew cask 安裝的還是會怪怪的，一定要用官方的 DMG 安裝載的才會正常</description>
+    </item>
+    
+    <item>
+      <title>brew cask 安裝軟體時跳出權限錯誤</title>
+      <link>https://hiy.tw/tech/brew_cask_error/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/brew_cask_error/</guid>
+      <description>通常這狀況都是出現在 OSX 10.11 ，因為系統對於根目錄的權限有做調整，因此輸入下列指令來讓目前使用者有權限存取就可以了
+$ sudo chown -R $(whoami):admin /etc/Caskroom</description>
+    </item>
+    
+    <item>
+      <title>查看公鑰 (Public Key) 的指紋 (fingerprint)</title>
+      <link>https://hiy.tw/tech/public_key_fingerprint/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/public_key_fingerprint/</guid>
+      <description>通常在使用 SSH 連線到一台新的主機的時候，系統會跳出該主機的公鑰 (Public Key) 所產生出來的指紋 (fingerprint)，這主要是用來確認我們連線到的機器是正確的與確保沒有遭受到中間人攻擊。 所以如果要確認自己的公鑰指紋，可以用以下的指令來獲得公鑰的指紋
+$ ssh-keygen -lf 公鑰名稱</description>
+    </item>
+    
+    <item>
+      <title>讓 Alfred 也可以找到用 Brew Cask 所安裝的應用程式</title>
+      <link>https://hiy.tw/tech/alfred_brew_cask/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/alfred_brew_cask/</guid>
+      <description>因為預設 Alfred 是抓 /Application 下的應用程式，但是 brew cask 預設是裝在 /private/etc/Caskroom/ 所要要去 Alfred 設定裡的 Search Scope 中加上 /private/etc/Caskroom 這位置來讓 alfred 去爬到已安裝的應用程式</description>
+    </item>
+    
+    <item>
+      <title>iOS 8 Jailbreak 注意事項</title>
+      <link>https://hiy.tw/tech/ios8_jb/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ios8_jb/</guid>
+      <description>因為 Apple 的 iTunes 在目前的 12 版本有對於驅動程式做修改，所以很有可能在 JB 就系統時會發生找不到設備的狀況
+因此解決方法是降級 iTunes 到 11.2 版本，讓 JB 程式可以正確辨認設備跟 iTunes
+注意，因為 OSX 的 iTunes 跟系統有強烈的相依性，所以降級務必選擇用 Windows 來處理
+iTunes 11.2 64位元下載網址
+iTunes 11.2 32位元下載網址</description>
+    </item>
+    
   </channel>
 </rss>

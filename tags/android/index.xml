@@ -97,5 +97,49 @@
 &lt;/ul&gt;</description>
     </item>
     
+    <item>
+      <title>搾出舊 Android 手機的空間</title>
+      <link>https://hiy.tw/posts/android_free_space/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/android_free_space/</guid>
+      <description>&lt;p&gt;或許大家也都會有經驗，舊的 Android 手機（尤其是品牌手機）明明已經回復過出廠設定而且已經沒有額外多裝其他軟體，但空間還是顯示快滿了，這到底是為什麼呢？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>搾出舊 Android 手機的空間</title>
+      <link>https://hiy.tw/tech/android_free_space/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/android_free_space/</guid>
+      <description>&lt;p&gt;或許大家也都會有經驗，舊的 Android 手機（尤其是品牌手機）明明已經回復過出廠設定而且已經沒有額外多裝其他軟體，但空間還是顯示快滿了，這到底是為什麼呢？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android 與 iOS 查詢 ipv6 方式</title>
+      <link>https://hiy.tw/posts/android_ios_ipv6/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/android_ios_ipv6/</guid>
+      <description>&lt;p&gt;如果你所屬的網路環境已經有部屬了 ipv6 ，在行動裝置可以透過以下方式來知道 ipv6 相關資訊&lt;/p&gt;
+
+&lt;h3&gt;從 iOS 系統查詢 ( 限 iOS 10 系統)&lt;/h3&gt;
+
+&lt;p&gt;設定 -&amp;gt; WiFi ，然後點選你使用 WiFi 旁邊的藍色 i 符號，接下來往下滑就會看到 ipv6 相關資訊&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Android 與 iOS 查詢 ipv6 方式</title>
+      <link>https://hiy.tw/tech/android_ios_ipv6/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/android_ios_ipv6/</guid>
+      <description>&lt;p&gt;如果你所屬的網路環境已經有部屬了 ipv6 ，在行動裝置可以透過以下方式來知道 ipv6 相關資訊&lt;/p&gt;
+
+&lt;h3&gt;從 iOS 系統查詢 ( 限 iOS 10 系統)&lt;/h3&gt;
+
+&lt;p&gt;設定 -&amp;gt; WiFi ，然後點選你使用 WiFi 旁邊的藍色 i 符號，接下來往下滑就會看到 ipv6 相關資訊&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

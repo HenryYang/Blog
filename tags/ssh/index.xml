@@ -31,5 +31,27 @@
 &lt;p&gt;這其實不是設備壞了或是 JB 沒有處理好，而是 iOS 10 對於 OpenSSH 有相容性問題，所以作者改使用 dropbear 這套來代替，但是預設他只允許 127.0.0.1 的設備登入想當然的你用 WiFi 當然不會給你登入的。所以解法就是把 IPA 裡面的 Plist 修改後在重新簽署安裝。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>SSH 使用特殊阜來執行 Wordpress 線上更新</title>
+      <link>https://hiy.tw/coding/wordpress_update_ssh/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/coding/wordpress_update_ssh/</guid>
+      <description>&lt;h3 id=&#34;ssh-使用特殊阜來執行-wordpress-線上更新&#34;&gt;SSH 使用特殊阜來執行 Wordpress 線上更新&lt;/h3&gt;
+
+&lt;p&gt;如果因為安全因素所以沒有開啟 FTP 服務，這樣就無法用 Wordpress 內建的線上更新執行系統、佈景或是外掛的更新，需要直接登入遠端主機修改或是直接覆蓋檔案來更新。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SSH 使用特殊阜來執行 Wordpress 線上更新</title>
+      <link>https://hiy.tw/posts/wordpress_update_ssh/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/wordpress_update_ssh/</guid>
+      <description>&lt;h3 id=&#34;ssh-使用特殊阜來執行-wordpress-線上更新&#34;&gt;SSH 使用特殊阜來執行 Wordpress 線上更新&lt;/h3&gt;
+
+&lt;p&gt;如果因為安全因素所以沒有開啟 FTP 服務，這樣就無法用 Wordpress 內建的線上更新執行系統、佈景或是外掛的更新，需要直接登入遠端主機修改或是直接覆蓋檔案來更新。&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
