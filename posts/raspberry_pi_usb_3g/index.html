@@ -11,7 +11,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.55.0-DEV" />
+<meta name="generator" content="Hugo 0.54.0" />
 
     
     
@@ -239,35 +239,28 @@
 
 <h4 id="下載軟體">下載軟體</h4>
 
-<pre><code class="language-wget"></code></pre>
+<p><code>wget &quot;http://raspberry-at-home.com/files/sakis3g.tar.gz&quot;</code>
+<code>tar -zxvf sakis3g.tar.gz -C .</code>
+<code>sudo chmod +x sakis3g</code></p>
 
-<p>tar -zxvf sakis3g.tar.gz -C . ```</p>
+<h4 id="執行服務">執行服務</h4>
 
-<pre><code class="language-sudo">
+<p>對，這樣就算是安裝完成了，只是請記得要使用 ROOT 權限或是使用 sudo 來執行這程式</p>
 
-#### 執行服務
+<p>如果要用互動式介面就輸入
+<code>sakis3g --interactive</code></p>
 
-對，這樣就算是安裝完成了，只是請記得要使用 ROOT 權限或是使用 sudo 來執行這程式
+<p>如果想直接連線就輸入（注意就算你的電信商不用設定 APN 的帳號密碼也請隨意輸入，不然會錯誤）
+<code>sakis3g connect APN=internet APN_USER=&quot;123&quot; APN_PASS=&quot;123&quot;</code></p>
 
-如果要用互動式介面就輸入
-</code></pre>
-
-<p>sakis3g &ndash;interactive```</p>
-
-<p>如果想直接連線就輸入（注意就算你的電信商不用設定 APN 的帳號密碼也請隨意輸入，不然會錯誤）</p>
-
-<pre><code class="language-sakis3g">
-如果想要斷線可以輸入
-</code></pre>
-
-<p>sakis3g disconnect```</p>
+<p>如果想要斷線可以輸入
+<code>sakis3g disconnect</code></p>
 
 <h4 id="如果覺得指令太常可以搭配-alias-使用-預設檔案是放在-pi-的家目錄下">如果覺得指令太常可以搭配 alias 使用 (預設檔案是放在 pi 的家目錄下)</h4>
 
-<pre><code class="language-echo">
-</code></pre>
+<p><code>echo &quot;alias 3gup='sudo /home/pi/sakis3g connect APN=internet APN_USER=&quot;123&quot; APN_PASS=&quot;123&quot;'&quot; &gt;&gt; ~/.bashrc</code></p>
 
-<p>echo &ldquo;alias 3gdown=&lsquo;sudo /home/pi/sakis3g disconnect &lsquo;&rdquo; &gt;&gt; ~/.bashrc ```</p>
+<p><code>echo &quot;alias 3gdown='sudo /home/pi/sakis3g disconnect '&quot; &gt;&gt; ~/.bashrc</code></p>
 
 <p>這樣就可以直接用 3gup 跟 3gdown 這指令來建立與關閉 3G 行動網路的連線了</p>
 

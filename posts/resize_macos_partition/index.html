@@ -11,7 +11,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.55.0-DEV" />
+<meta name="generator" content="Hugo 0.54.0" />
 
     
     
@@ -232,13 +232,11 @@
 
 <p>這指令用來先確認你的調整的硬碟系統代號為何（ 就是 IDENTIFIER 這欄位）</p>
 
-<pre><code class="language-diskutil">
+<p><code>diskutil list</code></p>
 
-然後就可以輸入
+<p>然後就可以輸入</p>
 
-</code></pre>
-
-<p>diskutil resizeVolume  剛剛上面找到的名稱 你要的容量```</p>
+<p><code>diskutil resizeVolume  剛剛上面找到的名稱 你要的容量</code></p>
 
 <p>然後系統就會開始執行，只要執行完成沒有錯誤就可以重開機，重開完就可以看到分割區容量變大了</p>
 

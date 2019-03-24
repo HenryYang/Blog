@@ -6,10 +6,40 @@
     <description>Recent content in Jb on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hiy.tw/tags/jb/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>讓舊版 iOS 無法自動更新（2019年試用）</title>
+      <link>https://hiy.tw/posts/ios_autoupdate_disable/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/ios_autoupdate_disable/</guid>
+      <description>故事很簡單，就是 iOS 12 之後就已經支援不要讓系統自動更新到最新版的 iOS 功能。但是對於我這種需要留在 iOS 10 做測試的人就還是會很困擾。
+過去網路上的教學是安裝 tvOS 的測試用描述檔，安裝後會變成都抓 tvOS 的來源檔案，但是因為跟 iPhone 不同，這樣就會造成找不到更新版的問題。但這問題就是我們想達到的不要被更新的目的。
+目前繁體中文的教學中都是提供舊版的 tvOS 11 測試用描述檔 ，因為時效已經過期所以無法再安裝了。
+這邊我找到在 https://betaprofiles.com/ 有提供目前最新的 tvOS 12 的測試用描述檔，所以只要安裝了它並重開就可以達到找不到更新的目的。
+ 
+此外，如果在安裝之前系統就偷偷的把更新檔下載下來，這時候系統還是會顯示立刻安裝。
+請點選 設定 -&amp;gt; 一般 -&amp;gt; 儲存空間與 iCloud 用量 -&amp;gt; 管理儲存空間，找到 找到 iOS 更新檔，把它刪除後再重開機。這樣就完成了另類的關閉自動更新。</description>
+    </item>
+    
+    <item>
+      <title>讓舊版 iOS 無法自動更新（2019年試用）</title>
+      <link>https://hiy.tw/tech/ios_autoupdate_disable/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/ios_autoupdate_disable/</guid>
+      <description>故事很簡單，就是 iOS 12 之後就已經支援不要讓系統自動更新到最新版的 iOS 功能。但是對於我這種需要留在 iOS 10 做測試的人就還是會很困擾。
+過去網路上的教學是安裝 tvOS 的測試用描述檔，安裝後會變成都抓 tvOS 的來源檔案，但是因為跟 iPhone 不同，這樣就會造成找不到更新版的問題。但這問題就是我們想達到的不要被更新的目的。
+目前繁體中文的教學中都是提供舊版的 tvOS 11 測試用描述檔 ，因為時效已經過期所以無法再安裝了。
+這邊我找到在 https://betaprofiles.com/ 有提供目前最新的 tvOS 12 的測試用描述檔，所以只要安裝了它並重開就可以達到找不到更新的目的。
+ 
+此外，如果在安裝之前系統就偷偷的把更新檔下載下來，這時候系統還是會顯示立刻安裝。
+請點選 設定 -&amp;gt; 一般 -&amp;gt; 儲存空間與 iCloud 用量 -&amp;gt; 管理儲存空間，找到 找到 iOS 更新檔，把它刪除後再重開機。這樣就完成了另類的關閉自動更新。</description>
+    </item>
     
     <item>
       <title>把使用 Yalu 來 JB 的 iOS 10 裝置開啟透過 WiFi 連接 SSH</title>

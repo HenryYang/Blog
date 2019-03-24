@@ -17,6 +17,16 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/posts/ios_autoupdate_disable/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tech/ios_autoupdate_disable/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/life/paypal_543/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url>
@@ -860,7 +870,7 @@
   
   <url>
     <loc>https://hiy.tw/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -872,7 +882,13 @@
   
   <url>
     <loc>https://hiy.tw/tags/ios/</loc>
-    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/ios-12/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -926,7 +942,7 @@
   
   <url>
     <loc>https://hiy.tw/tags/jb/</loc>
-    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1016,7 +1032,7 @@
   
   <url>
     <loc>https://hiy.tw/posts/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1106,7 +1122,7 @@
   
   <url>
     <loc>https://hiy.tw/tech/</loc>
-    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
