@@ -1,5 +1,5 @@
 ---
-title: "讓舊版 iOS 無法自動更新（2019年試用）"
+title: "讓舊版 iOS 無法自動更新（2019年適用）"
 draft: false
 date: 2019-03-24
 tags: ["iOS", "iOS 12", "JB"]
