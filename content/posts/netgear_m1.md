@@ -9,7 +9,7 @@ tags: ["AP", "4G", "Netgear"]
 ### 如果你沒看過外觀，現在讓你看看
 
 <center>
-![](https://hiy.twlife/netgear_m1/1.jpg)
+![](https://hiy.tw/life/netgear_m1/1.jpg)
 </center>
 
 
@@ -23,7 +23,7 @@ tags: ["AP", "4G", "Netgear"]
 然後又因為美國版本太難買且有太多冷門的頻道，所以這邊就主要比較 **澳洲** **香港** 兩個版本的 LTE 在我會去的國家使用上的差異。
 
 <center>
-![](https://hiy.twlife/netgear_m1/2.png)
+![](https://hiy.tw/life/netgear_m1/2.png)
 </center>
 
 P.S. Docomo 還支援了 B9, B19, B21 這幾個 M1 不支援的頻段
@@ -54,7 +54,7 @@ P.S. Docomo 還支援了 B9, B19, B21 這幾個 M1 不支援的頻段
 
 
 <center>
-![](https://hiy.twlife/netgear_m1/3.jpg)
+![](https://hiy.tw/life/netgear_m1/3.jpg)
 </center>
 
 
