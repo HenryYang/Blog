@@ -6,80 +6,125 @@
     <description>Recent content in Tags on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hiy.tw/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>360</title>
-      <link>https://hiy.tw/tags/360/</link>
-      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      <title>4G</title>
+      <link>https://hiy.tw/tags/4g/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/360/</guid>
+      <guid>https://hiy.tw/tags/4g/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>3g</title>
-      <link>https://hiy.tw/tags/3g/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      <title>AP</title>
+      <link>https://hiy.tw/tags/ap/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/3g/</guid>
+      <guid>https://hiy.tw/tags/ap/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Adb</title>
-      <link>https://hiy.tw/tags/adb/</link>
-      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      <title>Netgear</title>
+      <link>https://hiy.tw/tags/netgear/</link>
+      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/adb/</guid>
+      <guid>https://hiy.tw/tags/netgear/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Airplay</title>
-      <link>https://hiy.tw/tags/airplay/</link>
-      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      <title>JB</title>
+      <link>https://hiy.tw/tags/jb/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/airplay/</guid>
+      <guid>https://hiy.tw/tags/jb/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Alfred</title>
-      <link>https://hiy.tw/tags/alfred/</link>
-      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      <title>iOS 12</title>
+      <link>https://hiy.tw/tags/ios-12/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/alfred/</guid>
+      <guid>https://hiy.tw/tags/ios-12/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Andorid</title>
-      <link>https://hiy.tw/tags/andorid/</link>
-      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
+      <title>ios</title>
+      <link>https://hiy.tw/tags/ios/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/andorid/</guid>
+      <guid>https://hiy.tw/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Android</title>
-      <link>https://hiy.tw/tags/android/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <title>PayPal</title>
+      <link>https://hiy.tw/tags/paypal/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/android/</guid>
+      <guid>https://hiy.tw/tags/paypal/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>App</title>
-      <link>https://hiy.tw/tags/app/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <title>JAL</title>
+      <link>https://hiy.tw/tags/jal/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/app/</guid>
+      <guid>https://hiy.tw/tags/jal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WiFi</title>
+      <link>https://hiy.tw/tags/wifi/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/wifi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>故障排除</title>
+      <link>https://hiy.tw/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FileVault</title>
+      <link>https://hiy.tw/tags/filevault/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/filevault/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Profile Manager</title>
+      <link>https://hiy.tw/tags/profile-manager/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/profile-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://hiy.tw/tags/macos/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/macos/</guid>
       <description></description>
     </item>
     
@@ -102,65 +147,92 @@
     </item>
     
     <item>
-      <title>Bin</title>
-      <link>https://hiy.tw/tags/bin/</link>
-      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      <title>電子票證</title>
+      <link>https://hiy.tw/tags/%E9%9B%BB%E5%AD%90%E7%A5%A8%E8%AD%89/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/bin/</guid>
+      <guid>https://hiy.tw/tags/%E9%9B%BB%E5%AD%90%E7%A5%A8%E8%AD%89/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bmobile</title>
-      <link>https://hiy.tw/tags/bmobile/</link>
-      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      <title>Gift Card</title>
+      <link>https://hiy.tw/tags/gift-card/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/bmobile/</guid>
+      <guid>https://hiy.tw/tags/gift-card/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Brew</title>
-      <link>https://hiy.tw/tags/brew/</link>
-      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      <title>VISA</title>
+      <link>https://hiy.tw/tags/visa/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/brew/</guid>
+      <guid>https://hiy.tw/tags/visa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Burpsuite</title>
-      <link>https://hiy.tw/tags/burpsuite/</link>
-      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
+      <title>iTunes</title>
+      <link>https://hiy.tw/tags/itunes/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/burpsuite/</guid>
+      <guid>https://hiy.tw/tags/itunes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ca</title>
-      <link>https://hiy.tw/tags/ca/</link>
-      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
+      <title>japan</title>
+      <link>https://hiy.tw/tags/japan/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/ca/</guid>
+      <guid>https://hiy.tw/tags/japan/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cellular</title>
-      <link>https://hiy.tw/tags/cellular/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      <title>Keychain</title>
+      <link>https://hiy.tw/tags/keychain/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/cellular/</guid>
+      <guid>https://hiy.tw/tags/keychain/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>China</title>
-      <link>https://hiy.tw/tags/china/</link>
-      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      <title>ESXI</title>
+      <link>https://hiy.tw/tags/esxi/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/china/</guid>
+      <guid>https://hiy.tw/tags/esxi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://hiy.tw/tags/linux/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VM</title>
+      <link>https://hiy.tw/tags/vm/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/vm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>swap</title>
+      <link>https://hiy.tw/tags/swap/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/swap/</guid>
       <description></description>
     </item>
     
@@ -174,25 +246,25 @@
     </item>
     
     <item>
-      <title>Cht</title>
-      <link>https://hiy.tw/tags/cht/</link>
-      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      <title>Firefox</title>
+      <link>https://hiy.tw/tags/firefox/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/cht/</guid>
+      <guid>https://hiy.tw/tags/firefox/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cirrus</title>
-      <link>https://hiy.tw/tags/cirrus/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <title>Service Workers</title>
+      <link>https://hiy.tw/tags/service-workers/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/cirrus/</guid>
+      <guid>https://hiy.tw/tags/service-workers/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cli</title>
+      <title>CLI</title>
       <link>https://hiy.tw/tags/cli/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -201,110 +273,29 @@
     </item>
     
     <item>
-      <title>Credit Card</title>
-      <link>https://hiy.tw/tags/credit-card/</link>
-      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      <title>Terminal</title>
+      <link>https://hiy.tw/tags/terminal/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/credit-card/</guid>
+      <guid>https://hiy.tw/tags/terminal/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Credit Crad</title>
-      <link>https://hiy.tw/tags/credit-crad/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <title>iTerm2</title>
+      <link>https://hiy.tw/tags/iterm2/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/credit-crad/</guid>
+      <guid>https://hiy.tw/tags/iterm2/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cydia</title>
-      <link>https://hiy.tw/tags/cydia/</link>
-      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      <title>Airplay</title>
+      <link>https://hiy.tw/tags/airplay/</link>
+      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/cydia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Recovery</title>
-      <link>https://hiy.tw/tags/data-recovery/</link>
-      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/data-recovery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Debit Card</title>
-      <link>https://hiy.tw/tags/debit-card/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/debit-card/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diskutil</title>
-      <link>https://hiy.tw/tags/diskutil/</link>
-      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/diskutil/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diskutility</title>
-      <link>https://hiy.tw/tags/diskutility/</link>
-      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/diskutility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dmg</title>
-      <link>https://hiy.tw/tags/dmg/</link>
-      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/dmg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dumpdecrypted</title>
-      <link>https://hiy.tw/tags/dumpdecrypted/</link>
-      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/dumpdecrypted/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Email</title>
-      <link>https://hiy.tw/tags/email/</link>
-      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Encrypt</title>
-      <link>https://hiy.tw/tags/encrypt/</link>
-      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/encrypt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Esxi</title>
-      <link>https://hiy.tw/tags/esxi/</link>
-      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/esxi/</guid>
+      <guid>https://hiy.tw/tags/airplay/</guid>
       <description></description>
     </item>
     
@@ -318,7 +309,151 @@
     </item>
     
     <item>
-      <title>Exif</title>
+      <title>Lightning</title>
+      <link>https://hiy.tw/tags/lightning/</link>
+      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/lightning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSH</title>
+      <link>https://hiy.tw/tags/ssh/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yalu</title>
+      <link>https://hiy.tw/tags/yalu/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/yalu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andorid</title>
+      <link>https://hiy.tw/tags/andorid/</link>
+      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/andorid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SMS</title>
+      <link>https://hiy.tw/tags/sms/</link>
+      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/sms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iSMS2droid</title>
+      <link>https://hiy.tw/tags/isms2droid/</link>
+      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/isms2droid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cydia</title>
+      <link>https://hiy.tw/tags/cydia/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/cydia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dumpdecrypted</title>
+      <link>https://hiy.tw/tags/dumpdecrypted/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/dumpdecrypted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>root</title>
+      <link>https://hiy.tw/tags/root/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/root/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>忘記密碼</title>
+      <link>https://hiy.tw/tags/%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>砸殼</title>
+      <link>https://hiy.tw/tags/%E7%A0%B8%E6%AE%BC/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/%E7%A0%B8%E6%AE%BC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi Jailbreak</title>
+      <link>https://hiy.tw/tags/semi-jailbreak/</link>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/semi-jailbreak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bmobile</title>
+      <link>https://hiy.tw/tags/bmobile/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/bmobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Suica</title>
+      <link>https://hiy.tw/tags/suica/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/suica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iPhone</title>
+      <link>https://hiy.tw/tags/iphone/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/iphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>360</title>
+      <link>https://hiy.tw/tags/360/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/360/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EXIF</title>
       <link>https://hiy.tw/tags/exif/</link>
       <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
       
@@ -336,250 +471,7 @@
     </item>
     
     <item>
-      <title>Fet</title>
-      <link>https://hiy.tw/tags/fet/</link>
-      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/fet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Filevault</title>
-      <link>https://hiy.tw/tags/filevault/</link>
-      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/filevault/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Firefox</title>
-      <link>https://hiy.tw/tags/firefox/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/firefox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Format</title>
-      <link>https://hiy.tw/tags/format/</link>
-      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/format/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fubon</title>
-      <link>https://hiy.tw/tags/fubon/</link>
-      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/fubon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gift Card</title>
-      <link>https://hiy.tw/tags/gift-card/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/gift-card/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Icloud</title>
-      <link>https://hiy.tw/tags/icloud/</link>
-      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/icloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ios</title>
-      <link>https://hiy.tw/tags/ios/</link>
-      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ios 12</title>
-      <link>https://hiy.tw/tags/ios-12/</link>
-      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/ios-12/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iphone</title>
-      <link>https://hiy.tw/tags/iphone/</link>
-      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/iphone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ipv6</title>
-      <link>https://hiy.tw/tags/ipv6/</link>
-      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/ipv6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Isms2droid</title>
-      <link>https://hiy.tw/tags/isms2droid/</link>
-      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/isms2droid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iterm2</title>
-      <link>https://hiy.tw/tags/iterm2/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/iterm2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Itunes</title>
-      <link>https://hiy.tw/tags/itunes/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/itunes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jailbreak</title>
-      <link>https://hiy.tw/tags/jailbreak/</link>
-      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/jailbreak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jal</title>
-      <link>https://hiy.tw/tags/jal/</link>
-      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/jal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Japan</title>
-      <link>https://hiy.tw/tags/japan/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/japan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jb</title>
-      <link>https://hiy.tw/tags/jb/</link>
-      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/jb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keychain</title>
-      <link>https://hiy.tw/tags/keychain/</link>
-      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/keychain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lightning</title>
-      <link>https://hiy.tw/tags/lightning/</link>
-      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/lightning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Line</title>
-      <link>https://hiy.tw/tags/line/</link>
-      <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/line/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://hiy.tw/tags/linux/</link>
-      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Log</title>
-      <link>https://hiy.tw/tags/log/</link>
-      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/log/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Macos</title>
-      <link>https://hiy.tw/tags/macos/</link>
-      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/macos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mastercard</title>
-      <link>https://hiy.tw/tags/mastercard/</link>
-      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/mastercard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mi</title>
-      <link>https://hiy.tw/tags/mi/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/mi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mysql</title>
-      <link>https://hiy.tw/tags/mysql/</link>
-      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/mysql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nat64</title>
+      <title>NAT64</title>
       <link>https://hiy.tw/tags/nat64/</link>
       <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
       
@@ -588,7 +480,70 @@
     </item>
     
     <item>
-      <title>Note 4x</title>
+      <title>diskutil</title>
+      <link>https://hiy.tw/tags/diskutil/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/diskutil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ipv6</title>
+      <link>https://hiy.tw/tags/ipv6/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/ipv6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>https://hiy.tw/tags/android/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>App</title>
+      <link>https://hiy.tw/tags/app/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Credit Crad</title>
+      <link>https://hiy.tw/tags/credit-crad/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/credit-crad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debit Card</title>
+      <link>https://hiy.tw/tags/debit-card/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/debit-card/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MI</title>
+      <link>https://hiy.tw/tags/mi/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/mi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Note 4X</title>
       <link>https://hiy.tw/tags/note-4x/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       
@@ -597,47 +552,38 @@
     </item>
     
     <item>
-      <title>Pam</title>
-      <link>https://hiy.tw/tags/pam/</link>
-      <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
+      <title>RFID</title>
+      <link>https://hiy.tw/tags/rfid/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/pam/</guid>
+      <guid>https://hiy.tw/tags/rfid/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Paypal</title>
-      <link>https://hiy.tw/tags/paypal/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Data Recovery</title>
+      <link>https://hiy.tw/tags/data-recovery/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/paypal/</guid>
+      <guid>https://hiy.tw/tags/data-recovery/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Phpmyadmin</title>
-      <link>https://hiy.tw/tags/phpmyadmin/</link>
-      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      <title>3G</title>
+      <link>https://hiy.tw/tags/3g/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/phpmyadmin/</guid>
+      <guid>https://hiy.tw/tags/3g/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Profile Manager</title>
-      <link>https://hiy.tw/tags/profile-manager/</link>
-      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      <title>Cellular</title>
+      <link>https://hiy.tw/tags/cellular/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/profile-manager/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Public Key</title>
-      <link>https://hiy.tw/tags/public-key/</link>
-      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/public-key/</guid>
+      <guid>https://hiy.tw/tags/cellular/</guid>
       <description></description>
     </item>
     
@@ -651,101 +597,29 @@
     </item>
     
     <item>
-      <title>Rfid</title>
-      <link>https://hiy.tw/tags/rfid/</link>
-      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <title>VMware</title>
+      <link>https://hiy.tw/tags/vmware/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/rfid/</guid>
+      <guid>https://hiy.tw/tags/vmware/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Root</title>
-      <link>https://hiy.tw/tags/root/</link>
-      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      <title>ADB</title>
+      <link>https://hiy.tw/tags/adb/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/root/</guid>
+      <guid>https://hiy.tw/tags/adb/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Semi Jailbreak</title>
-      <link>https://hiy.tw/tags/semi-jailbreak/</link>
-      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
+      <title>Email</title>
+      <link>https://hiy.tw/tags/email/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/semi-jailbreak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Service Workers</title>
-      <link>https://hiy.tw/tags/service-workers/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/service-workers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sms</title>
-      <link>https://hiy.tw/tags/sms/</link>
-      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/sms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ssh</title>
-      <link>https://hiy.tw/tags/ssh/</link>
-      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ssid</title>
-      <link>https://hiy.tw/tags/ssid/</link>
-      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/ssid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Suica</title>
-      <link>https://hiy.tw/tags/suica/</link>
-      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/suica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swap</title>
-      <link>https://hiy.tw/tags/swap/</link>
-      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/swap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Swift</title>
-      <link>https://hiy.tw/tags/swift/</link>
-      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/swift/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>https://hiy.tw/tags/terminal/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/terminal/</guid>
+      <guid>https://hiy.tw/tags/email/</guid>
       <description></description>
     </item>
     
@@ -759,7 +633,7 @@
     </item>
     
     <item>
-      <title>Type C</title>
+      <title>Type-C</title>
       <link>https://hiy.tw/tags/type-c/</link>
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       
@@ -768,38 +642,164 @@
     </item>
     
     <item>
-      <title>Visa</title>
-      <link>https://hiy.tw/tags/visa/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      <title>China</title>
+      <link>https://hiy.tw/tags/china/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/visa/</guid>
+      <guid>https://hiy.tw/tags/china/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vm</title>
-      <link>https://hiy.tw/tags/vm/</link>
-      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      <title>Fubon</title>
+      <link>https://hiy.tw/tags/fubon/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/vm/</guid>
+      <guid>https://hiy.tw/tags/fubon/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vmware</title>
-      <link>https://hiy.tw/tags/vmware/</link>
-      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      <title>Log</title>
+      <link>https://hiy.tw/tags/log/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/vmware/</guid>
+      <guid>https://hiy.tw/tags/log/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Wifi</title>
-      <link>https://hiy.tw/tags/wifi/</link>
-      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <title>Swift</title>
+      <link>https://hiy.tw/tags/swift/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/wifi/</guid>
+      <guid>https://hiy.tw/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LINE</title>
+      <link>https://hiy.tw/tags/line/</link>
+      <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BIN</title>
+      <link>https://hiy.tw/tags/bin/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/bin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Credit Card</title>
+      <link>https://hiy.tw/tags/credit-card/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/credit-card/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MasterCard</title>
+      <link>https://hiy.tw/tags/mastercard/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/mastercard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DMG</title>
+      <link>https://hiy.tw/tags/dmg/</link>
+      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/dmg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DiskUtility</title>
+      <link>https://hiy.tw/tags/diskutility/</link>
+      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/diskutility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Encrypt</title>
+      <link>https://hiy.tw/tags/encrypt/</link>
+      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/encrypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PAM</title>
+      <link>https://hiy.tw/tags/pam/</link>
+      <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/pam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cirrus</title>
+      <link>https://hiy.tw/tags/cirrus/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/cirrus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>數位生活</title>
+      <link>https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FET</title>
+      <link>https://hiy.tw/tags/fet/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/fet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>format</title>
+      <link>https://hiy.tw/tags/format/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/format/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iCloud</title>
+      <link>https://hiy.tw/tags/icloud/</link>
+      <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/icloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CHT</title>
+      <link>https://hiy.tw/tags/cht/</link>
+      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/cht/</guid>
       <description></description>
     </item>
     
@@ -822,38 +822,29 @@
     </item>
     
     <item>
-      <title>Yalu</title>
-      <link>https://hiy.tw/tags/yalu/</link>
-      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      <title>BurpSuite</title>
+      <link>https://hiy.tw/tags/burpsuite/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/yalu/</guid>
+      <guid>https://hiy.tw/tags/burpsuite/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>忘記密碼</title>
-      <link>https://hiy.tw/tags/%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC/</link>
-      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      <title>CA</title>
+      <link>https://hiy.tw/tags/ca/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC/</guid>
+      <guid>https://hiy.tw/tags/ca/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>故障排除</title>
-      <link>https://hiy.tw/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/</link>
-      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      <title>SSID</title>
+      <link>https://hiy.tw/tags/ssid/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>數位生活</title>
-      <link>https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/</link>
-      <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/</guid>
+      <guid>https://hiy.tw/tags/ssid/</guid>
       <description></description>
     </item>
     
@@ -867,15 +858,6 @@
     </item>
     
     <item>
-      <title>砸殼</title>
-      <link>https://hiy.tw/tags/%E7%A0%B8%E6%AE%BC/</link>
-      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://hiy.tw/tags/%E7%A0%B8%E6%AE%BC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>退伍</title>
       <link>https://hiy.tw/tags/%E9%80%80%E4%BC%8D/</link>
       <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
@@ -885,11 +867,56 @@
     </item>
     
     <item>
-      <title>電子票證</title>
-      <link>https://hiy.tw/tags/%E9%9B%BB%E5%AD%90%E7%A5%A8%E8%AD%89/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      <title>Alfred</title>
+      <link>https://hiy.tw/tags/alfred/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://hiy.tw/tags/%E9%9B%BB%E5%AD%90%E7%A5%A8%E8%AD%89/</guid>
+      <guid>https://hiy.tw/tags/alfred/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brew</title>
+      <link>https://hiy.tw/tags/brew/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/brew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Key</title>
+      <link>https://hiy.tw/tags/public-key/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/public-key/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jailbreak</title>
+      <link>https://hiy.tw/tags/jailbreak/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/jailbreak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>https://hiy.tw/tags/mysql/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phpMyAdmin</title>
+      <link>https://hiy.tw/tags/phpmyadmin/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tags/phpmyadmin/</guid>
       <description></description>
     </item>
     
