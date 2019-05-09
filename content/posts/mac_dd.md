@@ -9,7 +9,7 @@ tags: ["MacOS", "DD", "AFPS"]
 
 <!--more-->
 
-但是在 macOS 10.13 後只要是 SSD 都會被格式化成 APFS 格式，然後[網路上就有很多災情](https://discussions.apple.com/thread/8340855)說不能複製會出現各種錯誤，我自己是出現 ERROR 28。據有經驗的朋友表示，這是 AFPS 的格式有部分損壞或是磁碟管理程式的版本不對所造成的。
+但是在 macOS 10.13 後只要是 SSD 都會被格式化成 APFS 格式，然後[網路上就有很多災情](https://discussions.apple.com/thread/8340855)說不能複製會出現各種錯誤，我自己是出現 ERROR 28。據有經驗的朋友表示，這是 APFS 的格式有部分損壞或是磁碟管理程式的版本不對所造成的。
 
 <center>
 ![](https://hiy.tw/tech/mac_dd/1.jpg)
