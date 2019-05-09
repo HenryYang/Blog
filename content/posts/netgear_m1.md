@@ -8,14 +8,14 @@ tags: ["AP", "4G", "Netgear"]
 
 ### 如果你沒看過外觀，現在讓你看看
 
-<center>
-![](https://hiy.tw/life/netgear_m1/1.jpg)
-</center>
-
 
 這台目前在台灣越來越常見了，開箱文我想就免了。來介紹一些它的特色吧！
 
 <!--more-->
+
+<center>
+![](https://hiy.tw/life/netgear_m1/1.jpg)
+</center>
 
 首先，雖然都是 M1 但是在市面上會有 **澳洲** **香港** **英國** **美國** 這四個版本。
 
