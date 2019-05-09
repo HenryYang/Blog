@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://hiy.tw/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>APFS 格式的 MacOS 系統硬碟對拷</title>
+      <link>https://hiy.tw/posts/mac_dd/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/mac_dd/</guid>
+      <description>&lt;p&gt;以前當需要轉移 MacOS 系統時就是拿一條 Thunderbolt 線插在兩台 Mac 上面，然後要當外接硬碟的重開機按住 T 變成磁碟模式，這時候就可以打開磁碟管理程式透過回復來把資料完整備份到另外一臺上。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Netgear M1 行動 4G 分享器筆記</title>
@@ -18,10 +27,6 @@
       
       <guid>https://hiy.tw/posts/netgear_m1/</guid>
       <description>&lt;h3 id=&#34;如果你沒看過外觀-現在讓你看看&#34;&gt;如果你沒看過外觀，現在讓你看看&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;https://hiy.tw/life/netgear_m1/1.jpg&#34; alt=&#34;&#34; /&gt;
-&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;這台目前在台灣越來越常見了，開箱文我想就免了。來介紹一些它的特色吧！&lt;/p&gt;</description>
     </item>

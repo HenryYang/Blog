@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AFPS on Henry&#39;s Space</title>
+    <link>https://hiy.tw/tags/afps/</link>
+    <description>Recent content in AFPS on Henry&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hiy.tw/tags/afps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>APFS 格式的 MacOS 系統硬碟對拷</title>
+      <link>https://hiy.tw/posts/mac_dd/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/posts/mac_dd/</guid>
+      <description>&lt;p&gt;以前當需要轉移 MacOS 系統時就是拿一條 Thunderbolt 線插在兩台 Mac 上面，然後要當外接硬碟的重開機按住 T 變成磁碟模式，這時候就可以打開磁碟管理程式透過回復來把資料完整備份到另外一臺上。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>APFS 格式的 MacOS 系統硬碟對拷</title>
+      <link>https://hiy.tw/tech/mac_dd/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/tech/mac_dd/</guid>
+      <description>&lt;p&gt;以前當需要轉移 MacOS 系統時就是拿一條 Thunderbolt 線插在兩台 Mac 上面，然後要當外接硬碟的重開機按住 T 變成磁碟模式，這時候就可以打開磁碟管理程式透過回復來把資料完整備份到另外一臺上。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
