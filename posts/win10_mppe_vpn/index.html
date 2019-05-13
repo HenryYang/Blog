@@ -17,27 +17,23 @@
     
     
 
-<title>Apple Pay 跨國啟用注意事項 (2017/04/20 更新) • Henry&#39;s Space</title>
+<title>Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定 • Henry&#39;s Space</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Apple Pay 跨國啟用注意事項 (2017/04/20 更新)"/>
-<meta name="twitter:description" content="今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p
+<meta name="twitter:title" content="Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定"/>
+<meta name="twitter:description" content="我也不想用 PPTP VPN 啊，但希望總是無法實現 總之 Windows 預設的 PPTP 是有沒有加密都可以連線的，如果遇到伺服器強制需要 MPPE 加密，這時候就會連不上。
+解決方法就是進到控制台，去該 PPTP 連線設定值中的安全性，把資料加密改成『需要加密』，並且下面選項照圖片勾選。
+這樣就會可以連線了!"/>
 
-
-
-"/>
-
-<meta property="og:title" content="Apple Pay 跨國啟用注意事項 (2017/04/20 更新)" />
-<meta property="og:description" content="今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p
-
-
-
-" />
+<meta property="og:title" content="Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定" />
+<meta property="og:description" content="我也不想用 PPTP VPN 啊，但希望總是無法實現 總之 Windows 預設的 PPTP 是有沒有加密都可以連線的，如果遇到伺服器強制需要 MPPE 加密，這時候就會連不上。
+解決方法就是進到控制台，去該 PPTP 連線設定值中的安全性，把資料加密改成『需要加密』，並且下面選項照圖片勾選。
+這樣就會可以連線了!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/posts/apple_pay_active/" />
-<meta property="article:published_time" content="2017-04-20T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-04-20T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:url" content="https://hiy.tw/posts/win10_mppe_vpn/" />
+<meta property="article:published_time" content="2019-05-13T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-05-13T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -188,13 +184,13 @@
             
     <article>
   <header>
-    <h1>Apple Pay 跨國啟用注意事項 (2017/04/20 更新)</h1>
+    <h1>Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> 2017 Apr 20
+      <i class="fas fa-calendar-alt"></i> 2019 May 13
     
     
     
@@ -205,16 +201,13 @@
           <br/>
            <i class="fas fa-tags"></i>
           
-          <a class="badge badge-tag" href="/tags/apple-pay">apple pay</a>
+          <a class="badge badge-tag" href="/tags/vpn">vpn</a>
            
       
-          <a class="badge badge-tag" href="/tags/ios">ios</a>
+          <a class="badge badge-tag" href="/tags/mppe">mppe</a>
            
       
-          <a class="badge badge-tag" href="/tags/iphone">iphone</a>
-           
-      
-          <a class="badge badge-tag" href="/tags/suica">suica</a>
+          <a class="badge badge-tag" href="/tags/windows-10">windows 10</a>
           
       
     
@@ -228,40 +221,20 @@
   
   
   <div class="post">
-    <p>今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p</p>
+    
+
+<h4 id="我也不想用-pptp-vpn-啊-但希望總是無法實現">我也不想用 PPTP VPN 啊，但希望總是無法實現</h4>
+
+<p>總之 Windows 預設的 PPTP 是有沒有加密都可以連線的，如果遇到伺服器強制需要 MPPE 加密，這時候就會連不上。</p>
+
+<p>解決方法就是進到控制台，去該 PPTP 連線設定值中的安全性，把資料加密改成『需要加密』，並且下面選項照圖片勾選。</p>
+
+<p>這樣就會可以連線了!</p>
 
 <p><center>
-<img src="https://hiy.tw/tech/apple_pay_active/1.jpg" alt="" />
+<img src="https://hiy.tw/tech/win10_mppe_vpn/01.png" alt="" />
 </center></p>
 
-<ul>
-<li>如果啟用外國信用卡的 Apple Pay 失敗時，請先嘗試把 iPhone 的地區調成該國家，如果還是不行請掛該國的 VPN。因為目前發現美國跟日本的有些發卡機構會檢查 IP 。</li>
-<li>中國的 Apple Pay 不知道為什麼不用改地區也不用掛 VPN 就可以正常啟用</li>
-<li>手機可以同時存在多個國家的 Apple Pay 卡片</li>
-<li>如果想要在日版 Apple Watch 2 啟用 Suica 經過確認只需要把手錶的地區都改為日本然後就算沒有掛 VPN 現在Suica App 也以正常運作</li>
-<li>日本 Apple Pay 中的 Suica 如果在使用 Suica App 產生時選擇無記名的，換手機時是無法轉換的，所以餘額就掰掰了。</li>
-<li>用日本 iPhone <sup>7</sup>&frasl;<sub>7</sub> Plus 轉移實體卡的方式新增 Suica 的話，轉移成功後原本的卡就會失效，然後卡片資訊就會跟著 iCloud 跑</li>
-<li>日本 Apple Pay 中的 Suica 可以使用台灣 JCB 卡付款或是使用手機內不同國家的 Apple Pay 付款（已經有人嘗試過用美國 Apple Pay 的卡來幫日本  Apple Pay 中的 Suica 加值成功，同理可證等台灣 Apple Pay 上市是有機會幫日本 Apple Pay 中的 Suica 加值）</li>
-<li>日本 Apple Watch 2 的 NFC 是同時支援日本與國際標準的，所以不會有只能在日本境內用但不能在其他國家用的窘境</li>
-<li>日本的感應支付都是支援 Type-F (除了 IKEA )，所以你需要 日本 iPhone <sup>7</sup>&frasl;<sub>7</sub> Plus 或是日本 AW2＋日本信用卡才感應使用。</li>
-<li>台灣 Apple Pay 不會認地區與 IP ，所以在哪都可以啟用，如果手機沒有出現新增選項可以暫時把地區改為美國</li>
-<li>如果是 iOS 9 用戶要新增台灣 Apple Pay 可以參考<a href="https://note.hy31.net/?p=295">此則教學</a></li>
-</ul>
-
-<p>看了這麼多，還不去日本買支 Apple Watch 2 來使用嗎？</p>
-
-<h3 id="apple-pay-卡號小知識">Apple Pay 卡號小知識</h3>
-
-<p>紅色部分是真實卡號的後四碼，然後 Wallet 正面也是顯示它；而綠色部分則是依照裝置產生的虛擬卡號，你交易時簽單也是顯示這末四碼
-注意，所以一旦產生虛擬卡後，每一次交易都是用綠色那組卡號做交易，除非你重新綁卡不然綠色這組號碼都不會更換</p>
-
-<p><center>
-<img src="https://hiy.tw/tech/apple_pay_active/2.jpg" alt="" />
-</center></p>
-
-<p>圖片來源：</p>
-
-<p>www.flickr.com/photos/iphonedigital/26177960506/</p>
   </div>
   
 
@@ -276,45 +249,27 @@
         
 <li>
   <span class="list__title--small">
-    <a href="/tech/apple_pay_active/" >Apple Pay 跨國啟用注意事項 (2017/04/20 更新)</a>
+    <a href="/tech/win10_mppe_vpn/" >Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定</a>
       
-      <time class="pull-right hidden-tablet">Apr 20 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/ios_9_apple_pay_taiwan/" >讓 iOS 9 設備也支援台灣信用卡的 Apple Pay</a>
-      
-      <time class="pull-right hidden-tablet">Mar 29 &#39;17</time>
+      <time class="pull-right hidden-tablet">May 13 &#39;19</time>
       
   </span>
 </li>
 
 <li>
   <span class="list__title--small">
-    <a href="/tech/ios_9_apple_pay_taiwan/" >讓 iOS 9 設備也支援台灣信用卡的 Apple Pay</a>
+    <a href="/posts/win10_sn/" >Windows 10 序號使用限制</a>
       
-      <time class="pull-right hidden-tablet">Mar 29 &#39;17</time>
-      
-  </span>
-</li>
-
-<li>
-  <span class="list__title--small">
-    <a href="/posts/libimobiledevice_note/" >libimobiledevice 相關指令</a>
-      
-      <time class="pull-right hidden-tablet">Dec 11 &#39;16</time>
+      <time class="pull-right hidden-tablet">Aug 04 &#39;16</time>
       
   </span>
 </li>
 
 <li>
   <span class="list__title--small">
-    <a href="/coding/libimobiledevice_note/" >libimobiledevice 相關指令</a>
+    <a href="/tech/win10_sn/" >Windows 10 序號使用限制</a>
       
-      <time class="pull-right hidden-tablet">Dec 11 &#39;16</time>
+      <time class="pull-right hidden-tablet">Aug 04 &#39;16</time>
       
   </span>
 </li>
