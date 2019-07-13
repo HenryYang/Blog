@@ -8,7 +8,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.55.5" />
+<meta name="generator" content="Hugo 0.55.6" />
 
     
 
@@ -24,7 +24,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://hiy.tw/" />
 
-<meta property="og:updated_time" content="2019-05-13T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:updated_time" content="2019-07-13T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -180,6 +180,29 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/ipv6_browser/" >在網址列正確連上 ipv6 方式</a>
+        </span>
+        <span class="item__date">
+          2016 Aug 8
+        </span>
+        <span >
+        
+        <p>不知道大家有沒有在網址列輸入 ipv6 位置後是被轉跳到 Google 搜尋而非連線到主機的經驗，就算前面有加 https:// 也都還是一樣。</p>
+
+<p>其實是因為如果要讓瀏覽器正確辨識你到底是要搜尋還是連線，因此你需要把 ipv6 用 [] 包起來</p>
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/ipv6_browser/">➦</a>
+        
+        </div>
+        
+     
       
         
       
@@ -369,25 +392,6 @@ $ sudo chown -R $(whoami):admin /etc/Caskroom
         
         通常在使用 SSH 連線到一台新的主機的時候，系統會跳出該主機的公鑰 (Public Key) 所產生出來的指紋 (fingerprint)，這主要是用來確認我們連線到的機器是正確的與確保沒有遭受到中間人攻擊。 所以如果要確認自己的公鑰指紋，可以用以下的指令來獲得公鑰的指紋
 $ ssh-keygen -lf 公鑰名稱
-        
-        </span>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/alfred_brew_cask/" >讓 Alfred 也可以找到用 Brew Cask 所安裝的應用程式</a>
-        </span>
-        <span class="item__date">
-          2015 Dec 28
-        </span>
-        <span >
-        
-        因為預設 Alfred 是抓 /Application 下的應用程式，但是 brew cask 預設是裝在 /private/etc/Caskroom/ 所要要去 Alfred 設定裡的 Search Scope 中加上 /private/etc/Caskroom 這位置來讓 alfred 去爬到已安裝的應用程式
         
         </span>
         
