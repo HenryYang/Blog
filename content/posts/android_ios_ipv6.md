@@ -3,6 +3,7 @@ title: "Android 與 iOS 查詢 ipv6 方式"
 draft: false
 date: 2016-08-08
 tags: ["ipv6", "iOS", "Android"]
+categories: ["杂技浅尝"]
 ---
 
 

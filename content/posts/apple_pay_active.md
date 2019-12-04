@@ -3,6 +3,7 @@ title: "Apple Pay 跨國啟用注意事項 (2017/04/20 更新)"
 draft: false
 date: 2017-04-20
 tags: ["Apple Pay", "iOS", "iPhone", "Suica"]
+categories: ["杂技浅尝"]
 ---
 
 
