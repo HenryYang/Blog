@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CA on Pure theme for Hugo</title>
-    <link>https://example.com/tags/ca/</link>
+    <link>https://hiy.tw/tags/ca/</link>
     <description>Recent content in CA on Pure theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 31 Jul 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://example.com/tags/ca/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://hiy.tw/tags/ca/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>公用 VPN 選擇注意事項</title>
-      <link>https://example.com/2019/07/choose_vpn/</link>
+      <link>https://hiy.tw/2019/07/choose_vpn/</link>
       <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2019/07/choose_vpn/</guid>
+      <guid>https://hiy.tw/2019/07/choose_vpn/</guid>
       <description>&lt;h4 id=&#34;-vpn-&#34;&gt;下面為我選公用 VPN 服務商的重點&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;不要有中資背景&lt;/li&gt;
@@ -29,47 +29,47 @@
     
     <item>
       <title>Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定</title>
-      <link>https://example.com/2019/05/win10_mppe_vpn/</link>
+      <link>https://hiy.tw/2019/05/win10_mppe_vpn/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2019/05/win10_mppe_vpn/</guid>
+      <guid>https://hiy.tw/2019/05/win10_mppe_vpn/</guid>
       <description>我也不想用 PPTP VPN 啊，但希望總是無法實現 總之 Windows 預設的 PPTP 是有沒有加密都可以連線的，如果遇到伺服器強制需要 MPPE 加密，這時候就會連不上。 解決方法就是進到</description>
     </item>
     
     <item>
       <title>APFS 格式的 MacOS 系統硬碟對拷</title>
-      <link>https://example.com/2019/05/mac_dd/</link>
+      <link>https://hiy.tw/2019/05/mac_dd/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2019/05/mac_dd/</guid>
+      <guid>https://hiy.tw/2019/05/mac_dd/</guid>
       <description>&lt;p&gt;以前當需要轉移 MacOS 系統時就是拿一條 Thunderbolt 線插在兩台 Mac 上面，然後要當外接硬碟的重開機按住 T 變成磁碟模式，這時候就可以打開磁碟管理程式透過回復來把資料完整備份到另外一臺上。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Netgear M1 行動 4G 分享器筆記</title>
-      <link>https://example.com/2019/05/netgear_m1/</link>
+      <link>https://hiy.tw/2019/05/netgear_m1/</link>
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2019/05/netgear_m1/</guid>
+      <guid>https://hiy.tw/2019/05/netgear_m1/</guid>
       <description>&lt;h3 id=&#34;heading&#34;&gt;如果你沒看過外觀，現在讓你看看&lt;/h3&gt;
 &lt;p&gt;這台目前在台灣越來越常見了，開箱文我想就免了。來介紹一些它的特色吧！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>讓舊版 iOS 無法自動更新（2019年適用）</title>
-      <link>https://example.com/2019/03/ios_autoupdate_disable/</link>
+      <link>https://hiy.tw/2019/03/ios_autoupdate_disable/</link>
       <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2019/03/ios_autoupdate_disable/</guid>
+      <guid>https://hiy.tw/2019/03/ios_autoupdate_disable/</guid>
       <description>&lt;p&gt;故事很簡單，就是 iOS 12 之後就已經支援不要讓系統自動更新到最新版的 iOS 功能。但是對於我這種需要留在 iOS 10 做測試的人就還是會很困擾。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PayPal 冷知識</title>
-      <link>https://example.com/2019/03/paypal_543/</link>
+      <link>https://hiy.tw/2019/03/paypal_543/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2019/03/paypal_543/</guid>
+      <guid>https://hiy.tw/2019/03/paypal_543/</guid>
       <description>&lt;h3 id=&#34;-paypal-&#34;&gt;大家都有被 PayPal 雷過，以下是一些經驗談ㄋ&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;台灣因為法規因素，所以無法 台灣 PayPal 付款給 台灣 Paypal 帳戶&lt;/li&gt;
@@ -78,37 +78,37 @@
     
     <item>
       <title>About HuangI Yang</title>
-      <link>https://example.com/about/</link>
+      <link>https://hiy.tw/about/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://hiy.tw/about/</guid>
       <description>About Me</description>
     </item>
     
     <item>
       <title>日航 JAL 國內線 Inflight internet 連線障礙排除</title>
-      <link>https://example.com/2018/12/jal_domestic_inflight_internet/</link>
+      <link>https://hiy.tw/2018/12/jal_domestic_inflight_internet/</link>
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2018/12/jal_domestic_inflight_internet/</guid>
+      <guid>https://hiy.tw/2018/12/jal_domestic_inflight_internet/</guid>
       <description>&lt;h4 id=&#34;-wifi--ssid--xd&#34;&gt;注意，如果是遇到 WiFi 直接無法連接到該 SSID 的請直接放棄吧，因為那是設備問題了 XD&lt;/h4&gt;</description>
     </item>
     
     <item>
       <title>用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰</title>
-      <link>https://example.com/2018/10/macos_server_profile_manager_filevault/</link>
+      <link>https://hiy.tw/2018/10/macos_server_profile_manager_filevault/</link>
       <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2018/10/macos_server_profile_manager_filevault/</guid>
+      <guid>https://hiy.tw/2018/10/macos_server_profile_manager_filevault/</guid>
       <description>&lt;p&gt;簡單來說，就是在 10.12 之後就無法在 &lt;code&gt;系統偏好設定&lt;/code&gt; 裡面的 &lt;code&gt;使用者與群組&lt;/code&gt; 中建立 &lt;code&gt;主鑰匙圈 (Master Password)&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Apple Pay 交通票卡的一些冷知識</title>
-      <link>https://example.com/2018/09/apple_pay_transit/</link>
+      <link>https://hiy.tw/2018/09/apple_pay_transit/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2018/09/apple_pay_transit/</guid>
+      <guid>https://hiy.tw/2018/09/apple_pay_transit/</guid>
       <description>&lt;h3 id=&#34;-suica-&#34;&gt;日本的 Suica 是轉移，中國的北京一卡通是買新卡&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -125,125 +125,125 @@
     
     <item>
       <title>日本 iTunes 可以使用的儲值型 VISA Gift Card</title>
-      <link>https://example.com/2018/07/jp_itunes_visa_gift_card/</link>
+      <link>https://hiy.tw/2018/07/jp_itunes_visa_gift_card/</link>
       <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2018/07/jp_itunes_visa_gift_card/</guid>
+      <guid>https://hiy.tw/2018/07/jp_itunes_visa_gift_card/</guid>
       <description>&lt;p&gt;故事就是來自於想要使用日本 iTunes 的 IAP 付費，一般來說最簡單解法一定是直接去網拍買 iTunes 的 Gift Card。&lt;/p&gt;
 &lt;p&gt;但這麻煩的地方是匯率通常都很爛，然後很常又會遇到餘額花不完這樣又會造成無法再把 iTunes 轉國家。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰</title>
-      <link>https://example.com/2018/04/filevaultmaster_keychain/</link>
+      <link>https://hiy.tw/2018/04/filevaultmaster_keychain/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2018/04/filevaultmaster_keychain/</guid>
+      <guid>https://hiy.tw/2018/04/filevaultmaster_keychain/</guid>
       <description>&lt;p&gt;故事很簡單，就是過去可以透過預先建立好 FileVaultMaster.keychain，這樣當設備交給使用者後就算它們想啟用 FileVault2 也都會使用管理員預先指派好的密鑰。這就不會有當設備轉移時但密碼忘記所以無法把檔案找回來的問題。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>在 ESXI 下擴充有分割 swap 分割區的磁碟</title>
-      <link>https://example.com/2018/03/esxi_swap/</link>
+      <link>https://hiy.tw/2018/03/esxi_swap/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2018/03/esxi_swap/</guid>
+      <guid>https://hiy.tw/2018/03/esxi_swap/</guid>
       <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西</title>
-      <link>https://example.com/2018/01/browser_service_workers/</link>
+      <link>https://hiy.tw/2018/01/browser_service_workers/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2018/01/browser_service_workers/</guid>
+      <guid>https://hiy.tw/2018/01/browser_service_workers/</guid>
       <description>&lt;p&gt;故是就是現在網頁能透過太多種方法來背景執行一些服務，其中目前常見的方法就是使用 Service Worker 來讓服務在背景跑。&lt;/p&gt;
 &lt;p&gt;所以就是可以自己來檢查看看有沒有被允許的陌生或是不認識網站正在執行 Service Worker，如果曾經有允許網站的推播基本上都會出現。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>讓 iTerm2 也支援使用 Option &#43; B/F 來前後選擇</title>
-      <link>https://example.com/2017/10/iterm2_option_b_f/</link>
+      <link>https://hiy.tw/2017/10/iterm2_option_b_f/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/10/iterm2_option_b_f/</guid>
+      <guid>https://hiy.tw/2017/10/iterm2_option_b_f/</guid>
       <description>&lt;p&gt;就在 Linux 很熟悉的使用 Option(Alt) 加上  B/F 來往前或是往後字詞的，在 macOS 上的 iTerm2 預設是不行的。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>iOS 設備同時輸出螢幕訊號且使用有線網路</title>
-      <link>https://example.com/2017/10/ios_airplay/</link>
+      <link>https://hiy.tw/2017/10/ios_airplay/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/10/ios_airplay/</guid>
+      <guid>https://hiy.tw/2017/10/ios_airplay/</guid>
       <description>&lt;p&gt;故事很簡單，就是當有需要強聯網的 App 需要投放到螢幕上的時候，這時候就會需要考量到網路穩不穩的風險。尤其是在不熟悉的場地或是在人潮眾多的區域，無線網路的可靠度真的是讓人存疑的。&lt;/p&gt;
 &lt;p&gt;因此這邊就是實驗到底有什麼方法可以達成使用有線網路又可以投影畫面的方案。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>把使用 Yalu 來 JB 的 iOS 10 裝置開啟透過 WiFi 連接 SSH</title>
-      <link>https://example.com/2017/08/yalu_ios10_jb_wifi/</link>
+      <link>https://hiy.tw/2017/08/yalu_ios10_jb_wifi/</link>
       <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/08/yalu_ios10_jb_wifi/</guid>
+      <guid>https://hiy.tw/2017/08/yalu_ios10_jb_wifi/</guid>
       <description>&lt;p&gt;故事就是如果你用 Yalu 來 JailBreak 你的 iOS 10 設備，然後你會發現到用 WiFi 來接 SSH 怎麼樣都不會通，可是透過 USB 建立本地通道卻是可以連接 SSH 的。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）</title>
-      <link>https://example.com/2017/08/ios_sms_to_android/</link>
+      <link>https://hiy.tw/2017/08/ios_sms_to_android/</link>
       <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/08/ios_sms_to_android/</guid>
+      <guid>https://hiy.tw/2017/08/ios_sms_to_android/</guid>
       <description>&lt;h3 id=&#34;heading&#34;&gt;轉移概念：&lt;/h3&gt;
 &lt;p&gt;iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>iOS 10 JB 後 Cydia 突然消失解決方案</title>
-      <link>https://example.com/2017/07/ios_10_cydia_disappear/</link>
+      <link>https://hiy.tw/2017/07/ios_10_cydia_disappear/</link>
       <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/07/ios_10_cydia_disappear/</guid>
+      <guid>https://hiy.tw/2017/07/ios_10_cydia_disappear/</guid>
       <description>&lt;p&gt;就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>iOS 砸殼步驟</title>
-      <link>https://example.com/2017/07/ios_dumpdecrypted/</link>
+      <link>https://hiy.tw/2017/07/ios_dumpdecrypted/</link>
       <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/07/ios_dumpdecrypted/</guid>
+      <guid>https://hiy.tw/2017/07/ios_dumpdecrypted/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>重設 Jailbreak 後的 iOS root 密碼</title>
-      <link>https://example.com/2017/07/reset_jb_ios_root_password/</link>
+      <link>https://hiy.tw/2017/07/reset_jb_ios_root_password/</link>
       <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/07/reset_jb_ios_root_password/</guid>
+      <guid>https://hiy.tw/2017/07/reset_jb_ios_root_password/</guid>
       <description>&lt;p&gt;就有時候會忘記自己當時到底把 iOS 的 root 密碼改成什麼，這時候有幾種選擇。&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>Semi Jailbreak 回復出廠設定但仍保有 Jailbreak 方式</title>
-      <link>https://example.com/2017/07/semi_jailbreak_restore/</link>
+      <link>https://hiy.tw/2017/07/semi_jailbreak_restore/</link>
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/07/semi_jailbreak_restore/</guid>
+      <guid>https://hiy.tw/2017/07/semi_jailbreak_restore/</guid>
       <description>&lt;p&gt;這主要發生情況或是在於當你有一個 iOS 9 或是 10 的 Jailbreak 但手機需要轉售或是借人因此需要把手機清乾淨但又還是想保留 Jailbreak 時使用的。&lt;/p&gt;
 &lt;p&gt;註：Semi Jailbreak 就是在 iOS 9 或 10 常見的 Jailbreak 方法，之所以稱 semi 因為每一次重新開機系統的 Jailbreak 就會喪失需要重新在執行一次 Jailbreak 程式才能在拿回來權限。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>觀光客能拿到日本號碼的方法</title>
-      <link>https://example.com/2017/05/jp_sms_number/</link>
+      <link>https://hiy.tw/2017/05/jp_sms_number/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/05/jp_sms_number/</guid>
+      <guid>https://hiy.tw/2017/05/jp_sms_number/</guid>
       <description>&lt;p&gt;日本跟台灣對於電話號碼的管制都是差不多嚴格的，然後日本很多服務又很喜歡驗證電話號碼。&lt;/p&gt;
 &lt;p&gt;所以沒有電話號碼很多自助服務都是不能用的 :(&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
@@ -251,30 +251,30 @@
     
     <item>
       <title>Apple Pay 跨國啟用注意事項 (2017/04/20 更新)</title>
-      <link>https://example.com/2017/04/apple_pay_active/</link>
+      <link>https://hiy.tw/2017/04/apple_pay_active/</link>
       <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/04/apple_pay_active/</guid>
+      <guid>https://hiy.tw/2017/04/apple_pay_active/</guid>
       <description>&lt;p&gt;今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>快速讓全景照片支援 Facebook 的 360 度顯示</title>
-      <link>https://example.com/2017/04/facebook_360_photo/</link>
+      <link>https://hiy.tw/2017/04/facebook_360_photo/</link>
       <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/04/facebook_360_photo/</guid>
+      <guid>https://hiy.tw/2017/04/facebook_360_photo/</guid>
       <description>&lt;p&gt;最近越來越多攝影設備支援全景照片，但不是每家的 EXIF 都可以正確的被 Facebook 辨識出來，所以就會造成上傳後變成一張很醜的 2:1 照片。&lt;/p&gt;
 &lt;p&gt;以下教學是 Facebook 官方的建議方式，讓沒有被 Facebook 辨識出來的全景照片手動修復成可以在 Facebook 上看的 360 照片。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>擴充 VMware 上面的 MacOS 虛擬機硬碟空間</title>
-      <link>https://example.com/2017/04/expand_esxi_macos/</link>
+      <link>https://hiy.tw/2017/04/expand_esxi_macos/</link>
       <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/04/expand_esxi_macos/</guid>
+      <guid>https://hiy.tw/2017/04/expand_esxi_macos/</guid>
       <description>&lt;p&gt;目前最簡單擴充硬碟的應該就屬 MacOS 了，然後以下是筆記&lt;/p&gt;
 &lt;p&gt;Step1: 當然是修改 VMware 上面的參數，讓 OS 實際能動用的到空間變大。&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
@@ -282,10 +282,10 @@
     
     <item>
       <title>透過 MacOS 分享純 ipv6 的網路</title>
-      <link>https://example.com/2017/04/macos_share_ipv6/</link>
+      <link>https://hiy.tw/2017/04/macos_share_ipv6/</link>
       <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/04/macos_share_ipv6/</guid>
+      <guid>https://hiy.tw/2017/04/macos_share_ipv6/</guid>
       <description>&lt;p&gt;就有時會需要在設備只拿到 ipv6 的情況下來做一些神秘的 Debug，所以以下方式是快速的架設一個臨時純 ipv6 環境來測試&lt;/p&gt;
 &lt;p&gt;架設需求: MacOS 需要為 10.12 ，因為這版才有提供 ipv6 環境&lt;/p&gt;
 &lt;p&gt;設定步驟:&lt;/p&gt;
@@ -296,58 +296,58 @@
     
     <item>
       <title>讓 iOS 9 設備也支援台灣信用卡的 Apple Pay</title>
-      <link>https://example.com/2017/03/ios_9_apple_pay_taiwan/</link>
+      <link>https://hiy.tw/2017/03/ios_9_apple_pay_taiwan/</link>
       <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/03/ios_9_apple_pay_taiwan/</guid>
+      <guid>https://hiy.tw/2017/03/ios_9_apple_pay_taiwan/</guid>
       <description>&lt;p&gt;故事前情提要：蘋果表示，Apple Pay 就是要最新版本的才可以用喔 &amp;gt;.^&lt;/p&gt;
 &lt;p&gt;所以理論上 iOS 10.3 的人就會直接在 Wallet App 中出現新增信用卡的選項，但如果是比較舊一點的版本的人（例如 iOS 10.1.1 ）這類的可以透過修改地區的方式將 iPhone 改為比較早有 Apple Pay 的國家例如美國、日本就可以正常加卡了！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>RFID 感應卡冷知識整理</title>
-      <link>https://example.com/2017/03/rfid_info/</link>
+      <link>https://hiy.tw/2017/03/rfid_info/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/03/rfid_info/</guid>
+      <guid>https://hiy.tw/2017/03/rfid_info/</guid>
       <description>&lt;p&gt;以下會記錄一些常見的 RFID 相關冷知識&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>紅米 Note 4X ROOT 與刷第三方 Recovery 注意事項</title>
-      <link>https://example.com/2017/03/note_4x_root/</link>
+      <link>https://hiy.tw/2017/03/note_4x_root/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/03/note_4x_root/</guid>
+      <guid>https://hiy.tw/2017/03/note_4x_root/</guid>
       <description>&lt;p&gt;小米現在越來越難搞了，以下為強者我朋友的真心血淚紀錄：&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>金融卡、信用卡 冷知識整理</title>
-      <link>https://example.com/2017/03/credit_debit_info/</link>
+      <link>https://hiy.tw/2017/03/credit_debit_info/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/03/credit_debit_info/</guid>
+      <guid>https://hiy.tw/2017/03/credit_debit_info/</guid>
       <description>&lt;p&gt;以下皆為奇怪的冷知識，主要是用來給自己記憶用的&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>資料救援需求快速判斷方式</title>
-      <link>https://example.com/2017/01/data_recovery/</link>
+      <link>https://hiy.tw/2017/01/data_recovery/</link>
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2017/01/data_recovery/</guid>
+      <guid>https://hiy.tw/2017/01/data_recovery/</guid>
       <description>&lt;p&gt;就很多時候資料遺失的人都很著急，無法冷靜的聽完分析來選擇最有可能救回資料的建議&lt;/p&gt;
 &lt;p&gt;所以就只好寫出這一篇快速判斷方法的來給那些很急的人參考了 XD&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Raspberry Pi 透過 USB 3G 行動網卡上網</title>
-      <link>https://example.com/2016/12/raspberry_pi_usb_3g/</link>
+      <link>https://hiy.tw/2016/12/raspberry_pi_usb_3g/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/12/raspberry_pi_usb_3g/</guid>
+      <guid>https://hiy.tw/2016/12/raspberry_pi_usb_3g/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;注意： 目前 &amp;ldquo;理論上&amp;rdquo; 未鎖電信商的華為 &lt;strong&gt;3G&lt;/strong&gt; USB 網卡理論上都可以使用，我自己是使用當年跟中華電信買的 E161&lt;/p&gt;
 &lt;p&gt;我這邊是使用 sakis3g  這到軟體來簡化連線的設定，真的就只要下載執行就可以連上行動網路的，就不用在設定很多麻煩的 pppd&lt;/p&gt;</description>
@@ -355,20 +355,20 @@
     
     <item>
       <title>在 VMware 下 MacOS 重新調整分割區大小</title>
-      <link>https://example.com/2016/12/resize_macos_partition/</link>
+      <link>https://hiy.tw/2016/12/resize_macos_partition/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/12/resize_macos_partition/</guid>
+      <guid>https://hiy.tw/2016/12/resize_macos_partition/</guid>
       <description>&lt;p&gt;我自己會遇到這情況是在當 VM 的虛擬磁碟已經調整完大小，但是 MacOS 虛擬機中的作業系統並無法自己動態調整&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>libimobiledevice 相關指令</title>
-      <link>https://example.com/2016/12/libimobiledevice_note/</link>
+      <link>https://hiy.tw/2016/12/libimobiledevice_note/</link>
       <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/12/libimobiledevice_note/</guid>
+      <guid>https://hiy.tw/2016/12/libimobiledevice_note/</guid>
       <description>&lt;p&gt;&lt;strong&gt;idevice_id -l&lt;/strong&gt; 查詢設備 UID&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ideviceinstaller -l&lt;/strong&gt; 列出使用者安裝的 App&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ideviceinfo&lt;/strong&gt; 列出設備訊息&lt;/p&gt;</description>
@@ -376,10 +376,10 @@
     
     <item>
       <title>Raspberry Pi 3 安裝 libimobiledevice ＆ ADB 筆記</title>
-      <link>https://example.com/2016/12/raspberry_pi_libimobiledevice_adb/</link>
+      <link>https://hiy.tw/2016/12/raspberry_pi_libimobiledevice_adb/</link>
       <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/12/raspberry_pi_libimobiledevice_adb/</guid>
+      <guid>https://hiy.tw/2016/12/raspberry_pi_libimobiledevice_adb/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;libimobiledevice-&#34;&gt;libimobiledevice 部分&lt;/h2&gt;
 &lt;p&gt;Repo：https://github.com/libimobiledevice/libimobiledevice&lt;/p&gt;</description>
@@ -387,20 +387,20 @@
     
     <item>
       <title>Thunderbolt 的碎碎念比較</title>
-      <link>https://example.com/2016/11/thunderbolt_info/</link>
+      <link>https://hiy.tw/2016/11/thunderbolt_info/</link>
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/11/thunderbolt_info/</guid>
+      <guid>https://hiy.tw/2016/11/thunderbolt_info/</guid>
       <description>&lt;p&gt;就新版的 Macbook Pro 也正式支援 Thunberbolt 3 了，但是規格真的有點複雜，所以在這邊整理一下。&lt;/p&gt;
 &lt;p&gt;就以下圖來看，我們可以很明顯的發現到 Thunderbolt 1 與 2 都是使用上面款式的接口，而 Thunderbolt 3 則是使用下圖的接口。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>手機簡訊轉發筆記</title>
-      <link>https://example.com/2016/11/sms_forward/</link>
+      <link>https://hiy.tw/2016/11/sms_forward/</link>
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/11/sms_forward/</guid>
+      <guid>https://hiy.tw/2016/11/sms_forward/</guid>
       <description>&lt;p&gt;總之每個人需要簡訊轉發的理由百百種，這邊就提供幾個方案給大家選擇&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;方案一：&lt;a href=&#34;http://smscatcher.emome.net/about.php?nocache=1480141376&#34;&gt;中華電信用戶申請簡訊轉接&lt;/a&gt;&lt;/li&gt;
@@ -411,20 +411,20 @@
     
     <item>
       <title>ESXI 的 LOG 移至內建空間</title>
-      <link>https://example.com/2016/11/esxi_log/</link>
+      <link>https://hiy.tw/2016/11/esxi_log/</link>
       <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/11/esxi_log/</guid>
+      <guid>https://hiy.tw/2016/11/esxi_log/</guid>
       <description>&lt;p&gt;就很多教學都會教說把 ESXI 系統安裝在記憶卡或是隨身碟上，但如果你的系統使用太頻繁就有可能會讓 LOG 把記憶卡的存取次數快速耗盡。&lt;/p&gt;
 &lt;p&gt;所以我個人都會習慣把 LOG 放在內建的空間中，除了空間會比較大以外更重要的是傳統硬碟或是 SSD 的存取壽命都高非常多啊。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>台北富邦匯款到中國富邦華一銀行（使用富邦 兩岸通）</title>
-      <link>https://example.com/2016/11/fubon_cn_transfer/</link>
+      <link>https://hiy.tw/2016/11/fubon_cn_transfer/</link>
       <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/11/fubon_cn_transfer/</guid>
+      <guid>https://hiy.tw/2016/11/fubon_cn_transfer/</guid>
       <description>&lt;p&gt;就其實台灣富邦的兩岸通匯款服務就是方便有富邦香港或是中國富邦華一帳戶的人轉錢過去。&lt;/p&gt;
 &lt;p&gt;富邦兩岸通是要先臨櫃申請的，等於就是先設定好跨國約定轉帳這樣就可以網銀直接把外幣戶頭的錢轉過去。&lt;/p&gt;
 &lt;p&gt;詳細教學可以參考一下這位大大的資訊：http://pttweb.tw/thread/m-1461258753-a-714&lt;/p&gt;
@@ -433,38 +433,38 @@
     
     <item>
       <title>在中國使用手機版 LINE 狀況紀錄</title>
-      <link>https://example.com/2016/11/line_20161111/</link>
+      <link>https://hiy.tw/2016/11/line_20161111/</link>
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/11/line_20161111/</guid>
+      <guid>https://hiy.tw/2016/11/line_20161111/</guid>
       <description>&lt;h3 id=&#34;line--google-play--appstore-&#34;&gt;LINE 版本皆更新到 Google Play 跟 AppStore 上最新版&lt;/h3&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>信用卡相關知識筆記</title>
-      <link>https://example.com/2016/10/creditcrad_info/</link>
+      <link>https://hiy.tw/2016/10/creditcrad_info/</link>
       <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/10/creditcrad_info/</guid>
+      <guid>https://hiy.tw/2016/10/creditcrad_info/</guid>
       <description>&lt;p&gt;目前 VISA、Master、JCB 都是主流的 16 位數卡號，但像是 American Express 就是比較少見的 15 位數，而部分銀聯卡則是 19 位數的卡號。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>用磁碟工具程式來製作一個 DMG 檔以加密重要資料</title>
-      <link>https://example.com/2016/10/dmg_encrypt/</link>
+      <link>https://hiy.tw/2016/10/dmg_encrypt/</link>
       <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/10/dmg_encrypt/</guid>
+      <guid>https://hiy.tw/2016/10/dmg_encrypt/</guid>
       <description>&lt;p&gt;目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Linux 用 PAM 限制使用者登入</title>
-      <link>https://example.com/2016/10/linux_pam/</link>
+      <link>https://hiy.tw/2016/10/linux_pam/</link>
       <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/10/linux_pam/</guid>
+      <guid>https://hiy.tw/2016/10/linux_pam/</guid>
       <description>&lt;h3 id=&#34;-etcsecurityaccessconf-&#34;&gt;修改 /etc/security/access.conf 這檔案&lt;/h3&gt;
 &lt;p&gt;然後在這檔案中新增下面指令 ( 請把下面的 root 跟 systemadmin 換成你自己的帳號 )&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;-:ALL EXCEPT root sysadmin:ALL
@@ -473,66 +473,66 @@
     
     <item>
       <title>台灣金融卡在外國提款注意事項</title>
-      <link>https://example.com/2016/10/tw_debit_withdraw/</link>
+      <link>https://hiy.tw/2016/10/tw_debit_withdraw/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/10/tw_debit_withdraw/</guid>
+      <guid>https://hiy.tw/2016/10/tw_debit_withdraw/</guid>
       <description>&lt;h3 id=&#34;-4-&#34;&gt;請先確認有開通跨國提款也也設定過 4 位數磁條密碼&lt;/h3&gt;
 &lt;p&gt;跨國交易都還是用磁條與 4 位數的密碼，所以出國前請務必確認知道自己 4 位數密碼是多少，然後也建議回自行的 ATM 去驗證磁條密碼與跨國提款是否有開通，因為目前太多遇到的是金融卡的晶片沒有問題但是磁條被消磁，這樣就會造成在台灣可以用，可是出國不能領的囧狀。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>記憶屬於我的數位人生 App</title>
-      <link>https://example.com/2016/09/digi_life/</link>
+      <link>https://hiy.tw/2016/09/digi_life/</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/09/digi_life/</guid>
+      <guid>https://hiy.tw/2016/09/digi_life/</guid>
       <description>&lt;p&gt;事情太多，但記憶有限，這時候就可以透過一些服務來讓我們記得過去所發生種種的重要回憶。
 以下是我自己有使用來紀錄生活的服務，有些可能要付費有些可能只限特定平台，希望大家都找到自己所喜歡的。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>透過 Apple Pay 用台灣信用卡買美國 iTunes Gift Card</title>
-      <link>https://example.com/2016/09/apple_pay_itunes_gift_card/</link>
+      <link>https://hiy.tw/2016/09/apple_pay_itunes_gift_card/</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/09/apple_pay_itunes_gift_card/</guid>
+      <guid>https://hiy.tw/2016/09/apple_pay_itunes_gift_card/</guid>
       <description>&lt;p&gt;如果比較進階的 iOS 使用者都會知道有多國的 Apple ID 是必要的，但由於取得外國信用卡難度較高，所以付款通常都是用 Gift Card 儲值的方式來處理。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>搾出舊 Android 手機的空間</title>
-      <link>https://example.com/2016/09/android_free_space/</link>
+      <link>https://hiy.tw/2016/09/android_free_space/</link>
       <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/09/android_free_space/</guid>
+      <guid>https://hiy.tw/2016/09/android_free_space/</guid>
       <description>&lt;p&gt;或許大家也都會有經驗，舊的 Android 手機（尤其是品牌手機）明明已經回復過出廠設定而且已經沒有額外多裝其他軟體，但空間還是顯示快滿了，這到底是為什麼呢？&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>用 MacOS 安全的抹除硬碟 ( CLI 與 GUI 教學 )</title>
-      <link>https://example.com/2016/09/macos_format_cli_gui/</link>
+      <link>https://hiy.tw/2016/09/macos_format_cli_gui/</link>
       <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/09/macos_format_cli_gui/</guid>
+      <guid>https://hiy.tw/2016/09/macos_format_cli_gui/</guid>
       <description>&lt;p&gt;當硬碟要賣出或是要借人時，如果你覺得自己的過去已經刪除的資料很機密或是很見不得人，可以先把硬碟抹除乾淨，格式化與抹除的差異在於格式化只是修改了硬碟的檔頭，所以還是很有機會可以把資料救回來，而抹除則是寫入無意義的資料來佔滿空間，讓資料救援變的 &amp;ldquo;比較&amp;rdquo; 不可能。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>遠東 iCloud 信用卡注意事項</title>
-      <link>https://example.com/2016/09/fet_icloud/</link>
+      <link>https://hiy.tw/2016/09/fet_icloud/</link>
       <pubDate>Sun, 18 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/09/fet_icloud/</guid>
+      <guid>https://hiy.tw/2016/09/fet_icloud/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
       <title>Android 與 iOS 查詢 ipv6 方式</title>
-      <link>https://example.com/2016/08/android_ios_ipv6/</link>
+      <link>https://hiy.tw/2016/08/android_ios_ipv6/</link>
       <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/08/android_ios_ipv6/</guid>
+      <guid>https://hiy.tw/2016/08/android_ios_ipv6/</guid>
       <description>&lt;p&gt;如果你所屬的網路環境已經有部屬了 ipv6 ，在行動裝置可以透過以下方式來知道 ipv6 相關資訊&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;設定 -&amp;gt; WiFi ，然後點選你使用 WiFi 旁邊的藍色 i 符號，接下來往下滑就會看到 ipv6 相關資訊&lt;/p&gt;</description>
@@ -540,122 +540,122 @@
     
     <item>
       <title>在網址列正確連上 ipv6 方式</title>
-      <link>https://example.com/2016/08/ipv6_browser/</link>
+      <link>https://hiy.tw/2016/08/ipv6_browser/</link>
       <pubDate>Mon, 08 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/08/ipv6_browser/</guid>
+      <guid>https://hiy.tw/2016/08/ipv6_browser/</guid>
       <description>&lt;p&gt;不知道大家有沒有在網址列輸入 ipv6 位置後是被轉跳到 Google 搜尋而非連線到主機的經驗，就算前面有加 https:// 也都還是一樣。&lt;/p&gt;
 &lt;p&gt;其實是因為如果要讓瀏覽器正確辨識你到底是要搜尋還是連線，因此你需要把 ipv6 用 [] 包起來&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Windows 10 序號使用限制</title>
-      <link>https://example.com/2016/08/win10_sn/</link>
+      <link>https://hiy.tw/2016/08/win10_sn/</link>
       <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/08/win10_sn/</guid>
+      <guid>https://hiy.tw/2016/08/win10_sn/</guid>
       <description>&lt;p&gt;實測結果，如果序號來源是 &amp;ldquo;&lt;!-- raw HTML omitted --&gt;由舊版 Windows 升級到 Windows 10 時所產生&lt;!-- raw HTML omitted --&gt;&amp;quot;的拿來給全新安裝的 Windows 10 是  &amp;ldquo;&lt;!-- raw HTML omitted --&gt;可以被系統辨識版本，但是無法啟用的！&lt;!-- raw HTML omitted --&gt;&amp;rdquo;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>中華電信 ipv6 相關資訊筆記</title>
-      <link>https://example.com/2016/08/cht_ipv6/</link>
+      <link>https://hiy.tw/2016/08/cht_ipv6/</link>
       <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/08/cht_ipv6/</guid>
+      <guid>https://hiy.tw/2016/08/cht_ipv6/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;中華電信 ipv6 線上申辦&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;光世代 FTTH 所提供的 040GW 數據機的 PPPOE 撥號不提供 ipv6&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>SSH 使用特殊阜來執行 Wordpress 線上更新</title>
-      <link>https://example.com/2016/08/wordpress_update_ssh/</link>
+      <link>https://hiy.tw/2016/08/wordpress_update_ssh/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/08/wordpress_update_ssh/</guid>
+      <guid>https://hiy.tw/2016/08/wordpress_update_ssh/</guid>
       <description>&lt;h3 id=&#34;ssh--wordpress-&#34;&gt;SSH 使用特殊阜來執行 Wordpress 線上更新&lt;/h3&gt;
 &lt;p&gt;如果因為安全因素所以沒有開啟 FTP 服務，這樣就無法用 Wordpress 內建的線上更新執行系統、佈景或是外掛的更新，需要直接登入遠端主機修改或是直接覆蓋檔案來更新。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>在行動裝置上安裝 BurpSuite 所簽發的 Root CA 憑證</title>
-      <link>https://example.com/2016/07/burpsuite_root_ca/</link>
+      <link>https://hiy.tw/2016/07/burpsuite_root_ca/</link>
       <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/07/burpsuite_root_ca/</guid>
+      <guid>https://hiy.tw/2016/07/burpsuite_root_ca/</guid>
       <description>&lt;p&gt;通常要測試手機 App 時，大多數都會選擇用 MITM （中間人攻擊）的方式來達成，但也因為目前大多數服務都已經走 HTTPS 來傳遞資料，因此需要在手機端匯入做中間人攻擊的根憑證。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>讓自己的 WiFi SSID 排在最前面</title>
-      <link>https://example.com/2016/07/wifi_ssid/</link>
+      <link>https://hiy.tw/2016/07/wifi_ssid/</link>
       <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/07/wifi_ssid/</guid>
+      <guid>https://hiy.tw/2016/07/wifi_ssid/</guid>
       <description>&lt;p&gt;現在 WiFi 訊號隨處都是，但有時候會多到找不到自己的 WiFi 名稱到底跑到那邊去了&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>返陽相關注意事項 - 退伍後歸鄉等相關注意事項</title>
-      <link>https://example.com/2016/06/retired_from_military_service/</link>
+      <link>https://hiy.tw/2016/06/retired_from_military_service/</link>
       <pubDate>Wed, 08 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/06/retired_from_military_service/</guid>
+      <guid>https://hiy.tw/2016/06/retired_from_military_service/</guid>
       <description>&lt;p&gt;希望在看這篇的你是準備要退伍或是剛退伍沒多久，還沒處理一大堆事物的”民人”。&lt;/p&gt;
 &lt;p&gt;以下教學分為一定要做與建議要做兩個部分。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>完整移除 Parallels Desktop</title>
-      <link>https://example.com/2016/02/parallels_desktop_remove/</link>
+      <link>https://hiy.tw/2016/02/parallels_desktop_remove/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2016/02/parallels_desktop_remove/</guid>
+      <guid>https://hiy.tw/2016/02/parallels_desktop_remove/</guid>
       <description>就是升級到 OSX 10.11 後真的是踩雷大會，然後我的 Parallels Desktop 11 又在鬼打牆的狀況（EX：USB 裝置隨機失效、鍵盤滑鼠在抽筋） 所以就決定把整個 Parallels 乾淨的移除，然後</description>
     </item>
     
     <item>
       <title>brew cask 安裝軟體時跳出權限錯誤</title>
-      <link>https://example.com/2015/12/brew_cask_error/</link>
+      <link>https://hiy.tw/2015/12/brew_cask_error/</link>
       <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2015/12/brew_cask_error/</guid>
+      <guid>https://hiy.tw/2015/12/brew_cask_error/</guid>
       <description>通常這狀況都是出現在 OSX 10.11 ，因為系統對於根目錄的權限有做調整，因此輸入下列指令來讓目前使用者有權限存取就可以了 $ sudo chown -R $(whoami):admin /etc/Caskroom</description>
     </item>
     
     <item>
       <title>查看公鑰 (Public Key) 的指紋 (fingerprint)</title>
-      <link>https://example.com/2015/12/public_key_fingerprint/</link>
+      <link>https://hiy.tw/2015/12/public_key_fingerprint/</link>
       <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2015/12/public_key_fingerprint/</guid>
+      <guid>https://hiy.tw/2015/12/public_key_fingerprint/</guid>
       <description>通常在使用 SSH 連線到一台新的主機的時候，系統會跳出該主機的公鑰 (Public Key) 所產生出來的指紋 (fingerprint)，這主要是用來確認我們連線到的機器</description>
     </item>
     
     <item>
       <title>讓 Alfred 也可以找到用 Brew Cask 所安裝的應用程式</title>
-      <link>https://example.com/2015/12/alfred_brew_cask/</link>
+      <link>https://hiy.tw/2015/12/alfred_brew_cask/</link>
       <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2015/12/alfred_brew_cask/</guid>
+      <guid>https://hiy.tw/2015/12/alfred_brew_cask/</guid>
       <description>因為預設 Alfred 是抓 /Application 下的應用程式，但是 brew cask 預設是裝在 /private/etc/Caskroom/ 所要要去 Alfred 設定裡的 Search Scope 中加上 /private/etc/Caskroom 這位置來讓 alfred 去爬到已安裝的應用程式</description>
     </item>
     
     <item>
       <title>iOS 8 Jailbreak 注意事項</title>
-      <link>https://example.com/2015/11/ios8_jb/</link>
+      <link>https://hiy.tw/2015/11/ios8_jb/</link>
       <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2015/11/ios8_jb/</guid>
+      <guid>https://hiy.tw/2015/11/ios8_jb/</guid>
       <description>因為 Apple 的 iTunes 在目前的 12 版本有對於驅動程式做修改，所以很有可能在 JB 就系統時會發生找不到設備的狀況 因此解決方法是降級 iTunes 到 11.2 版本，讓 JB 程式可以正確辨</description>
     </item>
     
     <item>
       <title>phpMyAdmin 出現 &#39;缺少 mcrypt 擴充套件&#39; 解決方法</title>
-      <link>https://example.com/2015/11/phpmyadmin_mcrypt/</link>
+      <link>https://hiy.tw/2015/11/phpmyadmin_mcrypt/</link>
       <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2015/11/phpmyadmin_mcrypt/</guid>
+      <guid>https://hiy.tw/2015/11/phpmyadmin_mcrypt/</guid>
       <description>目前在各版本 Linux 上所安裝 MySQL 後理論上都會把相關套件裝起來，所以當你確定你有裝過 mcrypt 但是系統又是一直在跳警示，可能會是模組沒有被啟用，所以可以嘗試看</description>
     </item>
     
