@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        在 ESXI 下擴充有分割 swap 分割區的磁碟 - Pure theme for Hugo
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <meta name="description" content="狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)
+如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟
+" />
+  <meta name="generator" content="Hugo 0.60.1 with theme pure" />
+  <title>在 ESXI 下擴充有分割 swap 分割區的磁碟 - Pure theme for Hugo</title>
+  
+
+  <link rel="stylesheet" href="https://example.com/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <meta property="og:title" content="在 ESXI 下擴充有分割 swap 分割區的磁碟" />
+<meta property="og:description" content="狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)
+如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/2018/03/esxi_swap/" />
+<meta property="article:published_time" content="2018-03-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-03-04T00:00:00+00:00" />
+<meta itemprop="name" content="在 ESXI 下擴充有分割 swap 分割區的磁碟">
+<meta itemprop="description" content="狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)
+如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟">
+<meta itemprop="datePublished" content="2018-03-04T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-03-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="719">
+
+
+
+<meta itemprop="keywords" content="ESXI,VM,Linux,swap," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="在 ESXI 下擴充有分割 swap 分割區的磁碟"/>
+<meta name="twitter:description" content="狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)
+如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟"/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+  
+
+  <body class="main-center" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://github.com/henryyang" target="_blank">
+            <img class="img-circle img-rotate" src="https://example.com/avatar.jpeg" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Henry&#39;s Space</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Hi, I’m HuangI Yang. (A.K.A HenryYang)</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Taipei, Taiwan</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>enjoy~</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://example.com/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/" class="category-list-link">杂技浅尝</a><span class="category-list-count">2</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/360/" class="tag-list-link">360</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/3g/" class="tag-list-link">3g</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/4g/" class="tag-list-link">4g</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/adb/" class="tag-list-link">adb</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/afps/" class="tag-list-link">afps</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/airplay/" class="tag-list-link">airplay</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/alfred/" class="tag-list-link">alfred</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/andorid/" class="tag-list-link">andorid</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/android/" class="tag-list-link">android</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/ap/" class="tag-list-link">ap</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/app/" class="tag-list-link">app</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/apple/" class="tag-list-link">apple</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/apple-pay/" class="tag-list-link">apple-pay</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/bin/" class="tag-list-link">bin</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/bmobile/" class="tag-list-link">bmobile</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/brew/" class="tag-list-link">brew</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/burpsuite/" class="tag-list-link">burpsuite</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/ca/" class="tag-list-link">ca</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/cellular/" class="tag-list-link">cellular</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/china/" class="tag-list-link">china</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/chrome/" class="tag-list-link">chrome</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/cht/" class="tag-list-link">cht</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/cirrus/" class="tag-list-link">cirrus</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/cli/" class="tag-list-link">cli</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/credit-card/" class="tag-list-link">credit-card</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/credit-crad/" class="tag-list-link">credit-crad</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/cydia/" class="tag-list-link">cydia</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/data-recovery/" class="tag-list-link">data-recovery</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/dd/" class="tag-list-link">dd</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/debit-card/" class="tag-list-link">debit-card</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/diskutil/" class="tag-list-link">diskutil</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/diskutility/" class="tag-list-link">diskutility</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/dmg/" class="tag-list-link">dmg</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/dumpdecrypted/" class="tag-list-link">dumpdecrypted</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/email/" class="tag-list-link">email</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/encrypt/" class="tag-list-link">encrypt</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/esxi/" class="tag-list-link">esxi</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/ethernet/" class="tag-list-link">ethernet</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/exif/" class="tag-list-link">exif</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/facebook/" class="tag-list-link">facebook</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/fet/" class="tag-list-link">fet</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/filevault/" class="tag-list-link">filevault</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/firefox/" class="tag-list-link">firefox</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/format/" class="tag-list-link">format</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/fubon/" class="tag-list-link">fubon</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/gift-card/" class="tag-list-link">gift-card</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/icloud/" class="tag-list-link">icloud</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/ios/" class="tag-list-link">ios</a><span
+                    class="tag-list-count">15</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/ios-12/" class="tag-list-link">ios-12</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/iphone/" class="tag-list-link">iphone</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/ipv6/" class="tag-list-link">ipv6</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/isms2droid/" class="tag-list-link">isms2droid</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/iterm2/" class="tag-list-link">iterm2</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/itunes/" class="tag-list-link">itunes</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/jailbreak/" class="tag-list-link">jailbreak</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/jal/" class="tag-list-link">jal</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/japan/" class="tag-list-link">japan</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/jb/" class="tag-list-link">jb</a><span
+                    class="tag-list-count">6</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/keychain/" class="tag-list-link">keychain</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/lightning/" class="tag-list-link">lightning</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/line/" class="tag-list-link">line</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/linux/" class="tag-list-link">linux</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/log/" class="tag-list-link">log</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/macos/" class="tag-list-link">macos</a><span
+                    class="tag-list-count">9</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/mastercard/" class="tag-list-link">mastercard</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/mi/" class="tag-list-link">mi</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/mppe/" class="tag-list-link">mppe</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/mysql/" class="tag-list-link">mysql</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/nat64/" class="tag-list-link">nat64</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/netgear/" class="tag-list-link">netgear</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/note-4x/" class="tag-list-link">note-4x</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/pam/" class="tag-list-link">pam</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/paypal/" class="tag-list-link">paypal</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/phpmyadmin/" class="tag-list-link">phpmyadmin</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/profile-manager/" class="tag-list-link">profile-manager</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/public-key/" class="tag-list-link">public-key</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/raspberry-pi/" class="tag-list-link">raspberry-pi</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/rfid/" class="tag-list-link">rfid</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/root/" class="tag-list-link">root</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/semi-jailbreak/" class="tag-list-link">semi-jailbreak</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/service-workers/" class="tag-list-link">service-workers</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/sms/" class="tag-list-link">sms</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/ssh/" class="tag-list-link">ssh</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/ssid/" class="tag-list-link">ssid</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/suica/" class="tag-list-link">suica</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/swap/" class="tag-list-link">swap</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/swift/" class="tag-list-link">swift</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/terminal/" class="tag-list-link">terminal</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/thunderbolt/" class="tag-list-link">thunderbolt</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/type-c/" class="tag-list-link">type-c</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/visa/" class="tag-list-link">visa</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/vm/" class="tag-list-link">vm</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/vmware/" class="tag-list-link">vmware</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/vpn/" class="tag-list-link">vpn</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/wifi/" class="tag-list-link">wifi</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/windows-10/" class="tag-list-link">windows-10</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/wordpress/" class="tag-list-link">wordpress</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/yalu/" class="tag-list-link">yalu</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC/" class="tag-list-link">忘記密碼</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/" class="tag-list-link">故障排除</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/%E6%AD%B8%E9%84%89/" class="tag-list-link">歸鄉</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/%E7%A0%B8%E6%AE%BC/" class="tag-list-link">砸殼</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/%E9%80%80%E4%BC%8D/" class="tag-list-link">退伍</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://example.com/tags/%E9%9B%BB%E5%AD%90%E7%A5%A8%E8%AD%89/" class="tag-list-link">電子票證</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://example.com/2019/07/choose_vpn/" class="title">公用 VPN 選擇注意事項</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-07-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-07-13</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://example.com/2019/05/win10_mppe_vpn/" class="title">Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-05-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-13</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://example.com/2019/05/mac_dd/" class="title">APFS 格式的 MacOS 系統硬碟對拷</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-05-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-09</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://example.com/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://example.com/2019/03/ios_autoupdate_disable/" class="title">讓舊版 iOS 無法自動更新（2019年適用）</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-03-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-24</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+  <aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+    <div class="slimContent">
+      <nav id="toc" class="article-toc">
+        <h3 class="toc-title">Catalogue</h3>
+        <div class="toc-content always-active"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#step1--esxi---vm---swap-">Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式</a></li>
+        <li><a href="#step2--">Step2:  強制作業系統更新硬碟大小</a></li>
+        <li><a href="#step3---swap---swap---swap---swap-partition">Step3: 先看分割區狀態, 有 swap 分割區, 所以要先建立 swap 檔案, 然後加 swap 檔案, 關閉 swap partition</a></li>
+        <li><a href="#step4--parted-">Step4: 沒有裝 parted, 所以要裝一下</a></li>
+        <li><a href="#step5--parted-">Step5: 用 parted 再看一下分割區</a></li>
+        <li><a href="#step6-">Step6: 確認目前檔案系統空間</a></li>
+        <li><a href="#step7--1gb-">Step7: 建立一個 1GB 的檔案</a></li>
+        <li><a href="#step8--swap-">Step8: 把檔案格式化成 swap 的檔案系統</a></li>
+        <li><a href="#step9--swap-">Step9: 啟用 swap 檔案</a></li>
+        <li><a href="#step10-">Step10: 確認檔案屬性</a></li>
+        <li><a href="#step11--600">Step11: 修改屬性為 600</a></li>
+        <li><a href="#step12-">Step12: 確認檔案屬性</a></li>
+        <li><a href="#step13--fstab-----swap-">Step13: 編輯 fstab 檔案, 加上新行內容如下 , 註解掉原來的 swap 分割區</a></li>
+        <li><a href="#step14--sysctlconf-">Step14: 編輯 sysctl.conf, 加上新行內容如下</a></li>
+        <li><a href="#step15--swap-">Step15: 確認 swap 檔案狀態</a></li>
+        <li><a href="#step16--swap--swap-">Step16: 關閉 swap, 記得要確認 swap 使用狀態</a></li>
+        <li><a href="#step17--swap">Step17: 啟動 swap</a></li>
+        <li><a href="#step18--parted-">Step18: 在 parted 裡面執行下列指令</a></li>
+        <li><a href="#step19-">Step19: 顯示目前分割區狀態</a></li>
+        <li><a href="#step20--swap-">Step:20 刪除 swap 分割區</a></li>
+        <li><a href="#step21-">Step21: 刪除延伸分割區</a></li>
+        <li><a href="#step22-">Step22: 確認分割區是否都正確</a></li>
+        <li><a href="#step23-">Step23: 執行下面的指令讓分割區最大化</a></li>
+        <li><a href="#step24-">Step24: 然後會顯示下面的訊息</a></li>
+        <li><a href="#step25-print-">Step25: print 指令顯示現在分割區狀態</a></li>
+        <li><a href="#step26--parted">Step26: 結束 parted</a></li>
+        <li><a href="#step27-">Step27: 檢查檔案系統空間</a></li>
+        <li><a href="#step28-">Step28: 更新檔案系統大小</a></li>
+        <li><a href="#step29-">Step29: 檢查檔案系統空間</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+      </nav>
+    </div>
+  </aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2018/03/esxi_swap/"
+    >在 ESXI 下擴充有分割 swap 分割區的磁碟</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/2018/03/esxi_swap/" class="article-date">
+  <time datetime="2018-03-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2018-03-04</time>
+</a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+    <a class="article-tag-link" href="/tags/esxi/"> ESXI </a>
+    <a class="article-tag-link" href="/tags/vm/"> VM </a>
+    <a class="article-tag-link" href="/tags/linux/"> Linux </a>
+    <a class="article-tag-link" href="/tags/swap/"> swap </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/03/esxi_swap/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:719words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:2minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      <p><em><strong>狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)</strong></em></p>
+<p><em><strong>如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟</strong></em></p>
+<!-- raw HTML omitted -->
+<h3 id="step1--esxi---vm---swap-">Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式</h3>
+<h3 id="step2--">Step2:  強制作業系統更新硬碟大小</h3>
+<p><code>sudo echo 1 &gt; '/sys/class/scsi_disk/0:0:0:0/device/rescan'</code></p>
+<h3 id="step3---swap---swap---swap---swap-partition">Step3: 先看分割區狀態, 有 swap 分割區, 所以要先建立 swap 檔案, 然後加 swap 檔案, 關閉 swap partition</h3>
+<p><code>sudo fdisk -l /dev/sda</code></p>
+<h3 id="step4--parted-">Step4: 沒有裝 parted, 所以要裝一下</h3>
+<p><code>sudo apt-get install parted</code></p>
+<h3 id="step5--parted-">Step5: 用 parted 再看一下分割區</h3>
+<p><code>sudo parted /dev/sda</code></p>
+<h3 id="step6-">Step6: 確認目前檔案系統空間</h3>
+<p><code>df -h</code></p>
+<h3 id="step7--1gb-">Step7: 建立一個 1GB 的檔案</h3>
+<p><code>sudo fallocate -l 1G /mnt/1GB.swap</code></p>
+<h3 id="step8--swap-">Step8: 把檔案格式化成 swap 的檔案系統</h3>
+<p><code>sudo mkswap /mnt/1GB.swap</code></p>
+<h3 id="step9--swap-">Step9: 啟用 swap 檔案</h3>
+<p><code>sudo swapon /mnt/1GB.swap</code></p>
+<h3 id="step10-">Step10: 確認檔案屬性</h3>
+<p><code>sudo ls -lh  /mnt/1GB.swap</code></p>
+<h3 id="step11--600">Step11: 修改屬性為 600</h3>
+<p><code>sudo chmod 600  /mnt/1GB.swap</code></p>
+<h3 id="step12-">Step12: 確認檔案屬性</h3>
+<p><code>ls -lh  /mnt/1GB.swap</code></p>
+<h3 id="step13--fstab-----swap-">Step13: 編輯 fstab 檔案, 加上新行內容如下 , 註解掉原來的 swap 分割區</h3>
+<p><code>sudo vim /etc/fstab</code></p>
+<p><strong>/mnt/1GB.swap  none  swap  sw 0  0</strong></p>
+<h3 id="step14--sysctlconf-">Step14: 編輯 sysctl.conf, 加上新行內容如下</h3>
+<p><code>sudo vim /etc/sysctl.conf</code></p>
+<p><strong>vm.swappiness=10</strong></p>
+<h3 id="step15--swap-">Step15: 確認 swap 檔案狀態</h3>
+<p><code>sudo swapon -s</code></p>
+<h3 id="step16--swap--swap-">Step16: 關閉 swap, 記得要確認 swap 使用狀態</h3>
+<p><code>sudo swapoff -a</code></p>
+<h3 id="step17--swap">Step17: 啟動 swap</h3>
+<p><code>sudo swapon -a</code></p>
+<h3 id="step18--parted-">Step18: 在 parted 裡面執行下列指令</h3>
+<p><code>sudo parted /dev/sda</code></p>
+<h3 id="step19-">Step19: 顯示目前分割區狀態</h3>
+<p>(parted) <code>print</code></p>
+<h3 id="step20--swap-">Step:20 刪除 swap 分割區</h3>
+<p>Model: VMware Virtual disk (scsi)</p>
+<p>Disk /dev/sda: 34.4GB</p>
+<p>Sector size (logical/physical): 512B/512B</p>
+<p>Partition Table: msdos</p>
+<p>Disk Flags:</p>
+<p>Number  Start   End     Size    Type      File system     Flags</p>
+<p>1      1049kB  16.4GB  16.4GB  primary   ext4            boot</p>
+<p>2      16.4GB  17.2GB  749MB   extended</p>
+<p>5      16.4GB  17.2GB  749MB   logical   linux-swap(v1)</p>
+<p>(parted) <code>rm 5</code></p>
+<h3 id="step21-">Step21: 刪除延伸分割區</h3>
+<p>(parted) <code>print</code></p>
+<p>Model: VMware Virtual disk (scsi)</p>
+<p>Disk /dev/sda: 34.4GB</p>
+<p>Sector size (logical/physical): 512B/512B</p>
+<p>Partition Table: msdos</p>
+<p>Disk Flags:</p>
+<p>Number  Start   End     Size    Type      File system  Flags</p>
+<p>1      1049kB  16.4GB  16.4GB  primary   ext4         boot</p>
+<p>2      16.4GB  17.2GB  749MB   extended</p>
+<p>(parted) <code>rm 2</code></p>
+<h3 id="step22-">Step22: 確認分割區是否都正確</h3>
+<p>(parted) <code>print</code></p>
+<p>Model: VMware Virtual disk (scsi)</p>
+<p>Disk /dev/sda: 34.4GB</p>
+<p>Sector size (logical/physical): 512B/512B</p>
+<p>Partition Table: msdos</p>
+<p>Disk Flags:</p>
+<p>Number  Start   End     Size    Type     File system  Flags</p>
+<p>1      1049kB  16.4GB  16.4GB  primary  ext4         boot</p>
+<h3 id="step23-">Step23: 執行下面的指令讓分割區最大化</h3>
+<p>(parted) <code>resizepart 1 yes 100%</code></p>
+<h3 id="step24-">Step24: 然後會顯示下面的訊息</h3>
+<p>Warning: Partition /dev/sda1 is being used. Are you sure you want to continue?</p>
+<h3 id="step25-print-">Step25: print 指令顯示現在分割區狀態</h3>
+<p>(parted) <code>print</code></p>
+<p>Model: VMware Virtual disk (scsi)</p>
+<p>Disk /dev/sda: 34.4GB</p>
+<p>Sector size (logical/physical): 512B/512B</p>
+<p>Partition Table: msdos</p>
+<p>Disk Flags:</p>
+<p>Number  Start   End     Size    Type     File system  Flags</p>
+<p>1      1049kB  34.4GB  34.4GB  primary  ext4</p>
+<h3 id="step26--parted">Step26: 結束 parted</h3>
+<p>(parted) <code>quit</code></p>
+<h3 id="step27-">Step27: 檢查檔案系統空間</h3>
+<p><code>df -h</code></p>
+<h3 id="step28-">Step28: 更新檔案系統大小</h3>
+<p><code>sudo resize2fs -F /dev/sda1</code></p>
+<h3 id="step29-">Step29: 檢查檔案系統空間</h3>
+<p><code>df -h</code></p>
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://example.com/2018/03/esxi_swap/" title="在 ESXI 下擴充有分割 swap 分割區的磁碟" target="_blank" rel="external">https://example.com/2018/03/esxi_swap/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/henryyang" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://example.com/avatar.jpeg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/henryyang" target="_blank"><span class="text-dark">Henry&#39;s Space</span><small class="ml-1x">Hi, I’m HuangI Yang. (A.K.A HenryYang)</small></a></h3>
+        <div></div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://example.com/2018/01/browser_service_workers/" title="檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://example.com/2018/04/filevaultmaster_keychain/"
+                    title="手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone"></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/henryyang" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://example.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2017  -
+    2019
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+   window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/rust.min.js"></script>
+<script type="text/javascript"
+   src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script>
+hljs.configure({
+  tabReplace: '    ', 
+  classPrefix: ''     
+                      
+})
+hljs.initHighlightingOnLoad();
+</script>
+<script type="text/javascript" src="https://example.com/js/application.js"></script>
+<script type="text/javascript" src="https://example.com/js/plugin.js"></script>
+<script>
+      (function (window) {
+          var INSIGHT_CONFIG = {
+              TRANSLATION: {
+                  POSTS: 'Posts',
+                  PAGES: 'Pages',
+                  CATEGORIES: 'Categories',
+                  TAGS: 'Tags',
+                  UNTITLED: '(Untitled)',
+              },
+              ROOT_URL: 'https:\/\/example.com\/',
+              CONTENT_URL: 'https:\/\/example.com\/\/searchindex.json ',
+          };
+          window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+      })(window);
+      </script>
+<script type="text/javascript" src="https://example.com/js/insight.js"></script>
+
+
+  </body>
+</html>

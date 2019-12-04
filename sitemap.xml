@@ -3,1310 +3,1227 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hiy.tw/life/</loc>
-    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/coding/</loc>
-    <lastmod>2018-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/portfolio/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/</loc>
+    <loc>https://example.com/posts/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/</loc>
+    <loc>https://example.com/tags/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/</loc>
+    <loc>https://example.com/tags/vpn/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/vpn/</loc>
+    <loc>https://example.com/2019/07/choose_vpn/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/choose_vpn/</loc>
+    <loc>https://example.com/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/choose_vpn/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/mppe/</loc>
+    <loc>https://example.com/tags/mppe/</loc>
     <lastmod>2019-05-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/windows-10/</loc>
+    <loc>https://example.com/tags/windows-10/</loc>
     <lastmod>2019-05-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/win10_mppe_vpn/</loc>
+    <loc>https://example.com/2019/05/win10_mppe_vpn/</loc>
     <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/win10_mppe_vpn/</loc>
-    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/afps/</loc>
+    <loc>https://example.com/tags/afps/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/mac_dd/</loc>
+    <loc>https://example.com/2019/05/mac_dd/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/mac_dd/</loc>
+    <loc>https://example.com/tags/dd/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/dd/</loc>
+    <loc>https://example.com/tags/macos/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/macos/</loc>
-    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/4g/</loc>
+    <loc>https://example.com/tags/4g/</loc>
     <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/ap/</loc>
+    <loc>https://example.com/tags/ap/</loc>
     <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/netgear/</loc>
+    <loc>https://example.com/tags/netgear/</loc>
     <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/life/netgear_m1/</loc>
+    <loc>https://example.com/2019/05/netgear_m1/</loc>
     <lastmod>2019-05-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/netgear_m1/</loc>
-    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/jb/</loc>
+    <loc>https://example.com/tags/ios/</loc>
     <lastmod>2019-03-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/ios-12/</loc>
+    <loc>https://example.com/tags/ios-12/</loc>
     <lastmod>2019-03-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/ios/</loc>
+    <loc>https://example.com/tags/jb/</loc>
     <lastmod>2019-03-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/ios_autoupdate_disable/</loc>
+    <loc>https://example.com/2019/03/ios_autoupdate_disable/</loc>
     <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/ios_autoupdate_disable/</loc>
-    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/paypal/</loc>
+    <loc>https://example.com/tags/paypal/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/life/paypal_543/</loc>
+    <loc>https://example.com/2019/03/paypal_543/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/paypal_543/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/about/</loc>
+    <loc>https://example.com/about/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/jal/</loc>
+    <loc>https://example.com/tags/jal/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/wifi/</loc>
+    <loc>https://example.com/tags/wifi/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/</loc>
+    <loc>https://example.com/tags/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/jal_domestic_inflight_internet/</loc>
+    <loc>https://example.com/2018/12/jal_domestic_inflight_internet/</loc>
     <lastmod>2018-12-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/jal_domestic_inflight_internet/</loc>
-    <lastmod>2018-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/filevault/</loc>
+    <loc>https://example.com/tags/filevault/</loc>
     <lastmod>2018-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/profile-manager/</loc>
+    <loc>https://example.com/tags/profile-manager/</loc>
     <lastmod>2018-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/coding/macos_server_profile_manager_filevault/</loc>
+    <loc>https://example.com/2018/10/macos_server_profile_manager_filevault/</loc>
     <lastmod>2018-10-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/macos_server_profile_manager_filevault/</loc>
-    <lastmod>2018-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/apple/</loc>
+    <loc>https://example.com/tags/apple/</loc>
     <lastmod>2018-09-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/apple-pay/</loc>
+    <loc>https://example.com/tags/apple-pay/</loc>
     <lastmod>2018-09-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/apple_pay_transit/</loc>
+    <loc>https://example.com/2018/09/apple_pay_transit/</loc>
     <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/apple_pay_transit/</loc>
+    <loc>https://example.com/tags/%E9%9B%BB%E5%AD%90%E7%A5%A8%E8%AD%89/</loc>
     <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/%E9%9B%BB%E5%AD%90%E7%A5%A8%E8%AD%89/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/gift-card/</loc>
+    <loc>https://example.com/tags/gift-card/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/visa/</loc>
+    <loc>https://example.com/tags/itunes/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/itunes/</loc>
+    <loc>https://example.com/tags/japan/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/japan/</loc>
+    <loc>https://example.com/tags/visa/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/life/jp_itunes_visa_gift_card/</loc>
+    <loc>https://example.com/2018/07/jp_itunes_visa_gift_card/</loc>
     <lastmod>2018-07-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/jp_itunes_visa_gift_card/</loc>
-    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/keychain/</loc>
+    <loc>https://example.com/tags/keychain/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/coding/filevaultmaster_keychain/</loc>
+    <loc>https://example.com/2018/04/filevaultmaster_keychain/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/filevaultmaster_keychain/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/esxi/</loc>
+    <loc>https://example.com/tags/esxi/</loc>
     <lastmod>2018-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/linux/</loc>
+    <loc>https://example.com/tags/linux/</loc>
     <lastmod>2018-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/vm/</loc>
+    <loc>https://example.com/tags/swap/</loc>
     <lastmod>2018-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/swap/</loc>
+    <loc>https://example.com/tags/vm/</loc>
     <lastmod>2018-03-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/coding/esxi_swap/</loc>
+    <loc>https://example.com/2018/03/esxi_swap/</loc>
     <lastmod>2018-03-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/esxi_swap/</loc>
-    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/chrome/</loc>
+    <loc>https://example.com/tags/chrome/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/firefox/</loc>
+    <loc>https://example.com/tags/firefox/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/service-workers/</loc>
+    <loc>https://example.com/tags/service-workers/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/browser_service_workers/</loc>
+    <loc>https://example.com/2018/01/browser_service_workers/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/browser_service_workers/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/cli/</loc>
+    <loc>https://example.com/tags/cli/</loc>
     <lastmod>2017-10-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/terminal/</loc>
+    <loc>https://example.com/tags/iterm2/</loc>
     <lastmod>2017-10-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/iterm2/</loc>
+    <loc>https://example.com/tags/terminal/</loc>
     <lastmod>2017-10-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/iterm2_option_b_f/</loc>
+    <loc>https://example.com/2017/10/iterm2_option_b_f/</loc>
     <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/iterm2_option_b_f/</loc>
-    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/airplay/</loc>
+    <loc>https://example.com/tags/airplay/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/ethernet/</loc>
+    <loc>https://example.com/tags/ethernet/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/lightning/</loc>
+    <loc>https://example.com/2017/10/ios_airplay/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/ios_airplay/</loc>
+    <loc>https://example.com/tags/lightning/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/ios_airplay/</loc>
-    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/ssh/</loc>
+    <loc>https://example.com/tags/ssh/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/yalu/</loc>
+    <loc>https://example.com/tags/yalu/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/yalu_ios10_jb_wifi/</loc>
+    <loc>https://example.com/2017/08/yalu_ios10_jb_wifi/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/yalu_ios10_jb_wifi/</loc>
-    <lastmod>2017-08-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/andorid/</loc>
+    <loc>https://example.com/tags/andorid/</loc>
     <lastmod>2017-08-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/sms/</loc>
+    <loc>https://example.com/2017/08/ios_sms_to_android/</loc>
     <lastmod>2017-08-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/ios_sms_to_android/</loc>
+    <loc>https://example.com/tags/isms2droid/</loc>
     <lastmod>2017-08-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/ios_sms_to_android/</loc>
+    <loc>https://example.com/tags/sms/</loc>
     <lastmod>2017-08-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/isms2droid/</loc>
-    <lastmod>2017-08-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/cydia/</loc>
+    <loc>https://example.com/tags/cydia/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/dumpdecrypted/</loc>
+    <loc>https://example.com/tags/dumpdecrypted/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/ios_10_cydia_disappear/</loc>
+    <loc>https://example.com/2017/07/ios_10_cydia_disappear/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/ios_10_cydia_disappear/</loc>
+    <loc>https://example.com/2017/07/ios_dumpdecrypted/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/ios_dumpdecrypted/</loc>
+    <loc>https://example.com/tags/root/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/ios_dumpdecrypted/</loc>
+    <loc>https://example.com/tags/%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/root/</loc>
+    <loc>https://example.com/tags/%E7%A0%B8%E6%AE%BC/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/%E5%BF%98%E8%A8%98%E5%AF%86%E7%A2%BC/</loc>
+    <loc>https://example.com/2017/07/reset_jb_ios_root_password/</loc>
     <lastmod>2017-07-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/%E7%A0%B8%E6%AE%BC/</loc>
-    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/reset_jb_ios_root_password/</loc>
-    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tech/reset_jb_ios_root_password/</loc>
-    <lastmod>2017-07-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/semi-jailbreak/</loc>
+    <loc>https://example.com/tags/semi-jailbreak/</loc>
     <lastmod>2017-07-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/semi_jailbreak_restore/</loc>
+    <loc>https://example.com/2017/07/semi_jailbreak_restore/</loc>
     <lastmod>2017-07-24T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/semi_jailbreak_restore/</loc>
-    <lastmod>2017-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/bmobile/</loc>
+    <loc>https://example.com/tags/bmobile/</loc>
     <lastmod>2017-05-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/life/jp_sms_number/</loc>
+    <loc>https://example.com/2017/05/jp_sms_number/</loc>
     <lastmod>2017-05-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/jp_sms_number/</loc>
-    <lastmod>2017-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/apple_pay_active/</loc>
+    <loc>https://example.com/2017/04/apple_pay_active/</loc>
     <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/apple_pay_active/</loc>
+    <loc>https://example.com/categories/</loc>
     <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/suica/</loc>
+    <loc>https://example.com/tags/iphone/</loc>
     <lastmod>2017-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/iphone/</loc>
+    <loc>https://example.com/tags/suica/</loc>
     <lastmod>2017-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/360/</loc>
+    <loc>https://example.com/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</loc>
+    <lastmod>2017-04-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/360/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/exif/</loc>
+    <loc>https://example.com/tags/diskutil/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/facebook/</loc>
+    <loc>https://example.com/tags/exif/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/nat64/</loc>
+    <loc>https://example.com/tags/facebook/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/diskutil/</loc>
+    <loc>https://example.com/tags/ipv6/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/ipv6/</loc>
+    <loc>https://example.com/tags/nat64/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/facebook_360_photo/</loc>
+    <loc>https://example.com/2017/04/facebook_360_photo/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/facebook_360_photo/</loc>
+    <loc>https://example.com/2017/04/expand_esxi_macos/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/expand_esxi_macos/</loc>
+    <loc>https://example.com/2017/04/macos_share_ipv6/</loc>
     <lastmod>2017-04-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/expand_esxi_macos/</loc>
-    <lastmod>2017-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/macos_share_ipv6/</loc>
-    <lastmod>2017-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tech/macos_share_ipv6/</loc>
-    <lastmod>2017-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/ios_9_apple_pay_taiwan/</loc>
+    <loc>https://example.com/2017/03/ios_9_apple_pay_taiwan/</loc>
     <lastmod>2017-03-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/ios_9_apple_pay_taiwan/</loc>
-    <lastmod>2017-03-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/android/</loc>
+    <loc>https://example.com/tags/android/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/app/</loc>
+    <loc>https://example.com/tags/app/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/credit-crad/</loc>
+    <loc>https://example.com/tags/credit-crad/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/debit-card/</loc>
+    <loc>https://example.com/tags/debit-card/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/mi/</loc>
+    <loc>https://example.com/tags/mi/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/note-4x/</loc>
+    <loc>https://example.com/tags/note-4x/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/rfid/</loc>
+    <loc>https://example.com/tags/rfid/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/rfid_info/</loc>
+    <loc>https://example.com/2017/03/rfid_info/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/rfid_info/</loc>
+    <loc>https://example.com/2017/03/note_4x_root/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/note_4x_root/</loc>
+    <loc>https://example.com/2017/03/credit_debit_info/</loc>
     <lastmod>2017-03-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/note_4x_root/</loc>
-    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/credit_debit_info/</loc>
-    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tech/credit_debit_info/</loc>
-    <lastmod>2017-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/data-recovery/</loc>
+    <loc>https://example.com/tags/data-recovery/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/data_recovery/</loc>
+    <loc>https://example.com/2017/01/data_recovery/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/data_recovery/</loc>
-    <lastmod>2017-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/3g/</loc>
+    <loc>https://example.com/tags/3g/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/cellular/</loc>
+    <loc>https://example.com/tags/cellular/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/raspberry-pi/</loc>
+    <loc>https://example.com/tags/raspberry-pi/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/coding/raspberry_pi_usb_3g/</loc>
+    <loc>https://example.com/2016/12/raspberry_pi_usb_3g/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/raspberry_pi_usb_3g/</loc>
+    <loc>https://example.com/tags/vmware/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/vmware/</loc>
+    <loc>https://example.com/2016/12/resize_macos_partition/</loc>
     <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/coding/resize_macos_partition/</loc>
-    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/resize_macos_partition/</loc>
-    <lastmod>2016-12-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/coding/libimobiledevice_note/</loc>
+    <loc>https://example.com/2016/12/libimobiledevice_note/</loc>
     <lastmod>2016-12-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/libimobiledevice_note/</loc>
-    <lastmod>2016-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/adb/</loc>
+    <loc>https://example.com/tags/adb/</loc>
     <lastmod>2016-12-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/coding/raspberry_pi_libimobiledevice_adb/</loc>
+    <loc>https://example.com/2016/12/raspberry_pi_libimobiledevice_adb/</loc>
     <lastmod>2016-12-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/raspberry_pi_libimobiledevice_adb/</loc>
-    <lastmod>2016-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/email/</loc>
+    <loc>https://example.com/tags/email/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/thunderbolt/</loc>
+    <loc>https://example.com/tags/thunderbolt/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/thunderbolt_info/</loc>
+    <loc>https://example.com/2016/11/thunderbolt_info/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/thunderbolt_info/</loc>
+    <loc>https://example.com/tags/type-c/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/type-c/</loc>
+    <loc>https://example.com/2016/11/sms_forward/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/sms_forward/</loc>
-    <lastmod>2016-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tech/sms_forward/</loc>
-    <lastmod>2016-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/china/</loc>
+    <loc>https://example.com/tags/china/</loc>
     <lastmod>2016-11-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/coding/esxi_log/</loc>
+    <loc>https://example.com/2016/11/esxi_log/</loc>
     <lastmod>2016-11-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/esxi_log/</loc>
+    <loc>https://example.com/tags/fubon/</loc>
     <lastmod>2016-11-23T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/fubon/</loc>
+    <loc>https://example.com/tags/log/</loc>
     <lastmod>2016-11-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/log/</loc>
+    <loc>https://example.com/tags/swift/</loc>
     <lastmod>2016-11-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/swift/</loc>
+    <loc>https://example.com/2016/11/fubon_cn_transfer/</loc>
     <lastmod>2016-11-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/life/fubon_cn_transfer/</loc>
-    <lastmod>2016-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/fubon_cn_transfer/</loc>
-    <lastmod>2016-11-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/line/</loc>
+    <loc>https://example.com/tags/line/</loc>
     <lastmod>2016-11-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/line_20161111/</loc>
+    <loc>https://example.com/2016/11/line_20161111/</loc>
     <lastmod>2016-11-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/line_20161111/</loc>
-    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/bin/</loc>
+    <loc>https://example.com/tags/bin/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/credit-card/</loc>
+    <loc>https://example.com/tags/credit-card/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/mastercard/</loc>
+    <loc>https://example.com/tags/mastercard/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/life/creditcrad_info/</loc>
+    <loc>https://example.com/2016/10/creditcrad_info/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/creditcrad_info/</loc>
-    <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/dmg/</loc>
+    <loc>https://example.com/tags/diskutility/</loc>
     <lastmod>2016-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/diskutility/</loc>
+    <loc>https://example.com/tags/dmg/</loc>
     <lastmod>2016-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/encrypt/</loc>
+    <loc>https://example.com/tags/encrypt/</loc>
     <lastmod>2016-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/dmg_encrypt/</loc>
+    <loc>https://example.com/2016/10/dmg_encrypt/</loc>
     <lastmod>2016-10-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/dmg_encrypt/</loc>
-    <lastmod>2016-10-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/coding/linux_pam/</loc>
+    <loc>https://example.com/2016/10/linux_pam/</loc>
     <lastmod>2016-10-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/linux_pam/</loc>
+    <loc>https://example.com/tags/pam/</loc>
     <lastmod>2016-10-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/pam/</loc>
-    <lastmod>2016-10-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/cirrus/</loc>
+    <loc>https://example.com/tags/cirrus/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/life/tw_debit_withdraw/</loc>
+    <loc>https://example.com/2016/10/tw_debit_withdraw/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/tw_debit_withdraw/</loc>
-    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/life/digi_life/</loc>
+    <loc>https://example.com/2016/09/digi_life/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/digi_life/</loc>
+    <loc>https://example.com/2016/09/apple_pay_itunes_gift_card/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/life/apple_pay_itunes_gift_card/</loc>
-    <lastmod>2016-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/apple_pay_itunes_gift_card/</loc>
-    <lastmod>2016-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/fet/</loc>
+    <loc>https://example.com/tags/fet/</loc>
     <lastmod>2016-09-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/format/</loc>
+    <loc>https://example.com/tags/format/</loc>
     <lastmod>2016-09-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/icloud/</loc>
+    <loc>https://example.com/tags/icloud/</loc>
     <lastmod>2016-09-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/android_free_space/</loc>
+    <loc>https://example.com/2016/09/android_free_space/</loc>
     <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/android_free_space/</loc>
+    <loc>https://example.com/2016/09/macos_format_cli_gui/</loc>
     <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/macos_format_cli_gui/</loc>
+    <loc>https://example.com/2016/09/fet_icloud/</loc>
     <lastmod>2016-09-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/macos_format_cli_gui/</loc>
-    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/life/fet_icloud/</loc>
-    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/fet_icloud/</loc>
-    <lastmod>2016-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/android_ios_ipv6/</loc>
+    <loc>https://example.com/2016/08/android_ios_ipv6/</loc>
     <lastmod>2016-08-08T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/android_ios_ipv6/</loc>
+    <loc>https://example.com/2016/08/ipv6_browser/</loc>
     <lastmod>2016-08-08T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/ipv6_browser/</loc>
-    <lastmod>2016-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tech/ipv6_browser/</loc>
-    <lastmod>2016-08-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/cht/</loc>
+    <loc>https://example.com/tags/cht/</loc>
     <lastmod>2016-08-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/win10_sn/</loc>
+    <loc>https://example.com/2016/08/win10_sn/</loc>
     <lastmod>2016-08-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/win10_sn/</loc>
+    <loc>https://example.com/2016/08/cht_ipv6/</loc>
     <lastmod>2016-08-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/cht_ipv6/</loc>
-    <lastmod>2016-08-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tech/cht_ipv6/</loc>
-    <lastmod>2016-08-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/coding/wordpress_update_ssh/</loc>
+    <loc>https://example.com/2016/08/wordpress_update_ssh/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/wordpress_update_ssh/</loc>
+    <loc>https://example.com/tags/wordpress/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/wordpress/</loc>
-    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/burpsuite/</loc>
+    <loc>https://example.com/tags/burpsuite/</loc>
     <lastmod>2016-07-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/ca/</loc>
+    <loc>https://example.com/tags/ca/</loc>
     <lastmod>2016-07-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/ssid/</loc>
+    <loc>https://example.com/tags/ssid/</loc>
     <lastmod>2016-07-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/coding/burpsuite_root_ca/</loc>
+    <loc>https://example.com/2016/07/burpsuite_root_ca/</loc>
     <lastmod>2016-07-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/burpsuite_root_ca/</loc>
+    <loc>https://example.com/2016/07/wifi_ssid/</loc>
     <lastmod>2016-07-31T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/wifi_ssid/</loc>
-    <lastmod>2016-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tech/wifi_ssid/</loc>
-    <lastmod>2016-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/%E6%AD%B8%E9%84%89/</loc>
+    <loc>https://example.com/tags/%E6%AD%B8%E9%84%89/</loc>
     <lastmod>2016-06-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/life/retired_from_military_service/</loc>
+    <loc>https://example.com/2016/06/retired_from_military_service/</loc>
     <lastmod>2016-06-08T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/retired_from_military_service/</loc>
+    <loc>https://example.com/tags/%E9%80%80%E4%BC%8D/</loc>
     <lastmod>2016-06-08T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/%E9%80%80%E4%BC%8D/</loc>
-    <lastmod>2016-06-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/parallels_desktop_remove/</loc>
+    <loc>https://example.com/2016/02/parallels_desktop_remove/</loc>
     <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/parallels_desktop_remove/</loc>
-    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/alfred/</loc>
+    <loc>https://example.com/tags/alfred/</loc>
     <lastmod>2015-12-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/brew/</loc>
+    <loc>https://example.com/tags/brew/</loc>
     <lastmod>2015-12-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/public-key/</loc>
+    <loc>https://example.com/2015/12/brew_cask_error/</loc>
     <lastmod>2015-12-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/brew_cask_error/</loc>
+    <loc>https://example.com/tags/public-key/</loc>
     <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/brew_cask_error/</loc>
+    <loc>https://example.com/2015/12/public_key_fingerprint/</loc>
     <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/public_key_fingerprint/</loc>
+    <loc>https://example.com/2015/12/alfred_brew_cask/</loc>
     <lastmod>2015-12-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/public_key_fingerprint/</loc>
-    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/alfred_brew_cask/</loc>
-    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tech/alfred_brew_cask/</loc>
-    <lastmod>2015-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/jailbreak/</loc>
+    <loc>https://example.com/2015/11/ios8_jb/</loc>
     <lastmod>2015-11-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/mysql/</loc>
+    <loc>https://example.com/tags/jailbreak/</loc>
     <lastmod>2015-11-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/posts/ios8_jb/</loc>
+    <loc>https://example.com/tags/mysql/</loc>
     <lastmod>2015-11-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tech/ios8_jb/</loc>
+    <loc>https://example.com/tags/phpmyadmin/</loc>
     <lastmod>2015-11-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/phpmyadmin/</loc>
+    <loc>https://example.com/2015/11/phpmyadmin_mcrypt/</loc>
     <lastmod>2015-11-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/coding/phpmyadmin_mcrypt/</loc>
-    <lastmod>2015-11-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/phpmyadmin_mcrypt/</loc>
-    <lastmod>2015-11-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/categories/</loc>
-    <priority>0</priority>
+    <loc>https://example.com/series/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
