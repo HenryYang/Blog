@@ -1,6 +1,6 @@
 baseURL: https://hiy.tw/
 theme: pure
-title: Pure theme for Hugo
+title: Henry's Space
 defaultContentLanguage: en  # en/zh/...
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
