@@ -3,6 +3,7 @@ title: "把使用 Yalu 來 JB 的 iOS 10 裝置開啟透過 WiFi 連接 SSH"
 draft: false
 date: 2017-08-28
 tags: ["iOS", "Jailbreak"]
+categories: ["科技新知"]
 ---
 
 故事就是如果你用 Yalu 來 JailBreak 你的 iOS 10 設備，然後你會發現到用 WiFi 來接 SSH 怎麼樣都不會通，可是透過 USB 建立本地通道卻是可以連接 SSH 的。
@@ -22,25 +23,25 @@ Yalu102 Beta7 的下載點：[http://www.mediafire.com/file/v6on6gho64h3gnv/yalu
 
 把 Yalu 下載下來後，直接把副檔名從 .ipa 改成 .zip 並且解壓縮，這時候你會得到一個名為 Playload 的資料夾，然後點進去會看到一個名為 yalu102 的應用程式。
 
-<center>
+
 ![](https://hiy.tw/tech/yalu_ios10_jb_wifi/1.png)
-</center>
+
 
 
 這時候在應用程式按右鍵選擇 *顯示套件內容*，然後找到 *dropbear.plist* 並且用 XCode 打開，這時候請把 ProgramArguments 的 Item 4 從 *127.0.0.1:22* 改成 *22* 然後存檔。
 
 
-<center>
+
 ![](https://hiy.tw/tech/yalu_ios10_jb_wifi/2.png)
-</center>
+
 
 
 
 當確認修改且存檔完畢，在 Playload 資料夾按右鍵選擇 *壓縮『Payload』*，然後就會得到一個新的 Payload.zip 這時候請把副檔名從 .zip 改成 .ipa 然後就得到了一個新的 IPA 檔案。
 
-<center>
+
 ![](https://hiy.tw/tech/yalu_ios10_jb_wifi/3.png)
-</center>
+
 
 
 

@@ -3,6 +3,7 @@ title: "返陽相關注意事項 - 退伍後歸鄉等相關注意事項"
 draft: false
 date: 2016-06-08
 tags: ["退伍", "歸鄉"]
+categories: ["生活技巧"]
 
 ---
 
@@ -87,6 +88,5 @@ tags: ["退伍", "歸鄉"]
 
 上面這些東西事項如果證件與文件都備齊，是可以一天就跑完的，退伍之後到工作以前是人生中最後一個長假了，所以珍惜時間，讓我們一天就跟政府打完交道，這樣才有更多時間可以留給自己跟家人。
 
-<center>
+
 ![](https://hiy.tw/life/retired_from_military_service/1.jpg)
-</center>

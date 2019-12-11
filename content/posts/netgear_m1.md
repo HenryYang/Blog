@@ -3,6 +3,7 @@ title: "Netgear M1 行動 4G 分享器筆記"
 draft: flase
 date: 2019-05-04
 tags: ["Cellular"]
+categories: ["生活技巧"]
 ---
 
 
@@ -54,9 +55,9 @@ P.S. Docomo 還支援了 B9, B19, B21 這幾個 M1 不支援的頻段
 * 很重、很大顆
 
 
-<center>
+
 ![](https://hiy.tw/life/netgear_m1/3.jpg)
-</center>
+
 
 
 這篇文章主要是記錄一下我把前一個 MF910 交棒給同事繼續使用，而自己換成 Netgear M1 的文章。

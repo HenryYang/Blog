@@ -3,7 +3,7 @@ title: "Android 與 iOS 查詢 ipv6 方式"
 draft: false
 date: 2016-08-08
 tags: ["ipv6", "iOS", "Android"]
-categories: ["杂技浅尝"]
+categories: ["科技新知"]
 ---
 
 
@@ -15,23 +15,23 @@ categories: ["杂技浅尝"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/tech/android_ios_ipv6/1.png)
-</center>
 
 
 
-<center>
+
+
 ![](https://hiy.tw/tech/android_ios_ipv6/2.png)
-</center>
+
 
 <h3>從 Andorid 系統查詢</h3>
 
 設定 -> 關於手機 -> 狀態
 
-<center>
+
 ![](https://hiy.tw/tech/android_ios_ipv6/3.png)
-</center>
+
 
 <h3>如果你手機系統比較舊，無法在系統內直接看</h3>
 

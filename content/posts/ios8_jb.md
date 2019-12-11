@@ -3,6 +3,7 @@ title: "iOS 8 Jailbreak 注意事項"
 draft: false
 date: 2015-11-28
 tags: ["iOS", "Jailbreak"]
+categories: ["科技新知"]
 ---
 
 

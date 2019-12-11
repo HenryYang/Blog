@@ -3,6 +3,7 @@ title: "brew cask 安裝軟體時跳出權限錯誤"
 draft: false
 date: 2015-12-28
 tags: ["Brew"]
+categories: ["程式技術"]
 ---
 
 

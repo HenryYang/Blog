@@ -3,6 +3,7 @@ title: "金融卡、信用卡 冷知識整理"
 draft: false
 date: 2017-03-05
 tags: ["Credit Card", "Debit Card"]
+categories: ["科技新知"]
 ---
 
 
@@ -10,9 +11,9 @@ tags: ["Credit Card", "Debit Card"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/tech/credit_debit_info/1.png)
-</center>
+
 
 [CC by Philip Taylor](https://www.flickr.com/photos/9731367@N02/7113235069)
 

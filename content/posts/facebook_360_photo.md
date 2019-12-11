@@ -3,6 +3,7 @@ title: "快速讓全景照片支援 Facebook 的 360 度顯示"
 draft: false
 date: 2017-04-16
 tags: ["Facebook", "360", "EXIF"]
+categories: ["科技新知"]
 ---
 
 
@@ -12,9 +13,9 @@ tags: ["Facebook", "360", "EXIF"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/tech/facebook_360_photo/1.png)
-</center>
+
 
 
 
@@ -29,17 +30,17 @@ tags: ["Facebook", "360", "EXIF"]
 
 就非常簡單，只要在命令提示字元或是終端機下   ```  exiftool -ProjectionType="equirectangular" 你照片的名稱.jpg ``` 
 
-<center>
+
 ![](https://hiy.tw/tech/facebook_360_photo/2.png)
-</center>
+
 
 然後原本的檔案的 EXIF 就會被加上 ProjectionType=equirectangular 這數值，然後如果有任何做錯，也還有 ```你照片的名稱.jpg_original``` 的原始照片存在。
 
 這時候打開你的 Facebook 網頁版本，再點選那張照片就會看到地球圖示，這樣就代表上傳後會變成 360 相片
 
-<center>
+
 ![](https://hiy.tw/tech/facebook_360_photo/3.png)
-</center>
+
 
 參考資料：
 

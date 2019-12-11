@@ -3,6 +3,7 @@ title: "用 MacOS 安全的抹除硬碟 ( CLI 與 GUI 教學 )"
 draft: false
 date: 2016-09-18
 tags: ["macOS", "CLI"]
+categories: ["程式技術"]
 ---
 
 
@@ -14,14 +15,14 @@ tags: ["macOS", "CLI"]
 
 開啟磁碟管理工具，然後點選你的抹除的分割區，並且按下 "清除" 然後你就會看到左下方有安全層級可以選擇，左邊是不抹除而右邊則是最安全的 DOD 建議抹除等級，當然越安全越久。當選擇好後，就按下清除就可以了。
 
-<center>
+
 ![](https://hiy.tw/tech/macos_format_cli_gui/1.png)
-</center>
 
 
-<center>
+
+
 ![](https://hiy.tw/tech/macos_format_cli_gui/2.png)
-</center>
+
 
 
 

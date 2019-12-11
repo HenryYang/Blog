@@ -3,11 +3,12 @@ title: "Raspberry Pi 3 安裝 libimobiledevice ＆ ADB 筆記"
 draft: false
 date: 2016-12-10
 tags: ["iOS", "Android", "Raspberry Pi"]
+categories: ["程式技術"]
 ---
 
-<center>
+
 ![](https://hiy.tw/coding/raspberry_pi_libimobiledevice_adb/1.jpg)
-</center>
+
 
 
 ## libimobiledevice 部分

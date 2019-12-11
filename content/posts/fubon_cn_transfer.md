@@ -3,6 +3,7 @@ title: "台北富邦匯款到中國富邦華一銀行（使用富邦 兩岸通�
 draft: false
 date: 2016-11-23
 tags: ["China", "Swift Code","Finance"]
+categories: ["生活技巧"]
 ---
 
 
@@ -12,9 +13,9 @@ tags: ["China", "Swift Code","Finance"]
 
 詳細教學可以參考一下這位大大的資訊：http://pttweb.tw/thread/m-1461258753-a-714
 
-<center>
+
 ![](https://hiy.tw/life/fubon_cn_transfer/1.png)
-</center>
+
 
 <!--more-->
 
@@ -42,7 +43,7 @@ tags: ["China", "Swift Code","Finance"]
 
 參考資料：
 
-https://shengshampoo.tumblr.com/post/143161355958/%E5%AF%8C%E9%82%A6%E9%8A%80%E5%9C%8B%E5%A4%96%E5%8C%AF%E6%AC%BE%E5%85%A9%E5%B2%B8%E9%80%9F%E5%8C%AF%E9%80%9A%E4%BA%BA%E6%B0%91%E5%B9%A3%E8%87%B3%E8%8F%AF%E4%B8%80%E9%8A%80%E8%A1%8C%E5%BE%AE%E7%AD%86%E8%A8%98
+https://bit.ly/2qG2oDs
 
 
 

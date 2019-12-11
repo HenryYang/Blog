@@ -3,15 +3,16 @@ title: "信用卡相關知識筆記"
 draft: false
 date: 2016-10-29
 tags: ["Credit Card"]
+categories: ["生活技巧"]
 ---
 
 目前 VISA、Master、JCB 都是主流的 16 位數卡號，但像是 American Express 就是比較少見的 15 位數，而部分銀聯卡則是 19 位數的卡號。
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/life/creditcrad_info/1.jpg)
-</center>
+
 
 
 其中，我們可以透過信用卡的前 6 位數來辨識卡片的發卡組織、卡種、發卡銀行等相關資料，因為這前 6 位數其實是國際上用來區分發卡的數字所以拿到同一款卡片的人前六碼一定一樣。

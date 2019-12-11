@@ -3,6 +3,7 @@ title: "ESXI 的 LOG 移至內建空間"
 draft: false
 date: 2016-11-23
 tags: ["Log", "ESXI"]
+categories: ["程式技術"]
 ---
 
 
@@ -12,9 +13,9 @@ tags: ["Log", "ESXI"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/coding/esxi_log/1.png)
-</center>
+
 
 
 

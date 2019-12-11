@@ -3,6 +3,7 @@ title: "讓 Alfred 也可以找到用 Brew Cask 所安裝的應用程式"
 draft: false
 date: 2015-12-28
 tags: ["Software", "Brew"]
+categories: ["程式技術"]
 ---
 
 

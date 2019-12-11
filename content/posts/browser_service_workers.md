@@ -3,6 +3,7 @@ title: "檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西"
 draft: false
 date: 2018-01-15
 tags: ["Browser", "Service Workers"]
+categories: ["科技新知"]
 ---
 
 
@@ -18,12 +19,12 @@ Firefox 開啟的方法則是在網址列輸入 `about:debugging#workers`，
 
 然後就會看到下面這兩種介面的 Service Worker 管理。就看看有沒有不認識的，要記得關 XD
 
-<center>
-![](https://hiy.tw/tech/browser_service_workers/1.png)
-</center>
 
-<center>
+![](https://hiy.tw/tech/browser_service_workers/1.png)
+
+
+
 ![](https://hiy.tw/tech/browser_service_workers/2.png)
-</center>
+
 
 

@@ -3,6 +3,7 @@ title: "Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定"
 draft: flase
 date: 2019-05-13
 tags: ["VPN", "Windows 10"]
+categories: ["科技新知"]
 ---
 
 #### 我也不想用 PPTP VPN 啊，但希望總是無法實現
@@ -15,9 +16,8 @@ tags: ["VPN", "Windows 10"]
 
 
 
-<center>
 ![](https://hiy.tw/tech/win10_mppe_vpn/01.png)
-</center>
+
 
 
 

@@ -3,6 +3,7 @@ title: "讓 iOS 9 設備也支援台灣信用卡的 Apple Pay"
 draft: false
 date: 2017-03-29
 tags: ["Apple Pay", "Jailbreak", "iOS"]
+categories: ["科技新知"]
 ---
 
 
@@ -27,17 +28,17 @@ tags: ["Apple Pay", "Jailbreak", "iOS"]
 
 步驟二：到 "/System/Library/CoreServices" 用 "Property List Viewer" 開啟 "SystemVersion.plist" 
 
-<center>
+
 ![](https://hiy.tw/tech/ios_9_apple_pay_taiwan/1.png)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/tech/ios_9_apple_pay_taiwan/2.png)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/tech/ios_9_apple_pay_taiwan/3.png)
-</center>
+
 
 步驟三：請把看到的畫面螢幕截圖下來，以供未來還原時參考
 
@@ -47,9 +48,9 @@ tags: ["Apple Pay", "Jailbreak", "iOS"]
 
 步驟六：一定要記得把步驟四修改的數值改回原本的
 
-<center>
+
 ![](https://hiy.tw/tech/ios_9_apple_pay_taiwan/4.jpg)
-</center>
+
 
 ### 注意，請確保在電力充足時操作，並且在完成第六步前千萬不可以重開機，不然 iPhone 就再也無法回到 JB 狀態了
 

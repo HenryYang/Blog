@@ -3,6 +3,7 @@ title: "查看公鑰 (Public Key) 的指紋 (fingerprint)"
 draft: false
 date: 2015-12-28
 tags: ["Public Key"]
+categories: ["程式技術"]
 ---
 
 

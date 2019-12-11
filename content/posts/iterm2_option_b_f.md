@@ -3,6 +3,7 @@ title: "讓 iTerm2 也支援使用 Option + B/F 來前後選擇"
 draft: false
 date: 2017-10-15
 tags: ["CLI", "macOS"]
+categories: ["科技新知"]
 ---
 
 
@@ -17,9 +18,9 @@ tags: ["CLI", "macOS"]
 路徑為：Preferences -> Profiles -> Keys 
 
 
-<center>
+
 ![](https://hiy.tw/tech/iterm2_option_b_f/1.png)
-</center>
+
 
 
 

@@ -3,6 +3,7 @@ title: "在 ESXI 下擴充有分割 swap 分割區的磁碟"
 draft: false
 date: 2018-03-04
 tags: ["ESXI", "Linux"]
+categories: ["程式技術"]
 ---
 
 
@@ -13,9 +14,9 @@ tags: ["ESXI", "Linux"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/coding/esxi_swap/1.png)
-</center>
+
 
 ### Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式
 

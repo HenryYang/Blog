@@ -3,6 +3,7 @@ title: "搾出舊 Android 手機的空間"
 draft: false
 date: 2016-09-18
 tags: ["App", "Android"]
+categories: ["科技新知"]
 ---
 
 
@@ -10,9 +11,9 @@ tags: ["App", "Android"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/tech/android_free_space/1.png)
-</center>
+
 
 上面寫停用的那些軟體就是我用不到但我也砍不了的軟體！
 
@@ -22,9 +23,9 @@ tags: ["App", "Android"]
 
 雖然無法移除就無法把真正把空間釋放出來，但是至少不要一直更新繼續佔更多空間，然後停用的理由是這樣就不會出現在 Google Play 更新的清單中，然後如果該軟體更新的原因是安全因素，但因為你停用了軟體所造成的安全性問題也不會被觸發。
 
-<center>
+
 ![](https://hiy.tw/tech/android_free_space/2.png)
-</center>
+
 
 
 ### 解決方法2：勤勞檢查 Google Play 的更新
@@ -32,9 +33,9 @@ tags: ["App", "Android"]
 雖然說把自動更新關閉真的不是一個好建議，但是如果認為自己夠勤勞其實可以用手動更新就好，因為像是我這隻 HTC 剛回復完出廠設定 Google Play 就有一大堆的 HTC 內建軟體要更新，然後如果功能用不到而且確認不是安全性更新，其實就可以不用更新。
 
 
-<center>
+
 ![](https://hiy.tw/tech/android_free_space/3.png)
-</center>
+
 
 
 ### 結論

@@ -3,14 +3,15 @@ title: "紅米 Note 4X ROOT 與刷第三方 Recovery 注意事項"
 draft: false
 date: 2017-03-05
 tags: ["App", "Android", "Root"]
+categories: ["科技新知"]
 ---
 
 
 小米現在越來越難搞了，以下為強者我朋友的真心血淚紀錄：
 
-<center>
+
 ![](https://hiy.tw/tech/note_4x_root/1.png)
-</center>
+
 
 <!--more-->
 

@@ -3,6 +3,7 @@ title: "PayPal 冷知識"
 draft: false
 date: 2019-03-10
 tags: ["PayPal", "Finance"]
+categories: ["科技新知"]
 ---
 
 

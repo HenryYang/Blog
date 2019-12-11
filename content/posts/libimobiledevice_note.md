@@ -3,6 +3,7 @@ title: "libimobiledevice 相關指令"
 draft: false
 date: 2016-12-11
 tags: ["iOS"]
+categories: ["程式技術"]
 ---
 
 

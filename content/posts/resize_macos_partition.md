@@ -3,14 +3,15 @@ title: "在 VMware 下 MacOS 重新調整分割區大小"
 draft: false
 date: 2016-12-17
 tags: ["macOS", "VMware"]
+categories: ["程式技術"]
 ---
 
 
 我自己會遇到這情況是在當 VM 的虛擬磁碟已經調整完大小，但是 MacOS 虛擬機中的作業系統並無法自己動態調整
 
-<center>
+
 ![](https://hiy.tw/coding/resize_macos_partition/1.png)
-</center>
+
 
 <!--more-->
 

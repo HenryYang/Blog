@@ -3,6 +3,7 @@ title: "Thunderbolt 的碎碎念比較"
 draft: false
 date: 2016-11-26
 tags: ["Thunderbolt", "Type-C"]
+categories: ["科技新知"]
 ---
 
 
@@ -12,9 +13,9 @@ tags: ["Thunderbolt", "Type-C"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/tech/thunderbolt_info/1.jpeg)
-</center>
+
 
 
 從過去的到現在， Thunderbolt 都是依附別種協定的接頭來使用，像是 Thunderbolt 1 與 2 就是使用跟 Mini Display Port 的接頭而Thunderbolt 3 則是使用 USB Type-C 外觀的接頭。

@@ -3,6 +3,7 @@ title: "在網址列正確連上 ipv6 方式"
 draft: false
 date: 2016-08-08
 tags: ["ipv6", "Browser"]
+categories: ["科技新知"]
 ---
 
 
@@ -12,9 +13,9 @@ tags: ["ipv6", "Browser"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/tech/ipv6_browser/1.png)
-</center>
+
 
 所以用法看起來會像是 [https://[2001:b032:1c::11]](https://[2001:b032:1c::11]) 這樣子，這樣瀏覽器就會正確的把你得ipv6 網址認為是主機位置而非是你要用 Google 搜尋，然後 ipv6 有些公家機關服務會跳出一些預期之外的資訊喔 :p
 

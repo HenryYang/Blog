@@ -3,6 +3,7 @@ title: "公用 VPN 選擇注意事項"
 draft: false
 date: 2019-07-13
 tags: ["VPN", "數位生活"]
+categories: ["程式技術"]
 ---
 
 

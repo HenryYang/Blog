@@ -3,6 +3,7 @@ title: "iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）"
 draft: false
 date: 2017-08-13
 tags: ["Android", "ios", "SMS"]
+categories: ["科技新知"]
 ---
 
 ### 轉移概念：
@@ -15,9 +16,9 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
 
 #### Step1：把加密關閉後備份整台手機
 
-<center>
+
 ![](https://hiy.tw/tech/ios_sms_to_android/1.png)
-</center>
+
 
 #### Step2：找出備份檔案的路徑
 
@@ -45,9 +46,9 @@ Google Play 下載位置：https://play.google.com/store/apps/details?id=org.fak
 
 然後經過研究後發現，如果系統是 iOS 11 備份出來的 SQLite 不知道為什麼在 date 欄位都會被補上 9 個 0，所以匯入到 Android 後就會變成西元 40000 多年，然後簡訊的 App 就會卡住。
 
-<center>
+
 ![](https://hiy.tw/tech/ios_sms_to_android/2.png)
-</center>
+
 
 所以需要用任何一套能編輯 SQLite 的軟體來處理都好，我自己是用 Firefox 的 Add-on：[SQLite Manager](https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/) 來處理。
 

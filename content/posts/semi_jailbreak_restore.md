@@ -3,6 +3,7 @@ title: "Semi Jailbreak 回復出廠設定但仍保有 Jailbreak 方式"
 draft: false
 date: 2017-07-24
 tags: ["iOS", "Jailbreak"]
+categories: ["科技新知"]
 ---
 
 
@@ -26,9 +27,9 @@ tags: ["iOS", "Jailbreak"]
 
 請記得不要使用 iTunes 回復，因為他一定會回復成最新版。然後使用手機內建的回復會導致白蘋果。所以請務必使用 iMazing 內的 Erase All Content 來清除資料。
 
-<center>
+
 ![](https://hiy.tw/tech/semi_jailbreak_restore/1.png)
-</center>
+
 
 ## Step2: 回復完成後請直接在執行 Jailbreak 程式一次
 
@@ -47,9 +48,9 @@ tags: ["iOS", "Jailbreak"]
 
 因此就是把手機有的 Cydia Tweak 全部再重新安裝一次，讓 Cydia 知道你有安裝過這 Tweak 這樣有更新的時候才會收到通知。
 
-<center>
+
 ![](https://hiy.tw/tech/semi_jailbreak_restore/2.png)
-</center>
+
 
 
 ## 參考資料

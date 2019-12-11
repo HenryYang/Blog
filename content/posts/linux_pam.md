@@ -3,6 +3,7 @@ title: "Linux 用 PAM 限制使用者登入"
 draft: false
 date: 2016-10-12
 tags: ["PAM", "Linux"]
+categories: ["程式技術"]
 ---
 
 

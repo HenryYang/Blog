@@ -3,6 +3,7 @@ title: "在行動裝置上安裝 BurpSuite 所簽發的 Root CA 憑證"
 draft: false
 date: 2016-07-31
 tags: ["BurpSuite"]
+categories: ["程式技術"]
 ---
 
 
@@ -10,24 +11,24 @@ tags: ["BurpSuite"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/coding/burpsuite_root_ca/1.png)
-</center>
+
 
 
 
 然後這邊要注意的是，透過 BurpSuite 產生出來的根憑證是 .der 格式，在這格式可以直接用 email 或是各種方式匯入 iOS
 
-<center>
+
 ![](https://hiy.tw/coding/burpsuite_root_ca/2.png)
-</center>
+
 
 
 而 Android 並不認識 .der 格式，所以要把副檔名修改成 .cer 格式，然後進設定裡面的安全性去安裝憑證。
 
-<center>
+
 ![](https://hiy.tw/coding/burpsuite_root_ca/3.png)
-</center>
+
 
 
 

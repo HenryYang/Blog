@@ -3,11 +3,12 @@ title: "iOS 砸殼步驟"
 draft: false
 date: 2017-07-29
 tags: ["iOS", "Jailbreak"]
+categories: ["科技新知"]
 ---
 
-<center>
+
 ![](https://hiy.tw/tech/ios_dumpdecrypted/1.png)
-</center>
+
 
 <!--more-->
 

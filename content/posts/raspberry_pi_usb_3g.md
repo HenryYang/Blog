@@ -3,12 +3,13 @@ title: "Raspberry Pi 透過 USB 3G 行動網卡上網"
 draft: false
 date: 2016-12-17
 tags: ["Cellular", "Raspberry Pi"]
+categories: ["程式技術"]
 ---
 
 
-<center>
+
 ![](https://hiy.tw/coding/raspberry_pi_usb_3g/1.jpg)
-</center>
+
 
 
 注意： 目前 "理論上" 未鎖電信商的華為 **3G** USB 網卡理論上都可以使用，我自己是使用當年跟中華電信買的 E161 

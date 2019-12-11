@@ -3,6 +3,7 @@ title: "資料救援需求快速判斷方式"
 draft: false
 date: 2017-01-31
 tags: ["Data Recovery"]
+categories: ["科技新知"]
 ---
 
 
@@ -12,9 +13,9 @@ tags: ["Data Recovery"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/tech/data_recovery/1.jpg)
-</center>
+
 
  
  

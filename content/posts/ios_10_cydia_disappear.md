@@ -3,6 +3,7 @@ title: "iOS 10 JB 後 Cydia 突然消失解決方案"
 draft: false
 date: 2017-07-29
 tags: ["iOS", "Jailbreak"]
+categories: ["科技新知"]
 ---
 
 
@@ -24,17 +25,17 @@ tags: ["iOS", "Jailbreak"]
 ##### Step1: 
 如果 OpenSSH 有正常運作就直接在同區網下使用 SSH 服務來登入，然後預設帳號是 root 而密碼是 alpine；如果當時沒有裝 OpenSSH，那請找一台 Windows 電腦安裝 iFunbox 3.0 之後版本使用其中的 USB Tunnle 來幫你建立連線。
 
-<center>
+
 ![](https://hiy.tw/tech/ios_10_cydia_disappear/1.png)
-</center>
+
 
 
 ##### Step2: 
 登入後直接執行 `rm /.installed_yaluX`，然後就可以重開機在執行一次 Yalu，這時候理論上你的 Cydia 就會回來了，如果沒有就再使用 SSH 登入後輸入 uicache 來強制把你 iOS 的介面重新更新一次。這時候應該就會出現了，如果還是沒有就可以參考方案二。
 
-<center>
+
 ![](https://hiy.tw/tech/ios_10_cydia_disappear/2.png)
-</center>
+
 
 
 

@@ -3,6 +3,7 @@ title: "手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰"
 draft: false
 date: 2018-04-09
 tags: ["macOS", "FileVault", "Encrypt"]
+categories: ["程式技術"]
 ---
 
 
@@ -12,9 +13,9 @@ tags: ["macOS", "FileVault", "Encrypt"]
 
 可是，在如果依照蘋果[官方的教學](https://support.apple.com/zh-tw/HT202385) 會發現到 macOS 10.13 後就無法設定主要密碼。所以就無法以 GUI 環境來達成了。因此這篇就是教學如何透過 CLI 來完成。
 
-<center>
+
 ![](https://hiy.tw/coding/filevaultmaster_keychain/1.png)
-</center>
+
 
 
 

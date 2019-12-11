@@ -3,6 +3,7 @@ title: "用磁碟工具程式來製作一個 DMG 檔以加密重要資料"
 draft: false
 date: 2016-10-22
 tags: ["macOS", "Encrypt"]
+categories: ["科技新知"]
 ---
 
 
@@ -19,33 +20,33 @@ tags: ["macOS", "Encrypt"]
 
 開啟磁碟工具程式，然後新增空白映象檔
 
-<center>
+
 ![](https://hiy.tw/tech/dmg_encrypt/1.png)
-</center>
+
 
 這時候請記得，映像檔格式請選擇 "稀疏的磁碟映像檔" 然後加密請選擇 "256 位元的 AES 加密" 
 
-<center>
-![](https://hiy.tw/tech/dmg_encrypt/2.png)
-</center>
 
-<center>
+![](https://hiy.tw/tech/dmg_encrypt/2.png)
+
+
+
 ![](https://hiy.tw/tech/dmg_encrypt/3.png)
-</center>
+
 
 等完成後你設定的地方應該會多一個副檔名為 .sparseimage 的檔案，以後只要點擊它，系統就會問你密碼，我個人是建議不要記憶每次都輸入，然後輸入正確後理論上 Finder 左側就會出現一個新的磁碟，把檔案放入就可以了。
 
-<center>
+
 ![](https://hiy.tw/tech/dmg_encrypt/4.png)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/tech/dmg_encrypt/.png)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/tech/dmg_encrypt/6.png)
-</center>
+
 
 然後記得以後這 .sparseimage 的檔案就會存有你加密過的資料，請好好保管與備份這檔案，不見或是忘記密碼裡面的東西就說再見了 QQ
 

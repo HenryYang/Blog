@@ -3,6 +3,7 @@ title: "RFID 感應卡冷知識整理"
 draft: false
 date: 2017-03-05
 tags: ["RFID"]
+categories: ["科技新知"]
 ---
 
 
@@ -10,9 +11,9 @@ tags: ["RFID"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/tech/rfid_info/1.jpg)
-</center>
+
 
 [CC By Scott Lewis](https://www.flickr.com/photos/99781513@N04/14891130616)
 

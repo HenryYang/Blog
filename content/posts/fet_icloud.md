@@ -3,12 +3,13 @@ title: "遠東 iCloud 信用卡注意事項"
 draft: false
 date: 2016-09-18
 tags: ["Finance", "Credit Card"]
+categories: ["生活技巧"]
 ---
 
 
-<center>
+
 ![](https://hiy.tw/life/fet_icloud/1.png)
-</center>
+
 
 <!--more-->
 

@@ -3,6 +3,7 @@ title: "觀光客能拿到日本號碼的方法"
 draft: false
 date: 2017-05-13
 tags: ["Japan", "SMS"]
+categories: ["生活技巧"]
 ---
 
 
@@ -10,9 +11,9 @@ tags: ["Japan", "SMS"]
 
 所以沒有電話號碼很多自助服務都是不能用的 :(
 
-<center>
+
 ![](https://hiy.tw/life/jp_sms_number/1.png)
-</center>
+
 
 <!--more-->
 

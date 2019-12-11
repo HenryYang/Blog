@@ -3,7 +3,7 @@ title: "用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰"
 draft: false
 date: 2018-10-04
 tags: ["macOS", "FileVault","Encrypt"]
-
+categories: ["程式技術"]
 ---
 
 簡單來說，就是在 10.12 之後就無法在 `系統偏好設定` 裡面的 `使用者與群組` 中建立 `主鑰匙圈 (Master Password)`
@@ -22,9 +22,9 @@ tags: ["macOS", "FileVault","Encrypt"]
 
 接下來請參考下面的英文網站的第 16 部開始，把剛剛產生的 DER 憑證上傳到 MDM Server 就可以開始部屬使用機構復原密鑰的  FileVault  （灑花）
 
-<center>
+
 ![](https://hiy.tw/coding/macos_server_profile_manager_filevault/2.png)
-</center>
+
 
 P.S. 想問大家的是，請問有沒有人預過每部屬一次新的設備 DER 就要重新上傳一次的經驗？我自己會遇到在選擇憑證的時候每次重新整理清單就會消失然後部屬就會失敗，想尋求大家的經驗 QQ
 

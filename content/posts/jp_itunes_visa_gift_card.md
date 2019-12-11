@@ -3,6 +3,7 @@ title: "日本 iTunes 可以使用的儲值型 VISA Gift Card"
 draft: false
 date: 2018-07-14
 tags: ["iTunes", "Japan", "Gift Card",]
+categories: ["生活技巧"]
 ---
 
 
@@ -24,9 +25,9 @@ tags: ["iTunes", "Japan", "Gift Card",]
 
 然後他月交易額度是 10 萬日幣的樣子，所以會超過這金額的也要注意一下。
 
-<center>
+
 ![](https://hiy.tw/life/jp_itunes_visa_gift_card/1.jpg)
-</center>
+
 
 
 
@@ -38,9 +39,9 @@ tags: ["iTunes", "Japan", "Gift Card",]
 
 他有另外一個好處是他可以超商的 KIOSK 儲值，所以如果有在日本的朋友就可以直接給序號就能請它們儲值，不像上述那張一定要拿實體卡去日本儲值。
 
-<center>
+
 ![](https://hiy.tw/life/jp_itunes_visa_gift_card/2.png)
-</center>
+
 
 
 ### 結論

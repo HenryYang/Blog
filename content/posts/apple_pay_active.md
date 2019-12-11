@@ -3,15 +3,15 @@ title: "Apple Pay 跨國啟用注意事項 (2017/04/20 更新)"
 draft: false
 date: 2017-04-20
 tags: ["Apple Pay", "iOS"]
-categories: ["杂技浅尝"]
+categories: ["科技新知"]
 ---
 
 
 今天跟朋友聊天發現到一些比較特殊的 Apple Pay 啟用狀況，怕忘記所以先筆記一下 :p
 
-<center>
+
 ![](https://hiy.tw/tech/apple_pay_active/1.jpg)
-</center>
+
 
 <!--more-->
 
@@ -36,9 +36,9 @@ categories: ["杂技浅尝"]
 紅色部分是真實卡號的後四碼，然後 Wallet 正面也是顯示它；而綠色部分則是依照裝置產生的虛擬卡號，你交易時簽單也是顯示這末四碼
 注意，所以一旦產生虛擬卡後，每一次交易都是用綠色那組卡號做交易，除非你重新綁卡不然綠色這組號碼都不會更換
 
-<center>
+
 ![](https://hiy.tw/tech/apple_pay_active/2.jpg)
-</center>
+
 
 
 圖片來源：

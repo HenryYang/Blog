@@ -3,14 +3,15 @@ title: "日航 JAL 國內線 Inflight internet 連線障礙排除"
 draft: false
 date: 2018-12-20
 tags: ["JAL", "WiFi" ]
+categories: ["科技新知"]
 
 ---
 
 #### 注意，如果是遇到 WiFi 直接無法連接到該 SSID 的請直接放棄吧，因為那是設備問題了 XD
 <!--more-->
-<center>
+
 ![](https://hiy.tw/tech/jal_domestic_inflight_internet/1.png)
-</center>
+
 
 
 

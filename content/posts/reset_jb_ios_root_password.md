@@ -3,14 +3,15 @@ title: "重設 Jailbreak 後的 iOS root 密碼"
 draft: false
 date: 2017-07-29
 tags: ["iOS", "Jailbreak", "root"]
+categories: ["科技新知"]
 ---
 
 
 就有時候會忘記自己當時到底把 iOS 的 root 密碼改成什麼，這時候有幾種選擇。
 
-<center>
+
 ![](https://hiy.tw/tech/reset_jb_ios_root_password/1.png)
-</center>
+
 
 <!--more-->
 

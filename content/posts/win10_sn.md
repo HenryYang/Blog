@@ -3,6 +3,7 @@ title: "Windows 10 序號使用限制"
 draft: false
 date: 2016-08-04
 tags: ["Windows 10"]
+categories: ["科技新知"]
 ---
 
 
@@ -10,9 +11,9 @@ tags: ["Windows 10"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/tech/win10_sn/1.png)
-</center>
+
 
 
 如果你當時是用免費升級的，理論上查詢系統序號會是以下這兩組

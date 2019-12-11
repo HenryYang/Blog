@@ -3,6 +3,7 @@ title: "透過 Apple Pay 用台灣信用卡買美國 iTunes Gift Card"
 draft: false
 date: 2016-09-27
 tags: ["Apple Pay", "iTunes", "Gift Card"]
+categories: ["生活技巧"]
 ---
 
 
@@ -20,33 +21,33 @@ tags: ["Apple Pay", "iTunes", "Gift Card"]
 
 記得，retailmenot 伺服器有時候不穩，交易失敗就多是幾次或是換張卡就可以了。然後他在一天內會寄含有序號的 Email 給你
 
-<center>
+
 ![](https://hiy.tw/life/apple_pay_itunes_gift_card/1.jpg)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/life/apple_pay_itunes_gift_card/2.jpg)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/life/apple_pay_itunes_gift_card/3.jpg)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/life/apple_pay_itunes_gift_card/4.jpg)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/life/apple_pay_itunes_gift_card/5.jpg)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/life/apple_pay_itunes_gift_card/6.jpg)
-</center>
 
-<center>
+
+
 ![](https://hiy.tw/life/apple_pay_itunes_gift_card/7.jpg)
-</center>
+
 
 
 
