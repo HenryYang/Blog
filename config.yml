@@ -6,7 +6,7 @@ footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
 paginate: 7
 enableEmoji: true
-googleAnalytics: ""      # UA-XXXXXXXX-X 
+googleAnalytics: UA-132221741-1
 permalinks:
   posts: /:year/:month/:filename/
 
@@ -63,7 +63,7 @@ menu:
 
 
 params:
-  since: 2017
+  since: 2015
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: true
   # the directory under content folder that you want to render
@@ -96,9 +96,8 @@ params:
     social:
       links:
         github: https://github.com/henryyang
-        # weibo: http://weibo.com/{yourid}
-        # twitter: https://twitter.com/
-        # facebook: /
+        twitter: https://twitter.com/HuangIYang
+        facebook: https://www.facebook.com/huangi.yang
         rss: /index.xml
       link_tooltip: false # enable the social link tooltip, options: true, false
   # Site
@@ -116,13 +115,12 @@ params:
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
   share:
     enable: true # 是否启用分享
-    sites: weibo,qq,wechat,facebook,twitter # PC端显示的分享图标
-    mobile_sites: weibo,qq,qzone # 移动端显示的分享图标
+    sites: facebook,twitter # PC端显示的分享图标
 
   # Comment
   comment:
-    type:  # type disqus/gitalk/valine 启用哪种评论系统
-    disqus: your_disqus_name # enter disqus shortname here
+    type:  disqus
+    disqus: hiy-tw
     gitalk: # gitalk. https://gitalk.github.io/
       owner: #必须. GitHub repository 所有者，可以是个人或者组织。
       admin: #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
