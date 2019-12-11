@@ -151,7 +151,7 @@
     <h3 class="widget-title">Board</h3>
     <div class="widget-body">
         <div id="board">
-            <div class="content"><p>enjoy~</p>
+            <div class="content"><p>哆啦，哆啦啦</p>
             </div>
         </div>
     </div>
@@ -161,7 +161,9 @@
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/" class="category-list-link">杂技浅尝</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">19</span></li>
         </ul>
     </div>
 </div>
@@ -402,10 +404,6 @@
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E9%80%80%E4%BC%8D/" class="tag-list-link">退伍</a><span
                     class="tag-list-count">1</span></li>
             
-            
-            <li class="tag-list-item"><a href="https://hiy.tw/tags/%E9%9B%BB%E5%AD%90%E7%A5%A8%E8%AD%89/" class="tag-list-link">電子票證</a><span
-                    class="tag-list-count">1</span></li>
-            
         </ul>
 
     </div>
@@ -505,6 +503,9 @@
 <a href="https://hiy.tw/2017/10/ios_airplay/" class="article-date">
   <time datetime="2017-10-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2017-10-04</time>
 </a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/"> 科技新知 </a>
 </span>  
   <span class="article-tag">
     <i class="icon icon-tags"></i>
@@ -530,32 +531,32 @@
 <blockquote>
 <p>最棒的 &ldquo;幻想&rdquo; 當然是能讓設備接上有線網路然後又能輸出 HDMI 訊號。所以這時候就是想到使用雙轉接頭的可能性。雖然 Lightning to HDMI 與 Lightning to USB 的轉接線都有再提供一個 Lightning 的接頭，但他實際上就是指有供電的功能而已。所以如果兩個同時串接 iDevice 只會抓到真的插在設備的 Lightning 孔的擴充功能。另外一個串接的 Lightning 是無法被偵測到的。</p>
 </blockquote>
-<!-- raw HTML omitted -->
+<p><img src="https://hiy.tw/tech/ios_airplay/1.jpg" alt=""></p>
 <blockquote>
 <p>此外已經有嘗試過 Lightning to HDMI 與 Lightning to USB 互換插設備的狀況，但結果都是只會抓到實際插在設備上的擴充功能。而且如果先插 Lightning to USB 轉有線網卡再插 Lightning to HDMI 還會直接說電壓不足。所以同時輸出多功能是不行的。</p>
 </blockquote>
-<!-- raw HTML omitted -->
+<p><img src="https://hiy.tw/tech/ios_airplay/2.jpg" alt=""></p>
 <ul>
 <li>iDevice 先接 Belkin 的 Lightning 一對二轉接頭再接上述設備</li>
 </ul>
 <blockquote>
 <p>請直接死心，因為 Belkin 的轉接頭就直接寫明說它提供的第二 Lightning 只有供電功能，還是無法同時串兩個設備。</p>
 </blockquote>
-<!-- raw HTML omitted -->
+<p><img src="https://hiy.tw/tech/ios_airplay/3.jpg" alt=""></p>
 <ul>
 <li>iDevice 只接 Lightning to USB 再加上 USB 網卡然後供電的 Lightning 孔接電腦</li>
 </ul>
 <blockquote>
 <p>就是 iDevice 接電腦後可以用 Quick Time 或是 OBS 這類的軟體直接獲取螢幕畫面。所以想說設備接出有線網卡然後供電的 Lightning 嘗試接電腦看會不會有偵測到設備。但上面已經說過他只有供電功能，所以電腦當然是抓不到的。</p>
 </blockquote>
-<!-- raw HTML omitted -->
+<p><img src="https://hiy.tw/tech/ios_airplay/4.jpg" alt=""></p>
 <ul>
 <li>iDevice 插上 USB 使用 rvictl 來導流量到 macOS</li>
 </ul>
 <blockquote>
 <p>原本想說這樣會再 macOS 上面建立一張與 iDevice 連線的虛擬網卡。但是該網卡實際上就是無法獲得 IP，所以把 rvictl 的功能當成 Port Mirror 比較合理，就是單純的把 iDevice 流量複製一份到電腦。</p>
 </blockquote>
-<!-- raw HTML omitted -->
+<p><img src="https://hiy.tw/tech/ios_airplay/5.jpg" alt=""></p>
 <h1 id="heading-1">可行的方法</h1>
 <ul>
 <li>iDevice 接上 Lightning to USB 與有線網卡後，在有線網路的區網下做 Airplay</li>
@@ -659,6 +660,7 @@
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>
+    <style>.bmc-button img{width: 20px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:15px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#FF813F !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 28px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/henryyang"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>
   </div>
 </footer>
 

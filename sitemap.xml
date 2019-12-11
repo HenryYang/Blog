@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hiy.tw/categories/</loc>
+    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -45,6 +52,13 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/</loc>
+    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/windows-10/</loc>
     <lastmod>2019-05-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -53,6 +67,13 @@
   
   <url>
     <loc>https://hiy.tw/2019/05/win10_mppe_vpn/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/</loc>
     <lastmod>2019-05-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -81,6 +102,13 @@
   
   <url>
     <loc>https://hiy.tw/2019/05/netgear_m1/</loc>
+    <lastmod>2019-05-04T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2019-05-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -186,13 +214,6 @@
   
   <url>
     <loc>https://hiy.tw/2018/09/apple_pay_transit/</loc>
-    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/%E9%9B%BB%E5%AD%90%E7%A5%A8%E8%AD%89/</loc>
     <lastmod>2018-09-03T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -389,20 +410,6 @@
   
   <url>
     <loc>https://hiy.tw/2017/04/apple_pay_active/</loc>
-    <lastmod>2017-04-20T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/categories/</loc>
-    <lastmod>2017-04-20T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D/</loc>
     <lastmod>2017-04-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
