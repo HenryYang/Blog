@@ -13,9 +13,9 @@ tags: ["AP", "4G", "Netgear"]
 
 <!--more-->
 
-<center>
+
 ![](https://hiy.tw/life/netgear_m1/1.jpg)
-</center>
+
 
 首先，雖然都是 M1 但是在市面上會有 **澳洲** **香港** **英國** **美國** 這四個版本。
 
