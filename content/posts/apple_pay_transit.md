@@ -2,7 +2,7 @@
 title: "Apple Pay 交通票卡的一些冷知識"
 draft: false
 date: 2018-09-03
-tags: ["Apple", "電子票證", "Apple Pay"]
+tags: ["電子票證", "Apple Pay"]
 ---
 
 ### 日本的 Suica 是轉移，中國的北京一卡通是買新卡

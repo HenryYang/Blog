@@ -2,7 +2,7 @@
 title: "phpMyAdmin 出現 '缺少 mcrypt 擴充套件' 解決方法"
 draft: false
 date: 2015-11-28
-tags: ["MySQL", "phpMyAdmin"]
+tags: ["MySQL"]
 ---
 
 

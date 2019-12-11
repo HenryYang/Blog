@@ -2,7 +2,7 @@
 title: "讓 iOS 9 設備也支援台灣信用卡的 Apple Pay"
 draft: false
 date: 2017-03-29
-tags: ["Apple Pay", "JB", "iOS"]
+tags: ["Apple Pay", "Jailbreak", "iOS"]
 ---
 
 

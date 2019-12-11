@@ -2,7 +2,7 @@
 title: "觀光客能拿到日本號碼的方法"
 draft: false
 date: 2017-05-13
-tags: ["bmobile", "japan", "SMS"]
+tags: ["Japan", "SMS"]
 ---
 
 

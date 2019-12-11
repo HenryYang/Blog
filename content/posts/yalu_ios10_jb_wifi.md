@@ -2,7 +2,7 @@
 title: "把使用 Yalu 來 JB 的 iOS 10 裝置開啟透過 WiFi 連接 SSH"
 draft: false
 date: 2017-08-28
-tags: ["iOS", "JB", "SSH", "yalu", "WiFi"]
+tags: ["iOS", "Jailbreak"]
 ---
 
 故事就是如果你用 Yalu 來 JailBreak 你的 iOS 10 設備，然後你會發現到用 WiFi 來接 SSH 怎麼樣都不會通，可是透過 USB 建立本地通道卻是可以連接 SSH 的。

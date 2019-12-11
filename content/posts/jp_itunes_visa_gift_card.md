@@ -2,7 +2,7 @@
 title: "日本 iTunes 可以使用的儲值型 VISA Gift Card"
 draft: false
 date: 2018-07-14
-tags: ["iTunes", "Japan", "Gift Card", "VISA"]
+tags: ["iTunes", "Japan", "Gift Card",]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "遠東 iCloud 信用卡注意事項"
 draft: false
 date: 2016-09-18
-tags: ["FET", "iCloud", "Credit Card", "MasterCard"]
+tags: ["Finance", "Credit Card"]
 ---
 
 

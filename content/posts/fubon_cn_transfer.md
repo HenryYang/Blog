@@ -2,7 +2,7 @@
 title: "台北富邦匯款到中國富邦華一銀行（使用富邦 兩岸通）"
 draft: false
 date: 2016-11-23
-tags: ["Fubon", "China", "Swift"]
+tags: ["China", "Swift Code","Finance"]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "重設 Jailbreak 後的 iOS root 密碼"
 draft: false
 date: 2017-07-29
-tags: ["ios", "JB", "root", "忘記密碼"]
+tags: ["iOS", "Jailbreak", "root"]
 ---
 
 

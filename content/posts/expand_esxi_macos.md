@@ -2,7 +2,7 @@
 title: "擴充 VMware 上面的 MacOS 虛擬機硬碟空間"
 draft: false
 date: 2017-04-16
-tags: ["diskutil", "macOS", "ESXI"]
+tags: ["macOS", "ESXI"]
 ---
 
 

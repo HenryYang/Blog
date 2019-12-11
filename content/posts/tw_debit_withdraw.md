@@ -2,7 +2,7 @@
 title: "台灣金融卡在外國提款注意事項"
 draft: false
 date: 2016-10-01
-tags: ["Debit Card", "VISA", "MasterCard", "Cirrus"]
+tags: ["Debit Card"]
 ---
 
 

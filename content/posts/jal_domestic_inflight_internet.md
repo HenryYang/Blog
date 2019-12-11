@@ -2,7 +2,7 @@
 title: "日航 JAL 國內線 Inflight internet 連線障礙排除"
 draft: false
 date: 2018-12-20
-tags: ["JAL", "WiFi","故障排除"]
+tags: ["JAL", "WiFi" ]
 
 ---
 

@@ -2,7 +2,7 @@
 title: "iOS 10 JB 後 Cydia 突然消失解決方案"
 draft: false
 date: 2017-07-29
-tags: ["cydia", "ios", "yalu"]
+tags: ["iOS", "Jailbreak"]
 ---
 
 

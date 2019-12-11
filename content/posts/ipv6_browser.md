@@ -2,7 +2,7 @@
 title: "在網址列正確連上 ipv6 方式"
 draft: false
 date: 2016-08-08
-tags: ["ipv6", "Chrome", "Firefox"]
+tags: ["ipv6", "Browser"]
 ---
 
 

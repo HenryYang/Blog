@@ -2,7 +2,7 @@
 title: "用 macOS Server 的 Profile Manager 部屬 FileVault 復原密鑰"
 draft: false
 date: 2018-10-04
-tags: ["macOS", "FileVault","Profile Manager"]
+tags: ["macOS", "FileVault","Encrypt"]
 
 ---
 

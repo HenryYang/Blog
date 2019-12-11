@@ -2,7 +2,7 @@
 title: "信用卡相關知識筆記"
 draft: false
 date: 2016-10-29
-tags: ["Credit Card", "BIN", "VISA", "MasterCard"]
+tags: ["Credit Card"]
 ---
 
 目前 VISA、Master、JCB 都是主流的 16 位數卡號，但像是 American Express 就是比較少見的 15 位數，而部分銀聯卡則是 19 位數的卡號。

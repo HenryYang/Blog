@@ -2,7 +2,7 @@
 title: "檢查瀏覽器的 Service Workers 有沒有被埋奇怪的東西"
 draft: false
 date: 2018-01-15
-tags: ["Chrome", "Firefox", "Service Workers"]
+tags: ["Browser", "Service Workers"]
 ---
 
 

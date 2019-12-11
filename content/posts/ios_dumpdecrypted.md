@@ -2,7 +2,7 @@
 title: "iOS 砸殼步驟"
 draft: false
 date: 2017-07-29
-tags: ["ios", "JB", "砸殼", "dumpdecrypted"]
+tags: ["iOS", "Jailbreak"]
 ---
 
 <center>

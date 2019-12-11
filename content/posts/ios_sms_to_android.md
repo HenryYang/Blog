@@ -2,7 +2,7 @@
 title: "iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理）"
 draft: false
 date: 2017-08-13
-tags: ["Andorid", "ios", "iSMS2droid", "sms"]
+tags: ["Android", "ios", "SMS"]
 ---
 
 ### 轉移概念：

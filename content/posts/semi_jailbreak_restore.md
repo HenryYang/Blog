@@ -2,7 +2,7 @@
 title: "Semi Jailbreak 回復出廠設定但仍保有 Jailbreak 方式"
 draft: false
 date: 2017-07-24
-tags: ["ios", "Semi Jailbreak", "JB"]
+tags: ["iOS", "Jailbreak"]
 ---
 
 

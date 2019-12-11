@@ -2,7 +2,7 @@
 title: "Netgear M1 行動 4G 分享器筆記"
 draft: flase
 date: 2019-05-04
-tags: ["AP", "4G", "Netgear"]
+tags: ["Cellular"]
 ---
 
 
@@ -23,9 +23,9 @@ tags: ["AP", "4G", "Netgear"]
 
 然後又因為美國版本太難買且有太多冷門的頻道，所以這邊就主要比較 **澳洲** **香港** 兩個版本的 LTE 在我會去的國家使用上的差異。
 
-<center>
+
 ![](https://hiy.tw/life/netgear_m1/2.png)
-</center>
+
 
 P.S. Docomo 還支援了 B9, B19, B21 這幾個 M1 不支援的頻段
 

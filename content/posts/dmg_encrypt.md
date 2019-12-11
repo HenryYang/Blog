@@ -2,7 +2,7 @@
 title: "用磁碟工具程式來製作一個 DMG 檔以加密重要資料"
 draft: false
 date: 2016-10-22
-tags: ["DMG", "macOS", "Encrypt", "DiskUtility"]
+tags: ["macOS", "Encrypt"]
 ---
 
 

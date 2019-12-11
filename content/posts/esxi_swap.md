@@ -2,7 +2,7 @@
 title: "在 ESXI 下擴充有分割 swap 分割區的磁碟"
 draft: false
 date: 2018-03-04
-tags: ["ESXI", "VM", "Linux", "swap"]
+tags: ["ESXI", "Linux"]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "讓舊版 iOS 無法自動更新（2019年適用）"
 draft: false
 date: 2019-03-24
-tags: ["iOS", "iOS 12", "JB"]
+tags: ["iOS", "Jailbreak"]
 ---
 
 故事很簡單，就是 iOS 12 之後就已經支援不要讓系統自動更新到最新版的 iOS 功能。但是對於我這種需要留在 iOS 10 做測試的人就還是會很困擾。

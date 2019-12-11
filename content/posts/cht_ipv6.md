@@ -2,7 +2,7 @@
 title: "中華電信 ipv6 相關資訊筆記"
 draft: false
 date: 2016-08-04
-tags: ["ipv6", "CHT"]
+tags: ["ipv6", "Mobile Network"]
 ---
 
 

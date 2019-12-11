@@ -2,7 +2,7 @@
 title: "手動建立 FileVaultMaster.keychain 來設定 FileVault 恢復密鑰"
 draft: false
 date: 2018-04-09
-tags: ["macOS", "FileVault", "Keychain"]
+tags: ["macOS", "FileVault", "Encrypt"]
 ---
 
 

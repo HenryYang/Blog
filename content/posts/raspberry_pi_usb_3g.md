@@ -2,7 +2,7 @@
 title: "Raspberry Pi 透過 USB 3G 行動網卡上網"
 draft: false
 date: 2016-12-17
-tags: ["3G", "Raspberry Pi", "Cellular"]
+tags: ["Cellular", "Raspberry Pi"]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "讓 iTerm2 也支援使用 Option + B/F 來前後選擇"
 draft: false
 date: 2017-10-15
-tags: ["CLI", "iTerm2", "Terminal"]
+tags: ["CLI", "macOS"]
 ---
 
 

@@ -2,7 +2,7 @@
 title: "APFS 格式的 MacOS 系統硬碟對拷"
 draft: false
 date: 2019-05-09
-tags: ["MacOS", "DD", "AFPS"]
+tags: ["MacOS"]
 ---
 
 以前當需要轉移 MacOS 系統時就是拿一條 Thunderbolt 線插在兩台 Mac 上面，然後要當外接硬碟的重開機按住 T 變成磁碟模式，這時候就可以打開磁碟管理程式透過回復來把資料完整備份到另外一臺上。

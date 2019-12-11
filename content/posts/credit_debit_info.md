@@ -2,7 +2,7 @@
 title: "金融卡、信用卡 冷知識整理"
 draft: false
 date: 2017-03-05
-tags: ["Credit Crad", "Debit Card"]
+tags: ["Credit Card", "Debit Card"]
 ---
 
 

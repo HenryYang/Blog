@@ -2,7 +2,7 @@
 title: "在行動裝置上安裝 BurpSuite 所簽發的 Root CA 憑證"
 draft: false
 date: 2016-07-31
-tags: ["CA", "BurpSuite"]
+tags: ["BurpSuite"]
 ---
 
 

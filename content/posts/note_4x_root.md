@@ -2,7 +2,7 @@
 title: "紅米 Note 4X ROOT 與刷第三方 Recovery 注意事項"
 draft: false
 date: 2017-03-05
-tags: ["App", "Android", "Root", "MI", "Note 4X"]
+tags: ["App", "Android", "Root"]
 ---
 
 

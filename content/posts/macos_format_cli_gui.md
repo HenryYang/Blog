@@ -2,7 +2,7 @@
 title: "用 MacOS 安全的抹除硬碟 ( CLI 與 GUI 教學 )"
 draft: false
 date: 2016-09-18
-tags: ["macOS", "CLI", "format"]
+tags: ["macOS", "CLI"]
 ---
 
 
