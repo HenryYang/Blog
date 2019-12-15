@@ -4,28 +4,56 @@
   
   <url>
     <loc>https://hiy.tw/categories/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hiy.tw/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/piv/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hiy.tw/posts/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hiy.tw/tags/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/yubikey/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/2019/12/yubikey_piv/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -46,13 +74,6 @@
   
   <url>
     <loc>https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

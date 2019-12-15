@@ -5,10 +5,19 @@
     <link>https://hiy.tw/tags/</link>
     <description>Recent content in Tags on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 13 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>讓 macOS 使用 Yubikey PIV 智慧卡登入</title>
+      <link>https://hiy.tw/2019/12/yubikey_piv/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2019/12/yubikey_piv/</guid>
+      <description>&lt;p&gt;其實現在 Yubikey 官方已經有推出 GUI 工具可以快速的開啟 PIV 智慧卡功能，這樣就可以讓 macOS 只需要輸入 PIN 就登入&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>公用 VPN 選擇注意事項</title>
