@@ -549,7 +549,6 @@
 <p>因為他需要設定 ACL 讓只有 Administrators 群組與 SYSTEM 能存取，所以請用管理員權限的 powershell 執行下方指令。</p>
 </li>
 </ol>
-<p><img src="https://hiy.tw/coding/win10_ssh/4.png" alt=""></p>
 <pre><code>$acl = Get-Acl C:\ProgramData\ssh\administrators_authorized_keys
 $acl.SetAccessRuleProtection($true, $false)
 $administratorsRule = New-Object system.security.accesscontrol.filesystemaccessrule(&quot;Administrators&quot;,&quot;FullControl&quot;,&quot;Allow&quot;)
@@ -560,6 +559,7 @@ $acl | Set-Acl
 </code></pre><ol start="3">
 <li>這樣就可以登入了</li>
 </ol>
+<p><img src="https://hiy.tw/coding/win10_ssh/4.png" alt=""></p>
 <p>參考資料：</p>
 <p><a href="https://www.concurrency.com/blog/may-2019/key-based-authentication-for-openssh-on-windows">https://www.concurrency.com/blog/may-2019/key-based-authentication-for-openssh-on-windows</a></p>
 <p><a href="https://kheresy.wordpress.com/2017/12/14/windows-begin-to-provide-ssh-client-and-server/">https://kheresy.wordpress.com/2017/12/14/windows-begin-to-provide-ssh-client-and-server/</a></p>
