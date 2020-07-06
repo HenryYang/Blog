@@ -36,7 +36,7 @@ Windows 10 其實是可以透過 SSH 登入到 cmd 的，但是步驟跟正常�
 
 2. 因為他需要設定 ACL 讓只有 Administrators 群組與 SYSTEM 能存取，所以請用管理員權限的 powershell 執行下方指令。
 
-![](https://hiy.tw/coding/win10_ssh/4.png)
+
 
 ```
 $acl = Get-Acl C:\ProgramData\ssh\administrators_authorized_keys
@@ -50,7 +50,7 @@ $acl | Set-Acl
 
 3. 這樣就可以登入了
 
-
+![](https://hiy.tw/coding/win10_ssh/4.png)
 
 參考資料：
 
