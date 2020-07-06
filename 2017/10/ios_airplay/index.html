@@ -26,7 +26,7 @@
   <meta name="description" content="故事很簡單，就是當有需要強聯網的 App 需要投放到螢幕上的時候，這時候就會需要考量到網路穩不穩的風險。尤其是在不熟悉的場地或是在人潮眾多的區域，無線網路的可靠度真的是讓人存疑的。
 因此這邊就是實驗到底有什麼方法可以達成使用有線網路又可以投影畫面的方案。
 " />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.73.0 with theme pure" />
   <title>iOS 設備同時輸出螢幕訊號且使用有線網路 - Henry&#39;s Space</title>
   
 
@@ -163,7 +163,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
         </ul>
     </div>
 </div>
@@ -326,7 +326,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/piv/" class="tag-list-link">piv</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/public-key/" class="tag-list-link">public-key</a><span
@@ -398,7 +398,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/yubikey/" class="tag-list-link">yubikey</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
@@ -421,6 +421,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH 搭配 Public Key 登入 Windows 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -461,16 +471,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -485,7 +485,7 @@
         <h3 class="toc-title">Catalogue</h3>
         <div class="toc-content always-active"><nav id="TableOfContents">
   <ul>
-    <li><a href="#heading-2">參考資料</a></li>
+    <li><a href="#參考資料">參考資料</a></li>
   </ul>
 </nav>
         </div>
@@ -532,7 +532,7 @@
     <div class="article-entry marked-body" itemprop="articleBody">
       <p>故事很簡單，就是當有需要強聯網的 App 需要投放到螢幕上的時候，這時候就會需要考量到網路穩不穩的風險。尤其是在不熟悉的場地或是在人潮眾多的區域，無線網路的可靠度真的是讓人存疑的。</p>
 <p>因此這邊就是實驗到底有什麼方法可以達成使用有線網路又可以投影畫面的方案。</p>
-<h1 id="heading">不行的方法</h1>
+<h1 id="不行的方法">不行的方法</h1>
 <ul>
 <li>iDevice 同時串接 Lightning to HDMI 與 Lightning to USB 再加上 USB 網卡</li>
 </ul>
@@ -565,7 +565,7 @@
 <p>原本想說這樣會再 macOS 上面建立一張與 iDevice 連線的虛擬網卡。但是該網卡實際上就是無法獲得 IP，所以把 rvictl 的功能當成 Port Mirror 比較合理，就是單純的把 iDevice 流量複製一份到電腦。</p>
 </blockquote>
 <p><img src="https://hiy.tw/tech/ios_airplay/5.jpg" alt=""></p>
-<h1 id="heading-1">可行的方法</h1>
+<h1 id="可行的方法">可行的方法</h1>
 <ul>
 <li>iDevice 接上 Lightning to USB 與有線網卡後，在有線網路的區網下做 Airplay</li>
 </ul>
@@ -576,7 +576,7 @@
 <p>然後這時候我就會推薦安裝 AirServer 這套軟體來模擬 Airplay 的顯示端，因為能調整的細節比較多。不論是單純是要顯示大畫面或是直播這都是一個不錯的方式。</p>
 </blockquote>
 <!-- raw HTML omitted -->
-<h2 id="heading-2">參考資料</h2>
+<h2 id="參考資料">參考資料</h2>
 <ul>
 <li><a href="http://www.airserver.com/">http://www.airserver.com/</a></li>
 <li><a href="https://www.apple.com/shop/product/MD826AM/A/lightning-digital-av-adapter">https://www.apple.com/shop/product/MD826AM/A/lightning-digital-av-adapter</a></li>
@@ -664,7 +664,7 @@
 </ul>
   <div class="copyright">
     &copy;2015  -
-    2019
+    2020
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>

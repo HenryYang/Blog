@@ -25,7 +25,7 @@
   
   <meta name="description" content="目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。
 " />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.73.0 with theme pure" />
   <title>用磁碟工具程式來製作一個 DMG 檔以加密重要資料 - Henry&#39;s Space</title>
   
 
@@ -159,7 +159,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
         </ul>
     </div>
 </div>
@@ -322,7 +322,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/piv/" class="tag-list-link">piv</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/public-key/" class="tag-list-link">public-key</a><span
@@ -394,7 +394,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/yubikey/" class="tag-list-link">yubikey</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
@@ -417,6 +417,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH 搭配 Public Key 登入 Windows 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -457,16 +467,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -481,7 +481,7 @@
         <h3 class="toc-title">Catalogue</h3>
         <div class="toc-content always-active"><nav id="TableOfContents">
   <ul>
-    <li><a href="#heading">教學</a></li>
+    <li><a href="#教學">教學</a></li>
   </ul>
 </nav>
         </div>
@@ -527,7 +527,7 @@
       <p>目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。</p>
 <p>現有在 MacOS 上面找到符合我需求的是 boxcryptor 這套軟體，但他目前改成年費制（但也有提供單一電腦的使用的免費版本）而且公鑰會存一份在他們家的伺服器上，總還是感覺怪怪的 :(</p>
 <p>因此目前研究到另外一個不錯的就是 MacOS 系統內建的磁碟工具程式，可以產生加密的 DMG 映象檔，然後選擇動態大小時，他會依照檔案的大小自己動態調整，不會一開始就吃到設定映象檔的上限，然後因為他雖然看起來像是單一檔案，但實際上是由多個檔案所組成的，所以上傳檔案的時候就不會全部都要上傳，只會需要上傳有更改過的部分而已，所以其實就是很方便的加密與放上雲端。</p>
-<h2 id="heading">教學</h2>
+<h2 id="教學">教學</h2>
 <p>開啟磁碟工具程式，然後新增空白映象檔</p>
 <p><img src="https://hiy.tw/tech/dmg_encrypt/1.png" alt=""></p>
 <p>這時候請記得，映像檔格式請選擇 &ldquo;稀疏的磁碟映像檔&rdquo; 然後加密請選擇 &ldquo;256 位元的 AES 加密&rdquo;</p>
@@ -619,7 +619,7 @@
 </ul>
   <div class="copyright">
     &copy;2015  -
-    2019
+    2020
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>

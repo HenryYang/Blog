@@ -25,7 +25,7 @@
   
   <meta name="description" content="當硬碟要賣出或是要借人時，如果你覺得自己的過去已經刪除的資料很機密或是很見不得人，可以先把硬碟抹除乾淨，格式化與抹除的差異在於格式化只是修改了硬碟的檔頭，所以還是很有機會可以把資料救回來，而抹除則是寫入無意義的資料來佔滿空間，讓資料救援變的 &amp;ldquo;比較&amp;rdquo; 不可能。
 " />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.73.0 with theme pure" />
   <title>用 MacOS 安全的抹除硬碟 ( CLI 與 GUI 教學 ) - Henry&#39;s Space</title>
   
 
@@ -159,7 +159,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
         </ul>
     </div>
 </div>
@@ -322,7 +322,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/piv/" class="tag-list-link">piv</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/public-key/" class="tag-list-link">public-key</a><span
@@ -394,7 +394,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/yubikey/" class="tag-list-link">yubikey</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
@@ -417,6 +417,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH 搭配 Public Key 登入 Windows 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -457,16 +467,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -483,9 +483,9 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#gui-">GUI 教學</a></li>
-        <li><a href="#cli-">CLI 教學</a></li>
-        <li><a href="#heading">結論</a></li>
+        <li><a href="#gui-教學">GUI 教學</a></li>
+        <li><a href="#cli-教學">CLI 教學</a></li>
+        <li><a href="#結論">結論</a></li>
       </ul>
     </li>
   </ul>
@@ -531,11 +531,11 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       <p>當硬碟要賣出或是要借人時，如果你覺得自己的過去已經刪除的資料很機密或是很見不得人，可以先把硬碟抹除乾淨，格式化與抹除的差異在於格式化只是修改了硬碟的檔頭，所以還是很有機會可以把資料救回來，而抹除則是寫入無意義的資料來佔滿空間，讓資料救援變的 &ldquo;比較&rdquo; 不可能。</p>
-<h3 id="gui-">GUI 教學</h3>
+<h3 id="gui-教學">GUI 教學</h3>
 <p>開啟磁碟管理工具，然後點選你的抹除的分割區，並且按下 &ldquo;清除&rdquo; 然後你就會看到左下方有安全層級可以選擇，左邊是不抹除而右邊則是最安全的 DOD 建議抹除等級，當然越安全越久。當選擇好後，就按下清除就可以了。</p>
 <p><img src="https://hiy.tw/tech/macos_format_cli_gui/1.png" alt=""></p>
 <p><img src="https://hiy.tw/tech/macos_format_cli_gui/2.png" alt=""></p>
-<h3 id="cli-">CLI 教學</h3>
+<h3 id="cli-教學">CLI 教學</h3>
 <p>如果你就是耍帥，覺得文字介面比較帥也可以用下方指令來達成抹除的目的，然後請務必記得把下方指令的 &ldquo;Macintosh HD&rdquo; 換成你要抹除的名稱，不然你就會抹到你的系統分割區了（但理論上你是抹不了的</p>
 <p>diskutil secureErase freespace 3 &ldquo;/Volumes/Macintosh HD&rdquo;</p>
 <p>上方指令的數字部分就是安全係數，可以參考下面的解說，其實 2 就是剛剛圖形化最安全等級的抹除。</p>
@@ -544,7 +544,7 @@
 <p>2 – US DoD 7-pass secure erase.</p>
 <p>3 – Gutmann algorithm 35-pass secure erase.</p>
 <p>4 – US DoE algorithm 3-pass secure erase.</p>
-<h3 id="heading">結論</h3>
+<h3 id="結論">結論</h3>
 <p>其實我不懂抹除硬碟的原因，因為真的有裝過敏感資料的不是應該用物理銷毀（榔頭？！）才是真正安全的嗎？</p>
     </div>
     <div class="article-footer">
@@ -627,7 +627,7 @@
 </ul>
   <div class="copyright">
     &copy;2015  -
-    2019
+    2020
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>

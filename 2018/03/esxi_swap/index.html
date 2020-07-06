@@ -26,7 +26,7 @@
   <meta name="description" content="狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)
 如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟
 " />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.73.0 with theme pure" />
   <title>在 ESXI 下擴充有分割 swap 分割區的磁碟 - Henry&#39;s Space</title>
   
 
@@ -163,7 +163,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
         </ul>
     </div>
 </div>
@@ -326,7 +326,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/piv/" class="tag-list-link">piv</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/public-key/" class="tag-list-link">public-key</a><span
@@ -398,7 +398,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/yubikey/" class="tag-list-link">yubikey</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
@@ -421,6 +421,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH 搭配 Public Key 登入 Windows 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -461,16 +471,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -487,35 +487,35 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#step1--esxi---vm---swap-">Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式</a></li>
-        <li><a href="#step2--">Step2:  強制作業系統更新硬碟大小</a></li>
-        <li><a href="#step3---swap---swap---swap---swap-partition">Step3: 先看分割區狀態, 有 swap 分割區, 所以要先建立 swap 檔案, 然後加 swap 檔案, 關閉 swap partition</a></li>
-        <li><a href="#step4--parted-">Step4: 沒有裝 parted, 所以要裝一下</a></li>
-        <li><a href="#step5--parted-">Step5: 用 parted 再看一下分割區</a></li>
-        <li><a href="#step6-">Step6: 確認目前檔案系統空間</a></li>
-        <li><a href="#step7--1gb-">Step7: 建立一個 1GB 的檔案</a></li>
-        <li><a href="#step8--swap-">Step8: 把檔案格式化成 swap 的檔案系統</a></li>
-        <li><a href="#step9--swap-">Step9: 啟用 swap 檔案</a></li>
-        <li><a href="#step10-">Step10: 確認檔案屬性</a></li>
-        <li><a href="#step11--600">Step11: 修改屬性為 600</a></li>
-        <li><a href="#step12-">Step12: 確認檔案屬性</a></li>
-        <li><a href="#step13--fstab-----swap-">Step13: 編輯 fstab 檔案, 加上新行內容如下 , 註解掉原來的 swap 分割區</a></li>
-        <li><a href="#step14--sysctlconf-">Step14: 編輯 sysctl.conf, 加上新行內容如下</a></li>
-        <li><a href="#step15--swap-">Step15: 確認 swap 檔案狀態</a></li>
-        <li><a href="#step16--swap--swap-">Step16: 關閉 swap, 記得要確認 swap 使用狀態</a></li>
-        <li><a href="#step17--swap">Step17: 啟動 swap</a></li>
-        <li><a href="#step18--parted-">Step18: 在 parted 裡面執行下列指令</a></li>
-        <li><a href="#step19-">Step19: 顯示目前分割區狀態</a></li>
-        <li><a href="#step20--swap-">Step:20 刪除 swap 分割區</a></li>
-        <li><a href="#step21-">Step21: 刪除延伸分割區</a></li>
-        <li><a href="#step22-">Step22: 確認分割區是否都正確</a></li>
-        <li><a href="#step23-">Step23: 執行下面的指令讓分割區最大化</a></li>
-        <li><a href="#step24-">Step24: 然後會顯示下面的訊息</a></li>
-        <li><a href="#step25-print-">Step25: print 指令顯示現在分割區狀態</a></li>
-        <li><a href="#step26--parted">Step26: 結束 parted</a></li>
-        <li><a href="#step27-">Step27: 檢查檔案系統空間</a></li>
-        <li><a href="#step28-">Step28: 更新檔案系統大小</a></li>
-        <li><a href="#step29-">Step29: 檢查檔案系統空間</a></li>
+        <li><a href="#step1-在-esxi-調整磁碟影像檔案大小之後-要讓-vm-的檔案系統變大-但是有一個-swap-分割區的狀況的處裡方式">Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式</a></li>
+        <li><a href="#step2--強制作業系統更新硬碟大小">Step2:  強制作業系統更新硬碟大小</a></li>
+        <li><a href="#step3-先看分割區狀態-有-swap-分割區-所以要先建立-swap-檔案-然後加-swap-檔案-關閉-swap-partition">Step3: 先看分割區狀態, 有 swap 分割區, 所以要先建立 swap 檔案, 然後加 swap 檔案, 關閉 swap partition</a></li>
+        <li><a href="#step4-沒有裝-parted-所以要裝一下">Step4: 沒有裝 parted, 所以要裝一下</a></li>
+        <li><a href="#step5-用-parted-再看一下分割區">Step5: 用 parted 再看一下分割區</a></li>
+        <li><a href="#step6-確認目前檔案系統空間">Step6: 確認目前檔案系統空間</a></li>
+        <li><a href="#step7-建立一個-1gb-的檔案">Step7: 建立一個 1GB 的檔案</a></li>
+        <li><a href="#step8-把檔案格式化成-swap-的檔案系統">Step8: 把檔案格式化成 swap 的檔案系統</a></li>
+        <li><a href="#step9-啟用-swap-檔案">Step9: 啟用 swap 檔案</a></li>
+        <li><a href="#step10-確認檔案屬性">Step10: 確認檔案屬性</a></li>
+        <li><a href="#step11-修改屬性為-600">Step11: 修改屬性為 600</a></li>
+        <li><a href="#step12-確認檔案屬性">Step12: 確認檔案屬性</a></li>
+        <li><a href="#step13-編輯-fstab-檔案-加上新行內容如下--註解掉原來的-swap-分割區">Step13: 編輯 fstab 檔案, 加上新行內容如下 , 註解掉原來的 swap 分割區</a></li>
+        <li><a href="#step14-編輯-sysctlconf-加上新行內容如下">Step14: 編輯 sysctl.conf, 加上新行內容如下</a></li>
+        <li><a href="#step15-確認-swap-檔案狀態">Step15: 確認 swap 檔案狀態</a></li>
+        <li><a href="#step16-關閉-swap-記得要確認-swap-使用狀態">Step16: 關閉 swap, 記得要確認 swap 使用狀態</a></li>
+        <li><a href="#step17-啟動-swap">Step17: 啟動 swap</a></li>
+        <li><a href="#step18-在-parted-裡面執行下列指令">Step18: 在 parted 裡面執行下列指令</a></li>
+        <li><a href="#step19-顯示目前分割區狀態">Step19: 顯示目前分割區狀態</a></li>
+        <li><a href="#step20-刪除-swap-分割區">Step:20 刪除 swap 分割區</a></li>
+        <li><a href="#step21-刪除延伸分割區">Step21: 刪除延伸分割區</a></li>
+        <li><a href="#step22-確認分割區是否都正確">Step22: 確認分割區是否都正確</a></li>
+        <li><a href="#step23-執行下面的指令讓分割區最大化">Step23: 執行下面的指令讓分割區最大化</a></li>
+        <li><a href="#step24-然後會顯示下面的訊息">Step24: 然後會顯示下面的訊息</a></li>
+        <li><a href="#step25-print-指令顯示現在分割區狀態">Step25: print 指令顯示現在分割區狀態</a></li>
+        <li><a href="#step26-結束-parted">Step26: 結束 parted</a></li>
+        <li><a href="#step27-檢查檔案系統空間">Step27: 檢查檔案系統空間</a></li>
+        <li><a href="#step28-更新檔案系統大小">Step28: 更新檔案系統大小</a></li>
+        <li><a href="#step29-檢查檔案系統空間">Step29: 檢查檔案系統空間</a></li>
       </ul>
     </li>
   </ul>
@@ -563,46 +563,46 @@
       <p><em><strong>狀況簡介，如果該系統還有 swap 分割區就先需要把 swap 分割區改成 swap 檔案才能做擴充。(就是一步一步做下去)</strong></em></p>
 <p><em><strong>如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟</strong></em></p>
 <p><img src="https://hiy.tw/coding/esxi_swap/1.png" alt=""></p>
-<h3 id="step1--esxi---vm---swap-">Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式</h3>
-<h3 id="step2--">Step2:  強制作業系統更新硬碟大小</h3>
+<h3 id="step1-在-esxi-調整磁碟影像檔案大小之後-要讓-vm-的檔案系統變大-但是有一個-swap-分割區的狀況的處裡方式">Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式</h3>
+<h3 id="step2--強制作業系統更新硬碟大小">Step2:  強制作業系統更新硬碟大小</h3>
 <p><code>sudo echo 1 &gt; '/sys/class/scsi_disk/0:0:0:0/device/rescan'</code></p>
-<h3 id="step3---swap---swap---swap---swap-partition">Step3: 先看分割區狀態, 有 swap 分割區, 所以要先建立 swap 檔案, 然後加 swap 檔案, 關閉 swap partition</h3>
+<h3 id="step3-先看分割區狀態-有-swap-分割區-所以要先建立-swap-檔案-然後加-swap-檔案-關閉-swap-partition">Step3: 先看分割區狀態, 有 swap 分割區, 所以要先建立 swap 檔案, 然後加 swap 檔案, 關閉 swap partition</h3>
 <p><code>sudo fdisk -l /dev/sda</code></p>
-<h3 id="step4--parted-">Step4: 沒有裝 parted, 所以要裝一下</h3>
+<h3 id="step4-沒有裝-parted-所以要裝一下">Step4: 沒有裝 parted, 所以要裝一下</h3>
 <p><code>sudo apt-get install parted</code></p>
-<h3 id="step5--parted-">Step5: 用 parted 再看一下分割區</h3>
+<h3 id="step5-用-parted-再看一下分割區">Step5: 用 parted 再看一下分割區</h3>
 <p><code>sudo parted /dev/sda</code></p>
-<h3 id="step6-">Step6: 確認目前檔案系統空間</h3>
+<h3 id="step6-確認目前檔案系統空間">Step6: 確認目前檔案系統空間</h3>
 <p><code>df -h</code></p>
-<h3 id="step7--1gb-">Step7: 建立一個 1GB 的檔案</h3>
+<h3 id="step7-建立一個-1gb-的檔案">Step7: 建立一個 1GB 的檔案</h3>
 <p><code>sudo fallocate -l 1G /mnt/1GB.swap</code></p>
-<h3 id="step8--swap-">Step8: 把檔案格式化成 swap 的檔案系統</h3>
+<h3 id="step8-把檔案格式化成-swap-的檔案系統">Step8: 把檔案格式化成 swap 的檔案系統</h3>
 <p><code>sudo mkswap /mnt/1GB.swap</code></p>
-<h3 id="step9--swap-">Step9: 啟用 swap 檔案</h3>
+<h3 id="step9-啟用-swap-檔案">Step9: 啟用 swap 檔案</h3>
 <p><code>sudo swapon /mnt/1GB.swap</code></p>
-<h3 id="step10-">Step10: 確認檔案屬性</h3>
+<h3 id="step10-確認檔案屬性">Step10: 確認檔案屬性</h3>
 <p><code>sudo ls -lh  /mnt/1GB.swap</code></p>
-<h3 id="step11--600">Step11: 修改屬性為 600</h3>
+<h3 id="step11-修改屬性為-600">Step11: 修改屬性為 600</h3>
 <p><code>sudo chmod 600  /mnt/1GB.swap</code></p>
-<h3 id="step12-">Step12: 確認檔案屬性</h3>
+<h3 id="step12-確認檔案屬性">Step12: 確認檔案屬性</h3>
 <p><code>ls -lh  /mnt/1GB.swap</code></p>
-<h3 id="step13--fstab-----swap-">Step13: 編輯 fstab 檔案, 加上新行內容如下 , 註解掉原來的 swap 分割區</h3>
+<h3 id="step13-編輯-fstab-檔案-加上新行內容如下--註解掉原來的-swap-分割區">Step13: 編輯 fstab 檔案, 加上新行內容如下 , 註解掉原來的 swap 分割區</h3>
 <p><code>sudo vim /etc/fstab</code></p>
 <p><strong>/mnt/1GB.swap  none  swap  sw 0  0</strong></p>
-<h3 id="step14--sysctlconf-">Step14: 編輯 sysctl.conf, 加上新行內容如下</h3>
+<h3 id="step14-編輯-sysctlconf-加上新行內容如下">Step14: 編輯 sysctl.conf, 加上新行內容如下</h3>
 <p><code>sudo vim /etc/sysctl.conf</code></p>
 <p><strong>vm.swappiness=10</strong></p>
-<h3 id="step15--swap-">Step15: 確認 swap 檔案狀態</h3>
+<h3 id="step15-確認-swap-檔案狀態">Step15: 確認 swap 檔案狀態</h3>
 <p><code>sudo swapon -s</code></p>
-<h3 id="step16--swap--swap-">Step16: 關閉 swap, 記得要確認 swap 使用狀態</h3>
+<h3 id="step16-關閉-swap-記得要確認-swap-使用狀態">Step16: 關閉 swap, 記得要確認 swap 使用狀態</h3>
 <p><code>sudo swapoff -a</code></p>
-<h3 id="step17--swap">Step17: 啟動 swap</h3>
+<h3 id="step17-啟動-swap">Step17: 啟動 swap</h3>
 <p><code>sudo swapon -a</code></p>
-<h3 id="step18--parted-">Step18: 在 parted 裡面執行下列指令</h3>
+<h3 id="step18-在-parted-裡面執行下列指令">Step18: 在 parted 裡面執行下列指令</h3>
 <p><code>sudo parted /dev/sda</code></p>
-<h3 id="step19-">Step19: 顯示目前分割區狀態</h3>
+<h3 id="step19-顯示目前分割區狀態">Step19: 顯示目前分割區狀態</h3>
 <p>(parted) <code>print</code></p>
-<h3 id="step20--swap-">Step:20 刪除 swap 分割區</h3>
+<h3 id="step20-刪除-swap-分割區">Step:20 刪除 swap 分割區</h3>
 <p>Model: VMware Virtual disk (scsi)</p>
 <p>Disk /dev/sda: 34.4GB</p>
 <p>Sector size (logical/physical): 512B/512B</p>
@@ -613,7 +613,7 @@
 <p>2      16.4GB  17.2GB  749MB   extended</p>
 <p>5      16.4GB  17.2GB  749MB   logical   linux-swap(v1)</p>
 <p>(parted) <code>rm 5</code></p>
-<h3 id="step21-">Step21: 刪除延伸分割區</h3>
+<h3 id="step21-刪除延伸分割區">Step21: 刪除延伸分割區</h3>
 <p>(parted) <code>print</code></p>
 <p>Model: VMware Virtual disk (scsi)</p>
 <p>Disk /dev/sda: 34.4GB</p>
@@ -624,7 +624,7 @@
 <p>1      1049kB  16.4GB  16.4GB  primary   ext4         boot</p>
 <p>2      16.4GB  17.2GB  749MB   extended</p>
 <p>(parted) <code>rm 2</code></p>
-<h3 id="step22-">Step22: 確認分割區是否都正確</h3>
+<h3 id="step22-確認分割區是否都正確">Step22: 確認分割區是否都正確</h3>
 <p>(parted) <code>print</code></p>
 <p>Model: VMware Virtual disk (scsi)</p>
 <p>Disk /dev/sda: 34.4GB</p>
@@ -633,11 +633,11 @@
 <p>Disk Flags:</p>
 <p>Number  Start   End     Size    Type     File system  Flags</p>
 <p>1      1049kB  16.4GB  16.4GB  primary  ext4         boot</p>
-<h3 id="step23-">Step23: 執行下面的指令讓分割區最大化</h3>
+<h3 id="step23-執行下面的指令讓分割區最大化">Step23: 執行下面的指令讓分割區最大化</h3>
 <p>(parted) <code>resizepart 1 yes 100%</code></p>
-<h3 id="step24-">Step24: 然後會顯示下面的訊息</h3>
+<h3 id="step24-然後會顯示下面的訊息">Step24: 然後會顯示下面的訊息</h3>
 <p>Warning: Partition /dev/sda1 is being used. Are you sure you want to continue?</p>
-<h3 id="step25-print-">Step25: print 指令顯示現在分割區狀態</h3>
+<h3 id="step25-print-指令顯示現在分割區狀態">Step25: print 指令顯示現在分割區狀態</h3>
 <p>(parted) <code>print</code></p>
 <p>Model: VMware Virtual disk (scsi)</p>
 <p>Disk /dev/sda: 34.4GB</p>
@@ -646,13 +646,13 @@
 <p>Disk Flags:</p>
 <p>Number  Start   End     Size    Type     File system  Flags</p>
 <p>1      1049kB  34.4GB  34.4GB  primary  ext4</p>
-<h3 id="step26--parted">Step26: 結束 parted</h3>
+<h3 id="step26-結束-parted">Step26: 結束 parted</h3>
 <p>(parted) <code>quit</code></p>
-<h3 id="step27-">Step27: 檢查檔案系統空間</h3>
+<h3 id="step27-檢查檔案系統空間">Step27: 檢查檔案系統空間</h3>
 <p><code>df -h</code></p>
-<h3 id="step28-">Step28: 更新檔案系統大小</h3>
+<h3 id="step28-更新檔案系統大小">Step28: 更新檔案系統大小</h3>
 <p><code>sudo resize2fs -F /dev/sda1</code></p>
-<h3 id="step29-">Step29: 檢查檔案系統空間</h3>
+<h3 id="step29-檢查檔案系統空間">Step29: 檢查檔案系統空間</h3>
 <p><code>df -h</code></p>
     </div>
     <div class="article-footer">
@@ -735,7 +735,7 @@
 </ul>
   <div class="copyright">
     &copy;2015  -
-    2019
+    2020
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>

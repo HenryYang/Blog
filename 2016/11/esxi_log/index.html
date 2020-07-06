@@ -26,7 +26,7 @@
   <meta name="description" content="就很多教學都會教說把 ESXI 系統安裝在記憶卡或是隨身碟上，但如果你的系統使用太頻繁就有可能會讓 LOG 把記憶卡的存取次數快速耗盡。
 所以我個人都會習慣把 LOG 放在內建的空間中，除了空間會比較大以外更重要的是傳統硬碟或是 SSD 的存取壽命都高非常多啊。
 " />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.73.0 with theme pure" />
   <title>ESXI 的 LOG 移至內建空間 - Henry&#39;s Space</title>
   
 
@@ -163,7 +163,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
         </ul>
     </div>
 </div>
@@ -326,7 +326,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/piv/" class="tag-list-link">piv</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/public-key/" class="tag-list-link">public-key</a><span
@@ -398,7 +398,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/yubikey/" class="tag-list-link">yubikey</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
@@ -421,6 +421,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH 搭配 Public Key 登入 Windows 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -461,16 +471,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -487,7 +487,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#heading">教學：</a></li>
+        <li><a href="#教學">教學：</a></li>
       </ul>
     </li>
   </ul>
@@ -535,7 +535,7 @@
       <p>就很多教學都會教說把 ESXI 系統安裝在記憶卡或是隨身碟上，但如果你的系統使用太頻繁就有可能會讓 LOG 把記憶卡的存取次數快速耗盡。</p>
 <p>所以我個人都會習慣把 LOG 放在內建的空間中，除了空間會比較大以外更重要的是傳統硬碟或是 SSD 的存取壽命都高非常多啊。</p>
 <p><img src="https://hiy.tw/coding/esxi_log/1.png" alt=""></p>
-<h3 id="heading">教學：</h3>
+<h3 id="教學">教學：</h3>
 <p>他可以用 Web Client 、 CLI 跟 vSphere Client 來設定，我這邊就以最熟悉的 vSphere Client 為主</p>
 <p>登入主機後進到儲存空間，然後新增一個名為 .locker-<em><strong>ESXHostname</strong></em> 的資料夾（其中 <em><strong>ESXHostname</strong></em> 請換成你自己主機的名字）</p>
 <p>然後選擇軟體這分頁，有一個進接設定，這時候找到 ScratchConfig 這選項，然後把 ScratchConfig.ConfiguredScratchLocation 這欄位填入 /vmfs/volumes/<em><strong>DatastoreUUID</strong></em>/.locker-<em><strong>ESXHostname</strong></em></p>
@@ -624,7 +624,7 @@
 </ul>
   <div class="copyright">
     &copy;2015  -
-    2019
+    2020
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>

@@ -25,7 +25,7 @@
   
   <meta name="description" content="就有時候會忘記自己當時到底把 iOS 的 root 密碼改成什麼，這時候有幾種選擇。
 " />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.73.0 with theme pure" />
   <title>重設 Jailbreak 後的 iOS root 密碼 - Henry&#39;s Space</title>
   
 
@@ -162,7 +162,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
         </ul>
     </div>
 </div>
@@ -325,7 +325,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/piv/" class="tag-list-link">piv</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/public-key/" class="tag-list-link">public-key</a><span
@@ -397,7 +397,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/yubikey/" class="tag-list-link">yubikey</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
@@ -420,6 +420,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH 搭配 Public Key 登入 Windows 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -457,16 +467,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2019-05-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-09</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
                     </p>
                 </div>
             </li>
@@ -534,9 +534,9 @@
     <div class="article-entry marked-body" itemprop="articleBody">
       <p>就有時候會忘記自己當時到底把 iOS 的 root 密碼改成什麼，這時候有幾種選擇。</p>
 <p><img src="https://hiy.tw/tech/reset_jb_ios_root_password/1.png" alt=""></p>
-<h4 id="-afc2">方式一，已安裝 AFC2</h4>
+<h4 id="方式一已安裝-afc2">方式一，已安裝 AFC2</h4>
 <p>如果你安裝了 AFC2 其實就可以直接插電腦，然後用常見的 iOS 管理程式(iMazing、iFunbox 或是你相信中國的 itools？)直接進入到系統目錄。</p>
-<h4 id="-afc2-1">方式二，無法安裝 AFC2</h4>
+<h4 id="方式二無法安裝-afc2">方式二，無法安裝 AFC2</h4>
 <p>這時候就看看 iOS 裝置內有無 iFile 這類的檔案管理軟體，直接在手機上面做修改。</p>
 <p>主要的方式就是想辦法切換到 <code>/private/etc/</code> 目錄，這時候有一個檔案叫做 <code>master.passwd</code> 複製回電腦或是直接用 iOS 設備開啟。</p>
 <p>然後在電腦上用記事本或是任何文字編輯器打開，這時後你會看到一個以 <code>root:/</code> 開頭以 <code>:System</code>結尾的文字然後中間帶有一些亂數，而中間就是你被加密過後的密碼。</p>
@@ -624,7 +624,7 @@
 </ul>
   <div class="copyright">
     &copy;2015  -
-    2019
+    2020
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>

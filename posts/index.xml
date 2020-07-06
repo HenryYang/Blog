@@ -5,10 +5,19 @@
     <link>https://hiy.tw/posts/</link>
     <description>Recent content in Posts on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>用 SSH 搭配 Public Key 登入 Windows 10</title>
+      <link>https://hiy.tw/2020/07/win10_ssh/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2020/07/win10_ssh/</guid>
+      <description>&lt;p&gt;Windows 10 其實是可以透過 SSH 登入到 cmd 的，但是步驟跟正常想的有點不一樣&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>讓 macOS 使用 Yubikey PIV 智慧卡登入</title>
@@ -25,7 +34,7 @@
       <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2019/07/choose_vpn/</guid>
-      <description>&lt;h4 id=&#34;-vpn-&#34;&gt;下面為我選公用 VPN 服務商的重點&lt;/h4&gt;
+      <description>&lt;h4 id=&#34;下面為我選公用-vpn-服務商的重點&#34;&gt;下面為我選公用 VPN 服務商的重點&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;不要有中資背景&lt;/li&gt;
 &lt;li&gt;不要在 FVEY 聯盟境內營運（澳洲、加拿大、紐西蘭、英國、美國）&lt;/li&gt;
@@ -60,7 +69,7 @@
       <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2019/05/netgear_m1/</guid>
-      <description>&lt;h3 id=&#34;heading&#34;&gt;如果你沒看過外觀，現在讓你看看&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;如果你沒看過外觀現在讓你看看&#34;&gt;如果你沒看過外觀，現在讓你看看&lt;/h3&gt;
 &lt;p&gt;這台目前在台灣越來越常見了，開箱文我想就免了。來介紹一些它的特色吧！&lt;/p&gt;</description>
     </item>
     
@@ -79,7 +88,7 @@
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2019/03/paypal_543/</guid>
-      <description>&lt;h3 id=&#34;-paypal-&#34;&gt;大家都有被 PayPal 雷過，以下是一些經驗談ㄋ&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;大家都有被-paypal-雷過以下是一些經驗談ㄋ&#34;&gt;大家都有被 PayPal 雷過，以下是一些經驗談ㄋ&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;台灣因為法規因素，所以無法 台灣 PayPal 付款給 台灣 Paypal 帳戶&lt;/li&gt;
 &lt;/ol&gt;</description>
@@ -100,7 +109,7 @@
       <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2018/12/jal_domestic_inflight_internet/</guid>
-      <description>&lt;h4 id=&#34;-wifi--ssid--xd&#34;&gt;注意，如果是遇到 WiFi 直接無法連接到該 SSID 的請直接放棄吧，因為那是設備問題了 XD&lt;/h4&gt;</description>
+      <description>&lt;h4 id=&#34;注意如果是遇到-wifi-直接無法連接到該-ssid-的請直接放棄吧因為那是設備問題了-xd&#34;&gt;注意，如果是遇到 WiFi 直接無法連接到該 SSID 的請直接放棄吧，因為那是設備問題了 XD&lt;/h4&gt;</description>
     </item>
     
     <item>
@@ -118,7 +127,7 @@
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2018/09/apple_pay_transit/</guid>
-      <description>&lt;h3 id=&#34;-suica-&#34;&gt;日本的 Suica 是轉移，中國的北京一卡通是買新卡&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;日本的-suica-是轉移中國的北京一卡通是買新卡&#34;&gt;日本的 Suica 是轉移，中國的北京一卡通是買新卡&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;所以 Suica  在實體卡轉移到手機後，原實體卡會失效&lt;/p&gt;
@@ -205,7 +214,7 @@
       <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2017/08/ios_sms_to_android/</guid>
-      <description>&lt;h3 id=&#34;heading&#34;&gt;轉移概念：&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;轉移概念&#34;&gt;轉移概念：&lt;/h3&gt;
 &lt;p&gt;iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。&lt;/p&gt;</description>
     </item>
     
@@ -390,7 +399,7 @@
       
       <guid>https://hiy.tw/2016/12/raspberry_pi_libimobiledevice_adb/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://hiy.tw/coding/raspberry_pi_libimobiledevice_adb/1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;libimobiledevice-&#34;&gt;libimobiledevice 部分&lt;/h2&gt;
+&lt;h2 id=&#34;libimobiledevice-部分&#34;&gt;libimobiledevice 部分&lt;/h2&gt;
 &lt;p&gt;Repo：https://github.com/libimobiledevice/libimobiledevice&lt;/p&gt;</description>
     </item>
     
@@ -446,7 +455,7 @@
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2016/11/line_20161111/</guid>
-      <description>&lt;h3 id=&#34;line--google-play--appstore-&#34;&gt;LINE 版本皆更新到 Google Play 跟 AppStore 上最新版&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;line-版本皆更新到-google-play-跟-appstore-上最新版&#34;&gt;LINE 版本皆更新到 Google Play 跟 AppStore 上最新版&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://hiy.tw/tech/line_20161111/2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     
@@ -474,7 +483,7 @@
       <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2016/10/linux_pam/</guid>
-      <description>&lt;h3 id=&#34;-etcsecurityaccessconf-&#34;&gt;修改 /etc/security/access.conf 這檔案&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;修改-etcsecurityaccessconf-這檔案&#34;&gt;修改 /etc/security/access.conf 這檔案&lt;/h3&gt;
 &lt;p&gt;然後在這檔案中新增下面指令 ( 請把下面的 root 跟 systemadmin 換成你自己的帳號 )&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;-:ALL EXCEPT root sysadmin:ALL
 &lt;/code&gt;&lt;/pre&gt;</description>
@@ -486,7 +495,7 @@
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2016/10/tw_debit_withdraw/</guid>
-      <description>&lt;h3 id=&#34;-4-&#34;&gt;請先確認有開通跨國提款也也設定過 4 位數磁條密碼&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;請先確認有開通跨國提款也也設定過-4-位數磁條密碼&#34;&gt;請先確認有開通跨國提款也也設定過 4 位數磁條密碼&lt;/h3&gt;
 &lt;p&gt;跨國交易都還是用磁條與 4 位數的密碼，所以出國前請務必確認知道自己 4 位數密碼是多少，然後也建議回自行的 ATM 去驗證磁條密碼與跨國提款是否有開通，因為目前太多遇到的是金融卡的晶片沒有問題但是磁條被消磁，這樣就會造成在台灣可以用，可是出國不能領的囧狀。&lt;/p&gt;</description>
     </item>
     
@@ -582,7 +591,7 @@
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2016/08/wordpress_update_ssh/</guid>
-      <description>&lt;h3 id=&#34;ssh--wordpress-&#34;&gt;SSH 使用特殊阜來執行 Wordpress 線上更新&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;ssh-使用特殊阜來執行-wordpress-線上更新&#34;&gt;SSH 使用特殊阜來執行 Wordpress 線上更新&lt;/h3&gt;
 &lt;p&gt;如果因為安全因素所以沒有開啟 FTP 服務，這樣就無法用 Wordpress 內建的線上更新執行系統、佈景或是外掛的更新，需要直接登入遠端主機修改或是直接覆蓋檔案來更新。&lt;/p&gt;</description>
     </item>
     

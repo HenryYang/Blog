@@ -26,7 +26,7 @@
   <meta name="description" content="注意： 目前 &amp;ldquo;理論上&amp;rdquo; 未鎖電信商的華為 3G USB 網卡理論上都可以使用，我自己是使用當年跟中華電信買的 E161
 我這邊是使用 sakis3g 這到軟體來簡化連線的設定，真的就只要下載執行就可以連上行動網路的，就不用在設定很多麻煩的 pppd
 " />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.73.0 with theme pure" />
   <title>Raspberry Pi 透過 USB 3G 行動網卡上網 - Henry&#39;s Space</title>
   
 
@@ -166,7 +166,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
         </ul>
     </div>
 </div>
@@ -329,7 +329,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/piv/" class="tag-list-link">piv</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/public-key/" class="tag-list-link">public-key</a><span
@@ -401,7 +401,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/yubikey/" class="tag-list-link">yubikey</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
@@ -424,6 +424,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH 搭配 Public Key 登入 Windows 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -461,16 +471,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2019-05-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-09</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
                     </p>
                 </div>
             </li>
@@ -538,11 +538,11 @@
       <p><img src="https://hiy.tw/coding/raspberry_pi_usb_3g/1.jpg" alt=""></p>
 <p>注意： 目前 &ldquo;理論上&rdquo; 未鎖電信商的華為 <strong>3G</strong> USB 網卡理論上都可以使用，我自己是使用當年跟中華電信買的 E161</p>
 <p>我這邊是使用 sakis3g  這到軟體來簡化連線的設定，真的就只要下載執行就可以連上行動網路的，就不用在設定很多麻煩的 pppd</p>
-<h4 id="heading">下載軟體</h4>
+<h4 id="下載軟體">下載軟體</h4>
 <p><code> wget &quot;http://raspberry-at-home.com/files/sakis3g.tar.gz&quot;</code>
 <code>tar -zxvf sakis3g.tar.gz -C .</code>
 <code> sudo chmod +x sakis3g</code></p>
-<h4 id="heading-1">執行服務</h4>
+<h4 id="執行服務">執行服務</h4>
 <p>對，這樣就算是安裝完成了，只是請記得要使用 ROOT 權限或是使用 sudo 來執行這程式</p>
 <p>如果要用互動式介面就輸入
 <code> sakis3g --interactive</code></p>
@@ -550,7 +550,7 @@
 <code>sakis3g connect APN=internet APN_USER=&quot;123&quot; APN_PASS=&quot;123&quot;</code></p>
 <p>如果想要斷線可以輸入
 <code> sakis3g disconnect</code></p>
-<h4 id="-alias---pi-">如果覺得指令太常可以搭配 alias 使用 (預設檔案是放在 pi 的家目錄下)</h4>
+<h4 id="如果覺得指令太常可以搭配-alias-使用-預設檔案是放在-pi-的家目錄下">如果覺得指令太常可以搭配 alias 使用 (預設檔案是放在 pi 的家目錄下)</h4>
 <p><code>echo &quot;alias 3gup='sudo /home/pi/sakis3g connect APN=internet APN_USER=&quot;123&quot; APN_PASS=&quot;123&quot;'&quot; &gt;&gt; ~/.bashrc </code></p>
 <p><code>echo &quot;alias 3gdown='sudo /home/pi/sakis3g disconnect '&quot; &gt;&gt; ~/.bashrc </code></p>
 <p>這樣就可以直接用 3gup 跟 3gdown 這指令來建立與關閉 3G 行動網路的連線了</p>
@@ -639,7 +639,7 @@
 </ul>
   <div class="copyright">
     &copy;2015  -
-    2019
+    2020
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>

@@ -25,7 +25,7 @@
   
   <meta name="description" content="轉移概念： iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。
 " />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.73.0 with theme pure" />
   <title>iOS 簡訊轉移到 Android 教學（附註 iOS 11 問題處理） - Henry&#39;s Space</title>
   
 
@@ -162,7 +162,7 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
         </ul>
     </div>
 </div>
@@ -325,7 +325,7 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/piv/" class="tag-list-link">piv</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/public-key/" class="tag-list-link">public-key</a><span
@@ -397,7 +397,7 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/yubikey/" class="tag-list-link">yubikey</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
@@ -420,6 +420,16 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH 搭配 Public Key 登入 Windows 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -460,16 +470,6 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -486,9 +486,9 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
   <ul>
     <li>
       <ul>
-        <li><a href="#heading">轉移概念：</a></li>
-        <li><a href="#heading-1">操作步驟：</a></li>
-        <li><a href="#heading-2">但&hellip;當然一切沒有這麼簡單</a></li>
+        <li><a href="#轉移概念">轉移概念：</a></li>
+        <li><a href="#操作步驟">操作步驟：</a></li>
+        <li><a href="#但當然一切沒有這麼簡單">但&hellip;當然一切沒有這麼簡單</a></li>
       </ul>
     </li>
   </ul>
@@ -534,19 +534,19 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
-      <h3 id="heading">轉移概念：</h3>
+      <h3 id="轉移概念">轉移概念：</h3>
 <p>iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案複製出來並複製到 Android 手機，用 iSMS2droid 把檔案回復回去，就完了。</p>
-<h3 id="heading-1">操作步驟：</h3>
-<h4 id="step1">Step1：把加密關閉後備份整台手機</h4>
+<h3 id="操作步驟">操作步驟：</h3>
+<h4 id="step1把加密關閉後備份整台手機">Step1：把加密關閉後備份整台手機</h4>
 <p><img src="https://hiy.tw/tech/ios_sms_to_android/1.png" alt=""></p>
-<h4 id="step2">Step2：找出備份檔案的路徑</h4>
+<h4 id="step2找出備份檔案的路徑">Step2：找出備份檔案的路徑</h4>
 <p>Windows 路徑是：C:\Users[YourUsername]\AppData\Roaming\Apple Computer\MobileSync\Backup\</p>
 <p>macOS 路徑是： ~/Library/Application Support/MobileSync/Backup/</p>
 <p>然後如果有多個資料夾請看資料夾哪一個是最近有被更動過的那就是你剛剛備份的。然後進入資料夾後把檔名為 3d0d7e5fb2ce288813306e4d4636395e047a3d28 的檔案複製到 Android 手機中</p>
-<h4 id="step3-isms2droid-">Step3：安裝 iSMS2droid 並回復上面說的那個檔案</h4>
+<h4 id="step3安裝-isms2droid-並回復上面說的那個檔案">Step3：安裝 iSMS2droid 並回復上面說的那個檔案</h4>
 <p>Google Play 下載位置：https://play.google.com/store/apps/details?id=org.faked.isms2droid</p>
-<h4 id="step4">Step4：回復完就一切完成了</h4>
-<h3 id="heading-2">但&hellip;當然一切沒有這麼簡單</h3>
+<h4 id="step4回復完就一切完成了">Step4：回復完就一切完成了</h4>
+<h3 id="但當然一切沒有這麼簡單">但&hellip;當然一切沒有這麼簡單</h3>
 <ul>
 <li>記得 iTunes 備份要把加密關閉不然 iSMS2droid 無法開啟</li>
 <li>如果是 iOS 11 回復完會出現靈異狀況</li>
@@ -637,7 +637,7 @@ iOS 裝置插電腦用 iTunes 備份同步，然後把備份完的 SQLite 檔案
 </ul>
   <div class="copyright">
     &copy;2015  -
-    2019
+    2020
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>

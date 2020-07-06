@@ -25,7 +25,7 @@
   
   <meta name="description" content="就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案
 " />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.73.0 with theme pure" />
   <title>iOS 10 JB 後 Cydia 突然消失解決方案 - Henry&#39;s Space</title>
   
 
@@ -159,7 +159,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">34</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
         </ul>
     </div>
 </div>
@@ -322,7 +322,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/piv/" class="tag-list-link">piv</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/public-key/" class="tag-list-link">public-key</a><span
@@ -394,7 +394,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/yubikey/" class="tag-list-link">yubikey</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB/" class="tag-list-link">數位生活</a><span
@@ -417,6 +417,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH 搭配 Public Key 登入 Windows 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -457,16 +467,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/netgear_m1/" class="title">Netgear M1 行動 4G 分享器筆記</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-04</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -481,12 +481,12 @@
         <h3 class="toc-title">Catalogue</h3>
         <div class="toc-content always-active"><nav id="TableOfContents">
   <ul>
-    <li><a href="#-yalu--jailbreak-">方案一：移除 Yalu 在 Jailbreak 留下的記錄檔</a>
+    <li><a href="#方案一移除-yalu-在-jailbreak-留下的記錄檔">方案一：移除 Yalu 在 Jailbreak 留下的記錄檔</a>
       <ul>
         <li></li>
       </ul>
     </li>
-    <li><a href="#-cydia">方案二：自己重新安裝 Cydia</a>
+    <li><a href="#方案二自己重新安裝-cydia">方案二：自己重新安裝 Cydia</a>
       <ul>
         <li></li>
       </ul>
@@ -534,10 +534,10 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       <p>就 iOS 10 所使用的 yalu 來 Jailbreak 還不是那麼的穩定，所以會有突發狀況導致 Cydia 突然消失。然後以下兩種是網路上找到可以解覺得方案</p>
-<h2 id="-yalu--jailbreak-">方案一：移除 Yalu 在 Jailbreak 留下的記錄檔</h2>
+<h2 id="方案一移除-yalu-在-jailbreak-留下的記錄檔">方案一：移除 Yalu 在 Jailbreak 留下的記錄檔</h2>
 <p>就因為 iOS 10 都是 Semi Jailbreak 所以重開機後系統會需要重新跑一次越獄流程，但因為已經安裝過 Cydia 所以理當 Yalu 不應該在跑一次安裝 Cydia 的流程。這也就是為什麼在 Cydia 消失後重跑 Yalu 不會重新安裝 Cydia 的原因，因為他認為你已經越獄過所以不需要重新裝 Cydia。</p>
 <p>所以我們需要的作法就是把系統根目錄下的 <code>.installed_yaluX</code> 移除掉然後重開機再執行 Yalu 就可以了。</p>
-<h4 id="heading">具體作法會是：</h4>
+<h4 id="具體作法會是">具體作法會是：</h4>
 <h5 id="step0">Step0:</h5>
 <p>確認 Yalu 已經完成越獄</p>
 <h5 id="step1">Step1:</h5>
@@ -546,9 +546,9 @@
 <h5 id="step2">Step2:</h5>
 <p>登入後直接執行 <code>rm /.installed_yaluX</code>，然後就可以重開機在執行一次 Yalu，這時候理論上你的 Cydia 就會回來了，如果沒有就再使用 SSH 登入後輸入 uicache 來強制把你 iOS 的介面重新更新一次。這時候應該就會出現了，如果還是沒有就可以參考方案二。</p>
 <p><img src="https://hiy.tw/tech/ios_10_cydia_disappear/2.png" alt=""></p>
-<h2 id="-cydia">方案二：自己重新安裝 Cydia</h2>
+<h2 id="方案二自己重新安裝-cydia">方案二：自己重新安裝 Cydia</h2>
 <p>如果上述方式無效，可以考慮看看自己來安裝 Cydia，理論上這一定會出現如果還是沒有應該就是你系統有什麼損壞，可以請直接回復出廠設定等待下一版本的 Jailbreak 比較快。</p>
-<h4 id="heading-1">具體作法會是：</h4>
+<h4 id="具體作法會是-1">具體作法會是：</h4>
 <h5 id="step0-1">Step0:</h5>
 <p>確認 Yalu 已經完成越獄</p>
 <h5 id="step1-1">Step1:</h5>
@@ -638,7 +638,7 @@
 </ul>
   <div class="copyright">
     &copy;2015  -
-    2019
+    2020
     <div class="publishby">
         base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>
