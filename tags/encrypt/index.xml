@@ -572,7 +572,7 @@
       <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2016/08/win10_sn/</guid>
-      <description>&lt;p&gt;實測結果，如果序號來源是 &amp;ldquo;&lt;!-- raw HTML omitted --&gt;由舊版 Windows 升級到 Windows 10 時所產生&lt;!-- raw HTML omitted --&gt;&amp;quot;的拿來給全新安裝的 Windows 10 是  &amp;ldquo;&lt;!-- raw HTML omitted --&gt;可以被系統辨識版本，但是無法啟用的！&lt;!-- raw HTML omitted --&gt;&amp;rdquo;&lt;/p&gt;</description>
+      <description>&lt;p&gt;實測結果，如果序號來源是 &amp;ldquo;&lt;!-- raw HTML omitted --&gt;由舊版 Windows 升級到 Windows 10 時所產生&lt;!-- raw HTML omitted --&gt;&amp;ldquo;的拿來給全新安裝的 Windows 10 是  &amp;ldquo;&lt;!-- raw HTML omitted --&gt;可以被系統辨識版本，但是無法啟用的！&lt;!-- raw HTML omitted --&gt;&amp;rdquo;&lt;/p&gt;</description>
     </item>
     
     <item>
