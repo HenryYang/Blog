@@ -5,18 +5,27 @@
     <link>https://hiy.tw/categories/</link>
     <description>Recent content in Categories on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>用 SSH 搭配 Public Key 登入 Windows 10</title>
+      <title>iOS 重裝 App 不掉紀錄</title>
+      <link>https://hiy.tw/2020/11/ios_reinstall_app/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2020/11/ios_reinstall_app/</guid>
+      <description>&lt;p&gt;TEST&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用 SSH Key 搭配 Public Key 登入 Windows 10</title>
       <link>https://hiy.tw/2020/07/win10_ssh/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hiy.tw/2020/07/win10_ssh/</guid>
-      <description>&lt;p&gt;Windows 10 其實是可以透過 SSH 登入到 cmd 的，但是步驟跟正常想的有點不一樣&lt;/p&gt;</description>
+      <description>&lt;p&gt;Windows 10 其實是可以透過 SSH Key 登入到 cmd 的，但是步驟跟正常想的有點不一樣&lt;/p&gt;</description>
     </item>
     
     <item>
