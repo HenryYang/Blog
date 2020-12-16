@@ -1,12 +1,12 @@
 ---
-title: "用 SSH 搭配 Public Key 登入 Windows 10"
+title: "用 SSH Key 搭配 Public Key 登入 Windows 10"
 draft: false
 date: 2020-07-06
 tags: ["PIV", "Yubikey"]
 categories: ["程式技術"]
 ---
 
-Windows 10 其實是可以透過 SSH 登入到 cmd 的，但是步驟跟正常想的有點不一樣
+Windows 10 其實是可以透過 SSH Key 登入到 cmd 的，但是步驟跟正常想的有點不一樣
 
 <!--more-->
 
