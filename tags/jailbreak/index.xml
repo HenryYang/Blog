@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>使用 Github Action 自動編譯並發布 Hugo 產生的頁面到 Github Pages</title>
+      <link>https://hiy.tw/2021/03/github_action/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2021/03/github_action/</guid>
+      <description>&lt;p&gt;Hugo 這類產生靜態網頁檔的東西的好處就是如果搭配上了 git + CI 做自動編譯，那就可以達到只需要一個文字編輯器就能發布新文章的好處&lt;/p&gt;
+&lt;p&gt;過去是使用 Travis CI 但因為它的免費時數用完了，所以就改成同樣免費的 Github Action，而且有人寫好模組了，更方便更簡單。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>iOS 重裝 App 不掉紀錄</title>
       <link>https://hiy.tw/2020/11/ios_reinstall_app/</link>
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>

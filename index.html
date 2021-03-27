@@ -23,7 +23,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.82.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.80.0 with theme pure" />
   <title>Henry&#39;s Space</title>
   
 
@@ -34,9 +34,10 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://hiy.tw/" />
-
+<meta property="og:updated_time" content="2021-03-27T00:00:00+00:00" />
 <meta itemprop="name" content="Henry&#39;s Space">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="">
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Henry&#39;s Space"/>
 <meta name="twitter:description" content=""/>
 
@@ -150,7 +151,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">35</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">22</span></li>
         </ul>
     </div>
 </div>
@@ -197,6 +198,10 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/china/" class="tag-list-link">china</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://hiy.tw/tags/ci/" class="tag-list-link">ci</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -250,6 +255,10 @@
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/gift-card/" class="tag-list-link">gift-card</a><span
                     class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://hiy.tw/tags/git/" class="tag-list-link">git</a><span
+                    class="tag-list-count">1</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/ios/" class="tag-list-link">ios</a><span
@@ -411,6 +420,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://hiy.tw/2021/03/github_action/" class="title">使用 Github Action 自動編譯並發布 Hugo 產生的頁面到 Github Pages</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-03-27</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://hiy.tw/2020/11/ios_reinstall_app/" class="title">iOS 重裝 App 不掉紀錄</a>
                     </p>
                     <p class="item-date">
@@ -448,16 +467,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/win10_mppe_vpn/" class="title">Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-13</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -471,6 +480,43 @@
    
   <div class="content article-list">
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2021/03/github_action/"
+    >使用 Github Action 自動編譯並發布 Hugo 產生的頁面到 Github Pages</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description"><p>Hugo 這類產生靜態網頁檔的東西的好處就是如果搭配上了 git + CI 做自動編譯，那就可以達到只需要一個文字編輯器就能發布新文章的好處</p>
+<p>過去是使用 Travis CI 但因為它的免費時數用完了，所以就改成同樣免費的 Github Action，而且有人寫好模組了，更方便更簡單。</p></div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://hiy.tw/2021/03/github_action/" class="">
+  <time datetime="2021-03-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-03-27</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/"> 程式技術 </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+    <a class="article-tag-link" href="/tags/ci/"> CI </a>
+    <a class="article-tag-link" href="/tags/git/"> git </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/03/github_action/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:802words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:2minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope

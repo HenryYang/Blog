@@ -25,7 +25,7 @@
   
   <meta name="description" content="目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。
 " />
-  <meta name="generator" content="Hugo 0.82.0 with theme pure" />
+  <meta name="generator" content="Hugo 0.80.0 with theme pure" />
   <title>用磁碟工具程式來製作一個 DMG 檔以加密重要資料 - Henry&#39;s Space</title>
   
 
@@ -34,15 +34,19 @@
   <meta property="og:title" content="用磁碟工具程式來製作一個 DMG 檔以加密重要資料" />
 <meta property="og:description" content="目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hiy.tw/2016/10/dmg_encrypt/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2016-10-22T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2016-10-22T00:00:00&#43;00:00" />
-
+<meta property="og:url" content="https://hiy.tw/2016/10/dmg_encrypt/" />
+<meta property="article:published_time" content="2016-10-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-10-22T00:00:00+00:00" />
 <meta itemprop="name" content="用磁碟工具程式來製作一個 DMG 檔以加密重要資料">
-<meta itemprop="description" content="目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。"><meta itemprop="datePublished" content="2016-10-22T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2016-10-22T00:00:00&#43;00:00" />
+<meta itemprop="description" content="目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。">
+<meta itemprop="datePublished" content="2016-10-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2016-10-22T00:00:00+00:00" />
 <meta itemprop="wordCount" content="588">
-<meta itemprop="keywords" content="macOS,Encrypt," /><meta name="twitter:card" content="summary"/>
+
+
+
+<meta itemprop="keywords" content="macOS,Encrypt," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="用磁碟工具程式來製作一個 DMG 檔以加密重要資料"/>
 <meta name="twitter:description" content="目前市面上的加密軟體百百種，但我自己尋找的條件是要可以快速加密，然後最好是可以虛擬出一個磁區出來，放進去就是背景加密而複製出來就可以自動解密，然後因為希望可以跟雲端同步，所以不希望是完全加密成一個檔案，這樣會造成有變動就會是全部重新上傳。"/>
 
@@ -156,7 +160,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">35</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">21</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">22</span></li>
         </ul>
     </div>
 </div>
@@ -203,6 +207,10 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/china/" class="tag-list-link">china</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://hiy.tw/tags/ci/" class="tag-list-link">ci</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -256,6 +264,10 @@
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/gift-card/" class="tag-list-link">gift-card</a><span
                     class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://hiy.tw/tags/git/" class="tag-list-link">git</a><span
+                    class="tag-list-count">1</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/ios/" class="tag-list-link">ios</a><span
@@ -417,6 +429,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://hiy.tw/2021/03/github_action/" class="title">使用 Github Action 自動編譯並發布 Hugo 產生的頁面到 Github Pages</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-03-27</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://hiy.tw/2020/11/ios_reinstall_app/" class="title">iOS 重裝 App 不掉紀錄</a>
                     </p>
                     <p class="item-date">
@@ -451,16 +473,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2019-07-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-07-13</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2019/05/win10_mppe_vpn/" class="title">Windows 10 遇到 MPPE 加密時的 PPTP VPN 設定</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-05-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-13</time>
                     </p>
                 </div>
             </li>
