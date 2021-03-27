@@ -5,7 +5,7 @@
     <link>https://hiy.tw/tags/app/</link>
     <description>Recent content in App on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/tags/app/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,16 @@
       <guid>https://hiy.tw/2021/03/github_action/</guid>
       <description>&lt;p&gt;Hugo 這類產生靜態網頁檔的東西的好處就是如果搭配上了 git + CI 做自動編譯，那就可以達到只需要一個文字編輯器就能發布新文章的好處&lt;/p&gt;
 &lt;p&gt;過去是使用 Travis CI 但因為它的免費時數用完了，所以就改成同樣免費的 Github Action，而且有人寫好模組了，更方便更簡單。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>各種取得 iOS App 的原始 .ipa 檔案的方法 (包括取得 TestFlight 版本)</title>
+      <link>https://hiy.tw/2021/03/testflight_export_ipa/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2021/03/testflight_export_ipa/</guid>
+      <description>&lt;p&gt;想要 .ipa 檔案的理由很多，可能是怕開發者就這樣下架了有可能是其他原因。&lt;/p&gt;
+&lt;p&gt;總之，就來看看我們有啥選擇吧&lt;/p&gt;</description>
     </item>
     
     <item>

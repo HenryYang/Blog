@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hiy.tw/tags/app/</loc>
+    <lastmod>2021-03-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/categories/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,6 +38,20 @@
   </url>
   
   <url>
+    <loc>https://hiy.tw/tags/ios/</loc>
+    <lastmod>2021-03-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/jailbreak/</loc>
+    <lastmod>2021-03-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/posts/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -52,22 +73,15 @@
   </url>
   
   <url>
-    <loc>https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/</loc>
+    <loc>https://hiy.tw/2021/03/testflight_export_ipa/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hiy.tw/tags/app/</loc>
-    <lastmod>2020-11-20T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/ios/</loc>
-    <lastmod>2020-11-20T00:00:00+00:00</lastmod>
+    <loc>https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/</loc>
+    <lastmod>2021-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -180,13 +194,6 @@
   <url>
     <loc>https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2019-05-04T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/jailbreak/</loc>
-    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -20,6 +20,16 @@
     </item>
     
     <item>
+      <title>各種取得 iOS App 的原始 .ipa 檔案的方法 (包括取得 TestFlight 版本)</title>
+      <link>https://hiy.tw/2021/03/testflight_export_ipa/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2021/03/testflight_export_ipa/</guid>
+      <description>&lt;p&gt;想要 .ipa 檔案的理由很多，可能是怕開發者就這樣下架了有可能是其他原因。&lt;/p&gt;
+&lt;p&gt;總之，就來看看我們有啥選擇吧&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>iOS 重裝 App 不掉紀錄</title>
       <link>https://hiy.tw/2020/11/ios_reinstall_app/</link>
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
