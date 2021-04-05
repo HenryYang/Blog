@@ -27,6 +27,7 @@ categories: ["程式技術"]
 詳細教學連結：https://imazing.com/guides/how-to-manage-apps-without-itunes
 
 
+網友提供另外一套下載軟體：https://www.imobie.com/m1-app-checker/
 
 ### 情境2 : 雖然有上架到 App Store 但我就是需要下載舊版本的
 
