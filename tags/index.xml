@@ -5,10 +5,20 @@
     <link>https://hiy.tw/tags/</link>
     <description>Recent content in Tags on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>讓行車記錄器的記憶卡壽命更長 - 只格式化部分空間</title>
+      <link>https://hiy.tw/2021/05/dashcam_format/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2021/05/dashcam_format/</guid>
+      <description>&lt;p&gt;因為記憶卡這類產品所使用的快閃記憶體的物理特性來說，最忌諱的就是一直空間處於滿載狀態&lt;/p&gt;
+&lt;p&gt;這會容易會讓它內建的控制晶片無法好好發揮該有的控制效果，輕則存取速度變慢，重則是可能讓壽命減短&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>使用 Github Action 自動編譯並發布 Hugo 產生的頁面到 Github Pages</title>
