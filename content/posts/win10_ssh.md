@@ -28,13 +28,22 @@ Windows 10 其實是可以透過 SSH Key 登入到 cmd 的，但是步驟跟正�
 
 ![](https://hiy.tw/coding/win10_ssh/3.jpeg)
 
+或者可以用管理員模式開啟 Powershell 輸入以下指令
+
+```
+Start-Service sshd
+Set-Service -Name sshd -StartupType 'Automatic'
+```
+
 這樣就做完了 OpenSSH Server 的設定了，接下來設定 Public Key 的部分
 
-請注意，如果是具有管理員的帳號是需要依照下面設定在特殊的地方，並非在家目錄
+### 請注意，如果是具有管理員的帳號是需要依照下面設定在特殊的地方，並非在家目錄
 
 1. 請把 Public Key 放在 `C:\ProgramData\ssh\` 下，並且檔案請命名為 `administrators_authorized_keys`
 
-2. 因為他需要設定 ACL 讓只有 Administrators 群組與 SYSTEM 能存取，所以請用管理員權限的 powershell 執行下方指令。
+2. 需設定 ACL，僅允許 SYSTEM 與 Administrators 存取，其它帳戶存取權要全部拔掉 (預設會繼承自目錄，要關閉權限繼承)
+
+請手動設定或是用管理員權限的 powershell 執行下方指令。
 
 
 
