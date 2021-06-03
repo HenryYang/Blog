@@ -1,5 +1,5 @@
 ---
-title: "讓行車記錄器的記憶卡壽命更長 - 只格式化部分空間"
+title: "讓行車記錄器的記憶卡壽命更長，只格式化部分空間"
 draft: false
 date: 2021-05-03
 tags: ["camera", "SD_Card"]
