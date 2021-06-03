@@ -3,6 +3,69 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hiy.tw/categories/</loc>
+    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/</loc>
+    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/nordvpn/</loc>
+    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/</loc>
+    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/</loc>
+    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/vpn/</loc>
+    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/wireguard/</loc>
+    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/2021/06/nordvpn_wireguard/</loc>
+    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/</loc>
+    <lastmod>2021-06-03T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/tags/camera/</loc>
     <lastmod>2021-05-03T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,35 +73,7 @@
   </url>
   
   <url>
-    <loc>https://hiy.tw/categories/</loc>
-    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/</loc>
-    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/</loc>
-    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://hiy.tw/tags/sd_card/</loc>
-    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/</loc>
     <lastmod>2021-05-03T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -108,13 +143,6 @@
   </url>
   
   <url>
-    <loc>https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/</loc>
-    <lastmod>2021-03-27T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://hiy.tw/2020/11/ios_reinstall_app/</loc>
     <lastmod>2020-11-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -152,13 +180,6 @@
   <url>
     <loc>https://hiy.tw/2019/12/yubikey_piv/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/vpn/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

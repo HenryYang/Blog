@@ -5,13 +5,24 @@
     <link>https://hiy.tw/posts/</link>
     <description>Recent content in Posts on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>讓行車記錄器的記憶卡壽命更長 - 只格式化部分空間</title>
+      <title>取得 NordVPN 的 Wireguard 參數並匯入 Router 使用</title>
+      <link>https://hiy.tw/2021/06/nordvpn_wireguard/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2021/06/nordvpn_wireguard/</guid>
+      <description>&lt;p&gt;NordVPN 預設只提供 OpenVPN 的設定檔給不裝軟體的使用者使用&lt;/p&gt;
+&lt;p&gt;至於他們目前在測試的 NordLynx （以 WireGuard 為基礎）效能好非常多但是一定要裝 App 才能使用&lt;/p&gt;
+&lt;p&gt;所以為為了取得參數與公私鑰，下面就是目前可行的 workaround 方案&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>讓行車記錄器的記憶卡壽命更長，只格式化部分空間</title>
       <link>https://hiy.tw/2021/05/dashcam_format/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
       

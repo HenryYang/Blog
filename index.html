@@ -23,7 +23,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.83.1 with theme pure" />
+  <meta name="generator" content="Hugo 0.80.0 with theme pure" />
   <title>Henry&#39;s Space</title>
   
 
@@ -34,9 +34,10 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://hiy.tw/" />
-
+<meta property="og:updated_time" content="2021-06-03T00:00:00+00:00" />
 <meta itemprop="name" content="Henry&#39;s Space">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="">
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Henry&#39;s Space"/>
 <meta name="twitter:description" content=""/>
 
@@ -150,7 +151,7 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%94%9F%E6%B4%BB%E6%8A%80%E5%B7%A7/" class="category-list-link">生活技巧</a><span class="category-list-count">11</span></li>
             <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A7%91%E6%8A%80%E6%96%B0%E7%9F%A5/" class="category-list-link">科技新知</a><span class="category-list-count">35</span></li>
-            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">23</span></li>
+            <li class="category-list-item"><a href="https://hiy.tw/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/" class="category-list-link">程式技術</a><span class="category-list-count">24</span></li>
         </ul>
     </div>
 </div>
@@ -316,6 +317,10 @@
                     class="tag-list-count">1</span></li>
             
             
+            <li class="tag-list-item"><a href="https://hiy.tw/tags/nordvpn/" class="tag-list-link">nordvpn</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://hiy.tw/tags/pam/" class="tag-list-link">pam</a><span
                     class="tag-list-count">1</span></li>
             
@@ -385,7 +390,7 @@
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/vpn/" class="tag-list-link">vpn</a><span
-                    class="tag-list-count">2</span></li>
+                    class="tag-list-count">3</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/wifi/" class="tag-list-link">wifi</a><span
@@ -394,6 +399,10 @@
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/windows-10/" class="tag-list-link">windows-10</a><span
                     class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://hiy.tw/tags/wireguard/" class="tag-list-link">wireguard</a><span
+                    class="tag-list-count">1</span></li>
             
             
             <li class="tag-list-item"><a href="https://hiy.tw/tags/wordpress/" class="tag-list-link">wordpress</a><span
@@ -427,7 +436,17 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://hiy.tw/2021/05/dashcam_format/" class="title">讓行車記錄器的記憶卡壽命更長 - 只格式化部分空間</a>
+                        <a href="https://hiy.tw/2021/06/nordvpn_wireguard/" class="title">取得 NordVPN 的 Wireguard 參數並匯入 Router 使用</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-06-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-06-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://hiy.tw/2021/05/dashcam_format/" class="title">讓行車記錄器的記憶卡壽命更長，只格式化部分空間</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2021-05-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-05-03</time>
@@ -464,16 +483,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://hiy.tw/2020/07/win10_ssh/" class="title">用 SSH Key 搭配 Public Key 登入 Windows 10</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-07-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-07-06</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -496,8 +505,47 @@
         <h1 itemprop="name">
   <a
     class="article-title"
+    href="/2021/06/nordvpn_wireguard/"
+    >取得 NordVPN 的 Wireguard 參數並匯入 Router 使用</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description"><p>NordVPN 預設只提供 OpenVPN 的設定檔給不裝軟體的使用者使用</p>
+<p>至於他們目前在測試的 NordLynx （以 WireGuard 為基礎）效能好非常多但是一定要裝 App 才能使用</p>
+<p>所以為為了取得參數與公私鑰，下面就是目前可行的 workaround 方案</p></div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://hiy.tw/2021/06/nordvpn_wireguard/" class="">
+  <time datetime="2021-06-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-06-03</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/%E7%A8%8B%E5%BC%8F%E6%8A%80%E8%A1%93/"> 程式技術 </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+    <a class="article-tag-link" href="/tags/vpn/"> vpn </a>
+    <a class="article-tag-link" href="/tags/wireguard/"> wireguard </a>
+    <a class="article-tag-link" href="/tags/nordvpn/"> nordvpn </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/06/nordvpn_wireguard/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:832words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:2minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
     href="/2021/05/dashcam_format/"
-    >讓行車記錄器的記憶卡壽命更長 - 只格式化部分空間</a
+    >讓行車記錄器的記憶卡壽命更長，只格式化部分空間</a
   >
 </h1>
 
