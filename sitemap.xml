@@ -3,6 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hiy.tw/2021/07/consult/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/categories/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/consult/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/posts/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/categories/%E9%A1%A7%E5%95%8F%E8%AB%AE%E8%A9%A2/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/2021/06/mac_m1/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,35 +59,7 @@
   </url>
   
   <url>
-    <loc>https://hiy.tw/categories/</loc>
-    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/</loc>
-    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://hiy.tw/tags/macos/</loc>
-    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/posts/</loc>
-    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
