@@ -39,3 +39,7 @@ Medium 旅遊部落格 - https://medium.com/%E4%BA%A8%E5%88%A9%E7%9A%84%E7%A7%91
 Facebook 粉絲團 - https://www.facebook.com/henry.boringlife  
 
 
+以下此資訊供 INSTO 驗證管理員身份使用
+![](https://i.imgur.com/GxKfKmr.png)
+
+
