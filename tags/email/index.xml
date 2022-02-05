@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Email on Henry&#39;s Space</title>
+    <title>email on Henry&#39;s Space</title>
     <link>https://hiy.tw/tags/email/</link>
-    <description>Recent content in Email on Henry&#39;s Space</description>
+    <description>Recent content in email on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 26 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/tags/email/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>屬於你的分身 Email - 使用各大服務商提供的臨時/分身電子信箱</title>
+      <link>https://hiy.tw/2022/02/another_email/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2022/02/another_email/</guid>
+      <description>&lt;p&gt;討厭只需要使用一次或是根本不重要的服務一直跟你要 Email 嗎？&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;現在有簡單的解法可以快速建立私人或是共用的分身 Email 了！&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[至頂] 亨利的旅遊、代購諮詢服務上線拉！</title>
