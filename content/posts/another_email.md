@@ -57,6 +57,25 @@ categories: ["生活技巧"]
 </br>
 </br>
 
+* Cloudflare Email Forwarding
+    * 登入 Cloudflare -> Dash Board  -> Email 
+    * 設定網址: https://dash.cloudflare.com/
+    * 特色: 驗證完收件信箱與 DNS 資訊後，就可以選擇是要只轉送指定的名稱或是全部轉送
+    * 推薦程度: 適合有自己控制 DNS 域名的使用者，而且支援全部名稱轉送
+![Imgur](https://blog.cloudflare.com/content/images/2022/02/image1-2-3.png)
+
+</br>
+</br>
+
+* Forward Email
+    * 設定網址: https://forwardemail.net/en
+    * 特色: 有付費跟免費版，免費版比較算是轉寄但沒有保護隱私。付費版可以把轉寄目的地給隱藏
+    * 推薦程度: 適合有自己控制 DNS 域名的使用者，且沒有保護隱私需求或是不想付費的
+
+
+</br>
+</br>
+
 ### 使用獨立的臨時信箱
 
 * Mailinator
