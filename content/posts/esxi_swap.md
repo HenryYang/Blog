@@ -21,7 +21,7 @@ categories: ["程式技術"]
 ### Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式
 
 
-### Step2:  強制作業系統更新硬碟大小
+### Step2:  強制作業系統更新硬碟大小 （中間四位數要看你的磁碟是第幾個，第二個就會是 0:0:1:0 ）
 
 `sudo echo 1 > '/sys/class/scsi_disk/0:0:0:0/device/rescan'`
 
@@ -96,7 +96,7 @@ categories: ["程式技術"]
 `sudo swapon -a`
 
 
-### Step18: 在 parted 裡面執行下列指令
+### Step18: 在 parted 裡面執行下列指令 （看你要擴充哪一個磁碟，可能是 sdb 或其他名稱）
 `sudo parted /dev/sda`
 
 
@@ -207,8 +207,10 @@ Number  Start   End     Size    Type     File system  Flags
 `df -h`
 
 
-### Step28: 更新檔案系統大小
+### Step28: 更新檔案系統大小 (看你用什麼磁碟格式來做選擇)
 `sudo resize2fs -F /dev/sda1`
+
+`sudo btrfs filesystem resize max /var/opt`
 
 
 ### Step29: 檢查檔案系統空間
