@@ -44,7 +44,7 @@
 如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟">
 <meta itemprop="datePublished" content="2018-03-04T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2018-03-04T00:00:00+00:00" />
-<meta itemprop="wordCount" content="719">
+<meta itemprop="wordCount" content="787">
 
 
 
@@ -522,7 +522,7 @@
     <li>
       <ul>
         <li><a href="#step1-在-esxi-調整磁碟影像檔案大小之後-要讓-vm-的檔案系統變大-但是有一個-swap-分割區的狀況的處裡方式">Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式</a></li>
-        <li><a href="#step2--強制作業系統更新硬碟大小">Step2:  強制作業系統更新硬碟大小</a></li>
+        <li><a href="#step2--強制作業系統更新硬碟大小-中間四位數要看你的磁碟是第幾個第二個就會是-0010-">Step2:  強制作業系統更新硬碟大小 （中間四位數要看你的磁碟是第幾個，第二個就會是 0:0:1:0 ）</a></li>
         <li><a href="#step3-先看分割區狀態-有-swap-分割區-所以要先建立-swap-檔案-然後加-swap-檔案-關閉-swap-partition">Step3: 先看分割區狀態, 有 swap 分割區, 所以要先建立 swap 檔案, 然後加 swap 檔案, 關閉 swap partition</a></li>
         <li><a href="#step4-沒有裝-parted-所以要裝一下">Step4: 沒有裝 parted, 所以要裝一下</a></li>
         <li><a href="#step5-用-parted-再看一下分割區">Step5: 用 parted 再看一下分割區</a></li>
@@ -538,7 +538,7 @@
         <li><a href="#step15-確認-swap-檔案狀態">Step15: 確認 swap 檔案狀態</a></li>
         <li><a href="#step16-關閉-swap-記得要確認-swap-使用狀態">Step16: 關閉 swap, 記得要確認 swap 使用狀態</a></li>
         <li><a href="#step17-啟動-swap">Step17: 啟動 swap</a></li>
-        <li><a href="#step18-在-parted-裡面執行下列指令">Step18: 在 parted 裡面執行下列指令</a></li>
+        <li><a href="#step18-在-parted-裡面執行下列指令-看你要擴充哪一個磁碟可能是-sdb-或其他名稱">Step18: 在 parted 裡面執行下列指令 （看你要擴充哪一個磁碟，可能是 sdb 或其他名稱）</a></li>
         <li><a href="#step19-顯示目前分割區狀態">Step19: 顯示目前分割區狀態</a></li>
         <li><a href="#step20-刪除-swap-分割區">Step:20 刪除 swap 分割區</a></li>
         <li><a href="#step21-刪除延伸分割區">Step21: 刪除延伸分割區</a></li>
@@ -548,7 +548,7 @@
         <li><a href="#step25-print-指令顯示現在分割區狀態">Step25: print 指令顯示現在分割區狀態</a></li>
         <li><a href="#step26-結束-parted">Step26: 結束 parted</a></li>
         <li><a href="#step27-檢查檔案系統空間">Step27: 檢查檔案系統空間</a></li>
-        <li><a href="#step28-更新檔案系統大小">Step28: 更新檔案系統大小</a></li>
+        <li><a href="#step28-更新檔案系統大小-看你用什麼磁碟格式來做選擇">Step28: 更新檔案系統大小 (看你用什麼磁碟格式來做選擇)</a></li>
         <li><a href="#step29-檢查檔案系統空間">Step29: 檢查檔案系統空間</a></li>
       </ul>
     </li>
@@ -589,7 +589,7 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/03/esxi_swap/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:719words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:787words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:2minutes </span>
       </div>
     </div>
@@ -598,7 +598,7 @@
 <p><em><strong>如果該系統已經有 swap 檔案，請確定有安裝 parted 後直接做 Step1、Step2、Step18 然後跳 Step22 開始擴充就可以，不需要再做前面的修改 swap 步驟</strong></em></p>
 <p><img src="https://hiy.tw/coding/esxi_swap/1.png" alt=""></p>
 <h3 id="step1-在-esxi-調整磁碟影像檔案大小之後-要讓-vm-的檔案系統變大-但是有一個-swap-分割區的狀況的處裡方式">Step1: 在 ESXi 調整磁碟影像檔案大小之後, 要讓 VM 的檔案系統變大, 但是有一個 swap 分割區的狀況的處裡方式</h3>
-<h3 id="step2--強制作業系統更新硬碟大小">Step2:  強制作業系統更新硬碟大小</h3>
+<h3 id="step2--強制作業系統更新硬碟大小-中間四位數要看你的磁碟是第幾個第二個就會是-0010-">Step2:  強制作業系統更新硬碟大小 （中間四位數要看你的磁碟是第幾個，第二個就會是 0:0:1:0 ）</h3>
 <p><code>sudo echo 1 &gt; '/sys/class/scsi_disk/0:0:0:0/device/rescan'</code></p>
 <h3 id="step3-先看分割區狀態-有-swap-分割區-所以要先建立-swap-檔案-然後加-swap-檔案-關閉-swap-partition">Step3: 先看分割區狀態, 有 swap 分割區, 所以要先建立 swap 檔案, 然後加 swap 檔案, 關閉 swap partition</h3>
 <p><code>sudo fdisk -l /dev/sda</code></p>
@@ -632,7 +632,7 @@
 <p><code>sudo swapoff -a</code></p>
 <h3 id="step17-啟動-swap">Step17: 啟動 swap</h3>
 <p><code>sudo swapon -a</code></p>
-<h3 id="step18-在-parted-裡面執行下列指令">Step18: 在 parted 裡面執行下列指令</h3>
+<h3 id="step18-在-parted-裡面執行下列指令-看你要擴充哪一個磁碟可能是-sdb-或其他名稱">Step18: 在 parted 裡面執行下列指令 （看你要擴充哪一個磁碟，可能是 sdb 或其他名稱）</h3>
 <p><code>sudo parted /dev/sda</code></p>
 <h3 id="step19-顯示目前分割區狀態">Step19: 顯示目前分割區狀態</h3>
 <p>(parted) <code>print</code></p>
@@ -684,8 +684,9 @@
 <p>(parted) <code>quit</code></p>
 <h3 id="step27-檢查檔案系統空間">Step27: 檢查檔案系統空間</h3>
 <p><code>df -h</code></p>
-<h3 id="step28-更新檔案系統大小">Step28: 更新檔案系統大小</h3>
+<h3 id="step28-更新檔案系統大小-看你用什麼磁碟格式來做選擇">Step28: 更新檔案系統大小 (看你用什麼磁碟格式來做選擇)</h3>
 <p><code>sudo resize2fs -F /dev/sda1</code></p>
+<p><code>sudo btrfs filesystem resize max /var/opt</code></p>
 <h3 id="step29-檢查檔案系統空間">Step29: 檢查檔案系統空間</h3>
 <p><code>df -h</code></p>
     </div>
