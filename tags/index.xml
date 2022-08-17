@@ -5,10 +5,21 @@
     <link>https://hiy.tw/tags/</link>
     <description>Recent content in Tags on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Aug 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>當生物辨識更變時會需要重新驗證的 App 清單</title>
+      <link>https://hiy.tw/2022/08/biometrics_app/</link>
+      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2022/08/biometrics_app/</guid>
+      <description>&lt;p&gt;在手機上使用指紋或是臉部這類的生物辨識來登入 App 是再常見不過的事情了&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;但你知道有多少 App 當你新增或是修改生物辨識的設定時，會需要你重新輸入密碼驗證嗎?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>屬於你的分身 Email - 使用各大服務商提供的臨時/分身電子信箱</title>
