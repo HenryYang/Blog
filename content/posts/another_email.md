@@ -48,7 +48,7 @@ categories: ["生活技巧"]
 
 * Google Suite
     * 設定所有無法辨識使用者都傳送一份給指定帳號，這樣等於實質的全數轉信到指定帳號
-    * 設定網址: https://admin.google.com//ac/apps/gmail/defaultrouting
+    * 設定網址: https://admin.google.com/u/0/ac/apps/gmail/defaultrouting
     * 特色: 只要該使用者名稱不存在，那就會轉送一份到指定信箱，所以沒有使用上限
     * 推薦程度: 適合有自己控制網域的 Google Suite 使用者
 
