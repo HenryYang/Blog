@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Android on Henry&#39;s Space</title>
+    <title>android on Henry&#39;s Space</title>
     <link>https://hiy.tw/tags/android/</link>
-    <description>Recent content in Android on Henry&#39;s Space</description>
+    <description>Recent content in android on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +18,15 @@
       <guid>https://hiy.tw/2022/08/windows_insider_blank/</guid>
       <description>&lt;p&gt;當你想要修改 Windows 測試人員計畫頁 (Windows Insider) 的版本或甚至是退出計畫時&lt;/p&gt;
 &lt;p&gt;有可能會遇到該頁面整個空白，或是顯示下面這錯誤訊息。通常大家都建議重灌，但其實可能還有救&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>關於沒 Google Play 手機納管 VMware Airwatch 相關問題</title>
+      <link>https://hiy.tw/2022/08/airwatch_apk/</link>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2022/08/airwatch_apk/</guid>
+      <description>&lt;p&gt;TL;DR: 華為的新款手機基本上請直接放棄，非常難納管進入 VMware Airwatch 內&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hiy.tw/tags/android/</loc>
+    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hiy.tw/categories/</loc>
     <lastmod>2022-08-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -11,6 +18,13 @@
   
   <url>
     <loc>https://hiy.tw/</loc>
+    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/tags/mdm/</loc>
     <lastmod>2022-08-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -46,6 +60,13 @@
   
   <url>
     <loc>https://hiy.tw/2022/08/windows_insider_blank/</loc>
+    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hiy.tw/2022/08/airwatch_apk/</loc>
     <lastmod>2022-08-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -523,13 +544,6 @@
   <url>
     <loc>https://hiy.tw/2017/08/yalu_ios10_jb_wifi/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hiy.tw/tags/android/</loc>
-    <lastmod>2017-08-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
