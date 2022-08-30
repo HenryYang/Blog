@@ -5,10 +5,20 @@
     <link>https://hiy.tw/posts/</link>
     <description>Recent content in Posts on Henry&#39;s Space</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 17 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://hiy.tw/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>解決 Windows 測試人員計畫頁面空白問題</title>
+      <link>https://hiy.tw/2022/08/windows_insider_blank/</link>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hiy.tw/2022/08/windows_insider_blank/</guid>
+      <description>&lt;p&gt;當你想要修改 Windows 測試人員計畫頁 (Windows Insider) 的版本或甚至是退出計畫時&lt;/p&gt;
+&lt;p&gt;有可能會遇到該頁面整個空白，或是顯示下面這錯誤訊息。通常大家都建議重灌，但其實可能還有救&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>當生物辨識更變時會需要重新驗證的 App 清單</title>
